@@ -1,0 +1,6 @@
+yt-dlp
+openai-whisper
+spacy
+
+# italian spaCy model
+https://github.com/explosion/spacy-models/releases/download/it_core_news_lg-3.8.0/it_core_news_lg-3.8.0-py3-none-any.whl
