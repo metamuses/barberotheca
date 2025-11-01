@@ -13,10 +13,17 @@ csv with basic metadata of each video.
 ### Audio download
 Downloaded the audio of each video using `yt-dlp` into M4A format.
 
-```bash
-tail -n +2 data/barbero.csv | cut -d';' -f1 > barbero.txt
+```shell
+# extract all youtube URLs into a batch file
+tail -n +2 data/barbero.csv | cut -d',' -f1 > barbero.lst
 
-yt-dlp --format bestaudio[ext=m4a] --sleep-interval 30 --limit-rate 5M --extract-audio --audio-format m4a --download-archive barbero.log --batch-file barbero.txt --output "audio/barbero-%(extractor)s-%(id)s.%(ext)s"
+# download m4a audio files with yt-dlp
+yt-dlp \
+  --format bestaudio[ext=m4a] \
+  --sleep-interval 30 --limit-rate 5M \
+  --extract-audio --audio-format m4a \
+  --download-archive barbero.log --batch-file barbero.lst \
+  --output "audio/barbero-%(extractor)s-%(id)s.%(ext)s"
 ```
 
 ### Semantic renaming
@@ -29,11 +36,26 @@ using the script `scripts/rename_files.py`.
 Transcribed each audio file using OpenAI Whisper in Italian language using the
 `turbo` model.
 
-```bash
-for f in audio/*.m4a; do
-  whisper "$f" --model turbo --language it --task transcribe --output_format all --output_dir transcripts
+```shell
+for file in audio/*.m4a; do
+  whisper "$file" \
+    --model turbo \
+    --language it \
+    --task transcribe \
+    --output_format all \
+    --output_dir transcripts/
 done
 ```
+
+### Keywords/entities extraction
+Extracted keywords and named entities from each transcript txt file using SpaCy
+NLP model for italian ()`it_core_news_lg`), saving the results as CSV files in
+the `keywords/` and `entities/` folders.
+
+```shell
+python scripts/keywords.py
+```
+
 ## Disclaimer
 
 This repository and all files contained within are used solely for educational
