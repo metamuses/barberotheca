@@ -15,14 +15,14 @@ Downloaded the audio of each video using `yt-dlp` into M4A format.
 
 ```shell
 # extract all youtube URLs into a batch file
-tail -n +2 data/barbero.csv | cut -d',' -f1 > barbero.lst
+tail -n +2 data/barbero.csv | cut -d',' -f1 > .yt-dlp/barbero.lst
 
 # download m4a audio files with yt-dlp
 yt-dlp \
   --format bestaudio[ext=m4a] \
   --sleep-interval 30 --limit-rate 5M \
   --extract-audio --audio-format m4a \
-  --download-archive barbero.log --batch-file barbero.lst \
+  --download-archive .yt-dlp/barbero.log --batch-file .yt-dlp/barbero.lst \
   --output "audio/barbero-%(extractor)s-%(id)s.%(ext)s"
 ```
 
@@ -59,7 +59,8 @@ python scripts/keywords.py
 ## Disclaimer
 
 This repository and all files contained within are used solely for educational
-purposes as part of a university project.  
+purposes as part of a university project.
+
 No copyright infringement is intended. All media, texts, and materials remain
 the property of their respective owners and are included or referenced here only
 for academic, non-commercial use.
