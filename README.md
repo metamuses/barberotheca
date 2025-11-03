@@ -20,9 +20,9 @@ tail -n +2 metadata/barbero.csv | cut -d',' -f1 > .yt-dlp/barbero.lst
 # download m4a audio files with yt-dlp
 yt-dlp \
   --format bestaudio[ext=m4a] \
-  --sleep-interval 30 --limit-rate 5M \
   --extract-audio --audio-format m4a \
-  --download-archive .yt-dlp/barbero.log --batch-file .yt-dlp/barbero.lst \
+  --sleep-interval 30 --limit-rate 5M \
+  --batch-file .yt-dlp/barbero.lst --download-archive .yt-dlp/barbero.log \
   --output "audio/barbero-%(extractor)s-%(id)s.%(ext)s"
 ```
 
@@ -56,14 +56,33 @@ the `keywords/` and `entities/` folders.
 python scripts/keywords.py
 ```
 
+### Manual compilation of keywords
+Added manually a list of reasoned keywords for each lecture in the
+`metadata/barbero.csv` file in the columns `keywords` and `entities`.
+
+### Audio compression
+We compressed the audio files to reduce their size for easier storage and
+handling after the higher fidelity version, used for transcription, was no longer
+needed.  
+We chose to compress to AAC format with 48kbps bitrate, mono channel, and 22050Hz
+sample rate, which provides a good balance between audio quality and file size
+for spoken word content like lectures.
+
+```bash
+for file in audio/*.m4a; do
+  ffmpeg -i "$file" \
+    -c:a aac -b:a 48k \
+    -ac 1 -ar 22050 \
+    "compressed/$(basename "$f")"
+done
+```
+
 ## Disclaimer
 
 This repository and all files contained within are used solely for educational
-purposes as part of a university project.
-
-No copyright infringement is intended. All media, texts, and materials remain
-the property of their respective owners and are included or referenced here only
-for academic, non-commercial use.
+purposes as part of a university project. No copyright infringement is intended.
+All media, texts, and materials remain the property of their respective owners
+and are included or referenced here only for academic, non-commercial use.
 
 ## Team members
 - [Tommaso Barbato](https://github.com/epistrephein)
