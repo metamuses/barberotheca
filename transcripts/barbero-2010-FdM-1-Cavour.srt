@@ -1,0 +1,2488 @@
+1
+00:00:00,000 --> 00:00:18,340
+Buonasera a tutti. Dunque, in questi tre incontri che mi sono stati affidati quest'anno, mi
+
+2
+00:00:18,340 --> 00:00:24,520
+allontano un po' da quelli che sono i miei temi soliti e, come dire, è un'excusazio
+
+3
+00:00:24,520 --> 00:00:29,600
+non petita con cui devo cominciare. Io non mi occupo di mestiere di storia del risorgimento,
+
+4
+00:00:30,000 --> 00:00:34,580
+di mestiere mi occupo di storia medievale, con qualche incursione nella storia militare
+
+5
+00:00:34,580 --> 00:00:39,600
+magari un po' più vicina a noi, ma degli argomenti di cui vi parlerò in queste serate non mi
+
+6
+00:00:39,600 --> 00:00:44,020
+sono mai occupato professionalmente e gran parte delle cose che vi racconterò in queste
+
+7
+00:00:44,020 --> 00:00:51,240
+sere le ho imparate anch'io nei mesi scorsi preparando queste lezioni. Subito ero un po' incerto
+
+8
+00:00:51,240 --> 00:00:56,180
+se accettare un incarico del genere, poi mi è sembrato che nell'aria ci fosse comunque
+
+9
+00:00:56,180 --> 00:01:02,960
+voglia di parlare di queste cose. Non mi sembra che ci sia quella gran voglia di celebrare,
+
+10
+00:01:03,040 --> 00:01:09,020
+mi sembra che la macchina delle celebrazioni ufficiali non stia coinvolgendo così fortemente
+
+11
+00:01:09,020 --> 00:01:15,900
+le persone, anche se forse è una mia impressione, ma di parlare, ragionare, capire meglio, conoscere
+
+12
+00:01:15,900 --> 00:01:22,100
+meglio quell'epoca, soprattutto conoscere meglio quella gente e provare a capire perché hanno fatto
+
+13
+00:01:22,100 --> 00:01:27,920
+quello che hanno fatto, provare a capire magari prima di schierarsi e giudicare a priori in base
+
+14
+00:01:27,920 --> 00:01:35,340
+alle nostre posizioni ideologiche. Di questo mi pare ci sia voglia. Troppe scuse, basta, cominciamo.
+
+15
+00:01:35,580 --> 00:01:42,100
+Cavour, sono tre serate, tre personaggi, i tre uomini che hanno preso le decisioni cruciali in
+
+16
+00:01:42,100 --> 00:01:50,360
+quegli anni a metà dell'Ottocento. Cavour, il re Vittorio Emanuele II, Garibaldi. Per un momento
+
+17
+00:01:50,360 --> 00:01:55,280
+ci eravamo chiesti se non si dovesse metterci piuttosto Mazzini, piuttosto che il re magari,
+
+18
+00:01:55,420 --> 00:02:00,920
+che è personaggio da diversi punti di vista, di statura minore rispetto a Cavour e a Garibaldi,
+
+19
+00:02:00,960 --> 00:02:05,920
+ma il fatto è che questi tre sono i tre che hanno, ripeto, preso le decisioni cruciali,
+
+20
+00:02:06,380 --> 00:02:12,800
+che hanno assunto le iniziative decisive o perlomeno che hanno scelto di non impedire
+
+21
+00:02:12,800 --> 00:02:18,220
+certe iniziative e anche quello è un modo di decidere. Mazzini non ha preso nessuna decisione
+
+22
+00:02:18,220 --> 00:02:23,820
+cruciale. Mazzini era un condannato a morte in esilio, un pericoloso terrorista agli occhi
+
+23
+00:02:23,820 --> 00:02:30,360
+di molti e, benché la sua influenza sul risorgimento sia ovviamente importante, non è uno dei tre
+
+24
+00:02:30,360 --> 00:02:37,480
+che, ripeto, hanno fatto l'Italia in quegli anni, in quei pochissimi anni. E allora, cominciamo
+
+25
+00:02:37,480 --> 00:02:41,760
+da Cavour. Questi tre incontri sono tutti un po' legati l'uno all'altro. Io non esaurirò
+
+26
+00:02:41,760 --> 00:02:47,520
+il personaggio di Cavour questa sera, tornerò su di lui anche le prossime volte, non riuscirò
+
+27
+00:02:47,520 --> 00:02:53,000
+questa sera a raccontare tanti avvenimenti. Gli avvenimenti spero che verranno fuori pian
+
+28
+00:02:53,000 --> 00:03:02,900
+piano attraverso l'avvicinamento ai tre personaggi, ai tre uomini. Cavour nasce a Torino nel 1810,
+
+29
+00:03:03,960 --> 00:03:10,180
+suddito di Napoleone, suddito francese. Nasce in una Torino che è parte della Francia
+
+30
+00:03:10,180 --> 00:03:15,680
+napoleonica. Non è parte di quel regno d'Italia che Napoleone ha pure creato, con capitale
+
+31
+00:03:15,680 --> 00:03:20,060
+a Milano. No, no, il Piemonte è stato proprio, come anche altre zone, la Liguria e più tardi
+
+32
+00:03:20,060 --> 00:03:26,000
+anche altri pezzi d'Italia, il Piemonte è stato proprio annesso alla Francia e Cavour
+
+33
+00:03:26,000 --> 00:03:32,660
+nasce a Torino suddito francese. Nasce da una grande famiglia nobile, antica, di origine
+
+34
+00:03:32,660 --> 00:03:38,460
+medievale, non sono poi tante le famiglie nobili di origine addirittura medievale, che però
+
+35
+00:03:38,460 --> 00:03:42,680
+famiglia nobile di Benso di Cavour, che però si è rapidamente allineata col nuovo regime
+
+36
+00:03:42,680 --> 00:03:49,600
+francese. Il padre di Camillo, il marchese Michele di Cavour, è uno degli uomini più
+
+37
+00:03:49,600 --> 00:03:55,260
+in vista della piccola corte napoleonica di Torino, perché a Torino c'è una piccola
+
+38
+00:03:55,260 --> 00:04:01,940
+corte. Napoleone, dopo aver annesso il Piemonte alla Francia, ha però deciso, in omaggio proprio
+
+39
+00:04:01,940 --> 00:04:06,760
+a quell'aristocrazia piemontese, che aveva fatto abbastanza in fretta a mollare i Savoia
+
+40
+00:04:06,760 --> 00:04:11,860
+e accettare il nuovo regime. Ecco, proprio in omaggio a loro, Napoleone aveva creato
+
+41
+00:04:11,860 --> 00:04:17,480
+a Torino una piccola corte, mandando a Torino un governatore, il principe Camillo Borghese.
+
+42
+00:04:18,260 --> 00:04:23,060
+Il principe Camillo Borghese e sua moglie, che è poi la sorella di Napoleone, Paolina
+
+43
+00:04:23,060 --> 00:04:28,780
+Bonaparte, la bellissima, quella ritratta dal Canova sdraiata sul canapè, la più bella
+
+44
+00:04:28,780 --> 00:04:33,800
+donna del suo tempo. Perché vi racconto questo? Perché il marchese Michele di Cavour è uno
+
+45
+00:04:33,800 --> 00:04:39,220
+dei principali cortigiani del principe Borghese, è anche un grosso uomo d'affari che fa un sacco
+
+46
+00:04:39,220 --> 00:04:45,100
+di soldi negli anni di Napoleone. E quando nasce il piccolo, e non si sa ancora come si
+
+47
+00:04:45,100 --> 00:04:50,980
+chiamerà, quando nasce il bambino, che è il secondo genito, nel 1810, a fargli da padrino
+
+48
+00:04:50,980 --> 00:04:57,300
+chiamano proprio il principe Camillo Borghese, governatore del Piemonte. Lui è Paolina, madrina.
+
+49
+00:04:57,300 --> 00:05:02,880
+Ecco perché Cavour si chiama Camillo. Ed ecco perché Cavour per tutta la vita parla
+
+50
+00:05:02,880 --> 00:05:08,680
+meglio il francese dell'italiano. Questa è una vecchia storia, si sa che Cavour aveva
+
+51
+00:05:08,680 --> 00:05:14,420
+qualche difficoltà con l'italiano e lui stesso dichiarava apertamente che quanto a scriverlo
+
+52
+00:05:14,420 --> 00:05:19,880
+preferiva scrivere in francese. Non è perché il Piemonte sia una regione più francese delle
+
+53
+00:05:19,880 --> 00:05:26,900
+altre. A volte in Piemonte si coltiva un po' questa idea che il Piemonte sia in qualche
+
+54
+00:05:26,900 --> 00:05:32,220
+modo mezzo francese. E uno dei fatti che si citano a ricordo di questo è proprio il
+
+55
+00:05:32,220 --> 00:05:36,360
+fatto che uno come Cavour era molto più a suo agio col francese che non l'italiano.
+
+56
+00:05:36,720 --> 00:05:41,280
+Ecco in realtà è una frottola. Il Piemonte è una parte integrante d'Italia, ha sempre
+
+57
+00:05:41,280 --> 00:05:49,000
+avuto una storia strettamente legata a quella d'Italia, ma la generazione di Cavour è nata
+
+58
+00:05:49,000 --> 00:05:53,920
+in un Piemonte annesso alla Francia napoleonica. Cavour nei suoi primi anni è stato educato in
+
+59
+00:05:53,920 --> 00:05:59,460
+una casa dove si parlava francese, anche perché, va detto anche questo, sua madre era
+
+60
+00:05:59,460 --> 00:06:04,300
+svizzera, svizzera francese, e quindi è ovvio che Cavour è stato allevato con il francese
+
+61
+00:06:04,300 --> 00:06:13,100
+come lingua materna. Cavour fin da piccolo, si dice, dimostra il caratterino che poi dimostrerà
+
+62
+00:06:13,100 --> 00:06:17,520
+da grande. Anche questa è una vecchia storia, quando un uomo diventa celebre è facile che
+
+63
+00:06:17,520 --> 00:06:23,440
+i parenti o i vecchi amici di famiglia si ricordino gli aneddoti che dimostrano che
+
+64
+00:06:23,440 --> 00:06:29,620
+già da bambino in qualche modo l'uomo si vedeva già, era predestinato. Tuttavia, insomma,
+
+65
+00:06:29,680 --> 00:06:33,280
+uno può avere qualche dubbio, ma c'è un aneddoto raccontato da un amico di infanzia
+
+66
+00:06:33,280 --> 00:06:41,180
+che io vorrei ricordare. Ah, piccola parentesi, vi dicevo all'inizio che ho studiato naturalmente
+
+67
+00:06:41,180 --> 00:06:46,120
+per preparare questi incontri su temi che non sono i miei temi abituali. Ovviamente ho usato
+
+68
+00:06:46,120 --> 00:06:50,840
+il lavoro di colleghi, vorrei citare, perché l'ho usato davvero molto, almeno il bel libro
+
+69
+00:06:50,840 --> 00:06:55,600
+di Adriano Viarengo, Cavour, che è uscito in modo molto, come dire, con grande tempismo
+
+70
+00:06:55,600 --> 00:07:00,240
+proprio quest'anno e che è un libro di straordinario interesse. Ecco, proprio Viarengo racconta
+
+71
+00:07:00,240 --> 00:07:07,120
+un aneddoto riferito da un amico di famiglia. Cavour ha sei anni, Camillo, a sei anni va a
+
+72
+00:07:07,120 --> 00:07:14,840
+trovare i parenti della madre a Ginevra, amatissimi, arrivano nel castello di famiglia in un paesino
+
+73
+00:07:14,840 --> 00:07:19,720
+vicino a Ginevra. Il bambino è furibondo perché hanno avuto dei problemi col cambio
+
+74
+00:07:19,720 --> 00:07:25,240
+dei cavalli alla posta, sono arrivati in ritardo. Il bambino furibondo arriva a casa, corre
+
+75
+00:07:25,240 --> 00:07:32,980
+incontro al nonno e gli dice voglio che il maestro di posta sia cacciato. Il nonno gli
+
+76
+00:07:32,980 --> 00:07:36,940
+dice ma io non posso mica far cacciare il maestro di posta, chi lo può fare? È solo il sindaco
+
+77
+00:07:36,940 --> 00:07:41,940
+lo può cacciare, voglio parlare col sindaco. Allora il nonno divertito chiama il sindaco,
+
+78
+00:07:41,940 --> 00:07:47,280
+sono tutti amici ovviamente, gli dice ci sarebbe questo metto che vuole un'udienza. Il piccolo
+
+79
+00:07:47,280 --> 00:07:53,080
+Cavour ha sei anni, va dal sindaco, torna a casa trionfante e appena vede il nonno da
+
+80
+00:07:53,080 --> 00:08:01,280
+lontano gli fa ebbene sarà licenziato. Ecco questo Cavour, secondo quelli che lo conobbero,
+
+81
+00:08:01,460 --> 00:08:06,720
+è lo stesso Cavour che poi da grande farà di mestiere il primo ministro e farà l'unità
+
+82
+00:08:06,720 --> 00:08:13,420
+d'Italia. Abbiamo anche fonti ancora più sicure sul fatto che Cavour avesse già da
+
+83
+00:08:13,420 --> 00:08:19,240
+ragazzino un carattere imperioso. La famiglia lo manda all'accademia militare, dai 10 ai
+
+84
+00:08:19,240 --> 00:08:23,180
+15 anni Cavour, che è un figlio cadetto, ci torneremo subito su questo fatto che è
+
+85
+00:08:23,180 --> 00:08:29,880
+molto importante, studia all'accademia militare e nelle sue note caratteristiche viene riportato
+
+86
+00:08:29,880 --> 00:08:38,480
+più volte che è stato punito per l'arrogante rifiuto di obbedire agli ordini, nonché per
+
+87
+00:08:38,480 --> 00:08:45,460
+il tono perentorio con cui si rivolge agli altri comandando. Ecco. Ora, il personaggio
+
+88
+00:08:45,460 --> 00:08:49,920
+Cavour, al di là del carattere individuale che può essere più o meno pepato in ognuno
+
+89
+00:08:49,920 --> 00:08:56,320
+di noi, ha però un aspetto che è collegato a questa sua imperiosità e che vale la pena
+
+90
+00:08:56,320 --> 00:09:01,420
+di sottolineare. Io cercherò di individuare una serie di aspetti del carattere e soprattutto
+
+91
+00:09:01,420 --> 00:09:06,640
+dell'azione di Cavour. Sarà sempre ovviamente un quadro incompleto. Sono una serie di spunti
+
+92
+00:09:06,640 --> 00:09:12,340
+che propongo. Ebbene, un tratto che si rischia di dimenticare è cosa voleva dire essere un
+
+93
+00:09:12,340 --> 00:09:19,380
+nobile in quella Torino, in quel Piemonte del primo Ottocento. Di Cavour si dice, io questo
+
+94
+00:09:19,380 --> 00:09:24,780
+l'ho raccolto, non so quanto sia vero, che non avrebbe mai dato del tu a un amico che non
+
+95
+00:09:24,780 --> 00:09:31,040
+fosse nobile. Questo può darsi, sarà così, non sarà così. Certo è che nel Piemonte
+
+96
+00:09:31,040 --> 00:09:37,020
+del primo Ottocento, della restaurazione in cui Cavour cresce, c'è un'ostilità profondissima
+
+97
+00:09:37,020 --> 00:09:45,180
+fra la nobiltà e la borghesia. C'è un'ostilità così profonda che nel 1847, sta per scoppiare
+
+98
+00:09:45,180 --> 00:09:50,080
+la prima guerra di indipendenza, d'accordo? L'ambasciatore inglese a Torino manda un rapporto
+
+99
+00:09:50,080 --> 00:09:54,240
+a Londra dove dice, sì, qui la situazione è molto molto tesa. Secondo me qui prima o
+
+100
+00:09:54,240 --> 00:10:00,100
+poi scoppia la guerra civile, fra i nobili e i borghesi. Talmente profondo è il risentimento
+
+101
+00:10:00,100 --> 00:10:09,240
+di queste due classi. Ebbene, Cavour è un nobile fino al midollo. Alla battaglia di Goito,
+
+102
+00:10:10,340 --> 00:10:17,240
+la prima battaglia della prima guerra di indipendenza, cade il nipote amatissimo di Cavour. Cavour
+
+103
+00:10:17,240 --> 00:10:21,280
+non si è mai sposato, non ha avuto figli, torneremo anche su questo. Aveva un nipote
+
+104
+00:10:21,280 --> 00:10:26,000
+amatissimo, il figlio del fratello maggiore. Questo nipote, Augusto, ufficiale, cade a Goito
+
+105
+00:10:26,000 --> 00:10:32,840
+e Cavour, si dice, conserverà per tutta la vita in camera sua l'uniforme del nipote.
+
+106
+00:10:33,020 --> 00:10:38,420
+Talmente era legato a questo ragazzo e talmente è colpito dalla sua morte. Ebbene, Cavour,
+
+107
+00:10:38,500 --> 00:10:41,940
+a proposito della morte di Augusto alla battaglia di Goito, scrive,
+
+108
+00:10:41,940 --> 00:10:49,820
+non si dirà che l'aristocrazia piemontese non paghi il suo tributo alla patria. Essa
+
+109
+00:10:49,820 --> 00:10:58,240
+si fa uccidere sui campi, mentre gli avvocati la diffamano nei trivi e nei caffè. Ecco,
+
+110
+00:10:58,400 --> 00:11:02,600
+tanto appunto per questo clima di violenta opposizione fra nobiltà e borghesia, che è
+
+111
+00:11:02,600 --> 00:11:08,340
+il clima in cui cresce Cavour, e tanto per la sua appartenenza comunque rivendicata a
+
+112
+00:11:08,340 --> 00:11:14,300
+questo mondo nobiliare aristocratico. Tanto più interessante in quanto, a giudizio dei
+
+113
+00:11:14,300 --> 00:11:19,920
+contemporanei, magari malevoli, l'aspetto fisico di Cavour non era affatto aristocratico. Lo
+
+114
+00:11:19,920 --> 00:11:24,300
+conosciamo tutti Cavour, i ritratti, le statue, le biandisti tutti. Aggiungete l'abitudine di
+
+115
+00:11:24,300 --> 00:11:29,060
+fregarsi le mani con soddisfazione, che tutti i commentatori del tempo riportano. Ebbene,
+
+116
+00:11:29,300 --> 00:11:35,340
+non è una figura aristocratica. C'è un commento del Brofferio. È vero che il Brofferio era un
+
+117
+00:11:35,340 --> 00:11:40,800
+avversario politico. Era un uomo di sinistra, poeta e politico di sinistra, che con Cavour ha
+
+118
+00:11:40,800 --> 00:11:47,760
+discusso e litigato tutta la vita. Brofferio dice sì sì, mai visto uno meno aristocratico di lui. E,
+
+119
+00:11:47,960 --> 00:11:57,840
+cito, il volume della persona, il volgare aspetto, il gesto ignobile, la voce ingrata, in più con quella
+
+120
+00:11:57,840 --> 00:12:05,720
+fatica di dover parlare in italiano, in Parlamento. Ecco, dunque, un quadro contrastante, ma in ogni
+
+121
+00:12:05,720 --> 00:12:11,620
+caso un nobile, figlio di una grande famiglia nobile, ma, l'ho ricordato un attimo fa, adesso ci
+
+122
+00:12:11,620 --> 00:12:17,980
+fermiamo un attimo su questo, un figlio cadetto. Ora, essere un figlio cadetto in quella società
+
+123
+00:12:17,980 --> 00:12:25,960
+significa qualcosa. Anche se formalmente Napoleone ha abolito il maggiorasco, anche se formalmente
+
+124
+00:12:25,960 --> 00:12:30,340
+le famiglie nobili non avrebbero più il diritto di privilegiare il primo genito, come si faceva
+
+125
+00:12:30,340 --> 00:12:36,280
+sotto l'antico regime, in realtà non è così, in realtà in queste famiglie il primo genito è quello
+
+126
+00:12:36,280 --> 00:12:44,000
+che conta e i cadetti devono un po' arrangiarsi. Cavour soffre per tutta la vita questa sua condizione
+
+127
+00:12:44,000 --> 00:12:50,160
+di cadetto, non sono io a dirlo, sono i suoi stessi parenti. La zia Vittoria, quando è ancora
+
+128
+00:12:50,160 --> 00:12:58,540
+ragazzino, scrive di Camillo, l'idea di essere cadetto continua a ossessionarlo, non
+
+129
+00:12:58,540 --> 00:13:05,500
+la può accettare, sarà il tormento della sua vita. Questo essere figlio cadetto ha, tra
+
+130
+00:13:05,500 --> 00:13:11,500
+le altre conseguenze, come vi dicevo, che Cavour non si sposa, non ha una famiglia sua, vive
+
+131
+00:13:11,500 --> 00:13:16,200
+per tutta la vita a Palazzo Cavour, dove però il padrone di casa è il fratello maggiore,
+
+132
+00:13:16,200 --> 00:13:21,340
+Gustavo, con il quale all'inizio si volevano molto bene e più tardi i rapporti si guastano
+
+133
+00:13:21,340 --> 00:13:26,680
+per ragioni politiche. Ecco, è un dato totalmente privato, può sembrare un aneddoto inutile,
+
+134
+00:13:26,980 --> 00:13:32,220
+però se vogliamo vedere un uomo a tutto tondo, conta anche questo. Cavour, che per anni è l'uomo
+
+135
+00:13:32,220 --> 00:13:38,600
+più potente del Piemonte, quando torna a casa, torna in una casa che è sua solo fino a un
+
+136
+00:13:38,600 --> 00:13:45,180
+certo punto e pranza in compagnia del fratello maggiore, che siede al posto d'onore, Cavour
+
+137
+00:13:45,180 --> 00:13:51,260
+siede di fianco. A tutti questi pasti assiste l'amministratore della famiglia, favorito dal
+
+138
+00:13:51,260 --> 00:13:56,240
+fratello Gustavo. Camillo detesta quest'uomo, ma è costretto a pranzare con lui e cenare
+
+139
+00:13:56,240 --> 00:14:00,340
+con lui tutti i giorni, perché il fratello maggiore lo vuole a tavola. All'inizio c'è
+
+140
+00:14:00,340 --> 00:14:05,920
+ancora la mamma, c'è il nipote Augusto, c'è un po' più di vita, poi pian piano le persone
+
+141
+00:14:05,920 --> 00:14:11,740
+muoiono e Cavour si trova negli ultimi anni, appunto, a vivere nel suo appartamento, dentro
+
+142
+00:14:11,740 --> 00:14:18,800
+il palazzo del fratello, in questa casa che descrive a un amico come, cito, una specie
+
+143
+00:14:18,800 --> 00:14:24,760
+di succursale del Père Lachaise, cioè del famoso cimitero di Parigi, un posto dove ci
+
+144
+00:14:24,760 --> 00:14:29,000
+sono solo le memorie di quelli che sono morti e dove non ci si diverte, evidentemente.
+
+145
+00:14:30,600 --> 00:14:36,240
+Ma al di là dell'aneddoto, il fatto di essere figlio cadetto significa che Cavour deve farsi
+
+146
+00:14:36,240 --> 00:14:40,840
+strada da solo nella vita, da solo, non che non abbia i suoi privilegi, le conoscenze,
+
+147
+00:14:40,900 --> 00:14:47,360
+gli agganci, per carità, però ha ben chiaro fin dall'inizio che la sua posizione se la deve
+
+148
+00:14:47,360 --> 00:14:53,880
+fare. E' certamente anche per questo che ha un carattere ribelle fin dall'inizio.
+
+149
+00:14:55,860 --> 00:15:00,060
+I litigi col padre, per carità, i litigi col padre avvengono in tutte le famiglie, in tutte
+
+150
+00:15:00,060 --> 00:15:08,760
+le epoche, in questo caso sono spesso particolarmente violenti. Il padre, il Marchese Michele, che ha
+
+151
+00:15:08,760 --> 00:15:13,560
+fatto grossi affari sotto il regime napoleonico e appena tornano in Savoia, continua a fare
+
+152
+00:15:13,560 --> 00:15:19,360
+grossi affari e di nuovo un grosso personaggio di corte, sindaco di Torino, capo della polizia
+
+153
+00:15:19,360 --> 00:15:23,620
+e così via per anni e anni, quindi uno che stagalla sempre. Bene, il Marchese Michele a
+
+154
+00:15:23,620 --> 00:15:28,740
+un certo punto è talmente furioso con questo figlio ribelle che prende brutti voti all'Accademia
+
+155
+00:15:28,740 --> 00:15:35,960
+militare, che minaccia di mandarlo a morire di fame in America. Questa faccenda dell'America
+
+156
+00:15:35,960 --> 00:15:41,100
+tornerà ed è curioso vedere che già allora, a Piemonte degli anni 20-30, c'era già questa
+
+157
+00:15:41,100 --> 00:15:45,700
+idea dell'America come il posto dove si mandano quelli senza artene parte, che tanto qui non
+
+158
+00:15:45,700 --> 00:15:53,180
+riusciamo a sistemarli in nessun modo. Questa ribellione di Cavour però a un certo punto
+
+159
+00:15:53,180 --> 00:15:59,220
+assume una dimensione politica. Cavour, in contrasto con tutto un ambiente conservatore,
+
+160
+00:15:59,360 --> 00:16:08,700
+reazionario, sceglie di essere liberale. Ecco, noi oggi rischiamo di non renderci conto che essere
+
+161
+00:16:08,700 --> 00:16:16,620
+liberale, e cioè desiderare la Costituzione, il Parlamento, le elezioni, la libertà di stampa,
+
+162
+00:16:16,620 --> 00:16:21,960
+la libertà di associazione. Questo è niente di più, ecco. Noi rischiamo di non renderci conto che nel
+
+163
+00:16:21,960 --> 00:16:28,960
+Piemonte del giovane Cavour essere liberale poteva sembrare una cosa pericolosamente sovversiva,
+
+164
+00:16:29,540 --> 00:16:36,620
+pericolosamente di sinistra. L'ambiente in cui nasce e vive Cavour è un ambiente di nobili che
+
+165
+00:16:36,620 --> 00:16:42,580
+ancora nel 48, voi mi scuserete ancora un paio di citazioni che non sono personali di Camillo,
+
+166
+00:16:42,580 --> 00:16:48,520
+ma che richiamano l'ambiente in cui lui è vissuto. Ancora nel 48 ci sono nobili che invocano a Torino,
+
+167
+00:16:48,900 --> 00:16:57,960
+cito, piombo e capestri per contenere quegli insolenti avvocati, sempre gli avvocati, i borghesi
+
+168
+00:16:57,960 --> 00:17:05,860
+per eccellenza, mercanti e popolani che si credono divenuti qualche cosa. Adesso che c'è stato il 48,
+
+169
+00:17:05,860 --> 00:17:13,280
+il re ha dato lo statuto, c'è il Parlamento, si vota. C'è un professore all'Università di Torino
+
+170
+00:17:13,280 --> 00:17:20,680
+che nel 48, vedendo che il re ha dato lo statuto, commenta dove finirà questo paese? Con tanti
+
+171
+00:17:20,680 --> 00:17:27,300
+germi di liberalismo e democrazia, dove sia ben chiaro che la democrazia è ancora peggio del
+
+172
+00:17:27,300 --> 00:17:33,880
+liberalismo. Ebbene, in questo Piemonte, nel Piemonte prima del 48, il giovane Camillo passa
+
+173
+00:17:33,880 --> 00:17:41,340
+per uno pericolosamente di sinistra. E mai collocazione fu più erronea, ben inteso. Però
+
+174
+00:17:41,340 --> 00:17:48,260
+fa paura, perché è liberale. Il re Carlo Alberto lo definisce a un certo punto un carbonaro
+
+175
+00:17:48,260 --> 00:17:52,760
+impertinente. Ora di Cavour noi sappiamo che non è mai stato affiliato alla carboneria,
+
+176
+00:17:52,900 --> 00:17:57,880
+ha sempre detestato Mazzini, le società segrete e così via, ma agli occhi di chi sta dall'altra
+
+177
+00:17:57,880 --> 00:18:03,740
+parte dello spettro politico, già il suo liberalismo e il ribellismo giovanile lo fanno passare per un
+
+178
+00:18:03,740 --> 00:18:09,500
+pericoloso cospiratore. Tant'è vero che a 23 anni è già schedato dalla polizia austriaca,
+
+179
+00:18:10,300 --> 00:18:14,360
+a cui senza dubbio quella piemontese passa le schede, peraltro. È schedato dalla polizia
+
+180
+00:18:14,360 --> 00:18:19,080
+austriaca la prima volta che deve andare a Milano per affari, a poco più di 20 anni,
+
+181
+00:18:19,200 --> 00:18:25,540
+ripeto, immediatamente viene fermato e portato in questura a identificarlo, perché è negli
+
+182
+00:18:25,540 --> 00:18:31,220
+schedari dei pericolosi sovversivi della polizia austriaca. Qui mi verrebbe voglia di fare
+
+183
+00:18:31,220 --> 00:18:36,980
+una piccolissima parentesi, ma la farò fulminea, sul fatto che a quei tempi, che qualcuno magari
+
+184
+00:18:36,980 --> 00:18:41,120
+rimpiange, se uno doveva andare da Torino a Milano, doveva procurarsi il passaporto al
+
+185
+00:18:41,120 --> 00:18:45,700
+Ministero degli Interni e poi veniva fermato alla frontiera, dalla polizia, doveva spiegare
+
+186
+00:18:45,700 --> 00:18:49,860
+dove andava e perché e poi veniva fermato di nuovo alla barriera doganale, di nuovo spiegare
+
+187
+00:18:49,860 --> 00:18:56,820
+perché, mostrare il passaporto e così via, ma questo lasciamo stare. Il fatto che Cavour a 23 anni
+
+188
+00:18:56,820 --> 00:19:02,300
+vada a Milano per affari, mi permette di introdurre un altro aspetto del personaggio
+
+189
+00:19:02,300 --> 00:19:08,960
+che è un aspetto rilevante. Cavour è un uomo d'affari. Prima di essere un politico è
+
+190
+00:19:08,960 --> 00:19:13,540
+un uomo d'affari. È un uomo d'affari anche proprio perché è un cadetto e deve farsi
+
+191
+00:19:13,540 --> 00:19:19,620
+una fortuna, vuole farsi una fortuna sua. Finché c'è il padre, collabora con lui, il
+
+192
+00:19:19,620 --> 00:19:24,440
+Marchese Michele continua a avere maneggi, business di ogni genere. C'è in particolare
+
+193
+00:19:24,440 --> 00:19:29,100
+un'occasione che è abbastanza bizzarra perché valga la pena di riferirla. Quando
+
+194
+00:19:29,100 --> 00:19:36,120
+Cavour ha 26 anni, fa un viaggio d'affari in Austria per conto del padre, va a comprare
+
+195
+00:19:36,120 --> 00:19:42,420
+pecore merinos perché il padre, il Marchese Michele, è il fornitore di pecore merinos
+
+196
+00:19:42,420 --> 00:19:48,080
+di Muhammad Ali, pascià d'Egitto. Ecco, la globalizzazione non c'era ancora ma gli affari
+
+197
+00:19:48,080 --> 00:19:52,340
+si facevano già su grande scala. Il pascià d'Egitto si rivolgeva a Torino per comprare
+
+198
+00:19:52,340 --> 00:19:58,960
+pecore merinos in Austria e il giovane Camillo si occupa anche di queste cose. Così come
+
+199
+00:19:58,960 --> 00:20:04,200
+si occupa di borsa. Gioca in borsa, gioca in borsa molto, ogni tanto ha fortuna, ogni
+
+200
+00:20:04,200 --> 00:20:09,580
+tanto gli va molto male. È un giocatore spericolato, come sarà poi anche tutto sommato
+
+201
+00:20:09,580 --> 00:20:16,100
+anche in politica. Gioca in borsa e a un certo punto gli va veramente molto male. E a Parigi
+
+202
+00:20:16,100 --> 00:20:22,460
+ha giocato, gli è andata malissimo, si trova a dover trovare in pochi giorni 45.000 franchi.
+
+203
+00:20:23,120 --> 00:20:29,080
+Per intenderci, 45.000 franchi all'epoca sono il reddito annuo delle due principali tenute
+
+204
+00:20:29,080 --> 00:20:34,840
+agricole della famiglia Cavour. Due grandi tenute a riso nel Vercellese, ricchissime.
+
+205
+00:20:35,140 --> 00:20:40,360
+Ecco, l'intero reddito annuo di queste tenute Cavour se l'è bruciato in borsa con una speculazione
+
+206
+00:20:40,360 --> 00:20:45,700
+a Parigi e da Parigi scrive al padre, e questo è molto indicativo dello stile di Camillo,
+
+207
+00:20:47,280 --> 00:20:54,440
+a chi si scrive al padre ovviamente, bisogna pagare o farsi saltare le cervella. E notate
+
+208
+00:20:54,440 --> 00:20:59,480
+che questa è la prima di diverse volte in cui questa minaccia di farsi saltare le cervella
+
+209
+00:20:59,480 --> 00:21:04,680
+tornerà fuori nella carriera di Cavour. Più avanti nella vita tornerà fuori per motivi
+
+210
+00:21:04,680 --> 00:21:10,880
+politici. All'inizio invece è per la speculazione andata male in borsa. Ovviamente il padre lo
+
+211
+00:21:10,880 --> 00:21:16,060
+salva, trova i soldi e glieli manda. Ma notate, torno ancora su questo punto per l'ultima
+
+212
+00:21:16,060 --> 00:21:22,980
+volta, Cavour, parrebbe dalla sua corrispondenza, aveva sperato da giovane di farsi rapidamente
+
+213
+00:21:22,980 --> 00:21:29,680
+un patrimonio per potersi sposare. Si intende, sposarsi a quel livello sociale significa poter
+
+214
+00:21:29,680 --> 00:21:34,400
+prendere una donna del tuo rango con una dote e poterle garantire un certo stile di vita.
+
+215
+00:21:34,760 --> 00:21:39,700
+Con il patrimonio di un cadetto non si può. Cavour ci spera e la rovina della sua speculazione
+
+216
+00:21:39,700 --> 00:21:45,580
+in borsa è anche il momento in cui rinuncia a questo sogno giovanile di farsi una famiglia
+
+217
+00:21:45,580 --> 00:21:53,300
+sua. Si concentra sugli affari, si concentra sugli affari di famiglia, si interessa di innovazioni
+
+218
+00:21:53,300 --> 00:21:59,400
+in agricoltura, fa fruttare le grandi tenute risicole del Vercellese, accumula profitti,
+
+219
+00:21:59,540 --> 00:22:04,280
+diventa grosso azionista di banche, è uno degli uomini più ricchi del regno di Sardegna,
+
+220
+00:22:04,360 --> 00:22:10,100
+Camillo, dopo qualche anno di speculazioni e di affari. Ha le mani in pasta un po' in tutto,
+
+221
+00:22:12,960 --> 00:22:17,500
+nel momento in cui diventa ministro dell'agricoltura e commercio, il suo primo incarico ministeriale,
+
+222
+00:22:17,500 --> 00:22:24,060
+liquida immediatamente quasi tutti i suoi interessi finanziari, industriali, bancari,
+
+223
+00:22:24,520 --> 00:22:29,980
+dando per scontato che quando uno diventa ministro è ovvio che debba fare una cosa del genere.
+
+224
+00:22:31,160 --> 00:22:37,240
+Notate che non è particolarmente contento di farlo. Sia chiaro, non siamo in un mondo di anime belle.
+
+225
+00:22:37,580 --> 00:22:41,160
+Cavour ai soldi ci tiene, alle sue azioni ci tiene, agli affari ci tiene, li fa in modo
+
+226
+00:22:41,160 --> 00:22:46,420
+spregiudicato finché può. Semplicemente vive in un mondo dove è ovvio che quando diventi
+
+227
+00:22:46,420 --> 00:22:52,220
+ministro non lo puoi più fare. Poi beninteso, è sempre difficile districare tutto. Si tiene una
+
+228
+00:22:52,220 --> 00:22:57,740
+cosa sola, la tenuta agricola di Leri, che è la tenuta amatissima nel Vercellese dove lui va a
+
+229
+00:22:57,740 --> 00:23:04,440
+rifugiarsi nei brutti momenti. Questa tenuta di Leri produce riso e rende. C'è un momento in cui
+
+230
+00:23:04,440 --> 00:23:08,760
+il conflitto di interessi prende anche Cavour nonostante tutto. È un momento in cui lui ha il
+
+231
+00:23:08,760 --> 00:23:16,180
+governo e c'è carestia e i prezzi dei cereali salgono e c'è pressione dal basso perché il governo
+
+232
+00:23:16,180 --> 00:23:22,760
+faccia qualcosa e abbassi il prezzo dei cereali. E Cavour non lo fa. È beninteso, lui non lo fa
+
+233
+00:23:22,760 --> 00:23:27,980
+soprattutto perché non ci crede. La sua posizione teorica, economica è che il liberismo assoluto è
+
+234
+00:23:27,980 --> 00:23:33,240
+l'unica cosa possibile. Però è anche vero che più alti sono i prezzi dei cereali e più il suo riso
+
+235
+00:23:33,240 --> 00:23:38,240
+del Vercellese rende. E quella è forse l'unica occasione in cui a Torino Cavour è fischiato dalla
+
+236
+00:23:38,240 --> 00:23:43,920
+gente e la gente va a tirar pietre contro le finestre di Palazzo Cavour accusandolo di affamare il
+
+237
+00:23:43,920 --> 00:23:49,120
+popolo. Per dire che appunto non è così semplice neanche in un'epoca che lo dà per scontato districare
+
+238
+00:23:49,120 --> 00:23:58,560
+fino in fondo gli affari e la politica. Quello che vorrei sottolineare adesso è che il Cavour uomo
+
+239
+00:23:58,560 --> 00:24:04,840
+d'affari ed economista è il punto di partenza della sua carriera politica. È come l'economista
+
+240
+00:24:04,840 --> 00:24:09,700
+più competente del Piemonte che lui a un certo punto viene chiamato al governo, che a un certo
+
+241
+00:24:09,700 --> 00:24:14,540
+punto diventa evidente a tutti che di un uomo così non si può fare a meno. Ma non è un
+
+242
+00:24:14,540 --> 00:24:22,540
+economista teorico in senso astratto. Cavour ha una conoscenza approfondita del funzionamento
+
+243
+00:24:22,540 --> 00:24:29,480
+della società, delle classi sociali, dei salari, dei prezzi. Fin da ragazzo no, ma da giovanotto
+
+244
+00:24:29,480 --> 00:24:36,200
+ha una conoscenza di queste cose. C'è una cosa significativa. Quando Cavour ha 24 anni, il
+
+245
+00:24:36,200 --> 00:24:42,560
+governo inglese si sta preparando a varare una serie di leggi sulla povertà, sull'assistenza
+
+246
+00:24:42,560 --> 00:24:47,440
+ai poveri, sul lavoro obbligatorio per i mendicanti e così via, il complesso delle poor laws, come
+
+247
+00:24:47,440 --> 00:24:51,780
+le chiamano. Per varare questo insieme di leggi il governo inglese fa una grande inchiesta
+
+248
+00:24:51,780 --> 00:24:56,460
+in Europa per sapere com'è la condizione dei poveri e degli operai, che sono quasi la
+
+249
+00:24:56,460 --> 00:25:02,960
+stessa cosa, nei vari paesi europei. L'ambasciatore inglese a Torino si rivolge al sindaco, che è
+
+250
+00:25:02,960 --> 00:25:07,680
+il papà di Cavour, chiedendogli delle notizie e delle informazioni sulla situazione degli
+
+251
+00:25:07,680 --> 00:25:11,880
+operai a Torino. Il marchese Michele dice, ma c'è mio figlio, lui queste cose le sa
+
+252
+00:25:11,880 --> 00:25:18,140
+benissimo. Camillo accetta l'incarico di redigere una memoria, che scrive in francese
+
+253
+00:25:18,140 --> 00:25:24,020
+e poi pubblica, è la sua prima pubblicazione, a 24-25 anni, una memoria sulla condizione
+
+254
+00:25:24,020 --> 00:25:30,980
+dei lavoratori in Piemonte, in cui fa un'analisi estremamente realistica e arriva a conclusioni
+
+255
+00:25:30,980 --> 00:25:38,000
+importanti. Per esempio scopre che basta la minima disgrazia perché un operaio si è
+
+256
+00:25:38,000 --> 00:25:43,620
+ridotto in miseria e costretto a contrarre debiti. E poi si pone Cavour il problema se
+
+257
+00:25:43,620 --> 00:25:50,680
+sia possibile per gli operai risparmiare qualcosa. Cavour risponde, ciò mi pare assolutamente
+
+258
+00:25:50,680 --> 00:25:57,980
+impossibile. Ecco, questa consapevolezza delle condizioni di vita delle masse popolari è
+
+259
+00:25:57,980 --> 00:26:02,840
+una cosa che accompagnerà Cavour, che ripeto, lo vedremo ancora meglio adesso, non è certo
+
+260
+00:26:02,840 --> 00:26:07,820
+uno di sinistra, tutt'altro, ma accompagna Cavour e, come dire, dà fondamento alla sua
+
+261
+00:26:07,820 --> 00:26:09,680
+azione politica in più momenti.
+
+262
+00:26:11,640 --> 00:26:19,140
+Nel 1848 scoppia per prima cosa la rivoluzione in Francia. Cade la monarchia, c'è la repubblica.
+
+263
+00:26:19,140 --> 00:26:24,520
+La reazione di Cavour a questa vicenda è interessantissima. Cavour analizza l'opinione
+
+264
+00:26:24,520 --> 00:26:29,580
+pubblica e scopre che l'opinione pubblica è abbastanza spaventata da questi fatti di
+
+265
+00:26:29,580 --> 00:26:34,680
+Francia. E dice, eppure è strano perché l'opinione pubblica ormai comincia a essere
+
+266
+00:26:34,680 --> 00:26:41,820
+illuminata, sono tanti i liberali, i progressisti. Come mai allora la caduta della monarchia, la
+
+267
+00:26:41,820 --> 00:26:47,980
+repubblica in Francia ha suscitato soprattutto spavento e conclude con questa frase memorabile.
+
+268
+00:26:49,400 --> 00:26:56,520
+Non sono l'idea di democrazia e di repubblica che spaventano, è lo spettro del comunismo.
+
+269
+00:26:58,220 --> 00:27:04,500
+Non so se vi rendete conto, siamo nel 1848, cioè precisamente nell'anno in cui esce il
+
+270
+00:27:04,500 --> 00:27:09,940
+manifesto del partito comunista di Marx e Engels, che comincia con la frase un tempo celeberrima,
+
+271
+00:27:09,940 --> 00:27:15,260
+ma spero ancora oggi conosciuta, uno spettro si aggira per l'Europa. Ecco, Cavour è uno
+
+272
+00:27:15,260 --> 00:27:19,940
+abbastanza al corrente di quello che succede, con una capacità di analisi abbastanza sofisticata
+
+273
+00:27:19,940 --> 00:27:26,160
+del mondo in cui vive, da arrivare a questa stessa immagine dello spettro che si aggira
+
+274
+00:27:26,160 --> 00:27:34,220
+per l'Europa, nello stesso momento in cui la formulano Marx e Engels. Aveva letto Marx e
+
+275
+00:27:34,220 --> 00:27:41,320
+Engels, difficile dirlo con certezza. Un'idea però ce l'aveva, infatti prosegue, sempre commentando
+
+276
+00:27:41,320 --> 00:27:45,920
+il fatto che l'opinione pubblica si è spaventata per i fatti di Francia. Eppure la democrazia
+
+277
+00:27:45,920 --> 00:27:50,400
+non dispiace troppo, ormai a molti, la Repubblica, molti ormai l'accetterebbero, ma quel che fa
+
+278
+00:27:50,400 --> 00:27:58,200
+paura è il comunismo. E prosegue. Ognuno si domanda se le dottrine socialiste e comuniste
+
+279
+00:27:58,200 --> 00:28:07,700
+nate nei cupi cervelli di alcuni filosofi della Germania, eccoli Marx e gli Engels, stanno
+
+280
+00:28:07,700 --> 00:28:13,680
+per essere tradotte in pratica da quegli ardimentosi francesi. Perché continuo i francesi, si sa,
+
+281
+00:28:14,000 --> 00:28:19,800
+sono capaci di tutto, lo si è visto nel 1789, ne hanno fatte di tutti i tipi. Adesso chissà
+
+282
+00:28:19,800 --> 00:28:23,160
+mai che non prendano loro in mente l'idea del comunismo, perché a quel punto siamo fritti.
+
+283
+00:28:23,160 --> 00:28:30,480
+Cavour continua a seguire questo tema. La Repubblica francese dura tre anni. Nel 51 c'è
+
+284
+00:28:30,480 --> 00:28:36,700
+il colpo di stato di Luigi Napoleone, il nipotino di Napoleone il Grande. Luigi Napoleone diventa
+
+285
+00:28:36,700 --> 00:28:43,860
+presidente della Repubblica e poi rapidamente imperatore, con una netta svolta a destra della
+
+286
+00:28:43,860 --> 00:28:52,760
+politica francese. E Cavour commenta, la paura del socialismo vince nei francesi l'amore della
+
+287
+00:28:52,760 --> 00:29:00,260
+libertà. Gran lezione. Non riflettiamo magari sul fatto che sono passati 150 anni e sembra
+
+288
+00:29:00,260 --> 00:29:04,960
+che non sia cambiato molto, ma quello che mi interessa qui è far vedere un Cavour che
+
+289
+00:29:04,960 --> 00:29:12,740
+appunto è al corrente delle cose più moderne, anzi in qualche modo prefigura anche la politica
+
+290
+00:29:12,740 --> 00:29:18,460
+ancora di là da venire. Beninteso, Cavour quindi fieramente anticomunista, antirivoluzionario
+
+291
+00:29:18,460 --> 00:29:24,300
+e così via. Ma quando i tessitori biellesi scioperano, quando le fabbriche di Biella che
+
+292
+00:29:24,300 --> 00:29:29,700
+sono il principale polo, il primo piccolo polo industriale del Piemonte, entrano in sciopero
+
+293
+00:29:29,700 --> 00:29:36,840
+e sono i primi scioperi da quelle parti negli anni 50, Cavour che è al governo, risponde
+
+294
+00:29:36,840 --> 00:29:43,980
+che per prevenire il socialismo, e stavo citando di nuovo, è necessario migliorare i salari
+
+295
+00:29:43,980 --> 00:29:48,180
+degli operai e migliorare la loro condizione. Addio. Me lo rende poi più piacere? Grazie.
+
+296
+00:29:49,120 --> 00:29:50,340
+Vabbè, grazie.
+
+297
+00:29:51,160 --> 00:29:57,780
+Dunque, è necessario migliorare la condizione degli operai? Cito ancora, se no è inevitabile
+
+298
+00:29:57,780 --> 00:30:06,500
+la guerra sociale. Allora, lucidità politica evidentemente e soprattutto capacità di collocarsi
+
+299
+00:30:06,500 --> 00:30:12,160
+in una posizione politica, oggi piacerebbe a tanti definirsi centristi, moderati, ecco,
+
+300
+00:30:12,640 --> 00:30:17,460
+Cavour ha molto chiaro il fatto che ci sono, ha molto chiaro il suo punto di vista chiaramente,
+
+301
+00:30:17,740 --> 00:30:23,140
+che ci sono due pericoli nella congiuntura drammatica che l'Italia, il regno di Sardegna
+
+302
+00:30:23,140 --> 00:30:28,940
+e l'Europa stanno vivendo in quel momento. Da una parte c'è il pericolo certo dei rossi,
+
+303
+00:30:29,200 --> 00:30:35,280
+dell'anarchia, del comunismo, della rivoluzione, ma dall'altra c'è il pericolo della sciabola,
+
+304
+00:30:35,280 --> 00:30:40,960
+del tintinnar di sciabole, dei governi reazionari, militari che metterebbero fine volentieri alla
+
+305
+00:30:40,960 --> 00:30:45,700
+libertà di stampa, alle elezioni e così via. E Cavour ha chiarissimo che entrambe le cose,
+
+306
+00:30:45,880 --> 00:30:51,460
+dal suo punto di vista, sarebbero una tragedia. E si butta in politica. Cavour si butta in
+
+307
+00:30:51,460 --> 00:30:59,940
+politica nel 48, enunciando chiaramente che c'è bisogno di quello. È necessario, indispensabile,
+
+308
+00:30:59,940 --> 00:31:08,840
+di costituire un partito liberale conservatore. Perché? Perché a sinistra verrà fuori qualcosa
+
+309
+00:31:08,840 --> 00:31:15,060
+di forte e bisogna cercare di frenarlo. Dobbiamo aspettarci a vedere costituirsi,
+
+310
+00:31:15,060 --> 00:31:20,840
+e l'italiano di Cavour naturalmente. Dobbiamo aspettarci a vedere costituirsi un partito
+
+311
+00:31:20,840 --> 00:31:27,420
+estremo, impaziente. Bisogna apparecchiarsi a combatterlo. E però poi sempre batte, ben
+
+312
+00:31:27,420 --> 00:31:32,580
+inteso, sul fatto che i pericoli sono due, da due parti. Quando la prima guerra di indipendenza
+
+313
+00:31:32,580 --> 00:31:37,900
+va a finire molto male, con il disastro di Novara nel 49, e sembra che il Piemonte sia
+
+314
+00:31:37,900 --> 00:31:43,180
+lì lì per ridiventare reazionario, abolire lo statuto e così via, Cavour dice, qui c'è
+
+315
+00:31:43,180 --> 00:31:50,180
+il pericolo? Due pericoli di nuovo. Di venire sommersi dalle onde dell'anarchia o incatenati
+
+316
+00:31:50,900 --> 00:31:57,940
+al potere della sciabola. E invece ci vuole una linea di mezzo che però deve essere una
+
+317
+00:31:57,940 --> 00:32:03,120
+linea risolutamente riformista. Cito ancora, scusatemi se cito troppo me lo direte, nelle
+
+318
+00:32:03,120 --> 00:32:08,700
+prossime serate diminuirò le citazioni. Le riforme, è sempre Camillo che parla, compiute
+
+319
+00:32:08,700 --> 00:32:15,020
+a tempo, invece di indebolire l'autorità, la rafforzano. Invece di crescere la forza
+
+320
+00:32:15,020 --> 00:32:21,980
+dello spirito rivoluzionario, lo riducono all'impotenza. E dunque Cavour nel 48, a 38
+
+321
+00:32:21,980 --> 00:32:27,780
+anni, decide, ormai è un uomo ricco, decide che ancora più degli affari gli interessa
+
+322
+00:32:27,780 --> 00:32:33,440
+la politica. Perché il mondo sta vivendo una stagione straordinaria e lui vuole esserci
+
+323
+00:32:33,440 --> 00:32:39,080
+dentro e vuole essere uno di quelli che la dirigono questa stagione straordinaria. In
+
+324
+00:32:39,080 --> 00:32:44,140
+parte è certamente ancora l'ambizione di un carattere straordinario e anche ancora sempre
+
+325
+00:32:44,140 --> 00:32:48,480
+l'ambizione del cadetto che ha imparato che la sua posizione deve farsela da solo. C'è
+
+326
+00:32:48,480 --> 00:32:53,420
+un aneddoto molto rivelatore. Una lettera di Cavour, torniamo indietro di qualche anno,
+
+327
+00:32:54,160 --> 00:33:01,460
+quando aveva 22 anni, Cavour scrive alla Marchesa di Barolo dicendo, con quel tono che si ha a volte
+
+328
+00:33:01,460 --> 00:33:05,780
+a 22 anni quando si pensa di essere usciti dall'adolescenza, dice, io ormai sono disilluso,
+
+329
+00:33:06,300 --> 00:33:13,280
+non è più come quando ero ragazzo, cito, quando avrei creduto del tutto naturale risvegliarmi
+
+330
+00:33:13,280 --> 00:33:19,680
+un bel mattino primo ministro del Regno d'Italia. Ecco, parleremo poi di quanto l'idea di un Regno
+
+331
+00:33:19,680 --> 00:33:25,220
+d'Italia fosse plausibile, immaginabile al tempo in cui Cavour era giovane. Molti politici
+
+332
+00:33:25,220 --> 00:33:30,580
+seri, serissimi, avrebbero detto no, figuriamoci, non è nemmeno immaginabile. Cavour a 22 anni
+
+333
+00:33:30,580 --> 00:33:37,040
+si ricorda che lui da ragazzino, quando sognava a occhi aperti, si vedeva non primo ministro
+
+334
+00:33:37,040 --> 00:33:43,820
+del Regno di Sardegna, ma primo ministro del Regno d'Italia. Dopodiché appunto nel 48 decide
+
+335
+00:33:43,820 --> 00:33:51,300
+di entrare in politica, per la via del giornalismo. Un'altra intuizione di Cavour è che la politica
+
+336
+00:33:51,300 --> 00:33:57,720
+si fa con i mass media, cosa che fino al 48 non era possibile, perché prima dello statuto
+
+337
+00:33:57,720 --> 00:34:02,700
+non c'era la libertà di stampa. I giornali li controllava la polizia e impediva di pubblicare
+
+338
+00:34:02,700 --> 00:34:07,400
+qualunque cosa che non andasse bene al governo. Di conseguenza giornali politici non esistevano.
+
+339
+00:34:08,060 --> 00:34:13,640
+La concessione dello statuto a Torino nel 48 vuol dire anche che di colpo nascono un'infinità
+
+340
+00:34:13,640 --> 00:34:19,960
+di giornali, giornali politici. Cavour, che ormai i soldi li ha, si fa il suo giornale, che lui
+
+341
+00:34:19,960 --> 00:34:28,520
+dirige e che, di nuovo con notevole capacità di previsione, intitola il risorgimento. Siamo
+
+342
+00:34:28,520 --> 00:34:33,120
+appena all'inizio, ma il concetto evidentemente circola già e lui ha già capito che quello
+
+343
+00:34:33,120 --> 00:34:39,000
+è lo slogan cruciale. Dunque Cavour dirige il risorgimento e in quegli anni, in quei mesi,
+
+344
+00:34:39,060 --> 00:34:44,160
+in realtà non dura moltissimo mentre la facendo, due o tre anni al massimo, si compiace di essere
+
+345
+00:34:44,160 --> 00:34:49,260
+un giornalista. Parla di sé come un giornalista, termine che è appena nato all'epoca e che
+
+346
+00:34:49,260 --> 00:34:53,580
+indica in realtà il direttore di giornale, naturalmente dagli occhi di Camillo, non certo
+
+347
+00:34:53,580 --> 00:35:01,180
+l'ultimo articolista. E va alle elezioni. Va alle elezioni del 48 per il primo Parlamento
+
+348
+00:35:01,180 --> 00:35:08,580
+subalpino ed è battuto. Non entra in Parlamento, è furioso. Cito ancora da una sua lettera a un
+
+349
+00:35:08,580 --> 00:35:17,400
+amico. Oh dura sorte. Solo tra i giornalisti mi trovo escluso dalla Camera. Dopo aver lavorato
+
+350
+00:35:17,400 --> 00:35:24,400
+nel campo della politica, altrettanto, se non di più di qualunque mio collega giornalista,
+
+351
+00:35:25,260 --> 00:35:30,160
+sono il solo rigettato dal Paese. Va detto che Cavour non è mai stato uno che prende bene le
+
+352
+00:35:30,160 --> 00:35:35,620
+sconfitte. Anche in seguito è uno che tende a reagire piuttosto violentemente alle sconfitte.
+
+353
+00:35:35,620 --> 00:35:43,080
+per fortuna c'è subito un'elezione suppletiva e viene eletto stavolta. Va in Parlamento e ci
+
+354
+00:35:43,080 --> 00:35:49,160
+resterà per tutti quei 12 anni che gli restano da vivere. 13 nel 48. Dunque entra in Parlamento,
+
+355
+00:35:49,260 --> 00:35:54,940
+ma il Parlamento è soltanto un gradino. Cavour si sente ed è certamente di una statura tale da
+
+356
+00:35:54,940 --> 00:36:02,220
+dover essere chiamato al governo. È l'economista più esperto del Regno. Oltre a essere uno degli
+
+357
+00:36:02,220 --> 00:36:06,180
+uomini più ricchi del Regno, sottolineiamolo, con soldi che si è fatto in gran parte da sé.
+
+358
+00:36:07,840 --> 00:36:13,380
+Invece, dopo la catastrofe di Novara del 49, si fa il nuovo governo d'Azeglio. Cavour credeva di
+
+359
+00:36:13,380 --> 00:36:18,960
+essere chiamato al governo, d'Azeglio non lo chiama. Cavour se ne va a Leri, in campagna,
+
+360
+00:36:18,960 --> 00:36:30,120
+e di nuovo scrive agli amici. Almeno lì avrò la consolazione di vivere come se quella puttana
+
+361
+00:36:30,120 --> 00:36:36,520
+d'Italia non esistesse. Dove la cosa che ha notato più di tutto è l'Italia, però. Perché
+
+362
+00:36:36,520 --> 00:36:41,760
+lui vuol diventare ministro del Regno di Sardegna. Hanno appena perso clamorosamente la prima guerra
+
+363
+00:36:41,760 --> 00:36:48,280
+d'indipendenza. Molti stanno pensando, beh, basta, ci abbiamo provato, è finita. A Cavour è chiarissimo
+
+364
+00:36:48,280 --> 00:36:53,460
+che l'orizzonte della politica è l'orizzonte dell'Italia. Certo, se è così faticoso servire
+
+365
+00:36:53,460 --> 00:36:57,960
+l'Italia, ogni tanto viene voglia di mandare tutto il diavolo. Ma sono crisi che passano
+
+366
+00:36:57,960 --> 00:37:03,040
+rapidamente. Cavour sa molto bene quello che vuole. Aspetta il suo tempo. Finalmente, due anni
+
+367
+00:37:03,040 --> 00:37:11,220
+dopo, nel 51, D'Azeglio commette l'errore della sua vita e lo chiama al governo. All'inizio D'Azeglio
+
+368
+00:37:11,220 --> 00:37:16,240
+è contentissimo. Il governo era debole, mancava di individualità forti. Uno come Cavour è proprio
+
+369
+00:37:16,240 --> 00:37:22,080
+quello che ci vuole. D'Azeglio scrive, sono contentissimo di aver chiamato Cavour. È un autentico
+
+370
+00:37:22,080 --> 00:37:28,600
+gallo da combattimento. Specialità che ci mancava. Io non mi fermerò durante questa
+
+371
+00:37:28,600 --> 00:37:33,640
+serata, o quel poco che ne resta, sul Cavour politico capace di padroneggiare i parlamenti
+
+372
+00:37:33,640 --> 00:37:38,060
+come vuole, sul Cavour che governa anche quando non è al governo, perché non c'è nessuno
+
+373
+00:37:38,060 --> 00:37:43,440
+nel Paese che abbia un seguito delle clientele, le folle che gli vanno dietro, come le ha lui.
+
+374
+00:37:43,600 --> 00:37:48,420
+Ecco, non mi fermerò su questo. Ma certamente, appunto, è un gallo da combattimento. È un
+
+375
+00:37:48,420 --> 00:37:54,860
+politico di razza. D'Azeglio si illude. Il re Vittorio, di cui parleremo molto più
+
+376
+00:37:54,860 --> 00:38:00,300
+ampiamente domani, ma che facciamo entrare nel nostro racconto adesso, il re Vittorio è
+
+377
+00:38:00,300 --> 00:38:05,880
+più lucido. Quando D'Azeglio, tutto contento, va a dirgli che ha dato un ministero a Cavour,
+
+378
+00:38:06,460 --> 00:38:14,080
+il re gli dice. Ma come? Ma non vedono, lor signori, che quell'uomo lì li manderà tutti
+
+379
+00:38:14,080 --> 00:38:19,960
+con le gambe all'aria. Ma parlava in piemontese e disse di peggio, beninteso. Ecco, il re aveva
+
+380
+00:38:19,960 --> 00:38:24,140
+perfettamente ragione. Già pochi mesi dopo, quando D'Azeglio si riferisce a Cavour nelle
+
+381
+00:38:24,140 --> 00:38:30,700
+sue lettere, lo chiama l'empio rivale. Cavour con ogni mezzo si dà da fare, alla fine fa
+
+382
+00:38:30,700 --> 00:38:35,560
+fuori D'Azeglio, diventa lui il primo ministro ed è il padrone della politica del Regno di
+
+383
+00:38:35,560 --> 00:38:42,720
+Sardegna per un decennio. Il governo di Cavour corrisponde appunto alla gran parte del decennio
+
+384
+00:38:42,720 --> 00:38:51,820
+1850 ed è un decennio di stupefacente crescita per l'economia piemontese, Ligure, del Regno
+
+385
+00:38:51,820 --> 00:38:59,240
+di Sardegna. In parte, in gran parte, questa crescita è anche merito di Cavour, nella misura
+
+386
+00:38:59,240 --> 00:39:02,840
+in cui la crescita economica dipende dai governi, ma noi viviamo in un'epoca in cui si dà per
+
+387
+00:39:02,840 --> 00:39:08,160
+scontato che i governi possano fare delle cose, debbano intervenire per sostenere l'economia.
+
+388
+00:39:08,240 --> 00:39:14,360
+Bene, certamente Cavour questo lo sapeva e lo faceva. La caratteristica dominante del
+
+389
+00:39:14,360 --> 00:39:22,020
+Cavour che governa l'economia è la fede nella modernizzazione, che risale anche lì a quando
+
+390
+00:39:22,020 --> 00:39:27,400
+era giovane, a quando ha 25 anni è andato in viaggio in Inghilterra e ha fatto questa
+
+391
+00:39:27,400 --> 00:39:37,440
+esperienza formativa decisiva, è andato in treno da Liverpool a Manchester, 1835, 50
+
+392
+00:39:37,440 --> 00:39:42,360
+chilometri in un'ora e mezza. Una di quelle esperienze che cambiano un modo di vedere il
+
+393
+00:39:42,360 --> 00:39:50,780
+mondo. Da quel momento Camillo ha un cardine fermissimo. Progresso, modernizzazione, infrastrutture,
+
+394
+00:39:50,780 --> 00:39:58,440
+ferrovie, ferrovie, ferrovie, porti, ferrovie, strade, ferrovie, canali, trafori e ferrovie
+
+395
+00:39:58,440 --> 00:40:05,080
+naturalmente. Tutto questo costerà moltissimo, certo, costerà moltissimo. Bisogna che il Paese
+
+396
+00:40:05,080 --> 00:40:10,420
+diventi via via più ricco per potersi permettere tutto questo. Il Paese diventerà più ricco
+
+397
+00:40:10,420 --> 00:40:16,460
+se si aboliscono le tariffe, le barriere doganali. L'altro pilastro del Cavour economista e politico
+
+398
+00:40:16,460 --> 00:40:23,100
+è il libero scambio. Abolire tutto, lasciar circolare le merci e la ricchezza affluirà
+
+399
+00:40:23,100 --> 00:40:29,240
+da sé. Ebbene, Cavour fa questa scommessa nel momento giusto. Forse in un'altra epoca
+
+400
+00:40:29,240 --> 00:40:33,300
+storica non gli sarebbe andata così bene, ma quelli sono i decenni della grande crescita
+
+401
+00:40:33,300 --> 00:40:39,060
+economica di tutta Europa. E il Piemonte è la parte d'Italia che è meglio attrezzata
+
+402
+00:40:39,060 --> 00:40:45,560
+per le idee di chi governa, intendo, per inserirsi all'ultimo momento in questo colossale movimento
+
+403
+00:40:45,560 --> 00:40:51,300
+di crescita. Gli anni 50 sono un momento sbalorditivo in cui, appunto, si costruiscono
+
+404
+00:40:51,300 --> 00:40:58,920
+ferrovie. Nel 1860 il Piemonte ha una rete ferroviaria che è pari a metà dell'intera
+
+405
+00:40:58,920 --> 00:41:05,420
+rete italiana. Si costruiscono canali, il canale Cavour, tuttora in uso. Si aprono i
+
+406
+00:41:05,420 --> 00:41:10,580
+lavori per il traforo del Freius, tuttora in uso. Nascono la rete telegrafica, l'illuminazione
+
+407
+00:41:10,580 --> 00:41:15,380
+a gas, nuove banche, la borsa di Torino. Ben inteso, tutto questo avviene anche altrove, dove
+
+408
+00:41:15,380 --> 00:41:20,300
+i governi hanno capito che questo movimento bisogna sostenerlo. Ci sono altre zone d'Italia
+
+409
+00:41:20,300 --> 00:41:26,260
+dove invece questo viene fatto molto meno. I risultati sono spettacolari. La crescita
+
+410
+00:41:26,260 --> 00:41:31,880
+dell'economia del Regno di Sardegna nel decennio di Cavour è sbalorditiva a livelli cinesi,
+
+411
+00:41:31,960 --> 00:41:39,500
+cinesi di oggi. In quel decennio le esportazioni triplicano. Il reddito nazionale complessivo
+
+412
+00:41:39,500 --> 00:41:48,340
+si raddoppia in dieci anni. Ben inteso, tutto questo però non si paga da sé. Tutto
+
+413
+00:41:48,340 --> 00:41:52,000
+questo richiede una fortissima capacità di investimento e di spesa da parte di Cavour.
+
+414
+00:41:52,460 --> 00:41:57,960
+E qui va detto che il Cavour, assolutamente liberista, che non crede alle dogane, alle
+
+415
+00:41:57,960 --> 00:42:03,540
+tariffe, ai prezzi imposti artificialmente e così via, però crede fermamente nella spesa
+
+416
+00:42:03,540 --> 00:42:10,220
+pubblica. E sostiene, negli anni del suo governo, una colossale spesa pubblica. E dunque
+
+417
+00:42:10,220 --> 00:42:17,260
+aumenta le tasse. Cavour nei suoi anni di governo e di splendore è temuto e odiato
+
+418
+00:42:17,260 --> 00:42:21,400
+anche da qualcuno come quello che sta facendo pagare un sacco di tasse a quelli che prima
+
+419
+00:42:21,400 --> 00:42:25,620
+non le pagavano. Il sistema fiscale fino a quel momento era ancora un sistema di antico
+
+420
+00:42:25,620 --> 00:42:31,920
+regime sostanzialmente basato sulla terra. Chi ha la terra paga le imposte. Le professioni
+
+421
+00:42:31,920 --> 00:42:37,560
+per esempio praticamente non pagavano. Cavour fa pagare le tasse agli avvocati, ai medici.
+
+422
+00:42:38,700 --> 00:42:43,120
+Ci sarà qualcosa del nobile che tutto sommato conserva un po' di antipatia verso questa gente,
+
+423
+00:42:43,220 --> 00:42:47,340
+questi borghesi ed è ben contento di far pagare anche loro? Chi lo sa? Ma certamente
+
+424
+00:42:47,340 --> 00:42:54,400
+in Parlamento c'è chi protesta e nel Paese corrono le canzonette satiriche. Io mi sono
+
+425
+00:42:54,400 --> 00:42:58,080
+chiesto a lungo se avrei provato a accennarvi il ritornello qui, poi ho deciso che non lo farò
+
+426
+00:42:58,080 --> 00:43:02,740
+ed è meglio per voi. Tuttavia corrono le canzonette satiriche in cui il ritornello è appunto
+
+427
+00:43:02,740 --> 00:43:08,840
+cacciate fuori i scudi e viva il magnifico conte di Cavour, il tutto in piemontese si intende.
+
+428
+00:43:11,140 --> 00:43:18,160
+Ora però questa colossale crescita economica non è fine a se stessa. Nella prospettiva di Cavour è
+
+429
+00:43:18,160 --> 00:43:25,240
+evidente che le sfide dell'Italia, della Sardegna, del Piemonte e dell'Italia sono da un lato la
+
+430
+00:43:25,240 --> 00:43:33,040
+modernizzazione economica e dall'altro la liberazione del Paese dalle ingerenze straniere, poi anche
+
+431
+00:43:33,040 --> 00:43:37,280
+l'unità. Se abbiamo tempo ci arriveremo, ma questo passa un po' in secondo piano a dir la verità
+
+432
+00:43:37,280 --> 00:43:42,480
+all'inizio. La prima cosa è la liberazione di quelle parti d'Italia che appartengono a potenze
+
+433
+00:43:42,480 --> 00:43:48,320
+straniere, il Lombardo-Veneto-Austriaco essenzialmente. Ecco, da questo punto di vista Cavour ha ben
+
+434
+00:43:48,320 --> 00:43:54,100
+chiaro che la modernizzazione del Paese significa anche un passo in quella direzione. Le ferrovie da
+
+435
+00:43:54,100 --> 00:44:01,160
+sole, per il solo fatto che fanno spostare la gente, sono un passo in quella direzione. Già nel
+
+436
+00:44:01,160 --> 00:44:09,220
+1845, non è ancora al governo, a 35 anni, è un economista noto, scrive un articolo per una rivista
+
+437
+00:44:09,220 --> 00:44:18,200
+svizzera, in cui dice che le ferrovie favoriranno lo spirito di nazionalità italiana, proprio per il
+
+438
+00:44:18,200 --> 00:44:24,660
+solo fatto che produrranno un incessante movimento di persone in tutte le direzioni, in quell'Italia
+
+439
+00:44:24,660 --> 00:44:29,960
+che in gran parte all'epoca ha ancora strade impraticabili, briganti che le minacciano e così
+
+440
+00:44:29,960 --> 00:44:37,760
+via. Questo articolo è scritto per una rivista svizzera, è un articolo che parla di treni, come
+
+441
+00:44:37,760 --> 00:44:44,020
+vedete, di ferrovie, di ferrovie che favoriranno la nazionalità italiana e il suo sviluppo. Il
+
+442
+00:44:44,020 --> 00:44:50,840
+direttore del giornale svizzero non lo pubblica, dice, è proprio pericoloso politicamente un
+
+443
+00:44:50,840 --> 00:44:56,420
+articolo del genere. Non ho letto finora niente di più profondamente ostile alla dominazione
+
+444
+00:44:56,420 --> 00:45:06,360
+austriaca in Italia. E dunque veniamo al tema di quello che Cavour ha fatto negli ultimi anni
+
+445
+00:45:06,360 --> 00:45:14,660
+del suo governo. La guerra del 59, l'annessione della Lombardia e poi dei principati e così via,
+
+446
+00:45:14,740 --> 00:45:20,580
+la nascita del Regno d'Italia e poi il sostegno, vedremo quanto questa parola possa essere adatta,
+
+447
+00:45:20,840 --> 00:45:28,980
+all'impresa di Garibaldi. Per orientarci in quest'ambito, scusatemi, sottolineo ancora che di
+
+448
+00:45:28,980 --> 00:45:33,240
+questo tema parleremo assai meglio domani e ancora meglio dopodomani affrontando la figura
+
+449
+00:45:33,240 --> 00:45:38,220
+di Garibaldi. Qui io potrò cominciare soltanto a fare alcuni accenni su questo. Per affrontare
+
+450
+00:45:38,220 --> 00:45:42,200
+questo tema io mi sono fatto l'idea che è fondamentale avere chiari i due livelli di
+
+451
+00:45:42,200 --> 00:45:47,960
+obiettivi che i liberali italiani si ponevano all'epoca. L'ho già accennato prima, ma diciamolo
+
+452
+00:45:47,960 --> 00:45:54,680
+di nuovo. C'è un obiettivo su cui tutti sono d'accordo. Il Paese per progredire deve essere
+
+453
+00:45:54,680 --> 00:46:01,420
+libero, non ci devono essere parti dell'Italia che appartengono a imperi stranieri. Essenzialmente
+
+454
+00:46:01,420 --> 00:46:08,780
+vuol dire una cosa sola, il Lombardo-Veneto fuori gli austriaci. Su questo i liberali italiani
+
+455
+00:46:08,780 --> 00:46:17,020
+e a maggior ragione i democratici sono tutti d'accordo. L'altro problema è diverso. È
+
+456
+00:46:17,020 --> 00:46:23,500
+il problema se un giorno sarà possibile un'Italia unita. Un'Italia unita vuol dire naturalmente
+
+457
+00:46:23,500 --> 00:46:28,760
+che tante piccole dinastie dovranno essere fatte sparire, che tante piccole indipendenze
+
+458
+00:46:28,760 --> 00:46:36,920
+andranno abolite per creare un Paese unito. Questo secondo punto è nell'aria, se ne parla,
+
+459
+00:46:36,980 --> 00:46:43,180
+gli appassionati ci credono, ma la gente con i piedi per terra come Cavour per molto tempo
+
+460
+00:46:43,180 --> 00:46:49,640
+non ci crede affatto. Ancora pochissimi anni prima che tutto precipiti con l'impresa di
+
+461
+00:46:49,640 --> 00:46:55,420
+Garibaldi e che si arrivi davvero all'Italia unita, Cavour a un certo punto, in un congresso
+
+462
+00:46:55,420 --> 00:47:00,660
+in cui si discute di queste cose, dice apertamente che l'idea dell'Italia unita è una corbelleria.
+
+463
+00:47:02,200 --> 00:47:06,740
+Ben inteso, non che non sia una cosa desiderabile. Questo è lo stesso uomo che da ragazzino diceva
+
+464
+00:47:06,740 --> 00:47:11,060
+che sognava di essere il primo ministro del Regno d'Italia. Tutti dicono in teoria sarebbe
+
+465
+00:47:11,060 --> 00:47:19,840
+desiderabile, ma il realismo politico sembrava imporre di andarci cauti. Quanto invece a buttare
+
+466
+00:47:19,840 --> 00:47:24,560
+fuori gli austriaci? Su questo certamente se ne può discutere. E poi c'è anche un problema
+
+467
+00:47:24,560 --> 00:47:31,120
+intermedio. L'Italia unita magari è impossibile, ma ci sono dinastie, io ragiono adesso come
+
+468
+00:47:31,120 --> 00:47:36,300
+ragionavano Cavour e gli uomini del suo partito e gli uomini delle sue idee, sia chiaro. Ci
+
+469
+00:47:36,300 --> 00:47:41,080
+sono dinastie in Italia che sono comunque impresentabili, che hanno una tale immagine
+
+470
+00:47:41,080 --> 00:47:46,260
+all'estero che è impossibile pensare di continuare così, in particolare quella borbonica
+
+471
+00:47:46,260 --> 00:47:51,900
+nel mezzogiorno. La dinastia borbonica è universalmente ritenuta in tutta Europa così
+
+472
+00:47:51,900 --> 00:47:59,380
+arretrata, reazionaria, impresentabile, ripeto, per opinione comune di tutti i governi, i giornali,
+
+473
+00:47:59,440 --> 00:48:05,020
+l'opinione pubblica, che il problema di in qualche modo liberarsi dei borboni è assolutamente
+
+474
+00:48:05,020 --> 00:48:10,360
+presente anche a Cavour, anche nel momento in cui però l'idea poi di unificare dopo l'Italia
+
+475
+00:48:10,360 --> 00:48:15,900
+sembra assurda. E allora qual è la soluzione? Il fatto è che ancora in quegli anni, gli anni
+
+476
+00:48:15,900 --> 00:48:23,040
+tra la prima e la seconda guerra di indipendenza, la diplomazia europea ragiona ancora abbastanza
+
+477
+00:48:23,040 --> 00:48:30,340
+in termini vecchi, nei termini di quella politica dinastica che si faceva nel Settecento. Avete
+
+478
+00:48:30,340 --> 00:48:35,440
+presente quelle guerre in cui il problema era soltanto se un borbone diventava re di Spagna
+
+479
+00:48:35,440 --> 00:48:41,840
+oppure no, la guerra appunto di successione spagnola, austriaca? Ecco, è abbastanza impressionante
+
+480
+00:48:41,840 --> 00:48:46,420
+vedere come anche in un'epoca che noi penseremmo più vicina alla nostra, la metà dell'Ottocento,
+
+481
+00:48:46,980 --> 00:48:51,340
+in realtà i governi e le diplomazie ragionavano ancora abbastanza in questi termini. E quindi
+
+482
+00:48:51,340 --> 00:48:56,720
+era tutto un discorrere di scambi. I borboni per esempio sono impresentabili, è vero, se
+
+483
+00:48:56,720 --> 00:49:01,460
+potessimo toglierli, chi ci mettiamo? Qualcun altro al loro posto, bisogna fare degli spostamenti.
+
+484
+00:49:01,460 --> 00:49:09,820
+questo viene fuori in modo straordinario al congresso di Parigi del 1856. C'è stata
+
+485
+00:49:09,820 --> 00:49:14,660
+la guerra di Crimea. Cavour ha ottenuto che il regno di Sardegna partecipasse alla guerra
+
+486
+00:49:14,660 --> 00:49:18,680
+di Crimea per stringere un legame di amicizia con la Francia e con l'Inghilterra, sempre
+
+487
+00:49:18,680 --> 00:49:23,620
+in vista un giorno di buttare fuori gli austriaci dall'Italia, in vista di una guerra in cui
+
+488
+00:49:23,620 --> 00:49:27,920
+sarà necessario il sostegno della Francia e dell'Inghilterra. Alla fine della guerra di
+
+489
+00:49:27,920 --> 00:49:33,300
+Crimea si fa un bel congresso a Parigi per ridisegnare la mappa d'Europa. Ed è qui
+
+490
+00:49:33,300 --> 00:49:38,480
+che si vede proprio questa mentalità dei politici, dei diplomatici, per cui si ragiona ancora in
+
+491
+00:49:38,480 --> 00:49:45,380
+termini di dinastie. È la prima volta che io ho incontrato in cui Cavour discute apertamente,
+
+492
+00:49:46,160 --> 00:49:51,320
+ufficialmente, del fatto che i borboni da Napoli bisognerebbe buttarli fuori. A Napoli c'è
+
+493
+00:49:51,320 --> 00:49:57,640
+Ferdinando II, il re bomba, e Cavour a un certo punto scrive, sì, domani vedo il
+
+494
+00:49:57,640 --> 00:50:05,060
+ministro degli esteri inglese, cito, credo di potergli parlare di gettare in aria il
+
+495
+00:50:05,060 --> 00:50:10,440
+bomba. E poi una volta gettato in aria cosa si fa? Beh, per esempio se ci fosse un principe
+
+496
+00:50:10,440 --> 00:50:15,440
+Sabaudo, un cugino del re Vittorio che potesse prendere il trono di Napoli, magnifico, no?
+
+497
+00:50:15,980 --> 00:50:20,120
+Ecco, sul momento a Parigi l'idea non piace troppo, viene fermata, ma discutono di tante
+
+498
+00:50:20,120 --> 00:50:25,640
+altre cose. C'è il Ducato di Parma, il Piemonte ha partecipato alla guerra di
+
+499
+00:50:25,640 --> 00:50:30,440
+Cremea, bisognerà pur dare qualcosa ai Savoia. Ai Savoia piacerebbe moltissimo il Ducato
+
+500
+00:50:30,440 --> 00:50:37,520
+di Parma. E Napoleone III dice a Cavour, trovate un posto qualunque dove mandare la Duchessa
+
+501
+00:50:37,520 --> 00:50:44,440
+di Parma e io farò dare il suo Ducato al Piemonte. E Vittorio scrive da Torino a Cavour,
+
+502
+00:50:44,540 --> 00:50:48,640
+che sta a Parigi a trattare, a negoziare, stanno negoziando anche su certi principati
+
+503
+00:50:48,640 --> 00:50:52,860
+danubiani, la Transilvania, la Moldavia, che devono essere dati o all'Austria o qualcun
+
+504
+00:50:52,860 --> 00:50:59,120
+altro. E Vittorio scrive a Cavour, secchi l'imperatore finché basti, dia i principati
+
+505
+00:50:59,120 --> 00:51:04,380
+all'Austria e anche al diavolo se li vuole, ma si faccia dare quello che voglio, cioè
+
+506
+00:51:04,380 --> 00:51:09,800
+Parma per l'appunto. Poi alla fine non va in porto niente, Parma non l'ottengono, bisognerà
+
+507
+00:51:09,800 --> 00:51:14,600
+aspettare il 59-60, ma è per far vedere come queste diplomazie si muovono ancora molto
+
+508
+00:51:14,600 --> 00:51:22,660
+a livello appunto di dinastie, di una politica dinastica. È in questa prospettiva di incontri
+
+509
+00:51:22,660 --> 00:51:28,980
+di diplomazie che Cavour a un certo punto comincia a sentire che ha fra le mani qualcosa di grosso.
+
+510
+00:51:29,560 --> 00:51:36,700
+Dopo la Crimea, la Francia di Napoleone III sta cominciando a accettare l'idea che forse
+
+511
+00:51:36,700 --> 00:51:41,740
+effettivamente non sarebbe male dare una mano al Piemonte, far guerra all'Austria e buttare
+
+512
+00:51:41,740 --> 00:51:48,640
+l'Austria fuori dall'Italia. Nel 58 i colloqui sono ormai abbastanza approfonditi, per cui
+
+513
+00:51:48,640 --> 00:51:52,560
+Cavour è ormai abbastanza sicuro. Napoleone III si è compromesso, gli ha scritto, gli ha
+
+514
+00:51:52,560 --> 00:51:58,280
+detto va bene, facciamolo. Cavour scrive al ministro della guerra, alla marmora, prepara
+
+515
+00:51:58,280 --> 00:52:06,780
+i cannoni e l'anno prossimo andremo in parata a Milano, se non a Venezia. Dopodiché c'è uno
+
+516
+00:52:06,780 --> 00:52:12,960
+dei momenti più drammatici della carriera di Cavour, perché alla fine del 58 Napoleone
+
+517
+00:52:12,960 --> 00:52:19,660
+III cambia idea. Non è più convinto di questa guerra contro l'Austria, comincia a dire che
+
+518
+00:52:19,660 --> 00:52:24,920
+sarebbe meglio risolvere tutti questi litigi con un bel congresso, invitare gli austriaci
+
+519
+00:52:24,920 --> 00:52:29,980
+a discutere con loro e intanto disarmare gli eserciti, che è quello che gli austriaci chiedono.
+
+520
+00:52:29,980 --> 00:52:36,320
+Quando Cavour si rende conto che tutto il progetto sta cominciando a sgretolarsi, si sente
+
+521
+00:52:36,320 --> 00:52:41,540
+finito, perché si è compromesso fino in fondo questa idea di fare la guerra all'Austria
+
+522
+00:52:41,540 --> 00:52:49,080
+con l'aiuto dei francesi. La reazione di Cavour è molto indicativa. Uno, minaccia di
+
+523
+00:52:49,080 --> 00:52:54,800
+andarsene in America. E due, e poi quando sarà in America dice, io qui ho tutte le lettere
+
+524
+00:52:54,800 --> 00:53:00,680
+di Napoleone III, in cui mi diceva, sì facciamolo, guarda che vado in America e poi rendo pubbliche
+
+525
+00:53:00,680 --> 00:53:07,540
+le trattative e voglio vedere la faccia di Napoleone III a quel punto. I francesi sono
+
+526
+00:53:07,540 --> 00:53:11,640
+lì che non sanno bene cosa fare, il momento è molto teso, c'è da perderci la testa e
+
+527
+00:53:11,640 --> 00:53:16,300
+infatti Cavour scrive a un amico proprio questo, dice, è difficile non perdere la testa, me
+
+528
+00:53:16,300 --> 00:53:22,600
+la tengo di quando in quando con le mani perché non fugga. Finalmente tutto sembra perduto,
+
+529
+00:53:22,600 --> 00:53:26,780
+viene a svegliarlo l'ambasciatore francese e gli dice non c'è niente da fare. L'imperatore
+
+530
+00:53:26,780 --> 00:53:31,160
+Napoleone III ha deciso che la guerra non la vuol fare, che vuol fare il congresso. Cavour
+
+531
+00:53:31,160 --> 00:53:37,460
+salta sul letto. Ora non mi resta altro da fare che spararmi un colpo di pistola e farmi
+
+532
+00:53:37,460 --> 00:53:44,220
+saltare la testa. E due, ce ne sono altre, ma insomma... Però sono momenti di scoraggiamento
+
+533
+00:53:44,220 --> 00:53:49,640
+e io li cito non solo perché è divertente vedere le reazioni così emotive di un uomo che
+
+534
+00:53:49,640 --> 00:53:53,360
+a prima vista potrebbe sembrare così freddo a guardare i suoi ritratti e che invece era
+
+535
+00:53:53,360 --> 00:53:59,740
+chiaramente un uomo fortemente passionale, violento, ecco. E le cito anche per far vedere
+
+536
+00:53:59,740 --> 00:54:05,140
+che quest'uomo è stato più volte sul punto di disperare e giocava una partita politica
+
+537
+00:54:05,140 --> 00:54:12,540
+di una difficoltà estrema e però si è sempre ripreso e sempre prevalso alla fine l'entusiasmo,
+
+538
+00:54:12,780 --> 00:54:17,740
+l'entusiasmo anche gioioso, la certezza che ce la facciamo. Gli vengono a dire che l'Inghilterra,
+
+539
+00:54:17,740 --> 00:54:23,260
+pure l'Inghilterra è contraria e lui qui ha uno scatto. Non ci sarà Inghilterra che
+
+540
+00:54:23,260 --> 00:54:30,980
+possa impedirci di andare a bruciare Vienna. Noi metteremo il fuoco all'Europa. Ecco forse
+
+541
+00:54:30,980 --> 00:54:34,660
+il vecchio Carlo Alberto che diceva sì, un carbonaro impertinente, insomma qualcosa aveva
+
+542
+00:54:34,660 --> 00:54:41,520
+colto. A forza di insistere, a forza di tenere duro, di tenersi ferma la testa con le mani
+
+543
+00:54:41,520 --> 00:54:47,500
+perché non voli via, a forza di ricattare, Cavour riesce a convincere Napoleone III che
+
+544
+00:54:47,500 --> 00:54:52,520
+ormai non può più tirarsi indietro, che questa guerra all'Austria bisogna farla e dunque
+
+545
+00:54:52,520 --> 00:54:58,340
+la guerra si fa. Io qui però vorrei, sto arrivando alla fine ben inteso, lo dico per gli organizzatori
+
+546
+00:54:58,340 --> 00:55:03,440
+che saranno già preoccupati, ma vorrei sottolineare ancora un aspetto. Finora noi parliamo del
+
+547
+00:55:03,440 --> 00:55:08,180
+Cavour politico che tratta con Napoleone III, che tratta con i ministri, parliamo di una
+
+548
+00:55:08,180 --> 00:55:14,320
+politica fatta in apparenza sopra le teste della gente. In realtà non è così. Questa
+
+549
+00:55:14,320 --> 00:55:20,720
+è la politica di gabinetto fatta dagli uomini di potere che in ogni epoca esiste naturalmente
+
+550
+00:55:20,720 --> 00:55:25,980
+e che noi storici oggi possiamo raccontare quando si tratta dell'Ottocento perché abbiamo
+
+551
+00:55:25,980 --> 00:55:31,520
+le lettere, abbiamo i diari. Gli storici del futuro racconteranno la politica di potere
+
+552
+00:55:31,520 --> 00:55:38,140
+degli anni 2000 perché forse avranno le lettere e i diari dei potenti di oggi, ma al di là
+
+553
+00:55:38,140 --> 00:55:42,940
+di questa politica di gabinetto la politica della trattativa, del negoziato, dell'intrigo,
+
+554
+00:55:43,080 --> 00:55:50,880
+del ricatto, della complicità e dei disegni colossali che però ne vengono fuori, c'è l'opinione
+
+555
+00:55:50,880 --> 00:55:55,920
+pubblica, ci sono le masse, ci sono i giornali che in un paese liberale come il Piemonte di
+
+556
+00:55:55,920 --> 00:56:01,000
+allora continuamente seguono l'azione del governo, la denunciano, la criticano, c'è il Parlamento
+
+557
+00:56:01,000 --> 00:56:06,880
+dove bisogna andare a rispondere e c'è, ripeto, l'opinione pubblica e i popoli. È un tema
+
+558
+00:56:06,880 --> 00:56:12,500
+delicato quello di quanto i popoli siano stati coinvolti nel Risorgimento, però io
+
+559
+00:56:12,500 --> 00:56:18,180
+qui vorrei citare soltanto una battuta di Cavour, quando appunto si tratta del fatto che ormai
+
+560
+00:56:18,180 --> 00:56:22,440
+si è suscitata questa idea che si farà la guerra all'Austria e c'è evidentemente un
+
+561
+00:56:22,440 --> 00:56:30,340
+entusiasmo popolare per questa idea e gli dicono no, non si fa più. E Cavour dice io non posso
+
+562
+00:56:30,340 --> 00:56:38,060
+trattare le popolazioni come le comparse in teatro e farle uscire o dentrare a capriccio e
+
+563
+00:56:38,060 --> 00:56:43,920
+dunque al di sotto dei politici che tramano le popolazioni ci sono e come. E dunque la
+
+564
+00:56:43,920 --> 00:56:52,000
+guerra si fa, si vince e poi di nuovo c'è apparentemente una catastrofe inattesa. La guerra
+
+565
+00:56:52,000 --> 00:56:57,340
+si è vinta, sono entrati a Milano, hanno sconfitto gli austriaci, a Magenta, poi a
+
+566
+00:56:57,340 --> 00:57:04,220
+Solferino e San Martino, si potrebbe continuare, Garibaldi ha quasi conquistato Trento e invece
+
+567
+00:57:04,220 --> 00:57:09,060
+Napoleone III decide, stavolta sì, che adesso basta però, che non ha più interesse politico
+
+568
+00:57:09,060 --> 00:57:13,920
+a continuare, che gli basta aver indebolito l'Austria, aver rafforzato il Piemonte, ma basta
+
+569
+00:57:13,920 --> 00:57:18,120
+la Lombardia, il Veneto, non c'è nessun bisogno di aggiungere anche il Veneto e quindi
+
+570
+00:57:18,120 --> 00:57:24,220
+Napoleone III firma l'armistizio di Villa Franca con l'Austria e il re Vittorio, anche
+
+571
+00:57:24,220 --> 00:57:28,160
+se poi dirà che lui c'era rimasto malissimo, però di fatto anche lui dice sì dai ci fermiamo,
+
+572
+00:57:28,400 --> 00:57:33,680
+abbiamo già fatto un bel boccone, può bastarci. Quando Cavour viene informato di quello che
+
+573
+00:57:33,680 --> 00:57:40,980
+è successo, se non muore in quel momento è un miracolo, si precipita dal re e c'è
+
+574
+00:57:40,980 --> 00:57:47,540
+una scena famosa, una scenata famosa tra Cavour e il re, in cui quando Cavour esce,
+
+575
+00:57:48,120 --> 00:57:54,500
+quelli che lo vedono hanno poi testimoniato che sembrava quasi uscito di senno e il re Vittorio
+
+576
+00:57:54,500 --> 00:57:58,940
+ha poi riferito che durante quella scenata Cavour, il suo primo ministro, ha preso a calci
+
+577
+00:57:58,940 --> 00:58:05,800
+le sedie, lo ha chiamato traditore, è peggio, Cavour al re, per aver accettato l'armistizio,
+
+578
+00:58:06,560 --> 00:58:12,340
+ha minacciato di dimettersi e ha anche detto se un ministro deve sapere quando è ora di
+
+579
+00:58:12,340 --> 00:58:15,800
+dimettersi, un re deve sapere quando è ora di abdicare.
+
+580
+00:58:21,560 --> 00:58:26,080
+Cavour effettivamente si dimette, il re, ne riparleremo domani, ormai è quasi il turno
+
+581
+00:58:26,080 --> 00:58:32,060
+di Vittorio, il re, devo dire, tira un sospiro di sollievo perché lavorare con Cavour non
+
+582
+00:58:32,060 --> 00:58:37,060
+era proprio facile, scrive a Napoleone III, il re Vittorio, che a questo punto pagherebbe
+
+583
+00:58:37,700 --> 00:58:45,240
+un milione di franchi purché Camillo partisse per l'America, e tre. Camillo quanto a lui
+
+584
+00:58:45,240 --> 00:58:53,040
+dice a un amico, mi accorgo che per me è cominciata la vecchiaia, non ha 50 anni in quel
+
+585
+00:58:53,040 --> 00:58:59,800
+momento. Lo richiamano al governo subito, provano in tutti i modi a fare un altro governo,
+
+586
+00:58:59,800 --> 00:59:03,420
+senza Cavour non c'è nessuna maggioranza, non c'è nessun governo possibile, lo richiamano
+
+587
+00:59:03,420 --> 00:59:08,560
+al governo. Fa in tempo a seguire la vicenda di Garibaldi, che non vi racconterò stasera
+
+588
+00:59:08,560 --> 00:59:12,160
+perché invece io non faccio in tempo a raccontarla stasera, e poi è meglio raccontarla dal
+
+589
+00:59:12,160 --> 00:59:17,020
+punto di vista di Garibaldi, anche il ruolo di Cavour lo vedremo dopo domani. Fa in tempo
+
+590
+00:59:17,020 --> 00:59:22,400
+a vedere Garibaldi, a vedere con grandissima sorpresa che sta andando tutto bene, fa in tempo
+
+591
+00:59:22,400 --> 00:59:28,740
+a vedere l'Italia unita, e poi gli viene una strana febbre all'improvviso, nessuno sa bene
+
+592
+00:59:28,740 --> 00:59:33,760
+cos'è una febbre altissima, per qualche giorno, oggi si dice che sia malari, che sia
+
+593
+00:59:33,760 --> 00:59:39,500
+stata un attacco di malaria, forse presa nelle sue risaie del Vercellese, lo riesumeranno
+
+594
+00:59:39,500 --> 00:59:46,400
+fra poco credo, per esaminare i resti e vedere se effettivamente questa ipotesi è attendibile,
+
+595
+00:59:46,560 --> 00:59:54,220
+certamente gli viene una febbre tremenda e in pochi giorni muore, a 51 anni. E sulla morte
+
+596
+00:59:54,220 --> 01:00:05,000
+di Cavour io vorrei citare due testimonianze dell'epoca, voi mi scuserete. La Marchesa
+
+597
+01:00:05,000 --> 01:00:11,520
+d'Azeglio, che scrive al figlio, che non è a Torino, si piangeva ovunque, non è un modo
+
+598
+01:00:11,520 --> 01:00:17,720
+di dire, si piangevano lacrime autentiche, si piangeva al Senato, alla Camera, nei Ministeri,
+
+599
+01:00:18,160 --> 01:00:23,800
+Hudson, che è l'ambasciatore inglese a Torino, piangeva come un bambino.
+
+600
+01:00:23,800 --> 01:00:32,560
+Un'altra da un diplomatico francese, Henri de Deville, che era un segretario, un aggiunto
+
+601
+01:00:32,560 --> 01:00:34,080
+dell'ambasciata francese a Torino.
+
+602
+01:00:34,080 --> 01:00:39,920
+Il conte di Cavour è morto stamattina alle sei e tre quarti. Alle sette mi hanno svegliato
+
+603
+01:00:39,920 --> 01:00:46,240
+per darmi la notizia. Sono uscito immediatamente. La costernazione e lo stupore che regnano
+
+604
+01:00:46,240 --> 01:00:53,280
+nella città hanno qualcosa di spaventoso. Tutti i negozi sono chiusi. Gli abitanti circolano
+
+605
+01:00:53,280 --> 01:00:59,880
+senza sapere dove vanno, col viso sconvolto, interrogandosi e parlando tra loro dell'orribile
+
+606
+01:00:59,880 --> 01:01:05,440
+disgrazia. Più d'uno si rifiuta di credere alla notizia e si reca al Palazzo per averne
+
+607
+01:01:05,440 --> 01:01:10,980
+conferma. All'una la Camera e il Senato si sono riuniti per ascoltare la comunicazione
+
+608
+01:01:10,980 --> 01:01:18,520
+del Governo. Il Ministro dell'Interno, Minghetti, è scoppiato in lacrime annunziando la morte
+
+609
+01:01:18,520 --> 01:01:24,760
+del Conte Camillo di Cavour, Presidente del Consiglio. Moltissimi deputati piangevano.
+
+610
+01:01:24,760 --> 01:01:31,460
+Uscendo dalla Camera ho incontrato Sir James, è sempre Hudson il Ministro inglese, che mi
+
+611
+01:01:31,460 --> 01:01:38,900
+ha stretto la mano senza pronunciare parola. Piangeva a calde lacrime. Ecco, io vorrei
+
+612
+01:01:38,900 --> 01:01:45,380
+concludere riflettendo su questo mondo, su quest'epoca in cui si piangeva, in cui un
+
+613
+01:01:45,380 --> 01:01:50,780
+Ministro degli Interni non aveva paura di piangere in Parlamento dando una notizia come
+
+614
+01:01:50,780 --> 01:01:56,200
+quella, in cui un ambasciatore di sua maestà britannica non aveva paura di piangere davanti
+
+615
+01:01:56,200 --> 01:02:02,400
+a un diplomatico francese per la strada di fronte a una notizia come quella. Sotto quell'aspetto
+
+616
+01:02:02,400 --> 01:02:07,440
+erano uomini che avevano un'emotività diversa dalla nostra. Io non ricordo di avere visto
+
+617
+01:02:07,440 --> 01:02:13,460
+primi ministri piangere oggi anche dando le peggiori notizie. Erano diversi da noi e noi
+
+618
+01:02:13,460 --> 01:02:18,960
+quando cerchiamo, quando pretendiamo di capirli, pretendere di capirli è giusto, cerchiamo
+
+619
+01:02:18,960 --> 01:02:24,940
+di capirli e magari pretendiamo anche di giudicarli. Ebbene, dobbiamo ricordare che sotto questo
+
+620
+01:02:24,940 --> 01:02:30,260
+aspetto almeno erano diversi da noi. Avevano un'emotività diversa dalla nostra, questi uomini
+
+621
+01:02:30,260 --> 01:02:36,060
+che hanno vissuto e che hanno fatto il risorgimento. A me ogni tanto dispiace un po' che noi oggi
+
+622
+01:02:36,060 --> 01:02:37,720
+non siamo più come loro. Grazie.
+

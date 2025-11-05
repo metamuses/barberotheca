@@ -1,0 +1,2572 @@
+1
+00:00:00,000 --> 00:00:17,260
+Buonasera. Dunque, le crociate. Come sapete tutti è un tema piuttosto complesso ed è
+
+2
+00:00:17,260 --> 00:00:23,620
+anche un tema che si presta a molti riferimenti attualizzanti, più o meno adeguati. Noi ne
+
+3
+00:00:23,620 --> 00:00:27,540
+parleremo per tre sere di seguito, il che può sembrare molto. In realtà riusciremo
+
+4
+00:00:27,540 --> 00:00:31,880
+ad abbozzare soltanto alcuni degli aspetti fondamentali dell'argomento e specialmente
+
+5
+00:00:31,880 --> 00:00:37,280
+questa prima sera io, prima di entrare nel vivo, penso che sia necessario tracciare alcune
+
+6
+00:00:37,280 --> 00:00:41,700
+coordinate molto generali di ciò che sono state le crociate, in modo che siamo sicuri
+
+7
+00:00:41,700 --> 00:00:48,840
+che stiamo parlando della stessa cosa. Cosa bisogna sapere delle crociate? Che tutti abbiamo
+
+8
+00:00:48,840 --> 00:00:52,920
+studiato a scuola, naturalmente, e dunque tutti ci ricordiamo che è un evento del Medioevo,
+
+9
+00:00:52,920 --> 00:00:57,300
+che ce ne sono state parecchie, cinque, sette, nove, sfido chiunque a ricordarsi esattamente,
+
+10
+00:00:57,400 --> 00:01:02,540
+ma comunque parecchie, numerate. Sono eventi sanguinosi, sono eventi che comportano un forte
+
+11
+00:01:02,540 --> 00:01:08,880
+conflitto tra l'Occidente cristiano e il mondo islamico. Sono eventi che la nostra civiltà
+
+12
+00:01:08,880 --> 00:01:14,500
+ha prima celebrato con grandissimo entusiasmo, all'epoca in cui si scrivevano poemi come la
+
+13
+00:01:14,500 --> 00:01:19,580
+Gerusalemme liberata. Poi sono eventi di cui più di recente ci si è vergognati un po',
+
+14
+00:01:19,580 --> 00:01:24,900
+perché si è recuperata anche il senso dell'enorme violenza che le crociate hanno comportato,
+
+15
+00:01:25,260 --> 00:01:30,680
+dell'enorme esplosione di odio per il diverso, dell'enorme esplosione di antisemitismo che
+
+16
+00:01:30,680 --> 00:01:35,120
+compare in Europa per la prima volta proprio durante le crociate. Ecco, adesso non so se
+
+17
+00:01:35,120 --> 00:01:38,320
+il vento stia cambiando, ma è una di quelle domande che è meglio non porsi, non stasera,
+
+18
+00:01:38,440 --> 00:01:43,240
+comunque. In ogni caso si tratta di vicende che fanno parte del nostro patrimonio collettivo
+
+19
+00:01:43,240 --> 00:01:50,560
+di occidentali. Che cosa bisogna aver chiaro per seguire il discorso? Uno, le crociate sono
+
+20
+00:01:50,560 --> 00:01:55,900
+in realtà una forma molto particolare di pellegrinaggio. Questa magari non è una cosa
+
+21
+00:01:55,900 --> 00:02:00,740
+così ovvia. Invece è così, le crociate sono un pellegrinaggio. Noi dobbiamo pensare
+
+22
+00:02:00,740 --> 00:02:06,920
+a un'epoca in cui i nostri antenati cristiani d'Europa occidentale davano al pellegrinaggio
+
+23
+00:02:06,920 --> 00:02:11,840
+un'importanza enorme. Vedo il professore Di Freddi che sorride, anche adesso il pellegrinaggio
+
+24
+00:02:11,840 --> 00:02:16,580
+sul cammino di Santiago era diventato una cosa importante e la radio lo trasmette. Però
+
+25
+00:02:16,580 --> 00:02:20,320
+noi dobbiamo pensare a un'epoca in cui il pellegrinaggio per i cristiani, specialmente
+
+26
+00:02:20,320 --> 00:02:24,860
+il pellegrinaggio in terra santa, era sentito quasi come può essere oggi per i musulmani
+
+27
+00:02:24,860 --> 00:02:30,760
+quello alla Mecca. Come un momento catartico straordinario, come il momento in cui chi può
+
+28
+00:02:30,760 --> 00:02:36,520
+vive per una volta in prima persona tutti i significati profondi e anche tutti i rischi
+
+29
+00:02:36,520 --> 00:02:40,840
+della sua religione. Dico rischi perché ovviamente appunto un conto era andare a pellegrinaggio
+
+30
+00:02:40,840 --> 00:02:46,740
+al santuario più vicino e un conto era andare in pellegrinaggio a Gerusalemme, sul santo
+
+31
+00:02:46,740 --> 00:02:51,260
+sepolcro. Vivere questa esperienza che per i cristiani del Medioevo era sentita come una
+
+32
+00:02:51,260 --> 00:02:58,000
+cosa fortissima di immedesimarsi con Cristo, poter dire lui è stato qui, io sto calpestando
+
+33
+00:02:58,000 --> 00:03:02,880
+lo stesso terreno che ha calpestato lui, ma naturalmente Cristo lì ha subito la passione e
+
+34
+00:03:02,880 --> 00:03:07,420
+allora il pellegrinaggio in terra santa per i cristiani del Medioevo voleva anche dire
+
+35
+00:03:07,420 --> 00:03:13,920
+assumersi consapevolmente il rischio di fare la stessa fine, per dirlo in modo un po' brutale.
+
+36
+00:03:14,520 --> 00:03:19,140
+Sapere che si stava partendo per fare una cosa pericolosa, faticosa, dolorosa, si stava via
+
+37
+00:03:19,140 --> 00:03:24,360
+da casa per anni, c'erano probabilità concrete di non tornarci, di lasciarci la pelle lungo la
+
+38
+00:03:24,360 --> 00:03:32,580
+strada, e tuttavia farlo. Farlo per immedesimazione con la passione di Cristo, farlo per penitenza,
+
+39
+00:03:32,960 --> 00:03:36,460
+farlo perché si pensava che la vita avesse un senso che andava al di là degli interessi
+
+40
+00:03:36,460 --> 00:03:41,560
+concreti quotidiani e che a volte quel senso bisognava rincorrerlo anche a rischio della
+
+41
+00:03:41,560 --> 00:03:47,960
+vita. O dunque, la crociata è un pellegrinaggio, però è un tipo di pellegrinaggio molto particolare
+
+42
+00:03:47,960 --> 00:03:53,840
+che comincia in un momento specifico. È un pellegrinaggio che ha lo scopo non solo
+
+43
+00:03:53,840 --> 00:04:00,340
+di andare a Gerusalemme a toccare con mano il Santo Sepolcro, ma ha lo scopo di andarci
+
+44
+00:04:00,340 --> 00:04:05,880
+armati, perché si teme che chi possiede Gerusalemme magari non ci lascerà venire o comunque ci
+
+45
+00:04:05,880 --> 00:04:11,640
+darà dei fastidi, andarci armati, aprire la strada in modo che tutti i pellegrini cristiani
+
+46
+00:04:11,640 --> 00:04:17,720
+in futuro ci possano andare senza pericolo e impadronirsi di Gerusalemme, in modo che
+
+47
+00:04:17,720 --> 00:04:25,780
+Gerusalemme sia in mani cristiane. La premessa, naturalmente, ci sono alcune coordinate geografiche
+
+48
+00:04:25,780 --> 00:04:29,960
+e cronologiche che dobbiamo dare per capirci. La premessa è che Gerusalemme è stata in mani
+
+49
+00:04:29,960 --> 00:04:35,040
+cristiane per secoli sotto l'impero bizantino, poi sono arrivati gli arabi con la grande espansione
+
+50
+00:04:35,040 --> 00:04:40,680
+dell'Islam dopo Maometto e hanno conquistato fra l'altro la Terra Santa. Uno potrebbe pensare
+
+51
+00:04:40,680 --> 00:04:46,600
+che in quel momento i cristiani abbiano pensato alla crociata come necessità per riprendere
+
+52
+00:04:46,600 --> 00:04:51,360
+il controllo dei luoghi santi, che erano così importanti nella loro prospettiva mentale.
+
+53
+00:04:52,160 --> 00:04:57,760
+In realtà non è così. Per molti secoli l'Occidente cristiano non ha né le forze e neanche la
+
+54
+00:04:57,760 --> 00:05:04,540
+voglia di intraprendere una riconquista armata. I rapporti con i musulmani che governano in Terra
+
+55
+00:05:04,540 --> 00:05:10,660
+Santa, che governano Gerusalemme, sono in genere discreti. Carlo Magno si scambia ambasciadori,
+
+56
+00:05:10,680 --> 00:05:16,000
+ambasciatori con il califo Arun al-Rashid, facendo delle convenzioni per essere sicuro che i
+
+57
+00:05:16,000 --> 00:05:21,860
+pellegrini cristiani possano andare liberamente, che non paghino troppi pedaggi e così via.
+
+58
+00:05:23,200 --> 00:05:27,400
+Invece a un certo momento, ed è davvero un momento cruciale nella storia dell'Occidente,
+
+59
+00:05:28,340 --> 00:05:33,680
+per vari motivi che proviamo anche a dire poi, i cristiani decidono che è necessario qualcos'altro,
+
+60
+00:05:33,680 --> 00:05:40,580
+che è necessario uno sforzo, di nuovo uno sforzo penoso, faticoso, sulla via di Cristo,
+
+61
+00:05:41,320 --> 00:05:46,960
+imitando la passione di Cristo, mettendosi in gioco interamente, per fare in modo che finisca
+
+62
+00:05:46,960 --> 00:05:51,940
+questo scandalo, come lo vedono loro, e che Gerusalemme sia di nuovo in mani cristiane.
+
+63
+00:05:52,580 --> 00:06:00,340
+Questa cosa ha una data molto precisa. Nell'anno 1095, un papa, Urbano II, decide di lanciare
+
+64
+00:06:00,340 --> 00:06:08,600
+questo progetto. Con tutta l'autorità morale del papato, invita i cristiani, i cattolici,
+
+65
+00:06:09,600 --> 00:06:15,340
+ad andare in terra santa, ad andarci in tanti, ad andarci armati, a prendere possesso dei luoghi
+
+66
+00:06:15,340 --> 00:06:22,580
+santi. Qui cominciano le crociate. Quindi le crociate sono la vicenda di quei cristiani
+
+67
+00:06:22,580 --> 00:06:28,360
+che hanno accettato l'appello del papa, che hanno sentito, e la loro mentalità funzionava
+
+68
+00:06:28,360 --> 00:06:33,920
+così. Hanno sentito con enorme forza il fascino di questo appello, si sono messi in
+
+69
+00:06:33,920 --> 00:06:41,100
+gioco, facendo cose che con i nostri valori di oggi ci sembrano assai discutibili, e che
+
+70
+00:06:41,100 --> 00:06:47,660
+invece a loro sembravano sacrosante, sono andati e hanno conquistato Gerusalemme. E questa
+
+71
+00:06:47,660 --> 00:06:53,080
+è la prima crociata, poi ce n'è tante altre, come mai? Ma perché? Ovviamente i musulmani
+
+72
+00:06:53,080 --> 00:06:58,480
+non sono rimasti inerti di fronte al fatto che un'orda di barbari venuti da chissà
+
+73
+00:06:58,480 --> 00:07:04,600
+dove, per di più pagani miscredenti, era venuta a conquistare in terra islamica una
+
+74
+00:07:04,600 --> 00:07:10,080
+delle città sante dell'Islam, cioè Gerusalemme. Ovviamente i musulmani hanno sentito come
+
+75
+00:07:10,080 --> 00:07:16,400
+un'enorme offesa, un'offesa a loro e un'offesa a Dio, il fatto che i miscredenti dell'Occidente
+
+76
+00:07:16,400 --> 00:07:21,500
+fossero venuti a impadronirsi di Gerusalemme, del sepolcro di Cristo, che anche per i musulmani
+
+77
+00:07:21,500 --> 00:07:26,140
+naturalmente è un grande profeta venerato, e quindi i musulmani si sono immediatamente
+
+78
+00:07:26,140 --> 00:07:31,940
+attrezzati per riconquistare Gerusalemme. Per questo molte crociate, perché i musulmani
+
+79
+00:07:31,940 --> 00:07:37,800
+lentamente riconquistano i territori presi dai crociati, i crociati continuano a alimentare
+
+80
+00:07:37,800 --> 00:07:43,300
+dall'Europa con nuove spedizioni la difesa di questi territori, e ci vogliono due secoli
+
+81
+00:07:43,300 --> 00:07:49,320
+perché poi finalmente i musulmani prevalgano e riescano a buttare a mare gli ultimi crociati.
+
+82
+00:07:51,500 --> 00:07:57,920
+Quali altri parametri sono necessari perché ci capiamo quando proviamo a andare poi un
+
+83
+00:07:57,920 --> 00:08:05,140
+po' più in profondità a raccontare alcuni aspetti delle crociate? Io direi questo. Per
+
+84
+00:08:05,140 --> 00:08:09,260
+molto tempo gli storici hanno detto, beh sì, si capisce, la propaganda diceva si tratta
+
+85
+00:08:09,260 --> 00:08:14,860
+di andare a conquistare i luoghi santi, la passione, il sepolcro di Cristo, ma in realtà
+
+86
+00:08:14,860 --> 00:08:20,920
+sotto c'erano profonde motivazioni politiche, economiche, desiderio di conquista, necessità
+
+87
+00:08:20,920 --> 00:08:26,500
+di sfogare la ricchezza anche demografica di un'Europa che stava crescendo, che era piena
+
+88
+00:08:26,500 --> 00:08:31,780
+di giovani. Allora era l'Europa che era piena di giovani e li mandava verso il Maghreb, verso
+
+89
+00:08:31,780 --> 00:08:37,300
+il Nord Africa e verso il Medio Oriente. Ecco, è tutto vero, però diciamo che forse noi
+
+90
+00:08:37,300 --> 00:08:42,460
+oggi siamo anche un po' più attrezzati rispetto a quello che erano gli storici dell'Ottocento
+
+91
+00:08:42,460 --> 00:08:48,820
+per esempio, per capire che forse un popolo, un'intera cultura, può davvero decidere che
+
+92
+00:08:48,820 --> 00:08:53,660
+il possesso di una città santa è una cosa fondamentale per cui vale la pena di rischiare
+
+93
+00:08:53,660 --> 00:09:00,140
+la vita. Anche oggi, per il possesso di Gerusalemme, ci sono popoli che si combattono e per carità
+
+94
+00:09:00,140 --> 00:09:05,080
+anche lì ci sono motivazioni economiche, politiche, però la sensazione ce l'abbiamo tutti che c'è
+
+95
+00:09:05,080 --> 00:09:09,600
+anche una motivazione religiosa abbastanza forte per spingere la gente a rischiare la
+
+96
+00:09:09,600 --> 00:09:15,240
+vita e a uccidere. Ecco, allora erano anche i cristiani che vedevano le cose in questi termini.
+
+97
+00:09:17,740 --> 00:09:22,780
+Dopodiché è vero che le crociate avvengono in un momento in cui l'Europa sta crescendo,
+
+98
+00:09:23,240 --> 00:09:28,700
+ha delle forze da spendere, ha della gente da mandare fuori perché in casa ormai le eredità
+
+99
+00:09:28,700 --> 00:09:33,240
+a forza di dividerle si sono rimpicciolite e quando un cavaliere ha un figlio solo va tutto
+
+100
+00:09:33,240 --> 00:09:36,860
+bene e l'eredità la prende il figlio, ma quando ne ha tre, quattro, cinque, qualcuno
+
+101
+00:09:36,860 --> 00:09:42,820
+deve andare a cercare fortuna in giro. E infatti la prima crociata si traduce anche con un'immensa
+
+102
+00:09:42,820 --> 00:09:48,480
+conquista territoriale. Io mi sono sempre tenuto sulle generiche, la Serra Santa, Gerusalemme,
+
+103
+00:09:48,560 --> 00:09:55,240
+i luoghi santi. I crociati che conquistano Gerusalemme nel 1099 e ci sono andati a piedi,
+
+104
+00:09:56,120 --> 00:10:01,380
+passando attraverso i Balcani e l'Asia minore, appena si sono trovati fuori dall'impero bizantino,
+
+105
+00:10:01,380 --> 00:10:07,840
+cristiano e in terra islamica, hanno cominciato non solo ad attraversare, ma a conquistare e
+
+106
+00:10:07,840 --> 00:10:14,500
+occupare stabilmente i territori che attraversavano. Quindi i crociati hanno messo in piedi un regno
+
+107
+00:10:14,500 --> 00:10:19,780
+che hanno chiamato Regno di Gerusalemme, certo, perché aveva una prospettiva comunque che si
+
+108
+00:10:19,780 --> 00:10:25,460
+legittimava nella dimensione ultraterrena, dove Gerusalemme era quello che contava. Però questo
+
+109
+00:10:25,460 --> 00:10:30,940
+regno, se uno lo guarda sulle cartine di oggi, equivale grosso modo a buona parte della Siria,
+
+110
+00:10:31,080 --> 00:10:39,240
+Giordania, Israele, Palestina, Libano. È un territorio, presto anche Cipro ci aggiungono,
+
+111
+00:10:39,780 --> 00:10:45,600
+è un territorio di notevolissima ampiezza. Tanto che oggi gli storici non si fanno tanto scopo di
+
+112
+00:10:45,600 --> 00:10:50,700
+dire in fondo quello è il primo esperimento coloniale europeo. È la prima volta che gli europei
+
+113
+00:10:50,700 --> 00:10:56,740
+provano a conquistare un territorio fuori dall'Europa occidentale e a impiantarci una
+
+114
+00:10:56,740 --> 00:11:02,400
+loro aristocrazia di padroni che comandano e governano. Dunque questa dimensione c'è.
+
+115
+00:11:04,760 --> 00:11:10,400
+E una delle sfide di queste tre lezioni sarà anche proprio questa, di provare a mantenerci in
+
+116
+00:11:10,400 --> 00:11:17,040
+equilibrio fra queste due dimensioni, di provare a immaginare questa gente che da un lato ci credeva
+
+117
+00:11:17,040 --> 00:11:23,860
+sul serio. Sul serio metteva in gioco la pelle per uno scopo che considerava gradito al suo Dio
+
+118
+00:11:23,860 --> 00:11:31,880
+e pensava di star seguendo le tracce di Cristo, rischiando la vita e subendo eventualmente il
+
+119
+00:11:31,880 --> 00:11:37,000
+martirio, e che però al tempo stesso sapeva anche benissimo che quella era una straordinaria
+
+120
+00:11:37,000 --> 00:11:42,540
+occasione di conquista, di arricchimento, una straordinaria occasione per partire da casa e
+
+121
+00:11:42,540 --> 00:11:48,400
+andare a occupare una posizione più alta nel nuovo mondo conquistato, nell'oltremare come lo
+
+122
+00:11:48,400 --> 00:11:53,760
+chiamavano. Ecco la compresenza dell'entusiasmo religioso, che per molti di noi oggi può essere
+
+123
+00:11:53,760 --> 00:11:59,440
+magari difficile da comprendere in quella dimensione, e che però c'era, saremmo dei cattivi storici se
+
+124
+00:11:59,440 --> 00:12:04,940
+ci immaginassimo che loro non ce l'avevano questo, ecco ce l'avevano e come. La compresenza di questo,
+
+125
+00:12:04,940 --> 00:12:10,800
+con l'avidità sfrenata, il desiderio di conquista più spudorato, è una delle cose che
+
+126
+00:12:10,800 --> 00:12:15,160
+sono difficili da accettare, e che invece io cercherò in qualche modo di far vedere con
+
+127
+00:12:15,160 --> 00:12:22,980
+degli esempi. La crociata per parecchio tempo, per parecchie generazioni, è una cosa ben fissa
+
+128
+00:12:22,980 --> 00:12:29,760
+nella testa della gente. Gli occidentali per più di un secolo sono disposti senza discutere
+
+129
+00:12:29,760 --> 00:12:38,460
+a mettere in ballo risorse, potenza militare, denaro, vite, tutti, dal re, dall'imperatore
+
+130
+00:12:38,460 --> 00:12:43,060
+fino all'ultimo dei contadini, per questo scopo collettivo che tutti sentono come uno
+
+131
+00:12:43,060 --> 00:12:49,860
+scopo collettivo, difendere i luoghi santi. E la crociata in questo senso è una cosa onnipervasiva,
+
+132
+00:12:50,160 --> 00:12:55,080
+non sono solo le grandi spedizioni che noi numeriamo, quelle dove partono i re e gli imperatori,
+
+133
+00:12:55,080 --> 00:13:01,520
+la seconda, la terza, la quarta, ma in realtà la gente parte continuamente. Chiunque può
+
+134
+00:13:01,520 --> 00:13:06,780
+decidere di partire e andare a dare una mano in terra santa a quelli che la stanno difendendo.
+
+135
+00:13:07,820 --> 00:13:12,060
+Chiunque può decidere, questo è già un po' più comodo, però anche questo costa, di lasciare
+
+136
+00:13:12,060 --> 00:13:19,920
+per testamento dei soldi per pagare dei combattenti che vadano in terra santa. È un ideale condiviso,
+
+137
+00:13:19,920 --> 00:13:26,060
+è largamente praticato. Poi col tempo pian piano ci accorgiamo che la gente a questo
+
+138
+00:13:26,060 --> 00:13:32,520
+ideale comincia a pensarci un po' meno, per tanti motivi. Uno è che le cose stanno andando
+
+139
+00:13:32,520 --> 00:13:37,500
+malissimo comunque, perché la riconquista musulmana in realtà procede e nonostante gli
+
+140
+00:13:37,500 --> 00:13:42,900
+enormi sforzi dell'Occidente viene solo ritardata progressivamente, però le cose vanno male.
+
+141
+00:13:44,180 --> 00:13:49,900
+Ma questo forse non basterebbe. Un altro motivo è che la crociata è diventata un'istituzione,
+
+142
+00:13:49,920 --> 00:13:55,480
+che a volte le autorità gestiscono con disinvoltura. Ecco, questo è ancora un parametro che dovevo
+
+143
+00:13:55,480 --> 00:14:01,760
+ricordarvi di darvi, facciamo adesso. Per parlare di crociata, dobbiamo aver presente che la crociata
+
+144
+00:14:01,760 --> 00:14:07,080
+diventa quasi subito, dopo la prima, quando si capisce che ce ne vorranno altre, diventa anche
+
+145
+00:14:07,080 --> 00:14:15,120
+un'istituzione giuridica dell'Occidente. Mi spiego cosa vuol dire questo. Vuol dire che una
+
+146
+00:14:15,120 --> 00:14:22,040
+spedizione è una crociata, quando l'unica autorità morale che tutti i cristiani d'Occidente
+
+147
+00:14:22,040 --> 00:14:27,340
+riconoscono in quei secoli, e che li accomuna tutti, quella del Papa, che può essere criticato
+
+148
+00:14:27,340 --> 00:14:31,960
+come singola persona, con cui si può non andare d'accordo, ma che però, in quanto Papa, è un'autorità
+
+149
+00:14:31,960 --> 00:14:36,640
+morale riconosciuta da tutti. Ecco, si ha la crociata quando il Papa dice che una spedizione
+
+150
+00:14:36,640 --> 00:14:42,720
+è una crociata, che tutti quelli che partiranno d'ora in poi, nei prossimi mesi, sono ufficialmente
+
+151
+00:14:42,720 --> 00:14:48,460
+crociati, ed essere ufficialmente crociati diventa uno statuto giuridico, nel senso che
+
+152
+00:14:48,460 --> 00:14:53,800
+la Chiesa mette in ballo la sua autorità per ottenere che tutti i poteri, tutti i re, i
+
+153
+00:14:53,800 --> 00:15:00,440
+comuni, i principi, riconoscano dei privilegi a chi parte. Piccoli privilegi, per carità, privilegi
+
+154
+00:15:00,440 --> 00:15:06,480
+necessari. Se parti, il pagamento dei tuoi debiti è dilazionato, non verranno a confiscarti
+
+155
+00:15:06,480 --> 00:15:12,540
+la mandria o la casa mentre sei via. Se muori, c'è una tutela giuridica speciale sul tuo
+
+156
+00:15:12,540 --> 00:15:19,180
+testamento, dovunque tu muoia, per essere sicuri che la tua famiglia è garantita. Privilegi
+
+157
+00:15:19,180 --> 00:15:23,640
+sufficienti per far sì che essere crociato sia, appunto, uno status giuridico, e la crociata
+
+158
+00:15:23,640 --> 00:15:29,960
+è in questo senso, dicevo, una istituzione. Ma perché vi dicevo che questa cosa, in realtà,
+
+159
+00:15:30,060 --> 00:15:36,360
+alla lunga è uno dei motivi per cui l'entusiasmo di molta gente comincia a diminuire? Perché quello
+
+160
+00:15:36,360 --> 00:15:42,060
+che succede è che la crociata, l'abbiamo detto, può essere proclamata solo dal Papa. E il Papa è
+
+161
+00:15:42,060 --> 00:15:48,200
+una grande autorità morale che ha in questi secoli uno scopo ben preciso, cioè quello di imporsi come
+
+162
+00:15:48,200 --> 00:15:54,700
+arbitro della politica europea, di convincere tutti i sovrani, tutti gli stati, ad accettare il suo
+
+163
+00:15:54,700 --> 00:16:01,440
+primato. Il periodo delle crociate, da fine undicesimo secolo, 1099, la conquista di Gerusalemme,
+
+164
+00:16:02,080 --> 00:16:08,940
+fino alla fine del duecento, è anche il periodo in cui i Papi seriamente stanno provando, è l'unico
+
+165
+00:16:08,940 --> 00:16:14,400
+periodo nella storia d'Europa, finora, in cui i Papi seriamente siano stati abbastanza riconosciuti
+
+166
+00:16:14,400 --> 00:16:19,220
+come un'autorità a cui anche i re e gli imperatori, sia pure un po' ma volentieri, erano disposti a
+
+167
+00:16:19,220 --> 00:16:25,200
+ubbidire in molte cose. Allora, qualche Papa, i Papi però hanno sempre anche degli avversari,
+
+168
+00:16:25,660 --> 00:16:29,660
+pensate ai lunghi conflitti tra il Papato e l'Impero, che sono tipici del Medioevo, ecco,
+
+169
+00:16:31,040 --> 00:16:36,380
+a un certo punto qualche Papa non resiste alla tentazione. Abbiamo dei nemici interni, abbiamo
+
+170
+00:16:36,380 --> 00:16:43,460
+l'imperatore Federico II che è un malvagio, ghibellino, senza Dio, protegge gli eretici, e i buoni
+
+171
+00:16:43,460 --> 00:16:49,980
+cristiani vanno a farsi ammazzare in terra santa, combattendo contro gli infedeli, ma
+
+172
+00:16:49,980 --> 00:16:55,400
+se li abbiamo in casa, i malvagi, perché non potremmo proclamare la crociata anche contro
+
+173
+00:16:55,400 --> 00:16:59,780
+di loro? Si può immaginare che ne abbiano discusso, Papi, Cardinali, ma non ne hanno
+
+174
+00:16:59,780 --> 00:17:06,060
+discusso molto, hanno quasi subito deciso che sì, si poteva fare, perché no? Un imperatore
+
+175
+00:17:06,060 --> 00:17:11,340
+nemico del Papa, oppure una banda di eretici in Provenza o in Lombardia, erano altrettanto
+
+176
+00:17:11,340 --> 00:17:17,140
+nemici di Dio, dei musulmani laggiù, oltremare, e quindi i Papi cominciano a proclamare crociate
+
+177
+00:17:17,140 --> 00:17:23,240
+contro i loro nemici interni. A questo punto capite cosa vuol dire, è una cosa molto concreta,
+
+178
+00:17:23,340 --> 00:17:28,300
+chi va ha diritto a certi privilegi, ma anche a certi finanziamenti si intende, perché il
+
+179
+00:17:28,300 --> 00:17:32,900
+discorso delle crociate, le crociate costano, anche le Medioevo ci vogliono i soldi per fare
+
+180
+00:17:32,900 --> 00:17:38,160
+la guerra, ogni crociata vuol dire complicati negoziati tra la Chiesa e il Re per decidere
+
+181
+00:17:38,160 --> 00:17:43,020
+quanto mettete voi? Eh, il Regno di Francia può mettere tanto, però i Vescovi contribuiscono,
+
+182
+00:17:43,140 --> 00:17:47,940
+ah no, i Vescovi non contribuiscono, sì, devono contribuire, e il Papa li convincerà
+
+183
+00:17:47,940 --> 00:17:52,940
+a contribuire. Allora, se c'è questo discorso sotto, anche le crociate contro l'imperatore
+
+184
+00:17:52,940 --> 00:17:59,040
+Ghibellino, o contro gli eretici catari della lingua d'oca, vengono gestite e finanziate
+
+185
+00:17:59,040 --> 00:18:04,220
+in questo modo, e molti partono, pensando che c'è molto da guadagnare, anche lì ci sarà
+
+186
+00:18:04,220 --> 00:18:11,960
+da far bottino, e Dio per di più è contento e si salva l'anima, però la gente di allora
+
+187
+00:18:11,960 --> 00:18:16,420
+non era né più ingenua né meno ingenua di noi oggi. Anche allora c'è qualcuno che
+
+188
+00:18:16,420 --> 00:18:20,400
+comincia a dire, sì, comodo però per il Papa proclamare la crociata ogni volta che
+
+189
+00:18:20,400 --> 00:18:25,220
+gli fa comodo. Un conto è la crociata per andare a vivere in terra santa la passione
+
+190
+00:18:25,220 --> 00:18:29,140
+di Cristo, un conto è andare a massacrare questi poveracci di eretici che non siamo neanche
+
+191
+00:18:29,140 --> 00:18:33,780
+ben sicuri di chi siano, oppure combattere l'imperatore che dice il Papa è un nemico
+
+192
+00:18:33,780 --> 00:18:38,160
+della sede, ma guarda caso l'imperatore invece sostiene di essere lui il vero leader della
+
+193
+00:18:38,160 --> 00:18:44,140
+cristianità. Non la faccio lunga. Questo è certamente uno dei motivi per cui l'entusiasmo
+
+194
+00:18:44,760 --> 00:18:50,620
+per le crociate complessivamente comincia a diminuire. E poi ce n'è anche altri, molto
+
+195
+00:18:50,620 --> 00:18:58,460
+rapidamente. Succede che a un certo punto arriva uno dall'Italia e va in terra santa e attraversa
+
+196
+00:18:58,460 --> 00:19:02,500
+gli accampamenti dei crociati e alziché fermarsi lì e dire sono qua, ditemi quando c'è da
+
+197
+00:19:02,500 --> 00:19:07,140
+menare le mani, va un po' più in là, entra nell'accampamento dei musulmani, chiede del
+
+198
+00:19:07,140 --> 00:19:12,440
+sultano e dice io sono venuto qua per discutere col sultano, si chiamava San Francesco. Era
+
+199
+00:19:12,440 --> 00:19:16,000
+uno molto discusso a suo tempo, finché era vivo, poi dopo morto l'hanno canonizzato,
+
+200
+00:19:16,080 --> 00:19:19,560
+finché era vivo dava molto fastidio, una delle cose che ha fatto che è andato più fastidio
+
+201
+00:19:19,560 --> 00:19:23,500
+è stata di andare in terra santa e poi una volta lì dire guardate che non si deve combattere
+
+202
+00:19:23,500 --> 00:19:32,720
+questa gente, discutiamoci. Un altro indizio di un cambiamento di atteggiamento è appunto
+
+203
+00:19:32,720 --> 00:19:36,840
+l'imperatore Federico II, non per niente il papa si è seccato con lui, il quale a un certo
+
+204
+00:19:36,840 --> 00:19:41,100
+punto accetta di fare la crociata, va bene, sono un imperatore, un sovrano cristiano, devo
+
+205
+00:19:41,100 --> 00:19:46,360
+fare questa cosa, è un dovere, la faccio, vado. E una volta arrivato in terra santa
+
+206
+00:19:46,360 --> 00:19:52,480
+va dal sultano e gli dice ma non potremmo metterci d'accordo. Quanto costa recuperare
+
+207
+00:19:52,480 --> 00:19:58,780
+Gerusalemme. E per un momento ci sta anche riuscendo, salvo che appunto ci sono forze
+
+208
+00:19:58,780 --> 00:20:03,420
+potenti come potete immaginare che non trovano giusto risolvere la cosa in questo modo, sia
+
+209
+00:20:03,420 --> 00:20:08,400
+da una parte sia dall'altra. Ecco, ho tratteggiato, perdendo già un sacco di tempo, un insieme
+
+210
+00:20:08,400 --> 00:20:14,260
+di aspetti che ci fanno capire cosa è stata la crociata e perché l'ideale della crociata
+
+211
+00:20:14,260 --> 00:20:20,980
+è tramontato a un certo punto. D'accordo? A fine 200, quando intanto i musulmani hanno
+
+212
+00:20:20,980 --> 00:20:29,480
+finito la riconquista e buttato a mare le ultime retroguardie cristiane, in Europa l'entusiasmo
+
+213
+00:20:29,480 --> 00:20:34,240
+non è più poco di una volta. E dunque il fenomeno crociato, nella prospettiva in cui lo conosciamo
+
+214
+00:20:34,240 --> 00:20:42,360
+nel medioevo, tramonta. Si conclude. Ora noi in queste tre serate esamineremo diversi
+
+215
+00:20:42,360 --> 00:20:48,040
+aspetti del fenomeno crociato in modo un po' più dettagliato. Parleremo di come i cristiani
+
+216
+00:20:48,040 --> 00:20:52,340
+hanno cominciato a un certo punto a pensare che la guerra possa essere santa, quando invece
+
+217
+00:20:52,340 --> 00:20:57,540
+i primi cristiani avevano idee del tutto diverse su questo. E parleremo di come in questa prospettiva
+
+218
+00:20:57,540 --> 00:21:03,440
+anche il mondo musulmano ha riscoperto quelle idee della jihad che ci sono, sì, nel Corano,
+
+219
+00:21:03,440 --> 00:21:07,920
+ma che per molto tempo erano state abbastanza dimenticate e che invece proprio con le crociate
+
+220
+00:21:07,920 --> 00:21:13,960
+riacquistano circolazione. Parleremo anche di come le crociate sono una straordinaria occasione
+
+221
+00:21:13,960 --> 00:21:20,780
+per noi, che studiamo quel periodo, di vedere i nostri antenati con gli occhi degli altri.
+
+222
+00:21:21,400 --> 00:21:25,420
+Perché le crociate sono la prima occasione in cui in folla gli occidentali vanno fuori,
+
+223
+00:21:26,000 --> 00:21:32,280
+incontrano i bizantini, incontrano gli arabi, i turchi, i musulmani e tutta questa gente
+
+224
+00:21:32,280 --> 00:21:38,100
+osserva, con una certa costernazione devo dire in genere, gli occidentali e li descrive,
+
+225
+00:21:38,220 --> 00:21:43,760
+e scrive libri e lettere e trattati per raccontare chi sono questi stranissimi barbari.
+
+226
+00:21:44,300 --> 00:21:49,060
+E per noi ovviamente è una bella occasione vedere con gli occhi degli altri il nostro
+
+227
+00:21:49,060 --> 00:21:54,200
+mondo, la nostra società medievale. Questo domani e dopo domani. Io questa sera però
+
+228
+00:21:54,200 --> 00:21:59,720
+vorrei provare a fare ancora invece una cosa un po' diversa. Io vorrei provare adesso a
+
+229
+00:21:59,720 --> 00:22:03,960
+calarmi, come dire, le cautele le ho avanzate tutte. Adesso vorrei provare per un attimo
+
+230
+00:22:03,960 --> 00:22:08,880
+a calarmi invece nella mentalità di quegli occidentali del Medioevo che la crociata la
+
+231
+00:22:08,880 --> 00:22:16,980
+apprezzavano in blocco, senza discussione, e vedere come mai, in che modo, in modi diversi,
+
+232
+00:22:17,820 --> 00:22:22,620
+alcuni grandi personaggi della nostra storia sono diventati grandi personaggi proprio attraverso
+
+233
+00:22:22,620 --> 00:22:28,000
+la partecipazione alle crociate. In altre parole vorrei fermarmi sul fatto che il giudizio sulle
+
+234
+00:22:28,000 --> 00:22:34,300
+crociate cambia nel tempo, però la grande maggioranza di noi ha sentito parlare di Goffredo
+
+235
+00:22:34,300 --> 00:22:39,780
+di Buglione. Ha sentito parlare di Riccardo Cuor di Leone. Ecco, e come mai? Perché sono
+
+236
+00:22:39,780 --> 00:22:45,480
+andati alle crociate. Ma chi erano costoro esattamente? E come mai sono diventati dei
+
+237
+00:22:45,480 --> 00:22:50,100
+modelli, degli esempi, dei personaggi che per generazioni sono stati ricordati?
+
+238
+00:22:53,880 --> 00:22:58,340
+Su Goffredo di Buglione devo dire, dirò pochissimo. Goffredo di Buglione è uno dei
+
+239
+00:22:58,340 --> 00:23:03,520
+leader della prima crociata. Della prima crociata forse potremmo dire ancora questo, che non abbiamo
+
+240
+00:23:03,520 --> 00:23:10,560
+finora detto. Il Papa Urbano II la lancia in un momento in cui sta puntando decisamente a essere
+
+241
+00:23:10,560 --> 00:23:18,060
+lui il Papa il leader dell'Occidente. Questo anche perché quello è il momento intorno al 1000, i secoli
+
+242
+00:23:18,060 --> 00:23:24,820
+a cavallo dell'anno 1000, è il momento in cui in Occidente lo Stato invece è più debole. I re ci sono,
+
+243
+00:23:24,880 --> 00:23:30,880
+ma sono debolissimi. Il potere è tutto gestito dai signori locali nei loro castelli, oppure da principi
+
+244
+00:23:30,880 --> 00:23:36,660
+che possiedono magari tanti castelli in una certa zona. Ecco, se fossimo qui mille anni fa ci sarebbero
+
+245
+00:23:36,660 --> 00:23:42,460
+i Malaspina, va bene, ci sono i Malaspina. Comandano in Lunigiana e fin verso Genova, d'accordo,
+
+246
+00:23:42,580 --> 00:23:47,920
+principi regionali, certo non re. Ecco, in quell'epoca il potere è gestito tutto a quel livello.
+
+247
+00:23:49,400 --> 00:23:55,460
+C'era un sovrano più potente degli altri, l'imperatore, è appena uscito da quel capitolo
+
+248
+00:23:55,460 --> 00:23:59,520
+di storia che tutti ricordiamo, che l'ha un po' traumatizzato, della lotta per le investiture.
+
+249
+00:24:00,240 --> 00:24:07,020
+Ricordate Enrico IV, a Canossa, a Piediscalzi, ecco. Dopo un trauma come quello del conflitto col papato,
+
+250
+00:24:07,140 --> 00:24:13,360
+anche l'imperatore è debolissimo. Perché vi dico questo? Per un solo motivo. La prima crociata è l'unica
+
+251
+00:24:13,360 --> 00:24:19,300
+a cui non partecipa nessun re, e neanche l'imperatore. Perché sono ridotti molto male
+
+252
+00:24:19,300 --> 00:24:24,340
+in quel momento. Non per niente il papa sceglie proprio quel momento per venire fuori e organizzare
+
+253
+00:24:24,340 --> 00:24:30,280
+lui una grande impresa collettiva di tutta l'Europa cristiana. I re non sono più dei concorrenti.
+
+254
+00:24:30,860 --> 00:24:37,620
+C'è il papa e ci sono i principi locali che comandano a livello regionale, e sono questi che partono.
+
+255
+00:24:37,620 --> 00:24:43,940
+Conte di Tolosa, Bohemondo d'Altavilla e Normanno, che possedeva un pezzo d'Italia meridionale,
+
+256
+00:24:45,160 --> 00:24:51,340
+altri, molti conti, duchi, francesi, che possiedono ciascuno una regione, magari la Borgogna, magari
+
+257
+00:24:51,340 --> 00:24:57,480
+la Normandia. Ecco, uno di questi è Goffredo di Buglione, della famiglia dei duchi di Lorena. Uno
+
+258
+00:24:57,480 --> 00:25:04,940
+fra i tanti. Di questi tanti noi non sappiamo quasi niente. Non abbiamo, per quell'epoca non
+
+259
+00:25:04,940 --> 00:25:09,680
+abbiamo ancora, che ne sono lettere private, per esempio, di un re. Non abbiamo testimonianze
+
+260
+00:25:09,680 --> 00:25:14,480
+un po' libere di qualcuno che se li descriva anche nel privato, come avremo più tardi.
+
+261
+00:25:14,600 --> 00:25:18,440
+Io poi vi parlerò di Luigi Nono il Santo, per esempio. Luigi Nono il Santo abbiamo dei
+
+262
+00:25:18,440 --> 00:25:23,700
+racconti di amici suoi intimi, che ci raccontano i dettagli più personali, ma è passato del
+
+263
+00:25:23,700 --> 00:25:27,740
+tempo. Nell'undicesimo secolo, quando parte la prima crociata, roba del genere non c'è.
+
+264
+00:25:28,160 --> 00:25:32,700
+È un'Europa molto arretrata ancora, quella. E lo vediamo proprio dalle fonti che ci lascia.
+
+265
+00:25:32,700 --> 00:25:39,980
+Goffredo di Buglione, come tutti gli altri, chi fosse in cuor suo non lo sappiamo. Sappiamo
+
+266
+00:25:39,980 --> 00:25:44,440
+che è diventato famoso perché fra i tanti che sono partiti è quello che poi alla fine,
+
+267
+00:25:46,380 --> 00:25:50,180
+quando hanno conquistato Gerusalemme, erano tre anni che erano lontani da casa, e avevano
+
+268
+00:25:50,180 --> 00:25:54,560
+già rischiato la pelle tutti quanti parecchie volte, e adesso ce l'avevano fatta. Avevano
+
+269
+00:25:54,560 --> 00:26:00,500
+conquistato Gerusalemme, cavalcato con i loro cavalli nelle strade della città e nella
+
+270
+00:26:00,500 --> 00:26:06,000
+moschea, con il sangue che arrivava fino alle ginocchia dei cavalli, e adesso si trovavano
+
+271
+00:26:06,000 --> 00:26:09,780
+a aver conquistato questo immenso paese, immenso dal loro punto di vista, piuttosto grande
+
+272
+00:26:09,780 --> 00:26:15,280
+effettivamente, dalla Turchia fino all'Egitto. E cosa ne facciamo di questo paese? Torniamo
+
+273
+00:26:15,280 --> 00:26:20,700
+a casa adesso, ma nemmeno per idea. Restiamo qua a governarlo, questo nuovo regno che abbiamo
+
+274
+00:26:20,780 --> 00:26:28,060
+conquistato per Dio e per Cristo. Come lo organizziamo? Vi ho appena detto che i re non contavano
+
+275
+00:26:28,060 --> 00:26:33,680
+niente, chi comandavano i principi, proprio per quello decidono di fare un re. In questo
+
+276
+00:26:33,680 --> 00:26:38,320
+modo tutti i capi potranno continuare ciascuno a comandare un pezzo del territorio, ma ci sarà
+
+277
+00:26:38,320 --> 00:26:44,040
+un primus inter pares che conterà molto poco, che però avrà quella sacralità che i re
+
+278
+00:26:44,040 --> 00:26:49,260
+hanno, perché il re è una figura consacrata. Noi non sappiamo niente di come l'hanno scelto,
+
+279
+00:26:49,260 --> 00:26:53,260
+possiamo solo immaginare le discussioni. Non sappiamo se hanno scelto il più coraggioso,
+
+280
+00:26:53,260 --> 00:26:58,520
+che è la versione ufficiale, o quello che dava meno fastidio di tutti, o quello che
+
+281
+00:26:58,520 --> 00:27:02,460
+salva già un po' male di salute, infatti poi è morto quasi subito, non ne sappiamo
+
+282
+00:27:02,460 --> 00:27:07,500
+niente. Però scelgono Goffredo di Buglione, che quindi è il primo re di Gerusalemme, l'anno
+
+283
+00:27:07,500 --> 00:27:14,480
+dopo muore. Basta, basta evidentemente, è il primo re di Gerusalemme. Poi vabbè, il
+
+284
+00:27:14,480 --> 00:27:19,300
+tasso qualche secolo dopo dà una mano per costruire evidentemente un mito che rimane
+
+285
+00:27:19,300 --> 00:27:23,240
+radicato nel nostro immaginario. Però Goffredo di Buglione è questo, io con tutta la buona
+
+286
+00:27:23,240 --> 00:27:28,060
+volontà di più non vi potrei dire, è un po' poco come vedete. Vi vorrei parlare un
+
+287
+00:27:28,060 --> 00:27:33,780
+po' più a lungo di un altro esempio invece, di eroe che attraversa il periodo, che emerge
+
+288
+00:27:33,780 --> 00:27:40,360
+dal periodo delle crociate. Ho citato prima Riccardo Cordileone, lo lascerei per dopo.
+
+289
+00:27:40,660 --> 00:27:44,200
+Vorrei fermarmi di più su un altro re che magari è un pochino meno conosciuto, però
+
+290
+00:27:44,200 --> 00:27:49,140
+anche lui l'abbiamo sentito, Luigi IX di Francia, Luigi il Santo, San Luigi dei Francesi.
+
+291
+00:27:49,300 --> 00:27:57,480
+il re santo del 200 francese. Luigi IX è un personaggio straordinario che incarna in
+
+292
+00:27:57,480 --> 00:28:02,660
+pieno l'ideale della crociata, in un momento in cui intorno a lui c'è già qualcuno che
+
+293
+00:28:02,660 --> 00:28:08,100
+comincia a non crederci più tanto. È il personaggio non di uno che non ha niente da perdere, ma
+
+294
+00:28:08,100 --> 00:28:13,840
+di uno che ha un regno da perdere e decide di metterlo in gioco per andare a Gerusalemme.
+
+295
+00:28:13,840 --> 00:28:21,180
+Ed è, grande fortuna per chi fa il mio mestiere, il protagonista di molti racconti, narrazioni
+
+296
+00:28:21,180 --> 00:28:26,420
+storiche. È un personaggio che ha lasciato un grande impatto su chi l'ha conosciuto, si
+
+297
+00:28:26,420 --> 00:28:30,560
+sapeva benissimo che era un santo. A volte faceva un po' perdere la patienza proprio per
+
+298
+00:28:30,560 --> 00:28:33,980
+questo, ma era uno diverso dagli altri. Chi l'ha conosciuto si è messo subito a scrivere.
+
+299
+00:28:33,980 --> 00:28:39,300
+Io l'ho conosciuto, è successo questo, quest'altro, l'ho visto, seduto per terra che rendeva
+
+300
+00:28:39,300 --> 00:28:43,380
+giustizia, gli ho parlato, gli ho raccontato questa cosa e lui si è messo a ridere. Abbiamo
+
+301
+00:28:43,380 --> 00:28:48,760
+molti scritti di questo tipo su Luigi il Santo che ci permettono di costruire l'immagine
+
+302
+00:28:48,760 --> 00:28:54,620
+di quello che è stato considerato da tutti i suoi contemporanei l'esempio massimo di eroe
+
+303
+00:28:54,620 --> 00:29:03,760
+della crociata. Chi era Luigi? Luigi è uno che vive la crociata molto chiaramente nel
+
+304
+00:29:03,760 --> 00:29:08,960
+senso di un pellegrinaggio penitenziale. Bisogna andare a conquistare Gerusalemme, è un obbligo,
+
+305
+00:29:09,580 --> 00:29:17,400
+bisogna farlo e più soffriamo, più rischiamo la vita nel farlo, anche se non vorremmo, perché
+
+306
+00:29:17,400 --> 00:29:23,420
+non è un matto che sia disposto a farsi ammazzare per il martire, è tutt'altro. In una situazione
+
+307
+00:29:23,420 --> 00:29:28,880
+pericolosa in terra santa, uno va a dirgli ma forse faremmo meglio a metterci al sicuro,
+
+308
+00:29:29,060 --> 00:29:34,000
+non siamo mica venuti qua per farci ammazzare tutti, e lui, Luigi, lo guarda e gli fa guarda
+
+309
+00:29:34,000 --> 00:29:40,260
+che non c'è nessuno che ama la vita più di me. Però, per un re cristiano, è un dovere.
+
+310
+00:29:41,840 --> 00:29:45,080
+Si è chiaro, io sto cercando di esprimere il pathos con cui loro vivevano queste cose,
+
+311
+00:29:45,080 --> 00:29:50,400
+noi poi possiamo dire atteggiamenti molto lontani dai nostri, però di cui credo dobbiamo
+
+312
+00:29:50,400 --> 00:29:55,720
+condividere con i nostri antenati il senso che si trattava di cose grosse, importanti
+
+313
+00:29:55,720 --> 00:30:01,800
+per loro. Luigi, dunque, è uno che vive la crociata come un momento di sofferenza, di
+
+314
+00:30:01,800 --> 00:30:07,320
+umiliazione, di penitenza. È uno che quando decide di andare a liberare la terra santa,
+
+315
+00:30:07,400 --> 00:30:11,440
+da un lato deve mettere in piedi un grande meccanismo militare, finanziario, trovare risorse,
+
+316
+00:30:11,440 --> 00:30:19,020
+svuota il tesoro dello Stato, recluta cavalieri, trova le navi, costruisce un porto apposta,
+
+317
+00:30:19,180 --> 00:30:26,680
+Egmort, sulla costa della Francia meridionale. Però al tempo stesso va poi a imbarcarsi, attraversando
+
+318
+00:30:26,680 --> 00:30:33,280
+il suo regno di Francia, a piedi, spesso facendo scalzo il tratto da una chiesa a un santuario,
+
+319
+00:30:33,280 --> 00:30:38,900
+e comunque a piedi, vestito da pellegrino, col bastone, la bisaccia, niente abiti sontuosi,
+
+320
+00:30:39,000 --> 00:30:43,960
+eccetera. E la gente è lì che lo guarda, stupefatta, perché appunto, come vi dicevo,
+
+321
+00:30:44,020 --> 00:30:47,560
+ormai c'è già qualcuno che non ci crede più così tanto, e vedere un re che invece
+
+322
+00:30:47,560 --> 00:30:52,040
+si crede fino a questo punto, ecco, convince tutti che è un santo. È lì che cominciano
+
+323
+00:30:52,040 --> 00:30:54,460
+tutti a dire, non è mica una persona normale quello lì.
+
+324
+00:30:56,020 --> 00:31:00,400
+C'è un racconto di un frate italiano che si chiama Salimbene, da Parma, cronista molto
+
+325
+00:31:00,400 --> 00:31:08,320
+divertente di allora, un francescano che era in Francia, in un convento, a Sons, dove
+
+326
+00:31:08,320 --> 00:31:13,800
+si teneva il capitolo generale dell'ordine francescano, e il re passa di lì, durante
+
+327
+00:31:13,800 --> 00:31:18,360
+il suo viaggio per andare a imbarcarsi per la crociata. E Salimbene racconta, beh, si
+
+328
+00:31:18,360 --> 00:31:22,720
+sapeva che doveva arrivare il tale mattino, voleva parlare ai frati, quindi tutti gli sono
+
+329
+00:31:22,720 --> 00:31:27,320
+andati incontro. Su questo non c'entra con la crociata, ma diciamolo lo stesso, Salimbene
+
+330
+00:31:27,320 --> 00:31:32,540
+dice, c'era un frate particolarmente importante nel convento, frate Eudrigo, che era anche
+
+331
+00:31:32,540 --> 00:31:38,240
+arcivescovo di Rouen, e quindi lui per andare incontro al re voleva andare con tutti i suoi
+
+332
+00:31:38,240 --> 00:31:43,360
+paramenti di arcivescovo, e quindi la mitria e il pastorale e ha perso tempo a prepararsi.
+
+333
+00:31:43,700 --> 00:31:47,400
+Quando è stato pronto erano già tutti usciti, e allora io l'ho visto che si precipitava
+
+334
+00:31:47,400 --> 00:31:51,900
+fuori con la mitria e il pastorale gridando, dov'è il re, dov'è il re? E tutti gli altri
+
+335
+00:31:51,900 --> 00:31:57,420
+erano già tutti sulla strada che guardavano dove stava arrivando il re. E l'hanno visto
+
+336
+00:31:57,420 --> 00:32:02,600
+arrivare a piedi col bastone da pellegrino, che poi dice, vi voglio parlare, lo fanno
+
+337
+00:32:02,600 --> 00:32:06,740
+entrare nella chiesa che ha un pavimento di terra battuta ancora, gli vogliono portare
+
+338
+00:32:06,740 --> 00:32:11,820
+delle panche, e lui dice, ma no, ci sediamo per terra. E si siede per terra e parla ai frati
+
+339
+00:32:11,820 --> 00:32:17,960
+e gli dice che ha bisogno del loro aiuto. E lì più smaliziati cominciano a preoccuparsi
+
+340
+00:32:17,960 --> 00:32:22,500
+perché quando il re chiede alla chiesa un aiuto spesso bisogna mettere mano al tesoro,
+
+341
+00:32:22,680 --> 00:32:26,720
+e invece il re dice subito, no no, io vado solo a mie spese, sto spendendo soltanto del
+
+342
+00:32:26,720 --> 00:32:31,640
+mio, l'aiuto che mi serve sono le vostre preghiere. E dice Salimbene, che era presente,
+
+343
+00:32:31,900 --> 00:32:34,900
+italiano. I frati francesi piangevano tutti.
+
+344
+00:32:34,900 --> 00:32:44,820
+Luigi è uno che ha fatto voto di andare incrociata, c'è andato due volte, la prima volta ha rischiato
+
+345
+00:32:44,820 --> 00:32:50,000
+di lasciarci la pelle, e c'è morta un'infinità di gente, la seconda volta c'ha lasciato la
+
+346
+00:32:50,000 --> 00:32:55,200
+pelle sul serio, la prima volta era ancora giovane, ha fatto voto di andare incrociata
+
+347
+00:32:55,200 --> 00:33:00,180
+perché era stato molto malato e durante la malattia aveva avuto delle visioni, e quando
+
+348
+00:33:00,180 --> 00:33:04,880
+si riprende dalla malattia dice io ho fatto voto di andare, di prendere la croce e di andare
+
+349
+00:33:04,900 --> 00:33:10,720
+a liberare il sepolcro. Nel frattempo i musulmani l'hanno già riconquistato, il santo sepolcro,
+
+350
+00:33:10,800 --> 00:33:14,960
+quindi si tratta di nuovo di liberarlo. Ho fatto questo voto e dice, com'è che dice,
+
+351
+00:33:14,980 --> 00:33:19,420
+è una frase molto bella, dice il mio spirito sta pensando alle visioni che ha avuto, al
+
+352
+00:33:19,420 --> 00:33:24,580
+delirio, è stato in punto di morte, il mio spirito è stato a lungo, al di là del mare,
+
+353
+00:33:25,360 --> 00:33:31,640
+e ora questo mio corpo se ne andrà laggiù. Dopodiché sua madre e il vescovo di Parigi cercano
+
+354
+00:33:31,640 --> 00:33:36,220
+di convincerlo che siccome l'ha fatto nel delirio il voto non è buono e non c'è bisogno
+
+355
+00:33:36,220 --> 00:33:41,940
+che vada. E lui, che si è già fatto cucire sull'abito la croce, che era il simbolo dei
+
+356
+00:33:41,940 --> 00:33:47,580
+crociati, si chiamano così perché si fanno cucire sull'abito la croce, lui si strappa
+
+357
+00:33:47,580 --> 00:33:54,020
+dal vestito la croce, la dà al vescovo e gli dice, adesso ridammela, che voglio che tutti
+
+358
+00:33:54,020 --> 00:34:03,320
+vedano che sono sano di mente nel momento in cui la prendo. Va? Non va interessante,
+
+359
+00:34:03,420 --> 00:34:06,860
+va in Egitto perché hanno fatto il calcolo strategico che conquistando l'Egitto si riesce
+
+360
+00:34:06,860 --> 00:34:11,200
+a interrompere i collegamenti interi al mondo musulmano e dopo Gerusalemme cadrà da sola.
+
+361
+00:34:11,660 --> 00:34:16,100
+In realtà in Egitto sbarcano, hanno però delle grandissime difficoltà, alla fine vengono
+
+362
+00:34:16,100 --> 00:34:22,660
+sbaragliati. Molti morti, il re viene catturato, deve pagare un grosso riscatto, dopo quando i
+
+363
+00:34:22,660 --> 00:34:26,420
+musulmani liberano i prigionieri bisogna tornare indietro, è complicatissimo, ci vogliono
+
+364
+00:34:26,420 --> 00:34:33,820
+anni, è un'esperienza tragica tra malattie, epidemie, il re la vive in pieno con tutto
+
+365
+00:34:33,820 --> 00:34:39,420
+il suo corpo, c'è la dissenteria nell'accampamento, il re soffre di dissenteria come tutti gli altri,
+
+366
+00:34:41,420 --> 00:34:47,780
+sviene spesso, ha una dissenteria tale che, dice il cronista, a un certo punto hanno dovuto
+
+367
+00:34:47,780 --> 00:34:54,000
+tagliargli il fondo delle braghe per facilitare le cose e gli dicono ma vai su una delle galere,
+
+368
+00:34:54,100 --> 00:34:57,900
+vai sulle navi dove puoi essere al sicuro almeno, lui dice no il mio popolo è qui, sono
+
+369
+00:34:57,900 --> 00:35:02,820
+qui, stanno morendo qui, resto qui anch'io per capire il tipo sempre. A un certo punto
+
+370
+00:35:02,820 --> 00:35:07,880
+ci sono dei cadaveri insepolti di cristiani che sono stati uccisi in combattimento, nessuno
+
+371
+00:35:07,880 --> 00:35:16,160
+li ha seppelliti, il re va e dice li seppellisco io, chiama i suoi amici e dice andiamo a seppellire
+
+372
+00:35:16,160 --> 00:35:21,540
+quei martiri, loro hanno sofferto la morte, noi possiamo anche sopportare il fastidio di
+
+373
+00:35:21,540 --> 00:35:26,760
+seppellire i loro corpi e non abbiate ripugnanza per questi corpi perché sono martiri in paradiso.
+
+374
+00:35:29,460 --> 00:35:34,860
+Un santo, infatti tutti intorno a lui sono sballorditi, sia ben chiaro non sto descrivendo
+
+375
+00:35:34,860 --> 00:35:39,800
+il comportamento normale di tutti i crociati, sto descrivendo un comportamento che incarna in
+
+376
+00:35:39,800 --> 00:35:44,460
+pieno gli ideali crociati ma che i suoi stessi contemporanei giudicano qualcosa di abbastanza
+
+377
+00:35:44,460 --> 00:35:51,660
+sballorditivo, è però un uomo complicato, complicato, con sfumature. A un certo punto
+
+378
+00:35:51,660 --> 00:35:57,200
+nell'accampamento passano dei pellegrini armeni, cristiani d'oriente, che stanno andando a
+
+379
+00:35:57,200 --> 00:36:02,540
+Gerusalemme, che stanno andando con un salvacondotto del sultano il quale se la gente arriva pacifica
+
+380
+00:36:02,540 --> 00:36:06,580
+la lascia andare a Gerusalemme, sono solo quelli che arrivano armati che vengono combattuti
+
+381
+00:36:06,580 --> 00:36:12,680
+e in genere sconfitti. Aperta parentesi, anche a Luigi IX il sultano ha offerto, dopo
+
+382
+00:36:12,680 --> 00:36:17,540
+averlo sconfitto, di andare con un salvacondotto in pellegrinaggio a Gerusalemme. Ci tengono
+
+383
+00:36:17,540 --> 00:36:25,680
+tanto, lo facciamo andare. E Luigi IX ci terrebbe davvero tanto e si tormenta e poi alla fine
+
+384
+00:36:25,680 --> 00:36:32,100
+decide di non andare. Perché dice, se io, che sono il re di Francia, accetto un salvacondotto
+
+385
+00:36:32,100 --> 00:36:39,100
+per andare a Gerusalemme e non la conquisto, vado solo a vedere, poi torno, chi altri andrà
+
+386
+00:36:39,100 --> 00:36:44,000
+mai a cercare di conquistarla? Tutti penseranno che se basta quello che ho fatto io, lo faranno
+
+387
+00:36:44,000 --> 00:36:50,420
+anche loro. E non ci va. Perché lui la vuole conquistare. Perché questo, questa specie di
+
+388
+00:36:50,420 --> 00:36:56,960
+frate da tanti punti di vista, sembra San Francesco in molte cose, il martirio, i cadaveri, stare
+
+389
+00:36:56,960 --> 00:37:02,140
+in mezzo alla gente che soffre. Però, a noi può sembrare una contraddizione, non lo
+
+390
+00:37:02,140 --> 00:37:06,640
+è, perché è un crociato. I biografi lo descrivono anche al momento dello sbarco, quando finalmente
+
+391
+00:37:06,640 --> 00:37:11,440
+sono arrivati davanti alle spiagge e i battelli da sbarco si sono aperti, i cavaliere
+
+392
+00:37:11,440 --> 00:37:15,120
+hanno cominciato a scendere, a sguazzare nell'acqua, a prendere possesso della spiaggia
+
+393
+00:37:15,120 --> 00:37:20,460
+e Luigi era in mezzo a loro, a cavallo, in armatura, con un elmo d'oro, il più bel cavaliere
+
+394
+00:37:20,460 --> 00:37:25,240
+che abbia mai visto, dice uno dei cronisti. E siccome ci sono alcuni arabi che controllano
+
+395
+00:37:25,240 --> 00:37:30,640
+la scena da lontano, Luigi non resiste, scende giù a cavallo e da solo sprona con la lancia
+
+396
+00:37:30,640 --> 00:37:36,060
+in resta contro questi. Lo trattengono a fatica, perché lui è il re. Quindi, come vedete,
+
+397
+00:37:36,080 --> 00:37:41,520
+un crociato è sempre due cose insieme. Uno che sta comportandosi con un atteggiamento
+
+398
+00:37:41,520 --> 00:37:45,300
+quasi da frate francescano, da un certo punto di vista, e dall'altro un guerriero che è
+
+399
+00:37:45,300 --> 00:37:49,920
+andato lì per menare le mani. Ma vi dicevo che c'è anche, appunto, ci sono aspetti
+
+400
+00:37:49,920 --> 00:37:55,920
+che ci lasciano ancora più stupiti. L'autoironia sua è di quelli intorno a lui. Uno dei biografi
+
+401
+00:37:55,920 --> 00:38:00,380
+di cui vi parlavo è uno che l'ha conosciuto bene, un grosso nobile francese che ha avuto
+
+402
+00:38:00,380 --> 00:38:06,080
+incarichi ai suoi ordini, ha scritto un grosso libro con tutti gli aneddoti che ha potuto
+
+403
+00:38:06,080 --> 00:38:11,700
+ricordarsi della vita di San Luigi. Si chiama Joanville, questo signore. E Joanville dice
+
+404
+00:38:11,700 --> 00:38:15,140
+sì, durante la crociata, a un certo punto, nell'accampamento, sono passati questi pellegrini
+
+405
+00:38:15,140 --> 00:38:22,340
+che vi dicevo, armeni che andavano a Gerusalemme, cristiani d'Oriente. E questi cristiani d'Oriente
+
+406
+00:38:22,340 --> 00:38:29,860
+sapevano che il capo dei crociati europei era un grande santo, un re santo. Lo sapevano
+
+407
+00:38:29,860 --> 00:38:34,580
+e si sono fatti indicare la tenda e sono andati tutti lì. E davanti alla tenda c'era Joanville.
+
+408
+00:38:34,580 --> 00:38:41,880
+E loro gli chiedono di vedere il re santo. E Joanville, che il re lo vede tutti i giorni,
+
+409
+00:38:42,100 --> 00:38:46,480
+lo conosce benissimo, conosce tutti i suoi difetti e le sue debolezze, sa che è un santo,
+
+410
+00:38:46,560 --> 00:38:51,160
+lo ammira enormemente, però ci discute anche, ci litiga anche più di una volta.
+
+411
+00:38:51,620 --> 00:38:57,100
+Ecco, Joanville entra e fa il re. Sì, re. Lì fuori c'è una folla di gente che dicono
+
+412
+00:38:57,100 --> 00:39:01,780
+che vogliono vedere il re santo. Ma io non ho mica ancora voglia di baciare le vostre ossa.
+
+413
+00:39:01,780 --> 00:39:07,720
+Cosa vuol dire baciare le vostre ossa? Immaginate la loro logica, il culto delle reliquie,
+
+414
+00:39:08,140 --> 00:39:13,820
+che per loro è una cosa ovvia. Il santo, in che forma uno incontra i santi? Perché nelle
+
+415
+00:39:13,820 --> 00:39:18,260
+chiese ci sono le reliquie, le ossa spesso dei santi. E si baciano, ci si inginocchia e
+
+416
+00:39:18,260 --> 00:39:23,120
+si baciano le reliquie. Questa frase, che a noi non dice quasi niente, non ho ancora voglia
+
+417
+00:39:23,120 --> 00:39:28,580
+di baciare le vostre ossa, per loro dice tutto. Sarai anche un santo, magari sì, ma intanto
+
+418
+00:39:28,580 --> 00:39:31,380
+sei vivo e speriamo che quel giorno sei il più lontano possibile.
+
+419
+00:39:31,780 --> 00:39:35,040
+E poi c'è anche comunque quella misura di dubbio, diciamo, voglio dire, i santi
+
+420
+00:39:35,040 --> 00:39:39,500
+vivi, ma i santi sono morti da tanto tempo di solito. E il re, dice Giovenville, si mise
+
+421
+00:39:39,500 --> 00:39:45,560
+a ridere fragorosamente. Era il primo che non aveva voglia di andare in giro dicendo
+
+422
+00:39:45,560 --> 00:39:48,800
+io sono il santo e farsi adorare come santo.
+
+423
+00:39:48,800 --> 00:40:00,660
+dopodiché, quando muore, durante la sua seconda e ultima crociata, dove molti non
+
+424
+00:40:00,660 --> 00:40:04,320
+hanno più voluto accompagnarlo, perché intanto sono passati ancora altri anni, ormai siamo
+
+425
+00:40:04,320 --> 00:40:11,800
+nel 1270, l'ideale crociato davvero ormai non attira più molta gente. Molti che sono andati
+
+426
+00:40:11,800 --> 00:40:15,960
+con lui la prima volta e hanno visto com'è finita, non hanno più voglia di accompagnarlo,
+
+427
+00:40:16,260 --> 00:40:20,520
+anzi, quando fa sapere che vuole partire nel Regno di Francia si diffonde una certa
+
+428
+00:40:20,520 --> 00:40:28,720
+costernazione all'idea. Lui parte lo stesso, va, lo stesso Giovenville non ci va, poi lo
+
+429
+00:40:28,720 --> 00:40:34,060
+scrive nel libro, sì, sono un po' pentito, avrei dovuto andare, ma come si fa, insomma,
+
+430
+00:40:34,300 --> 00:40:40,320
+quello era un santo e lui c'è andato. C'è andato, si ammala, delirio, morte, prima di
+
+431
+00:40:40,320 --> 00:40:46,600
+morire nel delirio dice, dobbiamo mandare dei predicatori per convertirli, conosco dei
+
+432
+00:40:46,600 --> 00:40:50,780
+predicatori così bravi, dobbiamo mandare quelli per convertirli. E uno non sa se sta
+
+433
+00:40:50,780 --> 00:40:55,420
+soltanto delirando o se forse l'esempio di San Francesco, che ormai è passato tanto
+
+434
+00:40:55,420 --> 00:41:00,320
+tempo, comincia a funzionare anche a quel livello. Ecco, qui siamo veramente alla fine
+
+435
+00:41:00,320 --> 00:41:06,440
+dell'ideale crociato nel senso che è stato quello vero. Un ideale, cioè, che riusciva
+
+436
+00:41:06,440 --> 00:41:11,960
+a unire questo enorme spirito di sacrificio, il fascino enorme che loro provavano per chi
+
+437
+00:41:11,960 --> 00:41:19,700
+andava, insieme con nostro sconcerto, ovviamente, perché i nostri valori sono ben diversi, insieme
+
+438
+00:41:19,700 --> 00:41:25,400
+con l'idea ben ferma che si va armati a massacrare, a conquistare, a sottomettere, a
+
+439
+00:41:25,400 --> 00:41:30,080
+sbaragliare. Ecco, Luigi IX, che sul letto di morte dice, conosco dei predicatori bravissimi,
+
+440
+00:41:30,760 --> 00:41:34,920
+è veramente, in qualche modo, l'icona dell'ideale crociato che sta davvero finendo.
+
+441
+00:41:38,620 --> 00:41:45,060
+E' Riccardo Cordileone, allora. E' Riccardo Cordileone che è noto, credo, ancora più di
+
+442
+00:41:45,060 --> 00:41:51,220
+Luigi il Santo a tutti noi, in parte è colpa di Walter Scott, suppongo, e poi di tutta
+
+443
+00:41:51,220 --> 00:41:56,360
+la saga di Robin Hood, fino ai cartoni animati di Walt Disney. Riccardo Cordileone, che ovviamente
+
+444
+00:41:56,360 --> 00:42:00,300
+fa pandan con il cattivo re Giovanni, Giovanni senza terra. Queste sono figure che abbiamo
+
+445
+00:42:00,300 --> 00:42:05,120
+in mente un po' tutti. Riccardo Cordileone è un eroe coraggioso, mentre Giovanni senza
+
+446
+00:42:05,120 --> 00:42:10,960
+terra, suo fratello, lo sappiamo, è invece un cattivo vigliacco. E Riccardo Cordileone
+
+447
+00:42:10,960 --> 00:42:17,160
+è così famoso, ed è stato poi scelto da Walter Scott come eroe dei suoi romanzi, perché
+
+448
+00:42:17,160 --> 00:42:24,240
+è stato uno dei protagonisti delle crociate. Prima di Luigi IX, terza crociata, fine XII secolo,
+
+449
+00:42:24,480 --> 00:42:29,120
+una delle più grandi, più impegnative. In questa terza crociata Riccardo Cordileone
+
+450
+00:42:29,120 --> 00:42:36,400
+va. In un momento in cui le sorti del Regno di Gerusalemme sono al livello più basso,
+
+451
+00:42:36,400 --> 00:42:42,580
+sta andando tutto veramente molto male, il Saladino ha riconquistato Gerusalemme, ormai
+
+452
+00:42:42,580 --> 00:42:49,100
+restano solo più brandelli di Regno da difendere, qualche porto, si fa una grande crociata, Riccardo
+
+453
+00:42:49,100 --> 00:42:54,880
+Cordileone, re d'Inghilterra, parte, e in quella crociata è l'unico che si dimostra capace
+
+454
+00:42:54,880 --> 00:43:01,060
+di tenere testa sul campo al Saladino. È l'unico comandante crociato che in campo aperto
+
+455
+00:43:01,060 --> 00:43:06,420
+una volta sconfigge Saladino in battaglia, dopo che molti erano stati sconfitti. Assedia
+
+456
+00:43:06,420 --> 00:43:12,620
+città, le conquista, sparge il terrore, si fa vedere da tutti in battaglia, non come
+
+457
+00:43:12,620 --> 00:43:16,100
+Luigi il Santo che si faceva prendere l'entusiasmo, però poi combattuto poco perché è stato
+
+458
+00:43:16,100 --> 00:43:21,800
+sconfitto subito. Riccardo Cordileone vince, continua a vincere, combatte, è sempre in mezzo
+
+459
+00:43:21,800 --> 00:43:27,500
+ai cavalieri, lui personalmente con la spada in pugno, l'armatura coperta di sangue, e tutti
+
+460
+00:43:27,500 --> 00:43:32,520
+lo guardano e dicono, ma che bravo, che meraviglia, questo è un vero uomo, questo è un vero
+
+461
+00:43:32,520 --> 00:43:39,920
+re, un vero leone, cuore di leone, ora è tutto vero. Era un grande guerriera, nel senso
+
+462
+00:43:39,920 --> 00:43:43,820
+che noi sappiamo che anche in Europa, prima di partire per la crociata, è stato uno dei
+
+463
+00:43:43,820 --> 00:43:48,140
+re d'Inghilterra che hanno combattuto di più, nemici ne trovava sempre, vassalli
+
+464
+00:43:48,140 --> 00:43:54,460
+ribelli da sottomettere, suo fratello Giovanni, il re di Francia, ha combattuto per tutta
+
+465
+00:43:54,460 --> 00:43:59,200
+la vita. Noi sappiamo anche un po' di altre cose su Riccardo Cordileone. Ha combattuto
+
+466
+00:43:59,200 --> 00:44:03,320
+per tutta la vita, mettendosi in gioco personalmente, gli piaceva molto, era un grande combattente,
+
+467
+00:44:03,900 --> 00:44:09,340
+ha ammazzato un sacco di gente di mano sua, ha massacrato prigionieri in moltissime occasioni,
+
+468
+00:44:09,440 --> 00:44:14,340
+impiccato, affogato, prigionieri a decine o a centinaia, sia cristiani, sia poi, con ancora
+
+469
+00:44:14,340 --> 00:44:21,720
+maggior soddisfazione, musulmani in terra santa. Era odiato dal suo popolo, intanto perché
+
+470
+00:44:21,720 --> 00:44:25,320
+era francese. Come mai il re d'Inghilterra fosse un francese, non sto a raccontarlo perché
+
+471
+00:44:25,320 --> 00:44:29,400
+è troppo complesso, ma comunque era francese, che che ne dicano Walter Scott e Romando di
+
+472
+00:44:29,400 --> 00:44:34,480
+Ivano. Era odiato dal suo popolo perché imponeva tasse terrificanti, non era Giovanni,
+
+473
+00:44:34,580 --> 00:44:40,060
+era Riccardo che imponeva tasse terrificanti per finanziare le sue guerre. Era conosciuto
+
+474
+00:44:40,060 --> 00:44:45,900
+da tutti come un sovrano crudele, feroce, oppressivo, ma un grande guerriero e questo
+
+475
+00:44:45,900 --> 00:44:52,100
+la gente piaceva. Quando poi quel grande guerriero, con sollievo di molti, lascia l'Europa
+
+476
+00:44:52,100 --> 00:44:56,860
+per andare a combattere gli infedeli, l'eroe è fatto. Perché le crociate sono anche proprio
+
+477
+00:44:56,860 --> 00:45:02,740
+questo. Sono state pensate anche per questo. Quando noi leggiamo gli appelli alle crociate
+
+478
+00:45:02,740 --> 00:45:09,300
+da Urbano II in poi, o i trattati sulle crociate, sul fatto che è obbligatorio per i re, per i
+
+479
+00:45:09,300 --> 00:45:14,760
+principi, per i cavalieri andare alle crociate, ecco quello che pensano gli ecclesiastici, che
+
+480
+00:45:14,760 --> 00:45:21,260
+sono gli intellettuali di quell'epoca, è proprio questo. Questi nostri re, principi, cavalieri
+
+481
+00:45:21,260 --> 00:45:26,520
+che comandano, riscuotono le tasse, rendono giustizia, impiccano i malfattori e lo fanno
+
+482
+00:45:26,520 --> 00:45:32,460
+con durezza, con violenza, sono tutti armati, il potere è tutto militare e si combattono
+
+483
+00:45:32,460 --> 00:45:37,920
+fra loro continuamente e andranno tutti all'inferno, naturalmente, perché tutti hanno le mani bagnate
+
+484
+00:45:37,920 --> 00:45:42,700
+nel sangue. E se questa loro violenza pensano i chierici, che sono gli intellettuali del
+
+485
+00:45:42,700 --> 00:45:48,320
+Medioevo, se questa violenza dei potenti e dei ricchi noi riuscissimo a convogliarla
+
+486
+00:45:48,320 --> 00:45:53,980
+verso un fine buono, se li potessimo mandare in terra santa a combattere i nemici di Dio,
+
+487
+00:45:54,220 --> 00:45:58,880
+a difendere la cristianità laggiù, questo è la crociata anche. E quindi va benissimo,
+
+488
+00:45:59,240 --> 00:46:05,140
+chi in patria si è macchiato le mani di sangue e andrebbe all'inferno, quando fa la stessa
+
+489
+00:46:05,140 --> 00:46:14,940
+cosa. Oltre mare, invece, è un eroe. E Riccardo Cordileone rimane uno dei grandi eroi dell'Occidente,
+
+490
+00:46:15,040 --> 00:46:19,540
+dell'Europa, nonostante tutte quelle cose che abbiamo detto. Perché è un grande eroe? Perché
+
+491
+00:46:19,540 --> 00:46:24,620
+faceva una paura terribile ai musulmani. Gli aneddoti che corrono nella letteratura medievale
+
+492
+00:46:24,620 --> 00:46:30,740
+su Riccardo Cordileone sono di questo tipo. Molti scrittori lo raccontano. I saraceni avevano
+
+493
+00:46:30,740 --> 00:46:36,080
+così paura di Re Riccardo, che le mamme musulmane, per far star buoni i loro bambini
+
+494
+00:46:36,080 --> 00:46:39,040
+che piangevano, gli dicevano, guarda che viene Re Riccardo.
+
+495
+00:46:45,200 --> 00:46:51,020
+Dopodiché, appunto, mi avvio a chiudere, quello che mi sembra importante che noi cerchiamo
+
+496
+00:46:51,020 --> 00:46:58,080
+di capire è che molte generazioni di nostri antenati hanno condiviso questo blocco di idee,
+
+497
+00:46:58,080 --> 00:47:04,300
+di valori, di ideali, che ai nostri occhi sembrano in parte ideali magari stravaganti,
+
+498
+00:47:04,420 --> 00:47:10,520
+però affascinanti, forse. In parte, invece, non sembrano ideali proprio per niente. Per
+
+499
+00:47:10,520 --> 00:47:15,260
+loro non era una contraddizione. Per molto tempo, prima di cominciare a stancarsi e a non
+
+500
+00:47:15,260 --> 00:47:21,180
+crederci più, gli occidentali hanno creduto che fosse giusto cercare il martirio, che fosse
+
+501
+00:47:21,180 --> 00:47:27,460
+giusto seguire Cristo sulle tracce della passione, soffrire, rischiare la morte, uccidendo.
+
+502
+00:47:28,080 --> 00:47:34,380
+Per strappare ai nemici di Dio qualcosa che era considerato così prezioso. I luoghi
+
+503
+00:47:34,380 --> 00:47:39,840
+santi, il sepolcro. Sapendo perfettamente che se nel fare questo ci si arricchiva, si
+
+504
+00:47:39,840 --> 00:47:44,920
+conquistavano nuove terre, nuovi imperi, si diventava re, principi, questo non era una
+
+505
+00:47:44,920 --> 00:47:50,400
+contraddizione, anzi era il giusto premio. E quindi ancora più eroe chi è andato ed è
+
+506
+00:47:50,400 --> 00:47:58,840
+riuscito anche a diventare re, come Goffredo di Buglione. E vorrei chiudere evocando una
+
+507
+00:47:58,840 --> 00:48:04,080
+situazione specifica, quella di una famiglia di principi, questi principi territoriali che vi ho
+
+508
+00:48:04,080 --> 00:48:08,340
+ricordato così spesso, che sono quelli che più di tutti si sono avvantaggiati di queste
+
+509
+00:48:08,340 --> 00:48:15,820
+straordinarie occasioni di salvarsi l'anima e al tempo stesso vivere una grande avventura con
+
+510
+00:48:15,820 --> 00:48:22,480
+prospettive mirabolanti di successo. All'epoca di Riccardo Cordileone, che è anche l'epoca di
+
+511
+00:48:22,480 --> 00:48:27,800
+Federico Barbarossa, della battaglia di Legnano, della Lega Lombarda, in Italia c'era fra gli
+
+512
+00:48:27,800 --> 00:48:33,160
+altri un lignaggio di principi, erano i marchesi di Monferrato, dalle mie parti in Piemonte.
+
+513
+00:48:35,240 --> 00:48:39,640
+Erano di quelli che avevano molto da perdere con la crescita dei comuni cittadini e con la
+
+514
+00:48:39,640 --> 00:48:44,760
+sconfitta dell'imperatore, perché se crescono i comuni c'è meno spazio per i principi, per il
+
+515
+00:48:44,760 --> 00:48:50,660
+mondo rurale, per i nobili delle campagne. Proprio negli anni di Legnano il marchese di
+
+516
+00:48:50,660 --> 00:48:57,140
+Monferrato, Guglielmo il Vecchio, che ha quattro figli maschi, che sarebbero già troppi comunque
+
+517
+00:48:57,140 --> 00:49:02,020
+anche se le cose andassero bene, e che invece fa molta fatica a immaginare un futuro per loro
+
+518
+00:49:02,020 --> 00:49:07,260
+in un mondo in cui appunto l'imperatore è stato sconfitto e le città trionfano, comincia
+
+519
+00:49:07,260 --> 00:49:13,380
+a pensare che per uno del suo rango c'è una via d'uscita, e questa via d'uscita è offerta
+
+520
+00:49:13,380 --> 00:49:18,720
+dall'oltremare. È come se le crociate avessero aperto un orizzonte che prima non esisteva
+
+521
+00:49:18,720 --> 00:49:24,560
+o era chiuso, e che invece adesso, almeno per i potenti, almeno per i principi, sui
+
+522
+00:49:24,560 --> 00:49:29,480
+poveracci e sui motivi per cui partivano sappiamo molto meno, ma certamente per i principi è
+
+523
+00:49:29,480 --> 00:49:33,400
+come se improvvisamente il mondo si fosse raddoppiato. Qui le cose vanno male, ma là
+
+524
+00:49:33,400 --> 00:49:37,840
+ci sono prospettive straordinarie, specialmente per un principe che ha dei bei figli, alti,
+
+525
+00:49:37,840 --> 00:49:44,220
+biondi e robusti. Cosa succedeva in quel momento nel regno di Gerusalemme? Il Saladino
+
+526
+00:49:44,220 --> 00:49:49,400
+stava appunto cominciando la sua riconquista, l'orizzonte si stava già abbastanza oscurando,
+
+527
+00:49:50,620 --> 00:49:55,280
+ed era tanto più oscuro in quanto il re di Gerusalemme, successore di Goffredo di Buglione,
+
+528
+00:49:56,740 --> 00:50:04,520
+era un ragazzino di 15 anni, malato di lebra, baldovino quarto, re di Gerusalemme, malato
+
+529
+00:50:04,520 --> 00:50:10,020
+di lebra, cioè di una malattia che all'epoca non si sapeva curare e che si temeva fosse
+
+530
+00:50:10,020 --> 00:50:13,820
+molto peggio di quello che è in realtà, si credeva una malattia terribilmente contagiosa,
+
+531
+00:50:14,020 --> 00:50:18,920
+cosa che invece pare non sia, ma certamente si aveva un orrore profondo della lebra e
+
+532
+00:50:18,920 --> 00:50:24,080
+in ogni caso non si guariva. Eppure lui era il re, la corona era capitata a lui per diritto
+
+533
+00:50:24,080 --> 00:50:29,520
+ereditario, anche se era chiaro che entro pochi anni sarebbe rimasto paralizzato e cieco
+
+534
+00:50:29,520 --> 00:50:33,820
+e poi sarebbe morto. E certamente non era pensabile che si trovasse una ragazza nobile
+
+535
+00:50:33,820 --> 00:50:41,540
+che si potesse accoppiare con lui per dargli un'erede, ma il re aveva due sorelle e dunque
+
+536
+00:50:41,540 --> 00:50:48,500
+era evidente a tutti che i mariti di quelle sorelle avrebbero potuto candidarsi per governare
+
+537
+00:50:48,500 --> 00:50:55,780
+il regno di Gerusalemme. E naturalmente i baroni del regno erano tutti in fila a vedere chi
+
+538
+00:50:55,780 --> 00:51:00,740
+avrebbe prevalso e sarebbe riuscito a strappare la mano di una di queste principesse, ma Baldovino
+
+539
+00:51:00,740 --> 00:51:04,940
+IV che a 15 anni il giovane re Lebroso pare che fosse un tipo molto in gamba, quel poco
+
+540
+00:51:04,940 --> 00:51:10,600
+che sappiamo di lui, non si fida dei baroni del regno, preferisce un marito per una delle
+
+541
+00:51:10,600 --> 00:51:16,420
+sue sorelle che venga da fuori e che possa garantire appoggi, conoscenze, alleanze sul
+
+542
+00:51:16,420 --> 00:51:22,840
+continente. Senza quelle il regno di Gerusalemme non ce la farebbe a tirare avanti. Morale si
+
+543
+00:51:22,840 --> 00:51:27,120
+mettono d'accordo, il marchese di Monferrato Guglielmo manda suo figlio, che si chiama Guglielmo
+
+544
+00:51:27,120 --> 00:51:35,500
+come lui, soprannominato lunga spada, a sposare Sibilla, la sorella del re Lebroso. Il giovane
+
+545
+00:51:35,500 --> 00:51:40,440
+Guglielmo arriva, i cronisti lo descrivono, molto bello, alto e biondo, i cavalieri medievali
+
+546
+00:51:40,440 --> 00:51:44,240
+sono tutti alti e biondi perché questo era il loro ideale, è anche vero che il marchese
+
+547
+00:51:44,240 --> 00:51:50,960
+di Monferrato erano medi tedeschi per matrimonio. Piace molto, sposa la ragazza, la mette subito
+
+548
+00:51:50,960 --> 00:51:56,100
+incinta, intanto banchetta, beve molto, dicono i cronisti, ma questo è normale perché un
+
+549
+00:51:56,100 --> 00:52:01,940
+uomo deve dimostrare che è un uomo, poi comincia a deperire, si ammala, in tre mesi muore.
+
+550
+00:52:04,420 --> 00:52:08,540
+Naturalmente i baroni d'oltremare cominciano tutti a guardarsi in faccia per vedere chi è
+
+551
+00:52:08,540 --> 00:52:15,800
+che ha tirato fuori il veleno dagli stipetti segreti, ma non si scopre mai niente. Del resto
+
+552
+00:52:15,800 --> 00:52:19,880
+molti di questi giovani biondi che arrivano dall'Europa in quei climi muoiono all'improvviso appena
+
+553
+00:52:19,880 --> 00:52:26,300
+arrivati, ci sono abituati. Ora la ragazza è incinta, nascerà quindi un'erede, infatti
+
+554
+00:52:26,300 --> 00:52:31,680
+nascerà, sarà Valdovino V, di Monferrato, re di Gerusalemme, ma deve ancora nascere.
+
+555
+00:52:32,320 --> 00:52:36,560
+E il giovane re Lebroso che intanto combatte, è ancora in grado di stare a cavallo in quel
+
+556
+00:52:36,560 --> 00:52:40,900
+momento e di combattere contro il Saladino e riesce anche a tenere testa al Saladino in
+
+557
+00:52:40,900 --> 00:52:46,220
+una battaglia, però sta peggiorando rapidamente, ci vuole un altro marito per una di queste
+
+558
+00:52:46,220 --> 00:52:51,480
+sorelle, sempre quella rimasta vedova che è la maggiore, quindi conta di più. E stavolta
+
+559
+00:52:51,480 --> 00:52:59,020
+arriva un altro pretendente europeo, Guido di Lusignano, dalla Francia, e la sposa. Anche
+
+560
+00:52:59,020 --> 00:53:02,540
+Guido di Lusignano viene da fuori, quindi i baroni del posto non sono per niente contenti,
+
+561
+00:53:02,600 --> 00:53:06,640
+ma non riescono a avvelenarlo comunque. Guido di Lusignano deve far vedere che lui è
+
+562
+00:53:06,640 --> 00:53:12,560
+un vero uomo, naturalmente. Perciò decide di andare a affrontare il Saladino e fermare
+
+563
+00:53:12,560 --> 00:53:18,340
+questa riconquista progressiva che sta strangolando il regno. Raduna l'esercito, tutti i membri
+
+564
+00:53:18,340 --> 00:53:22,160
+dell'ordine dei Templari, dell'ordine degli ospedali, tutti i baroni con i loro cavalieri,
+
+565
+00:53:22,240 --> 00:53:26,880
+i loro vassalli. Parte per andare a affrontare il Saladino, che è stato segnalato da qualche
+
+566
+00:53:26,880 --> 00:53:35,100
+parte in Galilea, attraversano la Galilea, piena estate, zona arida, stanno per arrivare
+
+567
+00:53:35,100 --> 00:53:40,600
+al lago di Tiberiade, quello dove Gesù camminò sulle acque, dove finalmente ci sarà da bere,
+
+568
+00:53:41,380 --> 00:53:50,720
+prima che arrivino il Saladino li attacca e li circonda senza acqua. Rimangono lì, il giorno
+
+569
+00:53:50,720 --> 00:53:55,520
+dopo si arrendono tutti quanti. Saladino fa tagliare la testa a quelli che in passato gli
+
+570
+00:53:55,520 --> 00:53:59,520
+avevano fatto qualche sgarbo e a quelli che gli stavano più antipatici, come i Templari,
+
+571
+00:53:59,580 --> 00:54:04,320
+che considerava dei fanatici, con gli altri negozi a un riscatto. Tra gli altri c'è anche
+
+572
+00:54:04,320 --> 00:54:07,920
+Guglielmo di Monferrato, il vecchio, il nonno del bambino che sta per nascere o che intanto
+
+573
+00:54:07,920 --> 00:54:12,880
+è nato forse in questi mesi, è venuto a prendersi cura dell'eredità evidentemente. Lui rimane
+
+574
+00:54:12,880 --> 00:54:16,480
+prigioniero per un po', nessuno paga un riscatto per lui. Comunque molti vengono liberati.
+
+575
+00:54:17,480 --> 00:54:21,960
+Il Saladino ha annientato l'esercito di Gerusalemme, è in grado di riconquittare l'intero
+
+576
+00:54:21,960 --> 00:54:27,540
+regno. Va avanti, in poche settimane occupa quasi tutto il regno, occupa Gerusalemme, che
+
+577
+00:54:27,540 --> 00:54:34,680
+non cadrà mai più in mani cristiane. Rimane soltanto un porto, San Giovanni d'Acri, dove
+
+578
+00:54:34,680 --> 00:54:41,920
+si sono rinchiusi gli ultimi cristiani in armi. In quel preciso momento arriva sulle
+
+579
+00:54:41,920 --> 00:54:47,440
+coste della Terra Santa un altro figlio del Marchese Guglielmo. Si chiama Corrado, è stato
+
+580
+00:54:47,440 --> 00:54:51,340
+anche lui a cercare fortuna in Oriente, a Costantinopoli, ha sposato una principessa
+
+581
+00:54:51,340 --> 00:54:56,880
+bizantina, ha represso una congiura per conto dell'imperatore, poi anche lui ha capito che
+
+582
+00:54:56,880 --> 00:55:01,720
+c'era rischio di essere avvelenato a restare troppo lì, è partito per la Terra Santa, senza
+
+583
+00:55:01,720 --> 00:55:05,380
+sapere niente di quello che è successo, della disfatta dell'esercito, del fatto che il
+
+584
+00:55:05,380 --> 00:55:10,880
+Saladino ha riconquistato tutto. Corrado arriva in nave, in un porto, che crede in mani cristiane,
+
+585
+00:55:10,880 --> 00:55:17,180
+entra in porto, sulla banchina ci sono delle sentinelle musulmane. Allora c'è questo
+
+586
+00:55:17,180 --> 00:55:20,940
+dialogo che per noi è sbalorditivo e che invece i cronisti raccontano come una cosa
+
+587
+00:55:20,940 --> 00:55:26,660
+del tutto ovvia. Corrado dice, non sappiamo in che lingua avrà avuto l'interprete, nasconde
+
+588
+00:55:26,660 --> 00:55:31,200
+di essere un principe, perché altri che era venuto a dare una mano in Terra Santa, se
+
+589
+00:55:31,200 --> 00:55:35,360
+non l'avrebbero arrestato evidentemente, e dice no, noi siamo dei mercanti cristiani,
+
+590
+00:55:35,960 --> 00:55:40,620
+siamo venuti a commerciare, abbiamo saputo che il Saladino ha conquistato tutto, e sicuri
+
+591
+00:55:40,620 --> 00:55:45,780
+della sua protezione veniamo a commerciare. E le guardie non fanno una piega, la cosa
+
+592
+00:55:45,780 --> 00:55:50,200
+è assolutamente normalissima, i mercanti vanno e commerciano e fanno affari comunque
+
+593
+00:55:50,200 --> 00:55:58,680
+sempre e nessuno li disturba. Per cui riprendono il mare, filano, vanno a sbarcare nell'unica
+
+594
+00:55:58,680 --> 00:56:02,880
+città che intanto si sono informati e ancora in mano cristiane San Giovanni d'Acri. E lì
+
+595
+00:56:02,880 --> 00:56:07,160
+ovviamente l'arrivo di Corrado di Monferrato, che è un combattente già conosciuto, un cavaliere
+
+596
+00:56:07,160 --> 00:56:12,060
+noto, viene accolto con entusiasmo. Lui si assume il compito di difendere la città,
+
+597
+00:56:12,500 --> 00:56:19,100
+raduna le poche forze disponibili, difende la città, il Saladino arriva alla sedia, non
+
+598
+00:56:19,100 --> 00:56:28,000
+riesce a prenderla. Il Saladino alla fine prova a convincere Corrado ad arrendersi, tira
+
+599
+00:56:28,000 --> 00:56:32,140
+fuori suo padre, il vecchio Marchese Guglielmo, che è ancora prigioniero, e gli dice guarda
+
+600
+00:56:32,140 --> 00:56:38,980
+che se non mi cedi la città condanno a morte tuo padre. E Corrado da una di quelle risposte
+
+601
+00:56:38,980 --> 00:56:44,500
+che poi naturalmente in tutti i mercati dell'Occidente vengono raccontate per generazioni e che suscitano
+
+602
+00:56:44,500 --> 00:56:52,640
+l'entusiasmo. Dice ma ha già vissuto molto a lungo mio padre. Saladino a questo punto trova
+
+603
+00:56:52,640 --> 00:57:01,620
+che veramente questa gente libera il Marchese lo stesso e lascia perdere. Finalmente Saladino
+
+604
+00:57:01,620 --> 00:57:06,640
+ha il colpo di genio, trova il modo di liberarsi di Corrado che nel frattempo ha compiuto altre
+
+605
+00:57:06,640 --> 00:57:10,900
+imprese, ha distrutto l'unica flotta egiziana che faticosamente Saladino è riuscito a costituire,
+
+606
+00:57:11,300 --> 00:57:17,980
+ma Corrado ha le galee genovesi e pisane e quindi sbaraglia le navi musulmane. Saladino
+
+607
+00:57:17,980 --> 00:57:23,000
+non ne può più, ma poi ha il colpo di genio. Lui ha ancora fra le mani il re Guido di
+
+608
+00:57:23,000 --> 00:57:28,020
+Lusignano, quello che ha sposato Sibilla e che ha portato l'esercito al disastro e che
+
+609
+00:57:28,020 --> 00:57:34,060
+è odiato da tutti. Lo libera gratis. Guido di Lusignano va a bussare alle porte di tiro
+
+610
+00:57:34,060 --> 00:57:40,300
+e dice io sono il re, adesso Corrado mi cedi il potere. E Corrado naturalmente ancora una
+
+611
+00:57:40,300 --> 00:57:45,780
+volta dagli spalti rifiuta. Gli dice tu hai portato l'esercito alla rovina, ti sei giocato
+
+612
+00:57:45,780 --> 00:57:53,540
+la corona, non hai più nessun diritto, perciò. Dopodiché però intanto si formano i partiti,
+
+613
+00:57:53,640 --> 00:57:56,920
+ci sono quelli che vorrebbero che effettivamente tornasse Guido, ci sono quelli che vogliono
+
+614
+00:57:56,920 --> 00:58:02,520
+Corrado. Dall'Europa i veri re, un po' stufi di questi fantocci in terra santa, decidono
+
+615
+00:58:02,520 --> 00:58:10,520
+che ora intervenire. Parte Riccardo Cordileone per esempio e partono altri re. Arrivano, combattono
+
+616
+00:58:10,520 --> 00:58:15,900
+per un po', Riccardo Cordileone guadagna grandi vittorie, inutili, non riescono a riconquistare
+
+617
+00:58:15,900 --> 00:58:21,260
+Gerusalemme, finalmente si stufano e se ne vanno via tutti. Corrado è rimasto, è l'unico
+
+618
+00:58:21,260 --> 00:58:30,180
+che è rimasto. I baroni alla fine si radunano e decidono che lui è l'unico che è degno di
+
+619
+00:58:30,180 --> 00:58:34,480
+essere re di Gerusalemme, aspettando che suo nipotino e il bambino baldovino diventi grande.
+
+620
+00:58:34,480 --> 00:58:40,640
+C'è l'accordo di tutti perché Corrado sia il coronato re di Gerusalemme. Il giorno
+
+621
+00:58:40,640 --> 00:58:44,360
+dopo, dopo pranzo, Corrado esce in strada, due assassini lo affrontano, lo accoltellano,
+
+622
+00:58:44,480 --> 00:58:51,980
+lo lasciano morto per terra e non diventerà mai re di Gerusalemme. Ora, perché vi racconto
+
+623
+00:58:51,980 --> 00:58:58,160
+questa storia? Perché secondo me noi dobbiamo anche, prima di fare cose che in qualche modo
+
+624
+00:58:58,160 --> 00:59:03,300
+secondo me parleranno di più ai nostri problemi di oggi, come discutere sul concetto di guerra
+
+625
+00:59:03,300 --> 00:59:10,320
+santa o di jihad. Prima di fare questo noi dobbiamo però avere un po' l'idea di quali
+
+626
+00:59:10,320 --> 00:59:15,800
+erano invece le idee, le fantasie, le immagini che i nostri antenati di allora avevano in
+
+627
+00:59:15,800 --> 00:59:21,020
+mente. E loro avevano in mente questo. Quando loro parlavano di crociate, pensavano certo
+
+628
+00:59:21,020 --> 00:59:27,440
+alla salvezza dell'anima, alla passione di Cristo, all'ideale, al sogno di andare a toccare
+
+629
+00:59:27,440 --> 00:59:31,700
+con le proprie mani il santo sepolcro, e al tempo stesso pensavano a questo mondo dove
+
+630
+00:59:31,700 --> 00:59:37,500
+potevano capitare queste cose, dove uno poteva partire e diventare re. Un altro fratello
+
+631
+00:59:37,500 --> 00:59:40,660
+di Corrado, Bonifacio, ma non ve lo racconto perché è troppo lungo, diventerà addirittura
+
+632
+00:59:40,660 --> 00:59:47,000
+imperatore di Costantinopoli, dopo essere partito per una crociata. E i suoi seguaci saranno
+
+633
+00:59:47,000 --> 00:59:50,680
+da un lato un po' pentiti, perché Costantinopoli non era proprio l'obiettivo della crociata,
+
+634
+00:59:50,720 --> 00:59:56,200
+dire il vero. Era un impero cristiano, loro l'hanno conquistato. Però non resistono.
+
+635
+00:59:56,200 --> 01:00:01,600
+Le canzoni dei loro trovatori sono piene di entusiasmo per l'impero che abbiamo conquistato
+
+636
+01:00:01,600 --> 01:00:08,360
+e siamo diventati tutti re e principi. Ecco, questa immensa avidità, che però appunto
+
+637
+01:00:08,360 --> 01:00:12,640
+si traduce in uno sforzo, in un desiderio di conquistare, di prendere, di arraffare,
+
+638
+01:00:12,700 --> 01:00:19,600
+di massacrare, mettendosi in gioco però fisicamente, rischiando la pelle, e sicuri che si sta facendo
+
+639
+01:00:19,600 --> 01:00:28,200
+una cosa benedetta da Dio, questa è, credo, l'essenza del fenomeno delle crociate. Insomma,
+
+640
+01:00:28,960 --> 01:00:33,960
+qualcosa che credo per noi può essere molto lontano, ma il mestiere mio è proprio quello
+
+641
+01:00:33,960 --> 01:00:38,040
+di cercare di raccontare e di capire un po' anche ciò che i nostri antenati avevano
+
+642
+01:00:38,040 --> 01:00:41,040
+di molto diverso da ciò che siamo noi oggi. Ecco, grazie.
+
+643
+01:00:41,040 --> 01:00:42,040
+Grazie.
+
