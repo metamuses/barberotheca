@@ -37,15 +37,15 @@ could hurt transcription accuracy.
 We compiled the [`barbero.csv`](metadata/barbero.csv) with the reasoned semantic
 filenames, adding the column `semantic_filename` and filling it manually.  
 Then we mass-renamed all files in the [`audio`](audio/) folder to their semantic
-version using the script [`rename_files.py`](scripts/rename_files.py).
+version using the script [`semantic_rename.py`](scripts/semantic_rename.py).
 
 ```shell
-python scripts/rename_files.py
+python scripts/semantic_rename.py
 ```
 
 ### Whisper transcription
 We transcribed each audio file using OpenAI Whisper in Italian language using
-the `turbo` model. When it failed on some files, we retried with the `small` model.
+the `turbo` model.
 
 ```shell
 for file in audio/*.m4a; do
@@ -58,13 +58,20 @@ for file in audio/*.m4a; do
 done
 ```
 
+We then did a quick quality check of the transcripts files. If for any reason
+the `turbo` model failed in transcribing some of the audio, we retried manually
+using the `small` model.
+
 ### Keywords/entities extraction
-We extracted keywords and named entities from each transcript txt file using
-SpaCy NLP model for italian (`it_core_news_lg`), saving the results as CSV files
-in the `keywords/` and `entities/` folders.
+We extracted keywords and named entities from each transcript txt file using the
+script [`keywords_extract.py`](scripts/keywords_extract.py) which leverages
+SpaCy NLP model for italian (`it_core_news_lg`), counting all terms frequencies
+and selecting them based on their part-of-speech tags. We then saved the results
+as a JSON file [`keyword-entities.json`](metadata/keyword-entities.json)
+containing the top 50 keywords and 30 entities for each filename.
 
 ```shell
-python scripts/keywords.py
+python scripts/keywords_extract.py
 ```
 
 ### Manual compilation of keywords
@@ -88,6 +95,14 @@ for file in audio/*.m4a; do
     "compressed/$(basename "$f")"
 done
 ```
+
+### CSV to JSON conversion
+We converted the final [`barbero.csv`](metadata/barbero.csv) file to JSON format
+using the script [`csv2json_convert.py`](scripts/csv2json_convert.py) which
+handles specific columns as integers or arrays.
+
+### Website development
+Work in progress...
 
 ## Disclaimer
 This repository and all files contained within are used solely for educational
