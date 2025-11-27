@@ -1,4 +1,4 @@
-# Barberotheque
+# Barberotheca
 
 Group project for the Semantic Digital Libraries 2025/26 course.
 
