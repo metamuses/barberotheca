@@ -11,7 +11,7 @@ import spacy
 ROOT_DIR = Path(__file__).resolve().parent.parent
 METADATA_CSV = ROOT_DIR / "metadata" / "barbero.csv"
 TRANSCRIPTS_DIR = ROOT_DIR / "transcripts"
-KEYWORDS_JSON = ROOT_DIR / "metadata" / "keywords-entities.json"
+KEYWORDS_JSON = ROOT_DIR / "metadata" / "generated" / "keywords-entities.json"
 
 KEYWORDS_NUM = 50
 ENTITIES_NUM = 30

@@ -1,5 +1,5 @@
 // If you serve from project root, change to '../metadata/barbero.json'
-const JSON_PATH = "../metadata/barbero.json";
+const JSON_PATH = "data/barbero.json";
 
 let DATA = [];
 let fuse = null;
