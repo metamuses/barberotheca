@@ -67,7 +67,7 @@ We extracted keywords and named entities from each transcript txt file using the
 script [`keywords_extract.py`](scripts/keywords_extract.py) which leverages
 SpaCy NLP model for italian (`it_core_news_lg`), counting all terms frequencies
 and selecting them based on their part-of-speech tags. We then saved the results
-as a JSON file [`keyword-entities.json`](metadata/keyword-entities.json)
+as a JSON file [`keyword-entities.json`](metadata/generated/keywords-entities.json)
 containing the top 50 keywords and 30 entities for each filename.
 
 ```shell
