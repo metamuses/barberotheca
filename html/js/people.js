@@ -44,64 +44,6 @@ async function initPeople() {
     }
 }
 
-function renderPersonFilters(container) {
-    console.log("Rendering person filters", PEOPLE_ENTITIES.length);
-    const accordionBody = container.querySelector('.accordion-body');
-    if (!accordionBody) return;
-
-    // Sort alphabetically for the filter list
-    const sortedPeople = [...PEOPLE_ENTITIES].sort((a, b) => a.entity.localeCompare(b.entity));
-
-    if (sortedPeople.length === 0) {
-        accordionBody.innerHTML = '<small class="text-muted">No verified people found.</small>';
-        return;
-    }
-
-    accordionBody.innerHTML = sortedPeople.map(p => `
-        <div class="form-check">
-            <input class="form-check-input bg-dark border-secondary filter-person" type="checkbox" value="${p.entity}" id="person-${p.entity.replace(/\s+/g, '')}">
-            <label class="form-check-label" for="person-${p.entity.replace(/\s+/g, '')}">
-                ${p.entity}
-            </label>
-        </div>
-    `).join('');
-
-    // Check URL Params
-    const urlParams = new URLSearchParams(window.location.search);
-    const personParam = urlParams.get('person');
-
-    if (personParam) {
-        // Find checkbox and check it
-        const cb = accordionBody.querySelector(`input[value="${CSS.escape(personParam)}"]`);
-        if (cb) {
-            cb.checked = true;
-            console.log("Auto-selecting person:", personParam);
-            // Dispatch event immediately
-            setTimeout(() => {
-                const event = new CustomEvent('personFilterChanged', {
-                    detail: { selectedPersons: new Set([personParam]) }
-                });
-                document.dispatchEvent(event);
-            }, 500);
-        }
-    }
-
-    // Attach listeners
-    accordionBody.querySelectorAll('.filter-person').forEach(cb => {
-        cb.addEventListener('change', () => {
-            const selected = new Set(
-                Array.from(accordionBody.querySelectorAll('.filter-person:checked')).map(c => c.value)
-            );
-
-            const event = new CustomEvent('personFilterChanged', {
-                detail: { selectedPersons: selected }
-            });
-            document.dispatchEvent(event);
-        });
-    });
-}
-
-
 async function loadCSV() {
     console.log("Loading CSV...");
     const res = await fetch(PEOPLE_CSV_PATH);
