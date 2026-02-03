@@ -99,3 +99,42 @@ aside h3 {
   font-weight: bold;
   color: white;
 }
+
+/*carousel*/
+/* Person Card Hover Effect */
+.person-card {
+  transition: transform 0.2s ease;
+}
+
+.person-card.hover-effect:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#people-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#people-scroll-container {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Pagination Dots */
+.pagination-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-dot.active {
+  background-color: #fff;
+  transform: scale(1.2);
+}
