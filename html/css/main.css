@@ -1,9 +1,101 @@
+@font-face {
+  font-family: 'Kabel';
+  src: url('../fonts/ITCKabelStd-Book.woff2') format('woff2'),
+    url('../fonts/ITCKabelStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   padding: 2rem;
 }
-.entry {
-  margin-bottom: 1.25rem;
+
+/* Fix for placeholder visibility on dark background */
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  /* Firefox adds a lower opacity by default */
 }
-.muted {
-  color:#6c757d;
+
+/* Header Title (Desktop) */
+.header-text {
+  font-family: 'Kabel', sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+/* Header Navigation Links (Desktop) */
+header nav a:not(.btn) {
+  font-size: 1.25rem;
+}
+
+/* Header Navigation Buttons (Desktop) */
+header nav .btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+/* Section Headings (Desktop) */
+section h2,
+aside h2,
+aside h3 {
+  font-family: 'Kabel', sans-serif;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+
+  /* Header Title (Mobile) */
+  .header-text {
+    font-size: 2rem;
+  }
+
+  /* Header Navigation Links (Mobile) */
+  header nav a:not(.btn) {
+    font-size: 0.875rem;
+  }
+
+  /* Header Navigation Buttons (Mobile) */
+  header nav .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  /* Section Headings (Mobile) */
+  section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Dark Mode Accordion Overrides */
+.accordion-button::after {
+  filter: invert(1);
+  /* Invert the chevron icon for dark background */
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #343a40;
+  /* Slightly lighter dark for active state */
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+/* Transcript Synchronization */
+.transcript-segment {
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.transcript-segment:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.transcript-segment.active {
+  background-color: rgba(108, 117, 125, 0.5);
+  /* Darker grey */
+  font-weight: bold;
+  color: white;
 }

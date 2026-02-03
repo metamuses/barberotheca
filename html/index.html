@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Barberotheca</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-  </head>
-  <body class="bg-light">
-    <div class="container">
 
-      <h1 class="mb-3">Biblioteca digitale – Alessandro Barbero</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barberotheca</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="css/main.css" rel="stylesheet">
+</head>
 
-      <!-- Search input -->
-      <div class="mb-3">
-        <input id="search" type="text" class="form-control form-control-lg" placeholder="Cerca..." />
-      </div>
-
-      <!-- Field toggles -->
-      <div class="mb-4">
-        <div class="row gy-2">
-          <div class="col-6 col-md-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="lectio_title" id="k-lectio_title" checked />
-              <label class="form-check-label" for="k-lectio_title">Titolo</label>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="semantic_filename" id="k-semantic_filename" checked />
-              <label class="form-check-label" for="k-semantic_filename">Nome file</label>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="keywords" id="k-keywords" checked />
-              <label class="form-check-label" for="k-keywords">Parole chiave</label>
-            </div>
-          </div>
-          <div class="col-6 col-md-3">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="entities" id="k-entities" checked />
-              <label class="form-check-label" for="k-entities">Entità</label>
-            </div>
-          </div>
-        </div>
-        <div id="keys-warning" class="form-text text-danger d-none mt-2">Seleziona almeno un campo di ricerca.</div>
-      </div>
-      <!-- Results -->
-      <div id="results" class="row"></div>
+<body class="bg-dark text-white d-flex flex-column min-vh-100">
+  <header class="py-3 mb-4 border-bottom border-secondary">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="header-text mb-0"><a href="index.html" class="text-white text-decoration-none">Barberotheca</a></h1>
+      <nav class="d-flex align-items-center">
+        <a href="documentation.html" class="text-white text-decoration-none me-3">
+          <span class="d-md-none">Info</span>
+          <span class="d-none d-md-inline">Information</span>
+        </a>
+        <a href="collection.html" class="btn btn-outline-light">Search</a>
+      </nav>
     </div>
+  </header>
+  <div class="container flex-grow-1">
+    <!-- Search Section -->
+    <section id="search" class="py-5 mb-4 border-bottom border-secondary">
+      <h2>Search</h2>
+      <div class="input-group input-group-lg">
+        <input type="text" id="landing-search-input"
+          class="form-control bg-dark text-white border-secondary border-end-0" placeholder="Search lessons">
+        <button class="btn btn-outline-secondary border-secondary text-white border-start-0" type="button"
+          id="landing-clear-search">
+          <i class="bi bi-x-lg"></i>
+        </button>
+        <button class="btn btn-outline-light" type="button" id="landing-btn-search">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1/dist/fuse.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    <!-- Geo Section -->
+    <section id="geo" class="py-5 mb-4 border-bottom border-secondary">
+      <h2>Geo</h2>
+      <p>Geo content placeholder</p>
+    </section>
+
+    <!-- Event Section -->
+    <section id="event" class="py-5 mb-4 border-bottom border-secondary">
+      <h2>Event</h2>
+      <p>Event content placeholder</p>
+    </section>
+
+    <!-- Person Section -->
+    <section id="person" class="py-5 mb-4">
+      <h2>Person</h2>
+      <p>Person content placeholder</p>
+    </section>
+  </div>
+  <footer class="py-3 mt-4 border-top border-secondary">
+    <div class="container text-center text-secondary">
+      <small>&copy; metamuses a.y. 2025/2026</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1/dist/fuse.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
