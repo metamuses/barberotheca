@@ -124,7 +124,12 @@ function parseSRT(srtData) {
 
 async function loadLection() {
   const audioSection = document.getElementById("audio");
-  const transcriptionSection = document.getElementById("transcription");
+  const transcriptionSection = document.getElementById("transcription-content");
+  const searchInput = document.getElementById("transcription-search");
+  const searchCounter = document.getElementById("search-counter");
+  const prevBtn = document.getElementById("btn-search-prev");
+  const nextBtn = document.getElementById("btn-search-next");
+  const clearBtn = document.getElementById("btn-search-clear");
   const detailsContent = document.getElementById("lesson-details-content");
   const relatedContainer = document.getElementById("related-lessons-container");
   const relatedContent = document.getElementById("related-lessons-content");
@@ -225,7 +230,6 @@ async function loadLection() {
     ).join('');
 
     transcriptionSection.innerHTML = `
-            <h2>Transcription</h2>
             <div id="transcript-container" class="bg-secondary bg-opacity-10 p-4 rounded border border-secondary" style="max-height: 500px; overflow-y: auto;">
                 ${html}
             </div>
@@ -234,10 +238,136 @@ async function loadLection() {
     const container = document.getElementById("transcript-container");
     const segmentEls = Array.from(document.querySelectorAll('.transcript-segment'));
 
+    // Store original text for search (to avoid dirty markup)
+    segmentEls.forEach(el => el.dataset.originalText = el.textContent);
+
+    // === Logic: Search Transcription ===
+    let currentMatchIndex = -1;
+    let currentMatches = [];
+
+    const updateSearchCounter = () => {
+      if (!searchCounter) return;
+      if (currentMatches.length === 0) {
+        searchCounter.textContent = "0";
+        searchCounter.classList.add('opacity-50'); // Dim if no results
+      } else {
+        searchCounter.textContent = `${currentMatchIndex + 1}/${currentMatches.length}`;
+        searchCounter.classList.remove('opacity-50');
+      }
+    };
+
+    const updateMatchHighlight = () => {
+      // Reset specific active highlight
+      currentMatches.forEach((m, idx) => {
+        if (idx === currentMatchIndex) {
+          m.classList.remove('bg-warning', 'text-dark');
+          m.classList.add('bg-danger', 'text-white'); // Active match: Red/White
+        } else {
+          m.classList.remove('bg-danger', 'text-white');
+          m.classList.add('bg-warning', 'text-dark'); // Inactive match: Yellow/Dark
+        }
+      });
+      updateSearchCounter();
+    };
+
+    const scrollToMatch = (index) => {
+      if (index >= 0 && index < currentMatches.length) {
+        currentMatchIndex = index;
+        updateMatchHighlight();
+        currentMatches[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    };
+
+    const performTranscriptionSearch = (scrollToFirst = false) => {
+      if (!searchInput) return;
+      const query = searchInput.value.toLowerCase();
+
+      // Reset state
+      currentMatchIndex = -1;
+      currentMatches = [];
+
+      segmentEls.forEach(el => {
+        const original = el.dataset.originalText;
+        if (!query) {
+          el.innerHTML = original;
+          el.classList.remove('bg-warning', 'text-dark'); // Remove active match style if any
+          return;
+        }
+
+        if (original.toLowerCase().includes(query)) {
+          // Highlight match
+          const regex = new RegExp(`(${query})`, 'gi');
+          el.innerHTML = original.replace(regex, '<mark class="bg-warning text-dark">$1</mark>');
+        } else {
+          el.innerHTML = original;
+        }
+      });
+
+      // Collect all new matches
+      currentMatches = Array.from(container.querySelectorAll('mark'));
+
+      // Update counter immediately
+      if (!query) {
+        if (searchCounter) searchCounter.classList.add('d-none');
+      } else {
+        if (searchCounter) searchCounter.classList.remove('d-none');
+        updateSearchCounter();
+      }
+
+      if (scrollToFirst && currentMatches.length > 0) {
+        scrollToMatch(0);
+      }
+    };
+
+    if (searchInput) {
+      // Trigger on Enter key
+      searchInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+          performTranscriptionSearch(true);
+        }
+      });
+
+      searchInput.addEventListener('input', (e) => {
+        // Real-time update, auto-scroll to first match
+        performTranscriptionSearch(true);
+      });
+    }
+
+    // Removed old searchBtn listener
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (currentMatches.length === 0) return;
+        let newIndex = currentMatchIndex - 1;
+        if (newIndex < 0) newIndex = currentMatches.length - 1; // Loop to end
+        scrollToMatch(newIndex);
+      });
+    }
+
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        if (currentMatches.length === 0) return;
+        let newIndex = currentMatchIndex + 1;
+        if (newIndex >= currentMatches.length) newIndex = 0; // Loop to start
+        scrollToMatch(newIndex);
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (searchInput) {
+          searchInput.value = '';
+          performTranscriptionSearch(false);
+          searchInput.focus();
+        }
+      });
+    }
+
     // === Logic: Text -> Audio (Click to seek) ===
     container.addEventListener('click', (e) => {
-      if (e.target.classList.contains('transcript-segment')) {
-        const start = parseFloat(e.target.getAttribute('data-start'));
+      const segment = e.target.closest('.transcript-segment');
+      if (segment) {
+        const start = parseFloat(segment.getAttribute('data-start'));
         audioEl.currentTime = start;
         audioEl.play();
       }
@@ -438,10 +568,11 @@ async function main() {
       landingInput.addEventListener("keydown", (e) => {
         if (e.key === "Enter") {
           const term = landingInput.value.trim();
-          // Redirect to collection.html with query param
-          // Note: encoding the term ensures special characters don't break the URL
+          // Redirect to collection.html with query param if term exists, else just collection.html
           if (term) {
             window.location.href = `collection.html?q=${encodeURIComponent(term)}`;
+          } else {
+            window.location.href = `collection.html`;
           }
         }
       });
@@ -461,6 +592,8 @@ async function main() {
           const term = landingInput.value.trim();
           if (term) {
             window.location.href = `collection.html?q=${encodeURIComponent(term)}`;
+          } else {
+            window.location.href = `collection.html`;
           }
         });
       }
