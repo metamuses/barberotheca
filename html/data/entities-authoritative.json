@@ -1,0 +1,1414 @@
+[
+  {
+    "entity": "Abbone",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Abbone_di_Fleury",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Abbo_of_Fleury",
+    "wikidata": "https://www.wikidata.org/wiki/Q306658",
+    "viaf": "https://viaf.org/en/viaf/9966678",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tract%20by%20Abbo%20of%20Fleury.jpg"
+  },
+  {
+    "entity": "Adriatico",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Mare_Adriatico",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Adriatic_Sea",
+    "wikidata": "https://www.wikidata.org/wiki/Q13924",
+    "viaf": "https://viaf.org/en/viaf/316741867",
+    "geonames": "https://www.geonames.org/3183462/adriatic-sea.html",
+    "type": "place",
+    "coordinates": [
+      42.775833,
+      15.426111
+    ]
+  },
+  {
+    "entity": "Agostino",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Agostino_d%27Ippona",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
+    "wikidata": "https://www.wikidata.org/wiki/Q8018",
+    "viaf": "https://viaf.org/en/viaf/66806872",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Augustine%20Lateran.jpg"
+  },
+  {
+    "entity": "Akhmatova",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Anna_Andreevna_Achmatova",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Anna_Akhmatova",
+    "wikidata": "https://www.wikidata.org/wiki/Q80440",
+    "viaf": "https://viaf.org/en/viaf/49220707",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Akhmatova.jpg"
+  },
+  {
+    "entity": "Aldo Finzi",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Aldo_Finzi_(politico)",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Aldo_Finzi_(politician)",
+    "wikidata": "https://www.wikidata.org/wiki/Q690725",
+    "viaf": "https://viaf.org/en/viaf/18310180",
+    "geonames": "",
+    "type": "person"
+  },
+  {
+    "entity": "Alessandria",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Alessandria",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Alessandria",
+    "wikidata": "https://www.wikidata.org/wiki/Q6088",
+    "viaf": "https://viaf.org/en/viaf/137079443",
+    "geonames": "https://www.geonames.org/6541464/alessandria.html",
+    "type": "place",
+    "coordinates": [
+      44.913330555,
+      8.62
+    ]
+  },
+  {
+    "entity": "Alessio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Alessio_IV_Angelo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Alexios_IV_Angelos",
+    "wikidata": "https://www.wikidata.org/wiki/Q37069",
+    "viaf": "https://viaf.org/en/viaf/217145684",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Alexius4.jpg"
+  },
+  {
+    "entity": "America",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Stati_Uniti_d%27America",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/United_States",
+    "wikidata": "https://www.wikidata.org/wiki/Q30",
+    "viaf": "https://viaf.org/en/viaf/130168302",
+    "geonames": "https://www.geonames.org/6252001/united-states.html",
+    "type": "place",
+    "coordinates": [
+      39.828175,
+      -98.5795
+    ]
+  },
+  {
+    "entity": "Andreotti",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giulio_Andreotti",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Giulio_Andreotti",
+    "wikidata": "https://www.wikidata.org/wiki/Q50005",
+    "viaf": "https://viaf.org/en/viaf/109833019",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giulio%20Andreotti.jpg"
+  },
+  {
+    "entity": "Aquileia",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Aquileia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Aquileia",
+    "wikidata": "https://www.wikidata.org/wiki/Q53216",
+    "viaf": "https://viaf.org/en/viaf/148893013",
+    "geonames": "https://www.geonames.org/6539930/aquileia.html",
+    "type": "place",
+    "coordinates": [
+      45.766666666,
+      13.366666666
+    ]
+  },
+  {
+    "entity": "Arezzo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Arezzo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Arezzo",
+    "wikidata": "https://www.wikidata.org/wiki/Q13378",
+    "viaf": "https://viaf.org/en/viaf/226733401",
+    "geonames": "https://www.geonames.org/6542153/arezzo.html",
+    "type": "place",
+    "coordinates": [
+      43.463055555,
+      11.878055555
+    ]
+  },
+  {
+    "entity": "Argentina",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Argentina",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Argentina",
+    "wikidata": "https://www.wikidata.org/wiki/Q414",
+    "viaf": "https://viaf.org/en/viaf/146499420",
+    "geonames": "https://www.geonames.org/3865483/argentine-republic.html",
+    "type": "place",
+    "coordinates": [
+      -34.0,
+      -64.0
+    ]
+  },
+  {
+    "entity": "Aristotele",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Aristotele",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Aristotle",
+    "wikidata": "https://www.wikidata.org/wiki/Q868",
+    "viaf": "https://viaf.org/en/viaf/7524651",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Aristotle%20Altemps%20Inv8575.jpg"
+  },
+  {
+    "entity": "Austria",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Austria",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Austria",
+    "wikidata": "https://www.wikidata.org/wiki/Q40",
+    "viaf": "https://viaf.org/en/viaf/148842731",
+    "geonames": "https://www.geonames.org/2782113/republic-of-austria.html",
+    "type": "place",
+    "coordinates": [
+      48.0,
+      14.0
+    ]
+  },
+  {
+    "entity": "Avignone",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Avignone",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Avignon",
+    "wikidata": "https://www.wikidata.org/wiki/Q6397",
+    "viaf": "https://viaf.org/en/viaf/159446858",
+    "geonames": "https://www.geonames.org/3035681/avignon.html",
+    "type": "place",
+    "coordinates": [
+      43.948611111,
+      4.808333333
+    ]
+  },
+  {
+    "entity": "BR",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Brigate_Rosse",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Red_Brigades",
+    "wikidata": "https://www.wikidata.org/wiki/Q194019",
+    "viaf": "https://viaf.org/en/viaf/124870952",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Badoglio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Pietro_Badoglio",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Pietro_Badoglio",
+    "wikidata": "https://www.wikidata.org/wiki/Q200085",
+    "viaf": "https://viaf.org/en/viaf/100907172",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Pietro%20Badoglio%203.jpg"
+  },
+  {
+    "entity": "Beatrice",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Beatrice_Portinari",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Beatrice_Portinari",
+    "wikidata": "https://www.wikidata.org/wiki/Q232913",
+    "viaf": "https://viaf.org/en/viaf/18027301",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dante%20Gabriel%20Rossetti%20-%20Beata%20Beatrix%2C%201864-1870.jpg"
+  },
+  {
+    "entity": "Beauvais",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Beauvais",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Beauvais",
+    "wikidata": "https://www.wikidata.org/wiki/Q174257",
+    "viaf": "https://viaf.org/en/viaf/312794953",
+    "geonames": "https://www.geonames.org/6450128/beauvais.html",
+    "type": "place",
+    "coordinates": [
+      49.434166666,
+      2.0875
+    ]
+  },
+  {
+    "entity": "Beda",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Beda_il_Venerabile",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Bede",
+    "wikidata": "https://www.wikidata.org/wiki/Q154938",
+    "viaf": "https://viaf.org/en/viaf/61539765",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Man%20writing%20Corpus%20Christi%20College%20Cambridge%20MS.%20389.jpg"
+  },
+  {
+    "entity": "Belgio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Belgio",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Belgium",
+    "wikidata": "https://www.wikidata.org/wiki/Q31",
+    "viaf": "https://viaf.org/en/viaf/144248059",
+    "geonames": "https://www.geonames.org/2802361/kingdom-of-belgium.html",
+    "type": "place",
+    "coordinates": [
+      50.641111111,
+      4.668055555
+    ]
+  },
+  {
+    "entity": "Berkley",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Universit%C3%A0_della_California_-_Berkeley",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
+    "wikidata": "https://www.wikidata.org/wiki/Q168756",
+    "viaf": "https://viaf.org/en/viaf/149111950",
+    "geonames": "https://www.geonames.org/5404897/university-of-california-berkeley.html",
+    "type": "place",
+    "coordinates": [
+      37.871944444,
+      -122.258333333
+    ]
+  },
+  {
+    "entity": "Berlino",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Berlino",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Berlin",
+    "wikidata": "https://www.wikidata.org/wiki/Q64",
+    "viaf": "https://viaf.org/en/viaf/122530980",
+    "geonames": "https://www.geonames.org/2950159/berlin.html",
+    "type": "place",
+    "coordinates": [
+      52.516666666,
+      13.383333333
+    ]
+  },
+  {
+    "entity": "Bettinelli",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Saverio_Bettinelli",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Saverio_Bettinelli",
+    "wikidata": "https://www.wikidata.org/wiki/Q1152092",
+    "viaf": "https://viaf.org/en/viaf/29558099",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Xaverio%20Bettinelli%2C%208B6291086%20%28cropped%29.jpg"
+  },
+  {
+    "entity": "Bismarck",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Otto_von_Bismarck",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
+    "wikidata": "https://www.wikidata.org/wiki/Q8442",
+    "viaf": "https://viaf.org/en/viaf/46772111",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20146-2005-0057%2C%20Otto%20von%20Bismarck.jpg"
+  },
+  {
+    "entity": "Bloch",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Marc_Bloch",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Marc_Bloch",
+    "wikidata": "https://www.wikidata.org/wiki/Q156585",
+    "viaf": "https://viaf.org/en/viaf/46757545",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Marc%20Bloch.jpg"
+  },
+  {
+    "entity": "Boccaccio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_Boccaccio",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Giovanni_Boccaccio",
+    "wikidata": "https://www.wikidata.org/wiki/Q1402",
+    "viaf": "https://viaf.org/en/viaf/64002165",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Boccaccio%20by%20Morghen.jpg"
+  },
+  {
+    "entity": "Bonconte da Montefeltro",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Buonconte_da_Montefeltro",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Bonconte_I_da_Montefeltro",
+    "wikidata": "https://www.wikidata.org/wiki/Q3642072",
+    "viaf": "https://viaf.org/en/viaf/45785783",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Dor%C3%A9%20Bonconte.jpg"
+  },
+  {
+    "entity": "Borgogna",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Borgogna",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Burgundy",
+    "wikidata": "https://www.wikidata.org/wiki/Q1173",
+    "viaf": "https://viaf.org/en/viaf/6603147786777368220009",
+    "geonames": "https://www.geonames.org/3030967/bourgogne.html",
+    "type": "place",
+    "coordinates": [
+      47.0,
+      4.5
+    ]
+  },
+  {
+    "entity": "Brasile",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Brasile",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Brazil",
+    "wikidata": "https://www.wikidata.org/wiki/Q155",
+    "viaf": "https://viaf.org/en/viaf/129679518",
+    "geonames": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
+    "type": "place",
+    "coordinates": [
+      -14.0,
+      -53.0
+    ]
+  },
+  {
+    "entity": "Brentwood",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Brentwood_(Regno_Unito)",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Brentwood,_Essex",
+    "wikidata": "https://www.wikidata.org/wiki/Q909993",
+    "viaf": "https://viaf.org/en/viaf/132540216",
+    "geonames": "https://www.geonames.org/2654782/brentwood.html",
+    "type": "place",
+    "coordinates": [
+      51.620277777,
+      0.305
+    ]
+  },
+  {
+    "entity": "Brodsky",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Iosif_Aleksandrovi%C4%8D_Brodskij",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Joseph_Brodsky",
+    "wikidata": "https://www.wikidata.org/wiki/Q862",
+    "viaf": "https://viaf.org/en/viaf/31993687",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Brodsky%201988.jpg"
+  },
+  {
+    "entity": "Bruxelles",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Bruxelles",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Brussels",
+    "wikidata": "https://www.wikidata.org/wiki/Q240",
+    "viaf": "https://viaf.org/en/viaf/332144929079854441105",
+    "geonames": "https://www.geonames.org/2800867/bruxelles-capitale.html",
+    "type": "place",
+    "coordinates": [
+      50.846666666,
+      4.3525
+    ]
+  },
+  {
+    "entity": "Buenos Aires",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Buenos_Aires",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Buenos_Aires",
+    "wikidata": "https://www.wikidata.org/wiki/Q1486",
+    "viaf": "https://viaf.org/en/viaf/1331145424662786830473",
+    "geonames": "https://www.geonames.org/3435910/buenos-aires.html",
+    "type": "place",
+    "coordinates": [
+      -34.599722222,
+      -58.381944444
+    ]
+  },
+  {
+    "entity": "Bulgakov",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Michail_Afanas%27evi%C4%8D_Bulgakov",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Mikhail_Bulgakov",
+    "wikidata": "https://www.wikidata.org/wiki/Q835",
+    "viaf": "https://viaf.org/en/viaf/99836700",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg"
+  },
+  {
+    "entity": "Cadorna",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Luigi_Cadorna",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Luigi_Cadorna",
+    "wikidata": "https://www.wikidata.org/wiki/Q333809",
+    "viaf": "https://viaf.org/en/viaf/62355177/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Luigi%20Cadorna%2002.jpg"
+  },
+  {
+    "entity": "Cambridge",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cambridge",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Cambridge",
+    "wikidata": "https://www.wikidata.org/wiki/Q350",
+    "viaf": "https://viaf.org/en/viaf/139487232/",
+    "geonames": "https://www.geonames.org/2653941/cambridge.html",
+    "type": "place",
+    "coordinates": [
+      52.208055555,
+      0.1225
+    ]
+  },
+  {
+    "entity": "Campaldino",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Battaglia_di_Campaldino",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Battle_of_Campaldino",
+    "wikidata": "https://www.wikidata.org/wiki/Q2888241",
+    "viaf": "",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Canarie",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Isole_Canarie",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Canary_Islands",
+    "wikidata": "https://www.wikidata.org/wiki/Q5813",
+    "viaf": "https://viaf.org/en/viaf/148386330/",
+    "geonames": "https://www.geonames.org/2593110/canary-islands.html",
+    "type": "place",
+    "coordinates": [
+      28.0,
+      -15.75
+    ]
+  },
+  {
+    "entity": "Caporetto",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Battaglia_di_Caporetto",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Battle_of_Caporetto",
+    "wikidata": "https://www.wikidata.org/wiki/Q242644",
+    "viaf": "",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Carducci",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giosu%C3%A8_Carducci",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Giosu%C3%A8_Carducci",
+    "wikidata": "https://www.wikidata.org/wiki/Q43440",
+    "viaf": "https://viaf.org/en/viaf/34470601",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giosu%C3%A8%20Carducci3%20%28cropped%29.jpg"
+  },
+  {
+    "entity": "Carla Capponi",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carla_Capponi",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Carla_Capponi",
+    "wikidata": "https://www.wikidata.org/wiki/Q3658835",
+    "viaf": "https://viaf.org/en/viaf/24817680/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Carla%20Capponi.png"
+  },
+  {
+    "entity": "Carlo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_I_d%27Inghilterra",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_I_of_England",
+    "wikidata": "https://www.wikidata.org/wiki/Q81506",
+    "viaf": "https://viaf.org/en/viaf/67750325",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Anthony%20van%20Dyck%20%281599-1641%29%20-%20Charles%20I%20%281600-1649%29%20-%20RCIN%20404398%20-%20Royal%20Collection.jpg"
+  },
+  {
+    "entity": "Carlo Alberto",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_Alberto_di_Savoia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_Albert_of_Sardinia",
+    "wikidata": "https://www.wikidata.org/wiki/Q181261",
+    "viaf": "https://viaf.org/en/viaf/18030661/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Carlo%20Alberto%20by%20Cavalleri.jpg"
+  },
+  {
+    "entity": "Carlo Cattaneo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_Cattaneo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Carlo_Cattaneo",
+    "wikidata": "https://www.wikidata.org/wiki/Q1042024",
+    "viaf": "https://viaf.org/en/viaf/32023065/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Matania%20Edoardo%20-%20Ritratto%20giovanile%20di%20Carlo%20Cattaneo%20-%20xilografia%20-%201887.jpg"
+  },
+  {
+    "entity": "Carlo Magno",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_Magno",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Charlemagne",
+    "wikidata": "https://www.wikidata.org/wiki/Q3044",
+    "viaf": "https://viaf.org/en/viaf/89643029/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Charlemagne%20denier%20Mayence%20812%20814.jpg"
+  },
+  {
+    "entity": "Carlo V",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_V_d%27Asburgo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
+    "wikidata": "https://www.wikidata.org/wiki/Q32500",
+    "viaf": "https://viaf.org/en/viaf/88598818",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20of%20Charles%20V%2C%20Holy%20Roman%20Emperor%2C%20seated%20%281500%E2%80%931558%29%2C%20formerly%20attributed%20to%20Titian%20%28Alte%20Pinakothek%2C%20Munich%29.jpg"
+  },
+  {
+    "entity": "Carlo il Malvagio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_II_di_Navarra",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_II_of_Navarre",
+    "wikidata": "https://www.wikidata.org/wiki/Q43082",
+    "viaf": "https://viaf.org/en/viaf/266723926/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Charles%20II%20of%20Navarre.png"
+  },
+  {
+    "entity": "Carso",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Carso",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Karst_Plateau",
+    "wikidata": "https://www.wikidata.org/wiki/Q625139",
+    "viaf": "https://viaf.org/en/viaf/243010956/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Castiglia",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Castiglia_(regione_storica)",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Castile_(historical_region)",
+    "wikidata": "https://www.wikidata.org/wiki/Q1043594",
+    "viaf": "https://viaf.org/en/viaf/316429328",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Caterina",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Caterina_da_Siena",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Catherine_of_Siena",
+    "wikidata": "https://www.wikidata.org/wiki/Q229190",
+    "viaf": "https://viaf.org/en/viaf/90633132/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Catalina%20de%20Siena%2C%20Pedro%20de%20Villegas%20Marmolejo.jpg"
+  },
+  {
+    "entity": "Caterina da Siena",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Caterina_da_Siena",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Catherine_of_Siena",
+    "wikidata": "https://www.wikidata.org/wiki/Q229190",
+    "viaf": "https://viaf.org/en/viaf/90633132/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Catalina%20de%20Siena%2C%20Pedro%20de%20Villegas%20Marmolejo.jpg"
+  },
+  {
+    "entity": "Cavour",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Camillo_Benso,_conte_di_Cavour",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Camillo_Benso,_Count_of_Cavour",
+    "wikidata": "https://www.wikidata.org/wiki/Q166092",
+    "viaf": "https://viaf.org/en/viaf/68923739/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/11%20Meyer-Pierson.jpg"
+  },
+  {
+    "entity": "Cesare Rossi",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cesare_Rossi_(politico)",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Cesare_Rossi_(politician)",
+    "wikidata": "https://www.wikidata.org/wiki/Q937137",
+    "viaf": "https://viaf.org/en/viaf/32798751/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Cesare%20Rossi%20%28Vianello%29%20-%20btv1b53131473h.jpg"
+  },
+  {
+    "entity": "Chamberlain",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Neville_Chamberlain",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Neville_Chamberlain",
+    "wikidata": "https://www.wikidata.org/wiki/Q10664",
+    "viaf": "https://viaf.org/en/viaf/22318481/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Right%20Honourable%20Neville%20Chamberlain.%20Wellcome%20M0003096.jpg"
+  },
+  {
+    "entity": "Christine",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cristina_da_Pizzano",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Christine_de_Pizan",
+    "wikidata": "https://www.wikidata.org/wiki/Q234816",
+    "viaf": "https://viaf.org/en/viaf/100188547/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Christine%20de%20Pisan%20-%20cathedra.jpg"
+  },
+  {
+    "entity": "Cialdini",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Enrico_Cialdini",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Enrico_Cialdini",
+    "wikidata": "https://www.wikidata.org/wiki/Q697867",
+    "viaf": "https://viaf.org/en/viaf/42591032/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Litografia%20ballagny%2C%20fine%20XIX%20sec.%20gen.%20enrico%20cialdini.JPG"
+  },
+  {
+    "entity": "Ciano",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Galeazzo_Ciano",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Galeazzo_Ciano",
+    "wikidata": "https://www.wikidata.org/wiki/Q220105",
+    "viaf": "https://viaf.org/en/viaf/56702085/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Galeazzo%20Ciano%201936.jpg"
+  },
+  {
+    "entity": "Ciompi",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Tumulto_dei_Ciompi",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Ciompi_Revolt",
+    "wikidata": "https://www.wikidata.org/wiki/Q1092673",
+    "viaf": "",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Cipro",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cipro",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Cyprus",
+    "wikidata": "https://www.wikidata.org/wiki/Q229",
+    "viaf": "https://viaf.org/en/viaf/130118559/",
+    "geonames": "https://www.geonames.org/146669/republic-of-cyprus.html",
+    "type": "place",
+    "coordinates": [
+      35.0,
+      33.0
+    ]
+  },
+  {
+    "entity": "Cluny",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Abbazia_di_Cluny",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Cluny_Abbey",
+    "wikidata": "https://www.wikidata.org/wiki/Q220301",
+    "viaf": "https://viaf.org/en/viaf/129020265/",
+    "geonames": "https://www.geonames.org/3024534/cluny.html",
+    "type": "place",
+    "coordinates": [
+      46.4348427,
+      4.6594736
+    ]
+  },
+  {
+    "entity": "Cacuhon",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Pierre_Cauchon",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Pierre_Cauchon",
+    "wikidata": "https://www.wikidata.org/wiki/Q464287",
+    "viaf": "https://viaf.org/en/viaf/27870650/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Tombeau%20de%20Pierre%20Cauchon%20%28cropped%29.jpg"
+  },
+  {
+    "entity": "Colombo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+    "wikidata": "https://www.wikidata.org/wiki/Q7322",
+    "viaf": "https://viaf.org/en/viaf/17231583/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ridolfo%20del%20Ghirlandaio%20-%20Ritratto%20di%20Cristoforo%20Colombo%20%281520%29.jpg"
+  },
+  {
+    "entity": "Corfù",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Corf%C3%B9",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Corfu",
+    "wikidata": "https://www.wikidata.org/wiki/Q121378",
+    "viaf": "https://viaf.org/en/viaf/237254241",
+    "geonames": "https://www.geonames.org/2463678/corfu.html",
+    "type": "place",
+    "coordinates": [
+      39.6,
+      19.87
+    ]
+  },
+  {
+    "entity": "Corrado",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Corrado_del_Monferrato",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Conrad_of_Montferrat",
+    "wikidata": "https://www.wikidata.org/wiki/Q169329",
+    "viaf": "https://viaf.org/en/viaf/81205195/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Conrad-Picot.jpg"
+  },
+  {
+    "entity": "Corriere della Sera",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Corriere_della_Sera",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Corriere_della_Sera",
+    "wikidata": "https://www.wikidata.org/wiki/Q309135",
+    "viaf": "https://viaf.org/en/viaf/179878632/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Costantino",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Costantino_I",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Constantine_the_Great",
+    "wikidata": "https://www.wikidata.org/wiki/Q8413",
+    "viaf": "https://viaf.org/en/viaf/97746098/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/0%20Gaius%20Flavius%20Valerius%20Constantinus%2C%20Palatino.jpg"
+  },
+  {
+    "entity": "Costantinopoli",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Costantinopoli",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Constantinople",
+    "wikidata": "https://www.wikidata.org/wiki/Q16869",
+    "viaf": "https://viaf.org/en/viaf/122641741/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Creta",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Creta",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Crete",
+    "wikidata": "https://www.wikidata.org/wiki/Q34374",
+    "viaf": "https://viaf.org/en/viaf/237254468/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Cristina",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cristina_da_Pizzano",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Christine_de_Pizan",
+    "wikidata": "https://www.wikidata.org/wiki/Q234816",
+    "viaf": "https://viaf.org/en/viaf/100188547/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Christine%20de%20Pisan%20-%20cathedra.jpg"
+  },
+  {
+    "entity": "Cristo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Ges%C3%B9",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Jesus",
+    "wikidata": "https://www.wikidata.org/wiki/Q302",
+    "viaf": "https://viaf.org/en/viaf/141145970137232251241",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spas%20vsederzhitel%20sinay%20%28cropped1%29.jpg"
+  },
+  {
+    "entity": "Cuneo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Cuneo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Cuneo",
+    "wikidata": "https://www.wikidata.org/wiki/Q5968",
+    "viaf": "https://viaf.org/en/viaf/137221319/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Custoza",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Battaglia_di_Custoza_(1866)",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Battle_of_Custoza_(1866)",
+    "wikidata": "https://www.wikidata.org/wiki/Q48163",
+    "viaf": "",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "D'Azeglio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Massimo_d%27Azeglio",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Massimo_d%27Azeglio",
+    "wikidata": "https://www.wikidata.org/wiki/Q469134",
+    "viaf": "https://viaf.org/en/viaf/43949",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Francesco%20Hayez%20-%20Ritratto%20di%20Massimo%20d%E2%80%99Azeglio.jpg"
+  },
+  {
+    "entity": "DC",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Democrazia_Cristiana",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Christian_Democracy_(Italy)",
+    "wikidata": "https://www.wikidata.org/wiki/Q815348",
+    "viaf": "https://viaf.org/en/viaf/137215176",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Dante",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Dante_Alighieri",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Dante_Alighieri",
+    "wikidata": "https://www.wikidata.org/wiki/Q1067",
+    "viaf": "https://viaf.org/en/viaf/97105654",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait%20de%20Dante.jpg"
+  },
+  {
+    "entity": "Danzica",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Danzica",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Gda%C5%84sk",
+    "wikidata": "https://www.wikidata.org/wiki/Q1792",
+    "viaf": "https://viaf.org/en/viaf/123148700",
+    "geonames": "https://www.geonames.org/3099434/gdansk.html",
+    "type": "place",
+    "coordinates": [
+      54.3482907,
+      18.6540233
+    ]
+  },
+  {
+    "entity": "De Bono",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Emilio_De_Bono",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Emilio_De_Bono",
+    "wikidata": "https://www.wikidata.org/wiki/Q354486",
+    "viaf": "https://viaf.org/en/viaf/46799121",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/E.%20De%20Bono%2002.jpg"
+  },
+  {
+    "entity": "Diaz",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Armando_Diaz",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Armando_Diaz",
+    "wikidata": "https://www.wikidata.org/wiki/Q333778",
+    "viaf": "https://viaf.org/en/viaf/5729160",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Armando%20Diaz%20cropped%20111-SC-44886%20-%20NARA%20-%2055248534.jpg"
+  },
+  {
+    "entity": "Dino Compagni",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Dino_Compagni",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Dino_Compagni",
+    "wikidata": "https://www.wikidata.org/wiki/Q716994",
+    "viaf": "https://viaf.org/en/viaf/64048766",
+    "geonames": "",
+    "type": "person"
+  },
+  {
+    "entity": "Dio",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Dio",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/God",
+    "wikidata": "https://www.wikidata.org/wiki/Q190",
+    "viaf": "",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Dumini",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Amerigo_Dumini",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Amerigo_Dumini",
+    "wikidata": "https://www.wikidata.org/wiki/Q2843122",
+    "viaf": "https://viaf.org/en/viaf/41967991",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Amerigo%20Dumini.jpg"
+  },
+  {
+    "entity": "Egitto",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Egitto",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Egypt",
+    "wikidata": "https://www.wikidata.org/wiki/Q79",
+    "viaf": "https://viaf.org/en/viaf/242059233",
+    "geonames": "https://www.geonames.org/357994/arab-republic-of-egypt.html",
+    "type": "place",
+    "coordinates": [
+      27.0,
+      29.0
+    ]
+  },
+  {
+    "entity": "Elba",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Isola_d%27Elba",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Elba",
+    "wikidata": "https://www.wikidata.org/wiki/Q45328",
+    "viaf": "https://viaf.org/en/viaf/315127737",
+    "geonames": "https://www.geonames.org/3177426/isola-d-elba.html",
+    "type": "place",
+    "coordinates": [
+      42.78,
+      10.275
+    ]
+  },
+  {
+    "entity": "Elia",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Elia_da_Cortona",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Elias_of_Cortona",
+    "wikidata": "https://www.wikidata.org/wiki/Q1329212",
+    "viaf": "https://viaf.org/en/viaf/96184933",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elia%20da%20Cortona.jpg"
+  },
+  {
+    "entity": "Elisabetta",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Elisabetta_I_d%27Inghilterra",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Elizabeth_I",
+    "wikidata": "https://www.wikidata.org/wiki/Q7207",
+    "viaf": "https://viaf.org/en/viaf/97107753",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Elizabeth1England.jpg"
+  },
+  {
+    "entity": "Enrico V",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Enrico_V_d%27Inghilterra",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Henry_V_of_England",
+    "wikidata": "https://www.wikidata.org/wiki/Q131581",
+    "viaf": "https://viaf.org/en/viaf/284333410",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Henry%20V%20Miniature.jpg"
+  },
+  {
+    "entity": "Europa",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Europa",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Europe",
+    "wikidata": "https://www.wikidata.org/wiki/Q46",
+    "viaf": "https://viaf.org/en/viaf/170298814",
+    "geonames": "https://www.geonames.org/6255148/europe.html",
+    "type": "place",
+    "coordinates": [
+      53.5,
+      15.5
+    ]
+  },
+  {
+    "entity": "Falkland",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Isole_Falkland",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Falkland_Islands",
+    "wikidata": "https://www.wikidata.org/wiki/Q9648",
+    "viaf": "https://viaf.org/en/viaf/155354899",
+    "geonames": "https://www.geonames.org/3474414/falkland-islands.html",
+    "type": "place",
+    "coordinates": [
+      -51.73,
+      -59.22
+    ]
+  },
+  {
+    "entity": "Fanfani",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Amintore_Fanfani",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Amintore_Fanfani",
+    "wikidata": "https://www.wikidata.org/wiki/Q273228",
+    "viaf": "https://viaf.org/en/viaf/108174450",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Amintore%20Fanfani%201983-04-14.jpg"
+  },
+  {
+    "entity": "Fano",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Fano",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Fano",
+    "wikidata": "https://www.wikidata.org/wiki/Q13142",
+    "viaf": "https://viaf.org/en/viaf/138378091",
+    "geonames": "https://www.geonames.org/6541050/fano.html",
+    "type": "place",
+    "coordinates": [
+      43.8425,
+      13.013611111
+    ]
+  },
+  {
+    "entity": "Faranda",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Adriana_Faranda",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Adriana_Faranda",
+    "wikidata": "https://www.wikidata.org/wiki/Q3605665",
+    "viaf": "https://viaf.org/en/viaf/52495972",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adriana%20Faranda%20Brigate%20Rosse.jpg"
+  },
+  {
+    "entity": "Farfa",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Abbazia_di_Farfa",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Farfa_Abbey",
+    "wikidata": "https://www.wikidata.org/wiki/Q2634480",
+    "viaf": "https://viaf.org/en/viaf/137282486",
+    "geonames": "https://www.geonames.org/7506755/abbazia-di-farfa.html",
+    "type": "place",
+    "coordinates": [
+      42.22166667,
+      12.71861111
+    ]
+  },
+  {
+    "entity": "Federico II",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Federico_II_di_Svevia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor",
+    "wikidata": "https://www.wikidata.org/wiki/Q130221",
+    "viaf": "https://viaf.org/en/viaf/46006380",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Frederick%20II%20and%20eagle.jpg"
+  },
+  {
+    "entity": "Febvre",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Lucien_Febvre",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Lucien_Febvre",
+    "wikidata": "https://www.wikidata.org/wiki/Q156999",
+    "viaf": "https://viaf.org/en/viaf/61545548",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lucien%20Febvre-Strasbourg.jpg"
+  },
+  {
+    "entity": "Firenze",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Firenze",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Florence",
+    "wikidata": "https://www.wikidata.org/wiki/Q2044",
+    "viaf": "https://viaf.org/en/viaf/152981965",
+    "geonames": "https://www.geonames.org/6542285/firenze.html",
+    "type": "place",
+    "coordinates": [
+      43.771388888,
+      11.254166666
+    ]
+  },
+  {
+    "entity": "Francesco Ferdinando",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Francesco_Ferdinando_d%27Austria-Este",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
+    "wikidata": "https://www.wikidata.org/wiki/Q43063",
+    "viaf": "https://viaf.org/en/viaf/50016762",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand%20Schmutzer%20-%20Franz%20Ferdinand%20von%20%C3%96sterreich-Este%2C%20um%201914.jpg"
+  },
+  {
+    "entity": "Francesco Giuseppe",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Francesco_Giuseppe_I_d%27Austria",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria",
+    "wikidata": "https://www.wikidata.org/wiki/Q51056",
+    "viaf": "https://viaf.org/en/viaf/32787948",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Emperor%20Francis%20Joseph.jpg"
+  },
+  {
+    "entity": "Francia",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Francia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/France",
+    "wikidata": "https://www.wikidata.org/wiki/Q142",
+    "viaf": "https://viaf.org/en/viaf/264091107",
+    "geonames": "https://www.geonames.org/3017382/republic-of-france.html",
+    "type": "place",
+    "coordinates": [
+      47.0,
+      2.0
+    ]
+  },
+  {
+    "entity": "Freud",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Sigmund_Freud",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Sigmund_Freud",
+    "wikidata": "https://www.wikidata.org/wiki/Q9215",
+    "viaf": "https://viaf.org/en/viaf/34456780",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sigmund%20Freud%2C%20by%20Max%20Halberstadt%20%28cropped%29.jpg"
+  },
+  {
+    "entity": "GAP",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Gruppi_di_Azione_Patriottica",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Gruppi_di_Azione_Patriottica",
+    "wikidata": "https://www.wikidata.org/wiki/Q3777284",
+    "viaf": "https://viaf.org/en/viaf/125949707/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Galtieri",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Leopoldo_Galtieri",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Leopoldo_Galtieri",
+    "wikidata": "https://www.wikidata.org/wiki/Q124993",
+    "viaf": "https://viaf.org/en/viaf/3967008/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Retrato%20Oficial%20Galtieri.jpg"
+  },
+  {
+    "entity": "Garibaldi",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giuseppe_Garibaldi",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi",
+    "wikidata": "https://www.wikidata.org/wiki/Q539",
+    "viaf": "https://viaf.org/en/viaf/100192194/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe%20Garibaldi%201861.jpg"
+  },
+  {
+    "entity": "Germania",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Germania",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Germany",
+    "wikidata": "https://www.wikidata.org/wiki/Q183",
+    "viaf": "https://viaf.org/en/viaf/189116956/",
+    "geonames": "https://www.geonames.org/2921044/federal-republic-of-germany.html",
+    "type": "place",
+    "coordinates": [
+      51.0,
+      10.0
+    ]
+  },
+  {
+    "entity": "Gerusalemme",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Gerusalemme",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Jerusalem",
+    "wikidata": "https://www.wikidata.org/wiki/Q1218",
+    "viaf": "https://viaf.org/en/viaf/131280745/",
+    "geonames": "https://www.geonames.org/281184/jerusalem.html",
+    "type": "place",
+    "coordinates": [
+      31.778888888,
+      35.225555555
+    ]
+  },
+  {
+    "entity": "Gestapo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Gestapo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Gestapo",
+    "wikidata": "https://www.wikidata.org/wiki/Q43250",
+    "viaf": "https://viaf.org/en/viaf/134799226/",
+    "geonames": "",
+    "type": ""
+  },
+  {
+    "entity": "Gesù",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Ges%C3%B9",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Jesus",
+    "wikidata": "https://www.wikidata.org/wiki/Q302",
+    "viaf": "https://viaf.org/en/viaf/141145970137232251241/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Spas%20vsederzhitel%20sinay%20%28cropped1%29.jpg"
+  },
+  {
+    "entity": "George",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Stefan_George",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Stefan_George",
+    "wikidata": "https://www.wikidata.org/wiki/Q57187",
+    "viaf": "https://viaf.org/en/viaf/46761592/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Stefan%20George%201910%20Foto%20Jakob%20Hilsdorf.jpg"
+  },
+  {
+    "entity": "Giacomo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giacomo_I_d%27Inghilterra",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/James_VI_and_I",
+    "wikidata": "https://www.wikidata.org/wiki/Q79972",
+    "viaf": "https://viaf.org/en/viaf/88905668/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/John%20de%20Critz%20-%20James%20VI%20and%20I%2C%201566%20-%201625.%20King%20of%20Scotland%201567%20-%201625.%20King%20of%20England%20and%20Ireland%201603%20-%201625%20-%20PG%20561%20-%20National%20Galleries%20of%20Scotland.jpg"
+  },
+  {
+    "entity": "Giappone",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giappone",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Japan",
+    "wikidata": "https://www.wikidata.org/wiki/Q17",
+    "viaf": "https://viaf.org/en/viaf/159367111/",
+    "geonames": "https://www.geonames.org/1861060/japan.html",
+    "type": "place",
+    "coordinates": [
+      35.0,
+      136.0
+    ]
+  },
+  {
+    "entity": "Giolitti",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_Giolitti",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Giovanni_Giolitti",
+    "wikidata": "https://www.wikidata.org/wiki/Q297190",
+    "viaf": "https://viaf.org/en/viaf/27079739/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giolitti2.jpg"
+  },
+  {
+    "entity": "Giorgio Amendola",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giorgio_Amendola",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Giorgio_Amendola",
+    "wikidata": "https://www.wikidata.org/wiki/Q939831",
+    "viaf": "https://viaf.org/en/viaf/12304040/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giorgio%20Amendola%201972.jpg"
+  },
+  {
+    "entity": "Giovanna",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanna_d%27Arco",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+    "wikidata": "https://www.wikidata.org/wiki/Q7226",
+    "viaf": "https://viaf.org/en/viaf/97108273/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Contemporaine%20afb%20jeanne%20d%20arc.png"
+  },
+  {
+    "entity": "Giovanna d'Arco",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanna_d%27Arco",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+    "wikidata": "https://www.wikidata.org/wiki/Q7226",
+    "viaf": "https://viaf.org/en/viaf/97108273/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Contemporaine%20afb%20jeanne%20d%20arc.png"
+  },
+  {
+    "entity": "Giovanni da Vicenza",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_da_Vicenza",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/John_of_Vicenza",
+    "wikidata": "https://www.wikidata.org/wiki/Q3768438",
+    "viaf": "https://viaf.org/en/viaf/304159474047827660445",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Medaglione%20di%20Fra%20Giovanni%20da%20Schio.jpg"
+  },
+  {
+    "entity": "Giovanni il Buono",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_II_di_Francia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/John_II_of_France",
+    "wikidata": "https://www.wikidata.org/wiki/Q169992",
+    "viaf": "https://viaf.org/en/viaf/42632679/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/14th-century%20unknown%20painters%20-%20Portrait%20of%20Jean%20le%20Bon%2C%20King%20of%20France%20-%20WGA23666.jpg"
+  },
+  {
+    "entity": "Girolamo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/San_Girolamo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Jerome",
+    "wikidata": "https://www.wikidata.org/wiki/Q44248",
+    "viaf": "https://viaf.org/en/viaf/95147024/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Domenico%20ghirlandaio%2C%20san%20girolamo%2001.jpg"
+  },
+  {
+    "entity": "Gyulay",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Ferenc_Gyulay",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Ferenc_Gyulay",
+    "wikidata": "https://www.wikidata.org/wiki/Q698020",
+    "viaf": "https://viaf.org/en/viaf/81036447/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ferencz%20Jozsef%20Gyulai.jpg"
+  },
+  {
+    "entity": "Gobetti",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Piero_Gobetti",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Piero_Gobetti",
+    "wikidata": "https://www.wikidata.org/wiki/Q532852",
+    "viaf": "https://viaf.org/en/viaf/19697764/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Piero%20gobetti.JPG"
+  },
+  {
+    "entity": "Goffredo di Buglione",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Goffredo_di_Buglione",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Godfrey_of_Bouillon",
+    "wikidata": "https://www.wikidata.org/wiki/Q76721",
+    "viaf": "https://viaf.org/en/viaf/13555210/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Gottfrid%20af%20Bouillon.jpg"
+  },
+  {
+    "entity": "Gorizia",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Gorizia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Gorizia",
+    "wikidata": "https://www.wikidata.org/wiki/Q6596",
+    "viaf": "https://viaf.org/en/viaf/130184480/",
+    "geonames": "https://www.geonames.org/6541866/gorizia.html",
+    "type": "place",
+    "coordinates": [
+      45.9352,
+      13.6193
+    ]
+  },
+  {
+    "entity": "Gradoli",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Gradoli",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Gradoli",
+    "wikidata": "https://www.wikidata.org/wiki/Q161694",
+    "viaf": "https://viaf.org/en/viaf/139824585/",
+    "geonames": "https://www.geonames.org/6536905/gradoli.html",
+    "type": "place",
+    "coordinates": [
+      42.644444444,
+      11.855555555
+    ]
+  },
+  {
+    "entity": "Hitler",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Adolf_Hitler",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "wikidata": "https://www.wikidata.org/wiki/Q352",
+    "viaf": "https://viaf.org/en/viaf/38190770/",
+    "geonames": "",
+    "type": "person",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Adolf%20Hitler%20cropped%20restored%203x4.jpg"
+  },
+  {
+    "entity": "Inghilterra",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Inghilterra",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/England",
+    "wikidata": "https://www.wikidata.org/wiki/Q21",
+    "viaf": "https://viaf.org/en/viaf/142995804/",
+    "geonames": "https://www.geonames.org/6269131/england.html",
+    "type": "place",
+    "coordinates": [
+      53.0,
+      -1.0
+    ]
+  },
+  {
+    "entity": "Irlanda",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Irlanda",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Ireland",
+    "wikidata": "https://www.wikidata.org/wiki/Q27",
+    "viaf": "https://viaf.org/en/viaf/158208597",
+    "geonames": "https://www.geonames.org/2963597/ireland.html",
+    "type": "place",
+    "coordinates": [
+      53.0,
+      -8.0
+    ]
+  },
+  {
+    "entity": "Isonzo",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Isonzo",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/So%C4%8Da",
+    "wikidata": "https://www.wikidata.org/wiki/Q202760",
+    "viaf": "https://viaf.org/en/viaf/241841162/",
+    "geonames": "https://www.geonames.org/3175409/fiume-isonzo.html",
+    "type": "place",
+    "coordinates": [
+      45.724722222,
+      13.556111111
+    ]
+  },
+  {
+    "entity": "Israele",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Israele",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Israel",
+    "wikidata": "https://www.wikidata.org/wiki/Q801",
+    "viaf": "https://viaf.org/en/viaf/146498911/",
+    "geonames": "https://www.geonames.org/294640/state-of-israel.html",
+    "type": "place",
+    "coordinates": [
+      31.0,
+      35.0
+    ]
+  },
+  {
+    "entity": "Istanbul",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Istanbul",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Istanbul",
+    "wikidata": "https://www.wikidata.org/wiki/Q406",
+    "viaf": "https://viaf.org/en/viaf/135931454/",
+    "geonames": "https://www.geonames.org/745044/istanbul.html",
+    "type": "place",
+    "coordinates": [
+      41.01,
+      28.960277777
+    ]
+  },
+  {
+    "entity": "Italia",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Italia",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Italy",
+    "wikidata": "https://www.wikidata.org/wiki/Q38",
+    "viaf": "https://viaf.org/en/viaf/152361066/",
+    "geonames": "https://www.geonames.org/3175395/italian-republic.html",
+    "type": "place",
+    "coordinates": [
+      42.5,
+      12.5
+    ]
+  },
+  {
+    "entity": "Ivrea",
+    "wikipedia_it": "https://it.wikipedia.org/wiki/Ivrea",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Ivrea",
+    "wikidata": "https://www.wikidata.org/wiki/Q9409",
+    "viaf": "https://viaf.org/en/viaf/133676505/",
+    "geonames": "https://www.geonames.org/3175385/ivrea.html",
+    "type": "place",
+    "coordinates": [
+      45.467379,
+      7.874797
+    ]
+  }
+]
