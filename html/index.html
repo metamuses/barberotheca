@@ -42,20 +42,40 @@
 
     <!-- Geo Section -->
     <section id="geo" class="py-5 mb-4 border-bottom border-secondary">
-      <h2>Geo</h2>
+      <h2>Places</h2>
       <p>Geo content placeholder</p>
     </section>
 
-    <!-- Event Section -->
-    <section id="event" class="py-5 mb-4 border-bottom border-secondary">
-      <h2>Event</h2>
-      <p>Event content placeholder</p>
-    </section>
-
     <!-- Person Section -->
-    <section id="person" class="py-5 mb-4">
-      <h2>Person</h2>
-      <p>Person content placeholder</p>
+    <section id="person" class="py-5 mb-4 position-relative">
+      <h2 class="mb-3">People</h2>
+
+      <!-- Carousel Wrapper with Side Buttons -->
+      <div class="position-relative px-0 px-md-5">
+
+        <!-- Prev Button -->
+        <button id="btn-prev"
+          class="btn btn-dark border-secondary rounded-circle position-absolute top-50 start-0 translate-middle-y z-2 ms-2 shadow carousel-nav-btn"
+          type="button" aria-label="Previous">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+
+        <!-- Scroll Container -->
+        <div id="people-scroll-container" class="d-flex overflow-auto gap-3 pb-3 people-carousel"
+          style="scroll-behavior: smooth;">
+          <div class="text-secondary small">Loading people...</div>
+        </div>
+
+        <!-- Next Button -->
+        <button id="btn-next"
+          class="btn btn-dark border-secondary rounded-circle position-absolute top-50 end-0 translate-middle-y z-2 me-2 shadow carousel-nav-btn"
+          type="button" aria-label="Next">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Pagination Dots -->
+      <div id="people-pagination" class="d-none d-md-flex justify-content-center flex-wrap gap-2 mt-2"></div>
     </section>
   </div>
   <footer class="py-3 mt-4 border-top border-secondary">
@@ -64,6 +84,7 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.1/dist/fuse.min.js"></script>
+  <script src="js/people.js"></script>
   <script src="js/main.js"></script>
 </body>
 

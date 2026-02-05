@@ -13,7 +13,8 @@ JSON_FILE = ROOT_DIR / "html" / "data" / "entities-authoritative.json"
 
 def main():
     data = []
-    existing_entities = set()
+    # Map wikidata URL to index in data list
+    wikidata_map = {}
 
     # Load existing data if available
     if JSON_FILE.exists():
@@ -22,10 +23,12 @@ def main():
                 existing_data = json.load(json_file)
                 if isinstance(existing_data, list):
                     data = existing_data
-                    # Create a set of existing entity names for fast lookup
-                    for item in data:
-                        if "entity" in item:
-                            existing_entities.add(item["entity"])
+                    # Build index
+                    for i, item in enumerate(data):
+                        
+                        if "wikidata" in item and item["wikidata"]:
+                            wikidata_map[item["wikidata"]] = i
+                            
             print(f" Loaded {len(data)} existing entities.")
         except json.JSONDecodeError:
              print(" Error decoding existing JSON. Starting fresh.")
@@ -40,15 +43,40 @@ def main():
             
             for row in csv_reader:
                 entity_name = row.get("entity")
+                wikidata_url = row.get("wikidata")
                 
-                # If entity already exists, skip it
-                if entity_name and entity_name in existing_entities:
+                # Check for duplicates by Wikidata ID
+                if wikidata_url and wikidata_url in wikidata_map:
+                    # Duplicate found: Merge into 'entity'
+                    idx = wikidata_map[wikidata_url]
+                    existing_item = data[idx]
+                    
+                    current_entity_val = existing_item["entity"]
+                    
+                    # Convert to list if it's a string
+                    if isinstance(current_entity_val, str):
+                        existing_item["entity"] = [current_entity_val]
+                    
+                    # Add new name if not present
+                    if entity_name and entity_name not in existing_item["entity"]:
+                        existing_item["entity"].append(entity_name)
+                        print(f"Merged '{entity_name}' into existing entity list: {existing_item['entity']}")
+                    
                     continue
-
-                # Add row to data list. 
-                # DictReader reads values as strings, which is appropriate here.
+                
+                # New Item
+                # data.append(row) -> row['entity'] is a string initially.
+                # structure is fine.
+                
+                # Add row to data list.
                 data.append(row)
                 new_count += 1
+                
+                if wikidata_url:
+                    wikidata_map[wikidata_url] = len(data) - 1
+                
+                if wikidata_url:
+                    wikidata_map[wikidata_url] = len(data) - 1
                 
         # Ensure the directory exists
         JSON_FILE.parent.mkdir(parents=True, exist_ok=True)

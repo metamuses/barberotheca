@@ -93,6 +93,43 @@ def get_coordinates(wikidata_url):
     finally:
         time.sleep(0.5)
 
+def get_title_it(wikidata_url):
+    """
+    Fetches the Italian label (rdfs:label @it) for a Wikidata entity.
+    """
+    try:
+        if 'wikidata.org/wiki/' not in wikidata_url:
+            return None
+            
+        qid = wikidata_url.split('/')[-1]
+        
+        query = f"""
+        SELECT ?label WHERE {{
+          wd:{qid} rdfs:label ?label .
+          FILTER(LANG(?label) = "it")
+        }}
+        LIMIT 1
+        """
+        
+        encoded_query = urllib.parse.quote(query)
+        url = f"https://query.wikidata.org/sparql?query={encoded_query}&format=json"
+        
+        req = urllib.request.Request(url)
+        req.add_header('User-Agent', USER_AGENT)
+        
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode())
+            results = data.get('results', {}).get('bindings', [])
+            if results:
+                return results[0].get('label', {}).get('value')
+            return None
+            
+    except Exception as e:
+        print(f"Error fetching title for {wikidata_url}: {e}")
+        return None
+    finally:
+        time.sleep(0.5)
+
 def main():
     if not JSON_FILE.exists():
         print(f"Error: File not found at {JSON_FILE}")
@@ -113,6 +150,17 @@ def main():
             if not wikidata_url:
                 continue
 
+            # Fetch Italian Title for ALL entities if missing
+            if 'title' not in item:
+                 print(f"Fetching title for {item.get('entity')}...")
+                 title = get_title_it(wikidata_url)
+                 if title:
+                     item['title'] = title
+                     updated_count += 1
+                     print(f"  Found title: {title}")
+                 else:
+                     print("  No title found.")
+
             if entity_type == 'person':
                 # Check if image already exists
                 if 'image_url' not in item and 'image' not in item:
@@ -121,13 +169,8 @@ def main():
                     if image_url:
                         item['image_url'] = image_url
                         updated_count += 1
-                        print(f"  Found: {image_url}")
+                        print(f"  Found image: {image_url}")
                     else:
-                        # Mark as none to avoid re-fetching? 
-                        # Or just leave missing to retry next time?
-                        # User requirement: "if entity entry in json already have the key... dont re run"
-                        # So if we don't find it, we don't add the key, so next time it WILL re-run.
-                        # This is usually safer unless we want to cache 'not found'.
                         print("  No image found.")
             
             elif entity_type == 'place':
@@ -138,7 +181,7 @@ def main():
                     if coords:
                         item['coordinates'] = coords
                         updated_count += 1
-                        print(f"  Found: {coords}")
+                        print(f"  Found coords: {coords}")
                     else:
                         print("  No coordinates found.")
                         

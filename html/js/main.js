@@ -1,17 +1,20 @@
 // If you serve from project root, change to '../metadata/barbero.json'
 const JSON_PATH = "data/barbero.json";
+const ENTITIES_PATH = "data/entities-authoritative.json";
 
 let DATA = [];
+let ENTITIES_DATA = [];
+let ENTITIES_VARIANTS = {}; // Map Name -> List of Variants
 let fuse = null;
 let activeFilters = {
-  event: new Set(),
+  place: null,
 };
 
 // Elements
 const searchInput = document.getElementById("search-input");
 const resultsEl = document.getElementById("results");
 const resultCountEl = document.getElementById("result-count");
-const eventFiltersContainer = document.getElementById("event-filters");
+const geoFiltersContainer = document.getElementById("collapseGeo");
 
 // Checkboxes
 const checkAll = document.getElementById("check-all");
@@ -21,6 +24,30 @@ async function loadData() {
   const res = await fetch(JSON_PATH);
   if (!res.ok) throw new Error("Impossibile caricare il JSON");
   DATA = await res.json();
+}
+
+async function loadEntities() {
+  try {
+    const res = await fetch(ENTITIES_PATH + '?dt=' + new Date().getTime());
+    if (!res.ok) throw new Error("Impossibile caricare le entità");
+    ENTITIES_DATA = await res.json();
+
+    // Build Variants Map
+    ENTITIES_VARIANTS = {};
+    ENTITIES_DATA.forEach(e => {
+      if (Array.isArray(e.entity)) {
+        // Map each name in the list to the full list
+        e.entity.forEach(name => {
+          ENTITIES_VARIANTS[name] = e.entity;
+        });
+      } else {
+        ENTITIES_VARIANTS[e.entity] = [e.entity];
+      }
+    });
+
+  } catch (e) {
+    console.error(e);
+  }
 }
 
 function getSelectedKeys() {
@@ -333,8 +360,6 @@ async function loadLection() {
       });
     }
 
-    // Removed old searchBtn listener
-
     if (prevBtn) {
       prevBtn.addEventListener('click', () => {
         if (currentMatches.length === 0) return;
@@ -409,30 +434,59 @@ async function loadLection() {
   }
 }
 
-function populateEventFilters() {
-  if (!eventFiltersContainer) return;
 
-  // Extract unique events
-  const events = [...new Set(DATA.map(item => item.event))].sort();
 
-  eventFiltersContainer.innerHTML = events.map(evt => `
-        <div class="form-check">
-            <input class="form-check-input bg-dark border-secondary filter-event" type="checkbox" value="${evt}" id="evt-${evt.replace(/\s+/g, '')}">
-            <label class="form-check-label" for="evt-${evt.replace(/\s+/g, '')}">
-                ${evt}
-            </label>
-        </div>
-    `).join('');
+function populateGeoFilters() {
+  if (!geoFiltersContainer) return;
 
-  // Attach listeners
-  document.querySelectorAll('.filter-event').forEach(cb => {
-    cb.addEventListener('change', (e) => {
-      if (e.target.checked) activeFilters.event.add(e.target.value);
-      else activeFilters.event.delete(e.target.value);
-      doSearch();
+  // 1. Get all places, sort by Title (or entity if missing) alpha
+  const places = ENTITIES_DATA
+    .filter(e => e.type === "place")
+    .sort((a, b) => {
+      const valA = a.title || (Array.isArray(a.entity) ? a.entity[0] : a.entity);
+      const valB = b.title || (Array.isArray(b.entity) ? b.entity[0] : b.entity);
+      return valA.localeCompare(valB);
+    });
+
+  // 2. Build HTML: "All Places" + places
+  const allOption = `
+    <div class="form-check">
+      <input class="form-check-input bg-dark border-secondary filter-geo" type="radio" name="geoFilter" value="" id="geo-all" checked>
+      <label class="form-check-label" for="geo-all">
+        All Places
+      </label>
+    </div>
+  `;
+
+  const placeOptions = places.map(p => {
+    const val = Array.isArray(p.entity) ? p.entity[0] : p.entity;
+    return `
+    <div class="form-check">
+      <input class="form-check-input bg-dark border-secondary filter-geo" type="radio" name="geoFilter" value="${val}" id="geo-${val.replace(/\s+/g, '')}">
+      <label class="form-check-label" for="geo-${val.replace(/\s+/g, '')}">
+        ${p.title || val}
+      </label>
+    </div>
+  `}).join('');
+
+  // 3. Inject
+  const container = geoFiltersContainer.querySelector('.accordion-body');
+  if (container) {
+    container.innerHTML = allOption + placeOptions;
+  }
+
+  // 4. Listeners
+  document.querySelectorAll('.filter-geo').forEach(rb => {
+    rb.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        activeFilters.place = e.target.value || null; // "" becomes null
+        doSearch();
+      }
     });
   });
 }
+
+
 
 function doSearch() {
   if (!searchInput) return;
@@ -440,9 +494,13 @@ function doSearch() {
   let filteredData = DATA;
 
   // 1. Apply Filters (Exact Match)
-  if (activeFilters.event.size > 0) {
-    filteredData = filteredData.filter(item => activeFilters.event.has(item.event));
+
+
+  if (activeFilters.place) {
+    filteredData = filteredData.filter(item => item.entities && item.entities.includes(activeFilters.place));
   }
+
+
 
   // 2. Fuzzy Search
   const q = searchInput.value.trim();
@@ -468,15 +526,32 @@ function doSearch() {
     let searchResults = fuse.search(q).map(r => r.item);
 
     // Now intersect searchResults with active filters
-    if (activeFilters.event.size > 0) {
-      searchResults = searchResults.filter(item => activeFilters.event.has(item.event));
+
+
+    if (activeFilters.place) {
+      const placeEntity = ENTITIES_DATA.find(e => {
+        if (Array.isArray(e.entity)) return e.entity.includes(activeFilters.place);
+        return e.entity === activeFilters.place;
+      });
+      const variants = placeEntity ? (Array.isArray(placeEntity.entity) ? placeEntity.entity : [placeEntity.entity]) : [activeFilters.place];
+      searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
     }
+
+
 
     render(searchResults);
     return;
   }
 
   // No text search, just rendering filtered data
+
+  if (activeFilters.place) {
+    const variants = ENTITIES_VARIANTS[activeFilters.place] || [activeFilters.place];
+    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  }
+
+
+
   render(filteredData);
 }
 
@@ -523,8 +598,11 @@ async function main() {
     // Only run this if we are on the collection page (results element exists)
     if (resultsEl) {
       await loadData();
+      await loadEntities();
       rebuildFuse();
-      populateEventFilters();
+
+      populateGeoFilters();
+
       render(DATA);
       setupCheckboxLogic();
 
@@ -551,9 +629,17 @@ async function main() {
       // Check for URL query parameter (from landing page)
       if (searchInput) {
         const urlParams = new URLSearchParams(window.location.search);
+
+        // Handle Text Search (q)
         const qParam = urlParams.get('q');
         if (qParam) {
           searchInput.value = qParam;
+        }
+
+
+
+        // Trigger search if either param exists
+        if (qParam) {
           doSearch();
         }
       }
