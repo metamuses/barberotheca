@@ -551,14 +551,18 @@ function doSearch() {
 
   let filteredData = DATA;
 
-  // 1. Apply Filters (Exact Match)
-
+  // 1. Apply Filters (Exact Match or Variant Match)
+  // Logic: activeFilter value (e.g. "mare Adriatico") -> lookup variants -> check if lesson has ANY of those variants
 
   if (activeFilters.place) {
-    filteredData = filteredData.filter(item => item.entities && item.entities.includes(activeFilters.place));
+    const variants = ENTITIES_VARIANTS[activeFilters.place] || [activeFilters.place];
+    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
   }
 
-
+  if (activeFilters.person) {
+    const variants = ENTITIES_VARIANTS[activeFilters.person] || [activeFilters.person];
+    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  }
 
   // 2. Fuzzy Search
   const q = searchInput.value.trim();
@@ -572,30 +576,18 @@ function doSearch() {
 
   if (q !== "" && fuse) {
     // Fuse search returns { item, score, ... }
-    // We need to fuse search ONLY within the filteredData? 
-    // Fuse indexes everything. It's better to:
-    // Option A: Index everything, search, then filter results.
-    // Option B: Create new Fuse index on filtered subset (slow).
-
-    // Going with Option A (Search then Filter) is standard, but Fuse results might include items we filtered out.
-    // Better: Filter first -> create temp Fuse? No, too heavy.
-    // Standard Approach: Fuse search on whole dataset -> Filter results.
-
     let searchResults = fuse.search(q).map(r => r.item);
 
     // Now intersect searchResults with active filters
-
-
     if (activeFilters.place) {
-      const placeEntity = ENTITIES_DATA.find(e => {
-        if (Array.isArray(e.entity)) return e.entity.includes(activeFilters.place);
-        return e.entity === activeFilters.place;
-      });
-      const variants = placeEntity ? (Array.isArray(placeEntity.entity) ? placeEntity.entity : [placeEntity.entity]) : [activeFilters.place];
+      const variants = ENTITIES_VARIANTS[activeFilters.place] || [activeFilters.place];
       searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
     }
 
-
+    if (activeFilters.person) {
+      const variants = ENTITIES_VARIANTS[activeFilters.person] || [activeFilters.person];
+      searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    }
 
     render(searchResults);
     return;
