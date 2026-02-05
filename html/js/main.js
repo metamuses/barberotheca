@@ -7,8 +7,8 @@ let ENTITIES_DATA = [];
 let ENTITIES_VARIANTS = {}; // Map Name -> List of Variants
 let fuse = null;
 let activeFilters = {
-  place: null,
-  person: null,
+  place: [],
+  person: [],
 };
 
 // Elements
@@ -454,22 +454,13 @@ function populateGeoFilters() {
       return valA.localeCompare(valB);
     });
 
-  // 2. Build HTML: "All Places" + places
-  const allOption = `
-    <div class="form-check">
-      <input class="form-check-input bg-dark border-secondary filter-geo" type="radio" name="geoFilter" value="" id="geo-all" checked>
-      <label class="form-check-label" for="geo-all">
-        All Places
-      </label>
-    </div>
-  `;
-
+  // 2. Build HTML: Places only (No "All")
   const placeOptions = places.map(p => {
     // USE TITLE AS VALUE (fallback to entity)
     const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
     return `
     <div class="form-check">
-      <input class="form-check-input bg-dark border-secondary filter-geo" type="radio" name="geoFilter" value="${val}" id="geo-${val.replace(/\s+/g, '')}">
+      <input class="form-check-input bg-dark border-secondary filter-geo" type="checkbox" value="${val}" id="geo-${val.replace(/\s+/g, '')}">
       <label class="form-check-label" for="geo-${val.replace(/\s+/g, '')}">
         ${p.title || val}
       </label>
@@ -479,16 +470,26 @@ function populateGeoFilters() {
   // 3. Inject
   const container = geoFiltersContainer.querySelector('.accordion-body');
   if (container) {
-    container.innerHTML = allOption + placeOptions;
+    container.innerHTML = placeOptions;
   }
 
   // 4. Listeners
-  document.querySelectorAll('.filter-geo').forEach(rb => {
-    rb.addEventListener('change', (e) => {
+  document.querySelectorAll('.filter-geo').forEach(cb => {
+    cb.addEventListener('change', (e) => {
+      const val = e.target.value;
       if (e.target.checked) {
-        activeFilters.place = e.target.value || null; // "" becomes null
-        doSearch();
+        if (!activeFilters.place.includes(val)) activeFilters.place.push(val);
+
+        // Scroll to Results
+        if (resultsEl) {
+          setTimeout(() => {
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 300);
+        }
+      } else {
+        activeFilters.place = activeFilters.place.filter(v => v !== val);
       }
+      doSearch();
     });
   });
 }
@@ -505,22 +506,13 @@ function populatePersonFilters() {
       return valA.localeCompare(valB);
     });
 
-  // 2. Build HTML: "All Persons" + persons
-  const allOption = `
-    <div class="form-check">
-      <input class="form-check-input bg-dark border-secondary filter-person" type="radio" name="personFilter" value="" id="person-all" checked>
-      <label class="form-check-label" for="person-all">
-        All Persons
-      </label>
-    </div>
-  `;
-
+  // 2. Build HTML: Persons only (No "All")
   const personOptions = persons.map(p => {
     // USE TITLE AS VALUE (fallback to entity)
     const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
     return `
     <div class="form-check">
-      <input class="form-check-input bg-dark border-secondary filter-person" type="radio" name="personFilter" value="${val}" id="person-${val.replace(/\s+/g, '')}">
+      <input class="form-check-input bg-dark border-secondary filter-person" type="checkbox" value="${val}" id="person-${val.replace(/\s+/g, '')}">
       <label class="form-check-label" for="person-${val.replace(/\s+/g, '')}">
         ${p.title || val}
       </label>
@@ -530,21 +522,73 @@ function populatePersonFilters() {
   // 3. Inject
   const container = personFiltersContainer.querySelector('.accordion-body');
   if (container) {
-    container.innerHTML = allOption + personOptions;
+    container.innerHTML = personOptions;
   }
 
   // 4. Listeners
-  document.querySelectorAll('.filter-person').forEach(rb => {
-    rb.addEventListener('change', (e) => {
+  document.querySelectorAll('.filter-person').forEach(cb => {
+    cb.addEventListener('change', (e) => {
+      const val = e.target.value;
       if (e.target.checked) {
-        activeFilters.person = e.target.value || null; // "" becomes null
-        doSearch();
+        if (!activeFilters.person.includes(val)) activeFilters.person.push(val);
+
+        // Scroll to Results
+        if (resultsEl) {
+          setTimeout(() => {
+            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 300);
+        }
+      } else {
+        activeFilters.person = activeFilters.person.filter(v => v !== val);
       }
+      doSearch();
     });
   });
 }
 
+function renderActiveFilters() {
+  const container = document.getElementById("active-filters");
+  if (!container) return;
+  container.innerHTML = "";
 
+  let hasFilter = false;
+
+  // Helper to create chip
+  const createChip = (type, value) => {
+    const btn = document.createElement("button");
+    btn.className = "btn btn-secondary btn-sm rounded-pill d-inline-flex align-items-center";
+    btn.innerHTML = `<span>${value}</span> <i class="bi bi-x ms-2"></i>`;
+    btn.onclick = () => {
+      // Uncheck checkbox
+      const checkbox = document.querySelector(`.filter-${type === 'place' ? 'geo' : 'person'}[value="${value}"]`);
+      if (checkbox) checkbox.checked = false;
+
+      // Update state
+      activeFilters[type] = activeFilters[type].filter(v => v !== value);
+      doSearch();
+    };
+    container.appendChild(btn);
+    hasFilter = true;
+  };
+
+  activeFilters.place.forEach(val => createChip('place', val));
+  activeFilters.person.forEach(val => createChip('person', val));
+
+  if (hasFilter) {
+    const clearBtn = document.createElement("button");
+    clearBtn.className = "btn btn-link btn-sm text-white text-decoration-none";
+    clearBtn.innerHTML = `Clear all <i class="bi bi-x"></i>`;
+    clearBtn.onclick = () => {
+      // Reset all checkboxes
+      document.querySelectorAll('.filter-geo, .filter-person').forEach(c => c.checked = false);
+
+      activeFilters.place = [];
+      activeFilters.person = [];
+      doSearch();
+    };
+    container.appendChild(clearBtn);
+  }
+}
 
 function doSearch() {
   if (!searchInput) return;
@@ -553,15 +597,20 @@ function doSearch() {
 
   // 1. Apply Filters (Exact Match or Variant Match)
   // Logic: activeFilter value (e.g. "mare Adriatico") -> lookup variants -> check if lesson has ANY of those variants
+  // AND LOGIC: The lesson must contain a matching entity for EVERY selected filter.
 
-  if (activeFilters.place) {
-    const variants = ENTITIES_VARIANTS[activeFilters.place] || [activeFilters.place];
-    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  if (activeFilters.place.length > 0) {
+    activeFilters.place.forEach(pFilter => {
+      const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
+      filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    });
   }
 
-  if (activeFilters.person) {
-    const variants = ENTITIES_VARIANTS[activeFilters.person] || [activeFilters.person];
-    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  if (activeFilters.person.length > 0) {
+    activeFilters.person.forEach(pFilter => {
+      const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
+      filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    });
   }
 
   // 2. Fuzzy Search
@@ -579,35 +628,43 @@ function doSearch() {
     let searchResults = fuse.search(q).map(r => r.item);
 
     // Now intersect searchResults with active filters
-    if (activeFilters.place) {
-      const variants = ENTITIES_VARIANTS[activeFilters.place] || [activeFilters.place];
-      searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    if (activeFilters.place.length > 0) {
+      activeFilters.place.forEach(pFilter => {
+        const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
+        searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+      });
     }
 
-    if (activeFilters.person) {
-      const variants = ENTITIES_VARIANTS[activeFilters.person] || [activeFilters.person];
-      searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    if (activeFilters.person.length > 0) {
+      activeFilters.person.forEach(pFilter => {
+        const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
+        searchResults = searchResults.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+      });
     }
 
+    // Valid match
     render(searchResults);
+    renderActiveFilters();
     return;
   }
 
   // No text search, just rendering filtered data
-
-  if (activeFilters.place) {
-    const variants = ENTITIES_VARIANTS[activeFilters.place] || [activeFilters.place];
-    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  if (activeFilters.place.length > 0) {
+    activeFilters.place.forEach(pFilter => {
+      const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
+      filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    });
   }
 
-  if (activeFilters.person) {
-    const variants = ENTITIES_VARIANTS[activeFilters.person] || [activeFilters.person];
-    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  if (activeFilters.person.length > 0) {
+    activeFilters.person.forEach(pFilter => {
+      const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
+      filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    });
   }
-
-
 
   render(filteredData);
+  renderActiveFilters();
 }
 
 // simple debounce
@@ -654,6 +711,7 @@ async function main() {
     if (resultsEl) {
       await loadData();
       await loadEntities();
+      await loadEntities();
       rebuildFuse();
 
       populateGeoFilters();
@@ -697,10 +755,10 @@ async function main() {
         // Handle Person Filter (person)
         const personParam = urlParams.get('person');
         if (personParam) {
-          const radio = document.querySelector(`.filter-person[value="${personParam}"]`);
-          if (radio) {
-            radio.checked = true;
-            activeFilters.person = personParam;
+          const checkbox = document.querySelector(`.filter-person[value="${personParam}"]`);
+          if (checkbox) {
+            checkbox.checked = true;
+            if (!activeFilters.person.includes(personParam)) activeFilters.person.push(personParam);
 
             // Expand Accordion
             if (personFiltersContainer) {
@@ -713,10 +771,10 @@ async function main() {
         // Handle Place Filter (place)
         const placeParam = urlParams.get('place');
         if (placeParam) {
-          const radio = document.querySelector(`.filter-geo[value="${placeParam}"]`);
-          if (radio) {
-            radio.checked = true;
-            activeFilters.place = placeParam;
+          const checkbox = document.querySelector(`.filter-geo[value="${placeParam}"]`);
+          if (checkbox) {
+            checkbox.checked = true;
+            if (!activeFilters.place.includes(placeParam)) activeFilters.place.push(placeParam);
 
             // Expand Accordion
             if (geoFiltersContainer) {
@@ -765,7 +823,7 @@ async function main() {
         landingBtn.addEventListener("click", () => {
           const term = landingInput.value.trim();
           if (term) {
-            window.location.href = `collection.html?q=${encodeURIComponent(term)}`;
+            window.location.href = `collection.html ? q = ${encodeURIComponent(term)} `;
           } else {
             window.location.href = `collection.html`;
           }
@@ -778,7 +836,7 @@ async function main() {
 
   } catch (err) {
     if (resultsEl) {
-      resultsEl.innerHTML = `<div class="col-12"><div class="alert alert-danger">Errore: ${err.message}</div></div>`;
+      resultsEl.innerHTML = `< div class="col-12" > <div class="alert alert-danger">Errore: ${err.message}</div></div > `;
     }
     console.error(err);
   }
