@@ -23,7 +23,7 @@ async function initPeople() {
 
             return {
                 name: p.title || entityId, // Display Name (Italian Title)
-                id: entityId,              // Filter ID (matches barbero.json and radio values)
+                id: p.title || entityId,   // Filter ID (Use Title to match main.js logic)
                 image: p.image_url || 'https://placehold.co/400x400/grey/white?text=No+Image',
                 original_link: p.wikipedia_it
             };

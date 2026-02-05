@@ -8,6 +8,7 @@ let ENTITIES_VARIANTS = {}; // Map Name -> List of Variants
 let fuse = null;
 let activeFilters = {
   place: null,
+  person: null,
 };
 
 // Elements
@@ -15,6 +16,7 @@ const searchInput = document.getElementById("search-input");
 const resultsEl = document.getElementById("results");
 const resultCountEl = document.getElementById("result-count");
 const geoFiltersContainer = document.getElementById("collapseGeo");
+const personFiltersContainer = document.getElementById("collapsePerson");
 
 // Checkboxes
 const checkAll = document.getElementById("check-all");
@@ -33,15 +35,19 @@ async function loadEntities() {
     ENTITIES_DATA = await res.json();
 
     // Build Variants Map
+    // Build Variants Map
     ENTITIES_VARIANTS = {};
     ENTITIES_DATA.forEach(e => {
-      if (Array.isArray(e.entity)) {
-        // Map each name in the list to the full list
-        e.entity.forEach(name => {
-          ENTITIES_VARIANTS[name] = e.entity;
-        });
-      } else {
-        ENTITIES_VARIANTS[e.entity] = [e.entity];
+      const variants = Array.isArray(e.entity) ? e.entity : [e.entity];
+
+      // Map aliases
+      variants.forEach(name => {
+        ENTITIES_VARIANTS[name] = variants;
+      });
+
+      // Map title
+      if (e.title) {
+        ENTITIES_VARIANTS[e.title] = variants;
       }
     });
 
@@ -459,7 +465,8 @@ function populateGeoFilters() {
   `;
 
   const placeOptions = places.map(p => {
-    const val = Array.isArray(p.entity) ? p.entity[0] : p.entity;
+    // USE TITLE AS VALUE (fallback to entity)
+    const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
     return `
     <div class="form-check">
       <input class="form-check-input bg-dark border-secondary filter-geo" type="radio" name="geoFilter" value="${val}" id="geo-${val.replace(/\s+/g, '')}">
@@ -480,6 +487,57 @@ function populateGeoFilters() {
     rb.addEventListener('change', (e) => {
       if (e.target.checked) {
         activeFilters.place = e.target.value || null; // "" becomes null
+        doSearch();
+      }
+    });
+  });
+}
+
+function populatePersonFilters() {
+  if (!personFiltersContainer) return;
+
+  // 1. Get all persons, sort by Title (or entity) alpha
+  const persons = ENTITIES_DATA
+    .filter(e => e.type === "person")
+    .sort((a, b) => {
+      const valA = a.title || (Array.isArray(a.entity) ? a.entity[0] : a.entity);
+      const valB = b.title || (Array.isArray(b.entity) ? b.entity[0] : b.entity);
+      return valA.localeCompare(valB);
+    });
+
+  // 2. Build HTML: "All Persons" + persons
+  const allOption = `
+    <div class="form-check">
+      <input class="form-check-input bg-dark border-secondary filter-person" type="radio" name="personFilter" value="" id="person-all" checked>
+      <label class="form-check-label" for="person-all">
+        All Persons
+      </label>
+    </div>
+  `;
+
+  const personOptions = persons.map(p => {
+    // USE TITLE AS VALUE (fallback to entity)
+    const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
+    return `
+    <div class="form-check">
+      <input class="form-check-input bg-dark border-secondary filter-person" type="radio" name="personFilter" value="${val}" id="person-${val.replace(/\s+/g, '')}">
+      <label class="form-check-label" for="person-${val.replace(/\s+/g, '')}">
+        ${p.title || val}
+      </label>
+    </div>
+  `}).join('');
+
+  // 3. Inject
+  const container = personFiltersContainer.querySelector('.accordion-body');
+  if (container) {
+    container.innerHTML = allOption + personOptions;
+  }
+
+  // 4. Listeners
+  document.querySelectorAll('.filter-person').forEach(rb => {
+    rb.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        activeFilters.person = e.target.value || null; // "" becomes null
         doSearch();
       }
     });
@@ -550,6 +608,11 @@ function doSearch() {
     filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
   }
 
+  if (activeFilters.person) {
+    const variants = ENTITIES_VARIANTS[activeFilters.person] || [activeFilters.person];
+    filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+  }
+
 
 
   render(filteredData);
@@ -602,6 +665,7 @@ async function main() {
       rebuildFuse();
 
       populateGeoFilters();
+      populatePersonFilters();
 
       render(DATA);
       setupCheckboxLogic();
@@ -638,8 +702,24 @@ async function main() {
 
 
 
+        // Handle Person Filter (person)
+        const personParam = urlParams.get('person');
+        if (personParam) {
+          const radio = document.querySelector(`.filter-person[value="${personParam}"]`);
+          if (radio) {
+            radio.checked = true;
+            activeFilters.person = personParam;
+
+            // Expand Accordion
+            if (personFiltersContainer) {
+              const bsCollapse = new bootstrap.Collapse(personFiltersContainer, { toggle: false });
+              bsCollapse.show();
+            }
+          }
+        }
+
         // Trigger search if either param exists
-        if (qParam) {
+        if (qParam || personParam) {
           doSearch();
         }
       }
