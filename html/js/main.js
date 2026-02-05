@@ -718,8 +718,24 @@ async function main() {
           }
         }
 
+        // Handle Place Filter (place)
+        const placeParam = urlParams.get('place');
+        if (placeParam) {
+          const radio = document.querySelector(`.filter-geo[value="${placeParam}"]`);
+          if (radio) {
+            radio.checked = true;
+            activeFilters.place = placeParam;
+
+            // Expand Accordion
+            if (geoFiltersContainer) {
+              const bsCollapse = new bootstrap.Collapse(geoFiltersContainer, { toggle: false });
+              bsCollapse.show();
+            }
+          }
+        }
+
         // Trigger search if either param exists
-        if (qParam || personParam) {
+        if (qParam || personParam || placeParam) {
           doSearch();
         }
       }
