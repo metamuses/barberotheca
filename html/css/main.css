@@ -108,6 +108,13 @@ aside h3 {
 }
 
 
+/* Sidebar Layout */
+.lesson-sidebar {
+  border-left: 1px solid;
+  /* Color inherited from border-secondary class */
+}
+
+
 /* --- Media Queries (Mobile/Tablet Overrides) --- */
 
 /* Tablet & Smaller (approx < 992px) */
@@ -157,6 +164,12 @@ aside h3 {
     width: 32px;
     height: 32px;
     font-size: 0.8rem;
+  }
+
+  /* Sidebar Layout: Border Top instead of Left on Mobile */
+  .lesson-sidebar {
+    border-left: none;
+    border-top: 1px solid;
   }
 }
 
