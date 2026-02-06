@@ -177,6 +177,12 @@ async function loadLection() {
     return;
   }
 
+  // Setup Download Button
+  const downloadBtn = document.getElementById("download-transcript-btn");
+  if (downloadBtn) {
+    downloadBtn.href = `../transcripts/${id}.txt`;
+  }
+
   // Load Data if not loaded
   if (DATA.length === 0) {
     try {
@@ -836,7 +842,7 @@ async function main() {
 
   } catch (err) {
     if (resultsEl) {
-      resultsEl.innerHTML = `< div class="col-12" > <div class="alert alert-danger">Errore: ${err.message}</div></div > `;
+      resultsEl.innerHTML = `<div class="col-12"><div class="alert alert-danger">Errore: ${err.message}</div></div>`;
     }
     console.error(err);
   }
