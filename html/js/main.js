@@ -192,6 +192,10 @@ async function loadLection() {
     }
   }
 
+  if (ENTITIES_DATA.length === 0) {
+    await loadEntities();
+  }
+
   // Find lesson data
   const item = DATA.find(d => d.semantic_filename === id);
 
@@ -277,8 +281,14 @@ async function loadLection() {
     const container = document.getElementById("transcript-container");
     const segmentEls = Array.from(document.querySelectorAll('.transcript-segment'));
 
+    // Enrich Transcription with Icons
+    if (typeof enrichTranscription === 'function') {
+      enrichTranscription("transcript-container", item, ENTITIES_DATA, ENTITIES_VARIANTS);
+    }
+
     // Store original text for search (to avoid dirty markup)
-    segmentEls.forEach(el => el.dataset.originalText = el.textContent);
+    // We store InnerHTML to preserve icons added by enrichment
+    segmentEls.forEach(el => el.dataset.originalText = el.innerHTML);
 
     // === Logic: Search Transcription ===
     let currentMatchIndex = -1;
@@ -683,9 +693,6 @@ function populateKeywordCloud() {
     if (percent > 0.1) return "fs-5";
     return "fs-6";
   };
-
-  // Color palette (optional, just alternating for visual interest or keep white/secondary)
-  // Let's keep it simple text-white or text-light
 
   container.innerHTML = centeredList.map(([word, freq]) => {
     const fsClass = getFsClass(freq);
