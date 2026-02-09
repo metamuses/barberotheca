@@ -25,6 +25,11 @@ body {
   font-size: 3rem;
 }
 
+.font-kabel {
+  font-family: 'Kabel', sans-serif;
+  font-weight: normal;
+}
+
 /* Header Navigation Links */
 header nav a:not(.btn) {
   font-size: 1.25rem;
@@ -173,12 +178,52 @@ aside h3 {
   }
 }
 
-/* Small Mobile (approx < 576px) */
-@media (max-width: 575.98px) {
+/* --- Tooltip Styles --- */
+.entity-tooltip {
+  position: absolute;
+  background: #fff;
+  color: #212529;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 12px;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  pointer-events: auto;
+  min-width: 250px;
+  max-width: 300px;
+}
 
-  /* Geo & Person Filter Layout: 1 Column on Small Mobile */
-  #collapseGeo .accordion-body,
-  #collapsePerson .accordion-body {
-    column-count: 1;
-  }
+.entity-tooltip h6 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.tooltip-map {
+  width: 100%;
+  height: 150px;
+  border-radius: 4px;
+  margin-top: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.tooltip-image-container {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+  margin-top: 8px;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+  background: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

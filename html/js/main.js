@@ -115,7 +115,7 @@ function render(items) {
                    <span class="small">${item.entities.join(", ")}</span>
                 </div>
 
-                <a href="${item.source_url}" target="_blank" class="btn btn-outline-light btn-sm position-relative" style="z-index: 2;">Watch on YouTube</a>
+                <a href="${item.source_url}" target="_blank" class="btn btn-outline-light btn-sm position-relative" style="z-index: 2;">Guarda su YouTube</a>
                 <a href="lection.html?id=${item.semantic_filename}" class="stretched-link"></a>
               </div>
             </div>
@@ -156,6 +156,7 @@ function parseSRT(srtData) {
 }
 
 async function loadLection() {
+  const headerSection = document.getElementById("lection-header");
   const audioSection = document.getElementById("audio");
   const transcriptionSection = document.getElementById("transcription-content");
   const searchInput = document.getElementById("transcription-search");
@@ -199,23 +200,50 @@ async function loadLection() {
   // Find lesson data
   const item = DATA.find(d => d.semantic_filename === id);
 
-  // Render Details
-  if (detailsContent && item) {
-    detailsContent.innerHTML = `
-            <div class="card bg-secondary text-white border-0 shadow-sm mt-4">
-                <div class="card-body">
-                    <h5 class="card-title text-white font-kabel">${item.lectio_title}</h5>
-                    <h6 class="card-subtitle mb-3 text-light opacity-75">${item.event_year} – ${item.event}</h6>
-                    ${item.macrotheme_title ? `<p class="card-text small mb-2"><strong>${item.macrotheme_title}</strong></p>` : ""}
-                    
-                    <div class="mb-2">
-                        <small class="d-block text-white opacity-75">Keywords:</small>
-                        <span class="small">${item.keywords.join(", ")}</span>
-                    </div>
+  // Render Header
+  if (headerSection && item) {
+    headerSection.innerHTML = `
+            <h2 class="display-5 font-kabel mb-3 text-white">${item.lectio_title}</h2>
+            ${item.macrotheme_title ? `<h4 class="text-white opacity-75 mb-2">Fa parte della serie: ${item.macrotheme_title}</h4>` : ''}
+            <p class="lead text-secondary mb-0 fw-light">${item.event} ${item.event_year ? `(${item.event_year})` : ''}</p>
+       `;
+  }
 
-                    <div class="mb-3">
-                        <small class="d-block text-white opacity-75">Entities:</small>
-                        <span class="small">${item.entities.join(", ")}</span>
+  // Render Details (Sidebar)
+  if (detailsContent && item) {
+    // Helper to find entity URL
+    const findEntityUrl = (name) => {
+      const entry = ENTITIES_DATA.find(e => {
+        const variants = Array.isArray(e.entity) ? e.entity : [e.entity];
+        return variants.includes(name);
+      });
+      return entry ? entry.wikipedia_it : null;
+    };
+
+    const entitiesHtml = item.entities.map(name => {
+      const url = findEntityUrl(name);
+      if (url) {
+        return `<a href="${url}" target="_blank" class="badge bg-secondary text-decoration-none border border-light border-opacity-25 me-1 mb-1 text-white">${name}</a>`;
+      }
+      return `<span class="badge bg-secondary border border-light border-opacity-25 me-1 mb-1 text-white opacity-75">${name}</span>`;
+    }).join('');
+
+    detailsContent.innerHTML = `
+            <div class="card bg-secondary text-white border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title font-kabel mb-3">Fonte</h5>
+                    <div class="mb-4">
+                        <a href="${item.source_url}" target="_blank" class="btn btn-outline-light w-100 d-flex align-items-center justify-content-center gap-2">
+                            <i class="bi bi-youtube"></i>
+                            Video Youtube
+                        </a>
+                    </div>
+                    
+                    <div>
+                        <h6 class="text-white opacity-75 mb-2">Wikipedia</h6>
+                        <div class="d-flex flex-wrap">
+                            ${entitiesHtml}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -488,7 +516,7 @@ function renderActiveFilters() {
   if (hasFilter) {
     const clearBtn = document.createElement("button");
     clearBtn.className = "btn btn-link btn-sm text-white text-decoration-none";
-    clearBtn.innerHTML = `Clear all <i class="bi bi-x"></i>`;
+    clearBtn.innerHTML = `Pulisci <i class="bi bi-x"></i>`;
     clearBtn.onclick = () => {
       activeFilters.place = [];
       activeFilters.person = [];
@@ -714,19 +742,390 @@ function populateKeywordCloud() {
   }).join("");
 }
 
+// === Enrichment Logic ===
+function enrichTranscription(containerId, lessonItem, entitiesData, entitiesVariants) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  if (!entitiesData || entitiesData.length === 0) return;
+
+  const typeMap = new Map();
+  entitiesData.forEach(entry => {
+    const type = entry.type ? entry.type.toLowerCase() : '';
+    const variants = Array.isArray(entry.entity) ? entry.entity : [entry.entity];
+    variants.forEach(v => {
+      if (v) { typeMap.set(v, type); typeMap.set(v.toLowerCase(), type); }
+    });
+    if (entry.title) {
+      typeMap.set(entry.title, type);
+      typeMap.set(entry.title.toLowerCase(), type);
+    }
+  });
+
+  const termsMap = new Map();
+  const addTerm = (term, source) => {
+    if (!term) return;
+    const normalized = term.trim().toLowerCase();
+    if (normalized.length < 2) return;
+    let type = '';
+    if (typeMap.has(term)) type = typeMap.get(term);
+    else if (typeMap.has(normalized)) type = typeMap.get(normalized);
+    if (source === 'keyword_list') type = 'keyword';
+    const existing = termsMap.get(normalized);
+    if (existing) {
+      if (existing.type === 'keyword' && type !== 'keyword') {
+        termsMap.set(normalized, { type, display: term });
+      }
+    } else {
+      termsMap.set(normalized, { type, display: term });
+    }
+  };
+
+  if (lessonItem.entities) {
+    lessonItem.entities.forEach(entityName => {
+      let type = '';
+      if (typeMap.has(entityName)) type = typeMap.get(entityName);
+      else if (typeMap.has(entityName.toLowerCase())) type = typeMap.get(entityName.toLowerCase());
+      const normalized = entityName.trim().toLowerCase();
+      termsMap.set(normalized, { type, display: entityName });
+    });
+  }
+  if (lessonItem.keywords) lessonItem.keywords.forEach(kw => addTerm(kw, 'keyword_list'));
+
+  const sortedTerms = Array.from(termsMap.keys()).sort((a, b) => b.length - a.length);
+  if (sortedTerms.length === 0) return;
+
+  const escapeRegExp = (string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const pattern = new RegExp(`\\b(${sortedTerms.map(escapeRegExp).join('|')})\\b`, 'gi');
+
+  const segments = container.querySelectorAll('.transcript-segment');
+  segments.forEach(segment => {
+    let html = segment.innerHTML;
+    html = html.replace(pattern, (match) => {
+      const key = match.toLowerCase();
+      const info = termsMap.get(key);
+      if (!info || !info.type) return match;
+      let iconClass = '', colorClass = '';
+      if (info.type === 'person') { iconClass = 'bi bi-person'; colorClass = 'text-danger'; }
+      else if (info.type === 'place') { iconClass = 'bi bi-geo-alt'; colorClass = 'text-primary'; }
+      else if (info.type === 'keyword') { iconClass = 'bi bi-key'; colorClass = 'text-success'; }
+
+      if (!iconClass) return match;
+
+      // Find original entity data if possible for coordinates or images
+      let entityDataAttr = '';
+
+      // Look up in authoritative data if available
+      if (entitiesData && (info.type === 'place' || info.type === 'person')) {
+        const entry = entitiesData.find(e => {
+          if (e.type !== info.type) return false;
+          const variants = Array.isArray(e.entity) ? e.entity : [e.entity];
+          if (e.title) variants.push(e.title);
+          return variants.some(v => v && v.toLowerCase() === key);
+        });
+
+        if (entry) {
+          const title = entry.title || (Array.isArray(entry.entity) ? entry.entity[0] : entry.entity);
+          let extra = '';
+
+          if (info.type === 'place' && entry.coordinates) {
+            const lat = entry.coordinates[0];
+            const lon = entry.coordinates[1];
+            extra = `data-lat="${lat}" data-lon="${lon}"`;
+          } else if (info.type === 'person' && entry.image_url) {
+            extra = `data-image="${entry.image_url}"`;
+          }
+
+          entityDataAttr = `data-type="${info.type}" data-title="${title}" ${extra}`;
+        }
+      }
+
+      // Add generic type/title if not filtered above
+      if (!entityDataAttr) {
+        entityDataAttr = `data-type="${info.type}" data-title="${match}"`;
+      }
+
+      return `${match}<sup class="entity-icon pointer" ${entityDataAttr}><i class="${iconClass} ${colorClass}"></i></sup>`;
+    });
+    segment.innerHTML = html;
+  });
+
+  // Initialize Tooltip Handler (only once)
+  if (!window.tooltipInitialized) {
+    setupEntityTooltip();
+    window.tooltipInitialized = true;
+  }
+}
+
+function setupEntityTooltip() {
+  let tooltip = document.createElement('div');
+  tooltip.className = 'entity-tooltip d-none';
+  document.body.appendChild(tooltip);
+
+  let currentMap = null; // Store map instance
+
+  document.addEventListener('mouseover', (e) => {
+    const target = e.target.closest('.entity-icon');
+    if (!target) return;
+
+    const type = target.dataset.type;
+    const title = target.dataset.title;
+    const lat = target.dataset.lat;
+    const lon = target.dataset.lon;
+    const image = target.dataset.image;
+
+    let content = '';
+
+    if (type === 'keyword') {
+      content = `
+          <div class="text-center">
+            <span class="badge rounded-pill bg-secondary text-white fw-normal py-2 px-3 border border-secondary border-opacity-25 shadow-sm fs-6">
+              ${title}
+            </span>
+          </div>
+        `;
+    } else {
+      content = `<h6>${title}</h6>`;
+      if (type === 'place' && lat && lon) {
+        content += `<div id="tooltip-map-container" class="tooltip-map"></div>`;
+      } else if (type === 'person' && image) {
+        content += `<div class="tooltip-image-container"><img src="${image}" class="tooltip-image" alt="${title}" onerror="this.style.display='none'"></div>`;
+      } else {
+        content += `<span class="badge bg-secondary">${type}</span>`;
+      }
+    }
+
+    tooltip.innerHTML = content;
+    tooltip.classList.remove('d-none');
+
+    // Initial Position
+    positionTooltip(e, tooltip);
+
+    // Initialize Map if needed
+    if (type === 'place' && lat && lon) {
+      // Delay slightly to ensure DOM is ready
+      setTimeout(() => {
+        const container = document.getElementById('tooltip-map-container');
+        if (container) {
+          if (currentMap) {
+            currentMap.off();
+            currentMap.remove();
+            currentMap = null;
+          }
+          currentMap = L.map('tooltip-map-container', {
+            zoomControl: false,
+            attributionControl: false
+          }).setView([lat, lon], 5);
+
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            subdomains: 'abc',
+            maxZoom: 19
+          }).addTo(currentMap);
+
+          L.marker([lat, lon]).addTo(currentMap);
+        }
+      }, 50);
+    }
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    const target = e.target.closest('.entity-icon');
+    if (target) {
+      positionTooltip(e, tooltip);
+    }
+  });
+
+  document.addEventListener('mouseout', (e) => {
+    const target = e.target.closest('.entity-icon');
+    if (target) {
+      tooltip.classList.add('d-none');
+      // Cleanup map
+      if (currentMap) {
+        currentMap.off();
+        currentMap.remove();
+        currentMap = null;
+      }
+    }
+  });
+}
+
+function positionTooltip(e, tooltip) {
+  const x = e.pageX;
+  const y = e.pageY;
+
+  // Check bounds (simple logic)
+  const winWidth = window.innerWidth;
+  let left = x + 15;
+  if (left + 300 > winWidth) {
+    left = x - 315; // Show to left
+  }
+
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${y + 15}px`;
+}
+
+// === Map Logic ===
+function initMap() {
+  const mapElement = document.getElementById("map");
+  if (!mapElement) return;
+  if (mapElement._leaflet_id) return; // Already initialized
+
+  const map = L.map('map').setView([20, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    subdomains: 'abc',
+    maxZoom: 19
+  }).addTo(map);
+
+  if (!ENTITIES_DATA || ENTITIES_DATA.length === 0) return;
+
+  const places = ENTITIES_DATA.filter(item =>
+    item.type === 'place' && item.coordinates &&
+    Array.isArray(item.coordinates) && item.coordinates.length === 2
+  );
+
+  places.forEach(p => {
+    const lat = p.coordinates[0];
+    const lon = p.coordinates[1];
+    const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
+    const marker = L.marker([lat, lon]).addTo(map);
+    const popupContent = `
+            <div class="text-center">
+                <h6 class="mb-1 text-dark">${p.title || val}</h6>
+                ${p.image_url ? `<img src="${p.image_url}" class="img-fluid rounded mb-2" style="max-height: 100px;">` : ''}
+                <br>
+                <a href="collection.html?place=${encodeURIComponent(val)}" class="btn btn-sm btn-secondary text-white">View Lessons</a>
+            </div>
+         `;
+    marker.bindPopup(popupContent);
+  });
+}
+
+// === People Carousel Logic ===
+function initPeople() {
+  const container = document.getElementById("people-scroll-container");
+  if (!container) return;
+  if (!ENTITIES_DATA || ENTITIES_DATA.length === 0) return;
+
+  try {
+    const people = ENTITIES_DATA.filter(item => item.type === 'person');
+    const processedPeople = people.map(p => {
+      const entityId = Array.isArray(p.entity) ? p.entity[0] : p.entity;
+      return {
+        name: p.title || entityId,
+        id: p.title || entityId,
+        image: p.image_url || 'https://placehold.co/400x400/grey/white?text=No+Image',
+        original_link: p.wikipedia_it
+      };
+    });
+
+    for (let i = processedPeople.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [processedPeople[i], processedPeople[j]] = [processedPeople[j], processedPeople[i]];
+    }
+    renderCarousel(processedPeople, container);
+  } catch (err) {
+    console.error("People Init Error:", err);
+    container.innerHTML = `<p class="text-danger">Error loading people.</p>`;
+  }
+}
+
+function renderCarousel(people, container) {
+  if (people.length === 0) {
+    container.innerHTML = `<p class="text-muted">No people found.</p>`;
+    return;
+  }
+  container.innerHTML = people.map(p => `
+        <div class="flex-shrink-0 person-carousel-item">
+             <a href="collection.html?person=${encodeURIComponent(p.id)}" class="text-decoration-none">
+                 <div class="card h-100 bg-secondary text-white border-0 shadow-sm person-card">
+                    <div class="overflow-hidden rounded-top bg-dark" style="aspect-ratio: 1 / 1;">
+                        <img src="${p.image}" class="card-img-top w-100 h-100 object-fit-cover" 
+                             alt="${p.name}" loading="lazy" style="object-fit: cover;"
+                             onerror="this.src='https://placehold.co/400x400/grey/white?text=No+Image'">
+                    </div>
+                    <div class="card-body p-2 d-flex align-items-center justify-content-center text-center">
+                        <h6 class="card-title font-kabel mb-0 text-truncate w-100 text-white" title="${p.name}">${p.name}</h6>
+                    </div>
+                 </div>
+             </a>
+        </div>
+    `).join('');
+  setupControls(container, people.length);
+}
+
+function setupControls(container, itemCount) {
+  const prevBtn = document.getElementById("btn-prev");
+  const nextBtn = document.getElementById("btn-next");
+  const pagination = document.getElementById("people-pagination");
+
+  if (prevBtn && nextBtn) {
+    prevBtn.addEventListener("click", () => {
+      // Re-query to ensure accurate measurement in case of layout shifts
+      const firstItem = container.querySelector('.person-carousel-item');
+      container.scrollBy({ left: -container.clientWidth / 2, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener("click", () => {
+      container.scrollBy({ left: container.clientWidth / 2, behavior: 'smooth' });
+    });
+  }
+
+  if (pagination) {
+    const updatePagination = () => {
+      const firstItem = container.querySelector('.person-carousel-item');
+      const cardWidth = (firstItem && firstItem.offsetWidth > 0) ? firstItem.offsetWidth : 200;
+      const gap = 16;
+      const effectiveItemWidth = cardWidth + gap;
+      const containerWidth = container.clientWidth;
+      const itemsPerPage = Math.floor(containerWidth / effectiveItemWidth) || 1;
+      const totalPages = Math.ceil(itemCount / itemsPerPage);
+      const actualPagesToShow = totalPages;
+      const scrollLeft = container.scrollLeft;
+      const maxScrollLeft = container.scrollWidth - container.clientWidth;
+      let currentPage = Math.round(scrollLeft / (itemsPerPage * effectiveItemWidth));
+      if (maxScrollLeft > 0 && Math.abs(scrollLeft - maxScrollLeft) < 5) currentPage = totalPages - 1;
+
+      let dotsHtml = '';
+      for (let i = 0; i < actualPagesToShow; i++) {
+        dotsHtml += `<button class="btn btn-sm p-1 rounded-circle border-0 ${i === currentPage ? 'bg-white' : 'bg-secondary'}" style="width: 10px; height: 10px;" aria-label="Go to page ${i + 1}" data-page="${i}"></button>`;
+      }
+      pagination.innerHTML = dotsHtml;
+
+      pagination.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const page = parseInt(e.target.dataset.page);
+          if (page === totalPages - 1) container.scrollTo({ left: maxScrollLeft, behavior: 'smooth' });
+          else {
+            const scrollPos = page * itemsPerPage * effectiveItemWidth;
+            container.scrollTo({ left: scrollPos, behavior: 'smooth' });
+          }
+        });
+      });
+    };
+    window.requestAnimationFrame(updatePagination);
+    container.addEventListener('scroll', () => {
+      if (!container.dataset.ticking) {
+        window.requestAnimationFrame(() => {
+          updatePagination();
+          container.dataset.ticking = "";
+        });
+        container.dataset.ticking = "true";
+      }
+    });
+    window.addEventListener('resize', updatePagination);
+  }
+}
+
+
 async function main() {
   try {
+    // 1. Load Data (Metadata & Entities)
+    // We load these globally for all pages to ensure components like Navbar search (future) or Map/People/Cloud work.
+    await loadData();
+    await loadEntities();
+
     // === Collection Page Logic ===
-    // Only run this if we are on the collection page (results element exists)
     if (resultsEl) {
-      await loadData();
-      await loadEntities();
-
-      // Removed duplicate loadEntities call
       rebuildFuse();
-
-      // Removed population of filter UI
-
       render(DATA);
       setupCheckboxLogic();
       populateKeywordCloud();
@@ -769,7 +1168,6 @@ async function main() {
         // Handle Person Filter (person)
         const personParam = urlParams.get('person');
         if (personParam) {
-          // Directly set active filter without checking DOM
           if (!activeFilters.person.includes(personParam)) {
             activeFilters.person.push(personParam);
           }
@@ -778,7 +1176,6 @@ async function main() {
         // Handle Place Filter (place)
         const placeParam = urlParams.get('place');
         if (placeParam) {
-          // Directly set active filter without checking DOM
           if (!activeFilters.place.includes(placeParam)) {
             activeFilters.place.push(placeParam);
           }
@@ -808,7 +1205,6 @@ async function main() {
       landingInput.addEventListener("keydown", (e) => {
         if (e.key === "Enter") {
           const term = landingInput.value.trim();
-          // Redirect to collection.html with query param if term exists, else just collection.html
           if (term) {
             window.location.href = `collection.html?q=${encodeURIComponent(term)}`;
           } else {
@@ -831,7 +1227,7 @@ async function main() {
         landingBtn.addEventListener("click", () => {
           const term = landingInput.value.trim();
           if (term) {
-            window.location.href = `collection.html ? q = ${encodeURIComponent(term)} `;
+            window.location.href = `collection.html?q=${encodeURIComponent(term)}`;
           } else {
             window.location.href = `collection.html`;
           }
@@ -839,13 +1235,10 @@ async function main() {
       }
     }
 
-    // === Landing Page / Global Search Logic ===
-    // If we are on the landing page (no resultsEl), we still need to load data for the cloud
+    // === Keyword Cloud (Index Page fallback) ===
+    // If not on collection page (resultsEl check above), but cloud container exists
     if (!resultsEl && document.getElementById("keyword-cloud-container")) {
-      await loadData();
       populateKeywordCloud();
-
-      // Re-render cloud on resize (debounced)
       window.addEventListener('resize', debounce(() => {
         populateKeywordCloud();
       }, 250));
@@ -853,6 +1246,10 @@ async function main() {
 
     // === Lection Page Logic ===
     await loadLection();
+
+    // === Index Page Specifics (Map & People) ===
+    initMap();
+    initPeople();
 
   } catch (err) {
     if (resultsEl) {
