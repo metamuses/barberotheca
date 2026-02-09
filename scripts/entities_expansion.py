@@ -68,7 +68,7 @@ def main():
             
             for row in reader:
                 # Check if type is already populated, if so, skip processing
-                current_type = row.get('type', '').strip()
+                current_type = (row.get('type') or '').strip()
                 if current_type:
                     rows.append(row)
                     continue
