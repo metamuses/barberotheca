@@ -18,7 +18,7 @@
     "viaf": "https://viaf.org/viaf/316741867",
     "geonames": "https://www.geonames.org/3183462/adriatic-sea.html",
     "type": "place",
-    "title": "mare Adriatico",
+    "title": "Mare Adriatico",
     "coordinates": [
       42.775833,
       15.426111
@@ -35,7 +35,7 @@
     "viaf": "https://viaf.org/viaf/66806872",
     "geonames": "",
     "type": "person",
-    "title": "Agostino d'Ippona",
+    "title": "Sant'Agostino",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Augustine%20by%20Philippe%20de%20Champaigne.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "viaf": "https://viaf.org/viaf/49220707",
     "geonames": "",
     "type": "person",
-    "title": "Anna Andreevna Achmatova",
+    "title": "Anna Achmatova",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Akhmatova.jpg"
   },
   {
@@ -95,7 +95,7 @@
     "viaf": "https://viaf.org/viaf/130168302",
     "geonames": "https://www.geonames.org/6252001/united-states.html",
     "type": "place",
-    "title": "Stati Uniti d'America",
+    "title": "Stati Uniti",
     "coordinates": [
       39.828175,
       -98.5795
@@ -272,7 +272,7 @@
     "viaf": "https://viaf.org/viaf/149111950",
     "geonames": "https://www.geonames.org/5404897/university-of-california-berkeley.html",
     "type": "place",
-    "title": "Università della California, Berkeley",
+    "title": "Berkeley",
     "coordinates": [
       37.871944444,
       -122.258333333
@@ -397,7 +397,7 @@
     "viaf": "https://viaf.org/viaf/31993687",
     "geonames": "",
     "type": "person",
-    "title": "Iosif Aleksandrovič Brodskij",
+    "title": "Iosif Brodskij",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Brodsky%201988.jpg"
   },
   {
@@ -408,7 +408,7 @@
     "viaf": "https://viaf.org/viaf/332144929079854441105",
     "geonames": "https://www.geonames.org/2800867/bruxelles-capitale.html",
     "type": "place",
-    "title": "Regione di Bruxelles-Capitale",
+    "title": "Bruxelles",
     "coordinates": [
       50.846666666,
       4.3525
@@ -436,7 +436,7 @@
     "viaf": "https://viaf.org/viaf/99836700",
     "geonames": "",
     "type": "person",
-    "title": "Michail Afanas'evič Bulgakov",
+    "title": "Michail Bulgakov",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B8%D1%85%D0%B0%D0%B8%D0%BB-%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D0%BA%D0%BE%D0%B2.jpg"
   },
   {
@@ -472,7 +472,7 @@
     "viaf": "",
     "geonames": "",
     "type": "",
-    "title": "battaglia di Campaldino"
+    "title": "Battaglia di Campaldino"
   },
   {
     "entity": "Canarie",
@@ -482,7 +482,7 @@
     "viaf": "https://viaf.org/viaf/148386330",
     "geonames": "https://www.geonames.org/2593110/canary-islands.html",
     "type": "place",
-    "title": "Isole Canarie",
+    "title": "Canarie",
     "coordinates": [
       28.0,
       -15.75
@@ -496,7 +496,7 @@
     "viaf": "",
     "geonames": "",
     "type": "",
-    "title": "battaglia di Caporetto"
+    "title": "Battaglia di Caporetto"
   },
   {
     "entity": "Carducci",
@@ -608,7 +608,7 @@
     "viaf": "https://viaf.org/viaf/316429328",
     "geonames": "https://www.geonames.org/3336900/comunidad-autonoma-de-castilla-y-leon.html",
     "type": "place",
-    "title": "Vecchia Castiglia",
+    "title": "Castiglia",
     "coordinates": [
       42.343461,
       -3.696373
@@ -636,7 +636,7 @@
     "viaf": "https://viaf.org/viaf/68923739",
     "geonames": "",
     "type": "person",
-    "title": "Camillo Benso, conte di Cavour",
+    "title": "Camillo Benso conte di Cavour",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/11%20Meyer-Pierson.jpg"
   },
   {
@@ -705,7 +705,7 @@
     "viaf": "",
     "geonames": "",
     "type": "",
-    "title": "tumulto dei Ciompi"
+    "title": "Tumulto dei Ciompi"
   },
   {
     "entity": "Cipro",
@@ -729,7 +729,7 @@
     "viaf": "https://viaf.org/viaf/129020265",
     "geonames": "https://www.geonames.org/3024534/cluny.html",
     "type": "place",
-    "title": "abbazia di Cluny",
+    "title": "Abbazia di Cluny",
     "coordinates": [
       46.4348427,
       4.6594736
@@ -800,7 +800,7 @@
     "viaf": "https://viaf.org/viaf/97746098",
     "geonames": "",
     "type": "person",
-    "title": "Costantino I",
+    "title": "Costantino",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/0%20Gaius%20Flavius%20Valerius%20Constantinus%2C%20Palatino.jpg"
   },
   {
@@ -867,7 +867,7 @@
     "viaf": "",
     "geonames": "",
     "type": "",
-    "title": "battaglia di Custoza"
+    "title": "Battaglia di Custoza"
   },
   {
     "entity": "D'Azeglio",
@@ -1103,7 +1103,7 @@
     "viaf": "https://viaf.org/viaf/137282486",
     "geonames": "https://www.geonames.org/7506755/abbazia-di-farfa.html",
     "type": "place",
-    "title": "abbazia di Farfa",
+    "title": "Abbazia di Farfa",
     "coordinates": [
       42.22166667,
       12.71861111
@@ -1153,7 +1153,7 @@
     "viaf": "https://viaf.org/viaf/50016762",
     "geonames": "",
     "type": "person",
-    "title": "Francesco Ferdinando d'Asburgo-Este",
+    "title": "Francesco Ferdinando",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ferdinand%20Schmutzer%20-%20Franz%20Ferdinand%20von%20%C3%96sterreich-Este%2C%20um%201914.jpg"
   },
   {
@@ -1164,7 +1164,7 @@
     "viaf": "https://viaf.org/viaf/32787948",
     "geonames": "",
     "type": "person",
-    "title": "Francesco Giuseppe I d'Austria",
+    "title": "Francesco Giuseppe",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Emperor%20Francis%20Joseph.jpg"
   },
   {
@@ -1221,6 +1221,7 @@
     "viaf": "https://viaf.org/viaf/100192194",
     "geonames": "",
     "type": "person",
+    "title": "Giuseppe Garibaldi",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe%20Garibaldi%201861.jpg"
   },
   {
@@ -1341,7 +1342,7 @@
     "viaf": "https://viaf.org/viaf/304159474047827660445",
     "geonames": "",
     "type": "person",
-    "title": "Giovanni da Schio",
+    "title": "Giovanni da Vicenza",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Medaglione%20di%20Fra%20Giovanni%20da%20Schio.jpg"
   },
   {
@@ -1352,7 +1353,7 @@
     "viaf": "https://viaf.org/viaf/42632679",
     "geonames": "",
     "type": "person",
-    "title": "Giovanni II di Francia",
+    "title": "Giovanni il Buono",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/14th-century%20unknown%20painters%20-%20Portrait%20of%20Jean%20le%20Bon%2C%20King%20of%20France%20-%20WGA23666.jpg"
   },
   {
@@ -1363,7 +1364,7 @@
     "viaf": "https://viaf.org/viaf/95147024",
     "geonames": "",
     "type": "person",
-    "title": "Sofronio Eusebio Girolamo",
+    "title": "Girolamo",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Domenico%20ghirlandaio%2C%20san%20girolamo%2001.jpg"
   },
   {
@@ -1374,7 +1375,7 @@
     "viaf": "https://viaf.org/viaf/81036447",
     "geonames": "",
     "type": "person",
-    "title": "Ferencz Gyulai",
+    "title": "Ferenc Gyulay",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Ferencz%20Jozsef%20Gyulai.jpg"
   },
   {
@@ -1731,7 +1732,8 @@
     "wikidata": "https://www.wikidata.org/wiki/Q21042902",
     "viaf": "",
     "geonames": "",
-    "type": "person"
+    "type": "person",
+    "title": "Leutardo di Vertus"
   },
   {
     "entity": "Liev",
@@ -1741,7 +1743,7 @@
     "viaf": "https://viaf.org/viaf/59131742",
     "geonames": "",
     "type": "person",
-    "title": "Lev Nikolaevič Gumilëv",
+    "title": "Lev Gumilev",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B2%D0%93%D1%83%D0%BC%D0%B8%D0%BB%D1%91%D0%B21934.jpg"
   },
   {
@@ -1791,7 +1793,7 @@
     "viaf": "https://viaf.org/viaf/72190523",
     "geonames": "",
     "type": "person",
-    "title": "Thomas Wentworth",
+    "title": "Lord Strafford",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Wentworth%2C%201st%20Earl%20of%20Strafford%20by%20Sir%20Anthony%20Van%20Dyck%20%282%29.jpg"
   },
   {
@@ -1935,7 +1937,7 @@
     "viaf": "https://viaf.org/viaf/239897976",
     "geonames": "https://www.geonames.org/363196/mediterranean-sea.html",
     "type": "place",
-    "title": "mar Mediterraneo",
+    "title": "Mar Mediterraneo",
     "coordinates": [
       38.0,
       17.0
@@ -2095,7 +2097,7 @@
     "viaf": "https://viaf.org/viaf/88934487",
     "geonames": "",
     "type": "person",
-    "title": "Napoleone III di Francia",
+    "title": "Napoleone III",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Napoleon%20III%20by%20Mayer%20%26%20Pierson%20c1860%20%28cropped%29.png"
   },
   {
@@ -2145,7 +2147,7 @@
     "viaf": "https://viaf.org/viaf/156652814",
     "geonames": "https://www.geonames.org/2750405/kingdom-of-the-netherlands.html",
     "type": "place",
-    "title": "Paesi Bassi",
+    "title": "Olanda",
     "coordinates": [
       52.316666666,
       5.55
@@ -2170,7 +2172,7 @@
     "viaf": "https://viaf.org/viaf/139548210",
     "geonames": "https://www.geonames.org/2989317/orleans.html",
     "type": "place",
-    "title": "Orléans",
+    "title": "Orleans",
     "coordinates": [
       47.902222222,
       1.904166666
@@ -2341,7 +2343,7 @@
     "viaf": "https://viaf.org/viaf/141200041",
     "geonames": "https://www.geonames.org/5102955/princeton-university.html",
     "type": "place",
-    "title": "Università di Princeton",
+    "title": "Princeton",
     "coordinates": [
       40.345277777,
       -74.656111111
@@ -2434,7 +2436,7 @@
     "viaf": "https://viaf.org/viaf/64016139",
     "geonames": "",
     "type": "person",
-    "title": "Riccardo I d'Inghilterra",
+    "title": "Riccardo Cuor di Leone",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20I%20of%20England%20in%20the%20Brief%20Abridgement%20of%20the%20Chronicles%20of%20England.jpg"
   },
   {
@@ -2914,7 +2916,7 @@
     "viaf": "https://viaf.org/viaf/142524838",
     "geonames": "https://www.geonames.org/3165241/provincia-autonoma-di-trento.html",
     "type": "place",
-    "title": "provincia autonoma di Trento",
+    "title": "Trentino",
     "coordinates": [
       46.0664228,
       11.1257601
@@ -2981,7 +2983,7 @@
     "viaf": "https://viaf.org/viaf/152552697",
     "geonames": "",
     "type": "person",
-    "title": "papa Urbano II",
+    "title": "Urbano II",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Urbano%20II%20in%20consacrazione%20de%20l%27altare%20del%20monastero%20di%20Cluny%20%28detail%29.png"
   },
   {
@@ -3072,7 +3074,7 @@
     "viaf": "https://viaf.org/viaf/127977992",
     "geonames": "https://www.geonames.org/6284980/chateau-de-versailles.html",
     "type": "place",
-    "title": "Reggia di Versailles",
+    "title": "Versailles",
     "coordinates": [
       48.804722222,
       2.120277777
@@ -3086,7 +3088,7 @@
     "viaf": "",
     "geonames": "",
     "type": "",
-    "title": "attentato di via Rasella"
+    "title": "Attentato di via Rasella"
   },
   {
     "entity": "Virginia",
@@ -3110,7 +3112,7 @@
     "viaf": "https://viaf.org/viaf/95301792",
     "geonames": "",
     "type": "person",
-    "title": "Vittorio Emanuele II di Savoia",
+    "title": "Vittorio Emanuele II",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/VictorEmmanuel2%20%283%29.jpg"
   },
   {
@@ -3135,7 +3137,7 @@
     "viaf": "https://viaf.org/viaf/98817698",
     "geonames": "",
     "type": "person",
-    "title": "Helmuth Karl Bernhard von Moltke",
+    "title": "Helmuth von Moltke",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Helmuth%20Karl%20Bernhard%20von%20Moltke.jpg"
   },
   {
@@ -3185,7 +3187,7 @@
     "viaf": "https://viaf.org/viaf/2465308",
     "geonames": "",
     "type": "person",
-    "title": "Arthur Wellesley, I duca di Wellington",
+    "title": "Arthur Wellesley",
     "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sir%20Arthur%20Wellesley%2C%201st%20Duke%20of%20Wellington.jpg"
   },
   {
