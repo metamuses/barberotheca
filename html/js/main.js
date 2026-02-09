@@ -841,7 +841,9 @@ function enrichTranscription(containerId, lessonItem, entitiesData, entitiesVari
 
       // Add generic type/title if not filtered above
       if (!entityDataAttr) {
-        entityDataAttr = `data-type="${info.type}" data-title="${match}"`;
+        // Use info.display if available to ensure canonical casing for filters
+        const displayTitle = (info && info.display) ? info.display : match;
+        entityDataAttr = `data-type="${info.type}" data-title="${displayTitle}"`;
       }
 
       return `${match}<sup class="entity-icon pointer" ${entityDataAttr}><i class="${iconClass} ${colorClass}"></i></sup>`;
@@ -862,6 +864,30 @@ function setupEntityTooltip() {
   document.body.appendChild(tooltip);
 
   let currentMap = null; // Store map instance
+
+  // Click Handler for Redirection
+  document.addEventListener('click', (e) => {
+    const target = e.target.closest('.entity-icon');
+    if (!target) return;
+
+    const type = target.dataset.type;
+    const title = target.dataset.title;
+
+    if (type && title) {
+      // Redirect logic similar to homepage
+      let url = 'collection.html';
+      if (type === 'person') {
+        url += `?person=${encodeURIComponent(title)}`;
+      } else if (type === 'place') {
+        url += `?place=${encodeURIComponent(title)}`;
+      } else if (type === 'keyword') {
+        url += `?keyword=${encodeURIComponent(title)}`;
+      }
+
+      // Use window.location to redirect
+      window.location.href = url;
+    }
+  });
 
   document.addEventListener('mouseover', (e) => {
     const target = e.target.closest('.entity-icon');
