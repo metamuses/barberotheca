@@ -9,14 +9,14 @@ let fuse = null;
 let activeFilters = {
   place: [],
   person: [],
+  keyword: [],
 };
 
 // Elements
 const searchInput = document.getElementById("search-input");
 const resultsEl = document.getElementById("results");
 const resultCountEl = document.getElementById("result-count");
-const geoFiltersContainer = document.getElementById("collapseGeo");
-const personFiltersContainer = document.getElementById("collapsePerson");
+
 
 // Checkboxes
 const checkAll = document.getElementById("check-all");
@@ -448,109 +448,7 @@ async function loadLection() {
 
 
 
-function populateGeoFilters() {
-  if (!geoFiltersContainer) return;
 
-  // 1. Get all places, sort by Title (or entity if missing) alpha
-  const places = ENTITIES_DATA
-    .filter(e => e.type === "place")
-    .sort((a, b) => {
-      const valA = a.title || (Array.isArray(a.entity) ? a.entity[0] : a.entity);
-      const valB = b.title || (Array.isArray(b.entity) ? b.entity[0] : b.entity);
-      return valA.localeCompare(valB);
-    });
-
-  // 2. Build HTML: Places only (No "All")
-  const placeOptions = places.map(p => {
-    // USE TITLE AS VALUE (fallback to entity)
-    const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
-    return `
-    <div class="form-check">
-      <input class="form-check-input bg-dark border-secondary filter-geo" type="checkbox" value="${val}" id="geo-${val.replace(/\s+/g, '')}">
-      <label class="form-check-label" for="geo-${val.replace(/\s+/g, '')}">
-        ${p.title || val}
-      </label>
-    </div>
-  `}).join('');
-
-  // 3. Inject
-  const container = geoFiltersContainer.querySelector('.accordion-body');
-  if (container) {
-    container.innerHTML = placeOptions;
-  }
-
-  // 4. Listeners
-  document.querySelectorAll('.filter-geo').forEach(cb => {
-    cb.addEventListener('change', (e) => {
-      const val = e.target.value;
-      if (e.target.checked) {
-        if (!activeFilters.place.includes(val)) activeFilters.place.push(val);
-
-        // Scroll to Results
-        if (resultsEl) {
-          setTimeout(() => {
-            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 300);
-        }
-      } else {
-        activeFilters.place = activeFilters.place.filter(v => v !== val);
-      }
-      doSearch();
-    });
-  });
-}
-
-function populatePersonFilters() {
-  if (!personFiltersContainer) return;
-
-  // 1. Get all persons, sort by Title (or entity) alpha
-  const persons = ENTITIES_DATA
-    .filter(e => e.type === "person")
-    .sort((a, b) => {
-      const valA = a.title || (Array.isArray(a.entity) ? a.entity[0] : a.entity);
-      const valB = b.title || (Array.isArray(b.entity) ? b.entity[0] : b.entity);
-      return valA.localeCompare(valB);
-    });
-
-  // 2. Build HTML: Persons only (No "All")
-  const personOptions = persons.map(p => {
-    // USE TITLE AS VALUE (fallback to entity)
-    const val = p.title || (Array.isArray(p.entity) ? p.entity[0] : p.entity);
-    return `
-    <div class="form-check">
-      <input class="form-check-input bg-dark border-secondary filter-person" type="checkbox" value="${val}" id="person-${val.replace(/\s+/g, '')}">
-      <label class="form-check-label" for="person-${val.replace(/\s+/g, '')}">
-        ${p.title || val}
-      </label>
-    </div>
-  `}).join('');
-
-  // 3. Inject
-  const container = personFiltersContainer.querySelector('.accordion-body');
-  if (container) {
-    container.innerHTML = personOptions;
-  }
-
-  // 4. Listeners
-  document.querySelectorAll('.filter-person').forEach(cb => {
-    cb.addEventListener('change', (e) => {
-      const val = e.target.value;
-      if (e.target.checked) {
-        if (!activeFilters.person.includes(val)) activeFilters.person.push(val);
-
-        // Scroll to Results
-        if (resultsEl) {
-          setTimeout(() => {
-            resultsEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 300);
-        }
-      } else {
-        activeFilters.person = activeFilters.person.filter(v => v !== val);
-      }
-      doSearch();
-    });
-  });
-}
 
 function renderActiveFilters() {
   const container = document.getElementById("active-filters");
@@ -565,10 +463,6 @@ function renderActiveFilters() {
     btn.className = "btn btn-secondary btn-sm rounded-pill d-inline-flex align-items-center";
     btn.innerHTML = `<span>${value}</span> <i class="bi bi-x ms-2"></i>`;
     btn.onclick = () => {
-      // Uncheck checkbox
-      const checkbox = document.querySelector(`.filter-${type === 'place' ? 'geo' : 'person'}[value="${value}"]`);
-      if (checkbox) checkbox.checked = false;
-
       // Update state
       activeFilters[type] = activeFilters[type].filter(v => v !== value);
       doSearch();
@@ -579,17 +473,16 @@ function renderActiveFilters() {
 
   activeFilters.place.forEach(val => createChip('place', val));
   activeFilters.person.forEach(val => createChip('person', val));
+  activeFilters.keyword.forEach(val => createChip('keyword', val));
 
   if (hasFilter) {
     const clearBtn = document.createElement("button");
     clearBtn.className = "btn btn-link btn-sm text-white text-decoration-none";
     clearBtn.innerHTML = `Clear all <i class="bi bi-x"></i>`;
     clearBtn.onclick = () => {
-      // Reset all checkboxes
-      document.querySelectorAll('.filter-geo, .filter-person').forEach(c => c.checked = false);
-
       activeFilters.place = [];
       activeFilters.person = [];
+      activeFilters.keyword = [];
       doSearch();
     };
     container.appendChild(clearBtn);
@@ -648,6 +541,12 @@ function doSearch() {
       });
     }
 
+    if (activeFilters.keyword.length > 0) {
+      activeFilters.keyword.forEach(kFilter => {
+        searchResults = searchResults.filter(item => item.keywords && item.keywords.some(k => k.toLowerCase() === kFilter.toLowerCase()));
+      });
+    }
+
     // Valid match
     render(searchResults);
     renderActiveFilters();
@@ -666,6 +565,12 @@ function doSearch() {
     activeFilters.person.forEach(pFilter => {
       const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
       filteredData = filteredData.filter(item => item.entities && item.entities.some(e => variants.includes(e)));
+    });
+  }
+
+  if (activeFilters.keyword.length > 0) {
+    activeFilters.keyword.forEach(kFilter => {
+      filteredData = filteredData.filter(item => item.keywords && item.keywords.some(k => k.toLowerCase() === kFilter.toLowerCase()));
     });
   }
 
@@ -710,6 +615,98 @@ function setupCheckboxLogic() {
   });
 }
 
+function populateKeywordCloud() {
+  const container = document.getElementById("keyword-cloud-container");
+  if (!container) return;
+
+  // Responsive limit: 25 for mobile (<768px), 50 for desktop
+  const isMobile = window.innerWidth < 768;
+  const limit = isMobile ? 25 : 50;
+
+  // 1. Calculate Frequency
+  const freqMap = {};
+  DATA.forEach(item => {
+    if (item.keywords && Array.isArray(item.keywords)) {
+      item.keywords.forEach(k => {
+        const key = k.trim();
+        if (key) {
+          freqMap[key] = (freqMap[key] || 0) + 1;
+        }
+      });
+    }
+  });
+
+  // 2. Sort by Frequency (Descending)
+  const sortedKeywords = Object.entries(freqMap)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit); // Apply limit
+
+  if (sortedKeywords.length === 0) {
+    container.innerHTML = '<span class="text-secondary">No keywords found.</span>';
+    return;
+  }
+
+  // 3. Middle-out Sort (Center the most frequent)
+  // Logic: [3, 1, 0, 2, 4] -> indices reordered for visual centering
+  // Simple approach: Toggle placing elements left/right of center array
+  const middleOut = [];
+  let left = Math.floor(sortedKeywords.length / 2);
+  let right = left + 1;
+
+  // Create a new array and alternate adding largest to middle
+  const centeredList = [];
+  sortedKeywords.forEach((kw, i) => {
+    if (i % 2 === 0) {
+      centeredList.push(kw); // Right side
+    } else {
+      centeredList.unshift(kw); // Left side
+    }
+  });
+
+  // Now we have [..., big, BIGGEST, big, ...]
+  // This works well for a single line or if we want the "heaviest" in the middle of the DOM order.
+
+  // 4. Render
+  // Normalize size: Range from 0.75rem (fs-6ish) to 3rem (display-something)
+  // Let's use bootstrap classes: fs-6, fs-5, fs-4, fs-3, fs-2, fs-1
+  // Map freq range to 1-6
+  const maxFreq = sortedKeywords[0][1];
+  const minFreq = sortedKeywords[sortedKeywords.length - 1][1];
+
+  const getFsClass = (freq) => {
+    if (maxFreq === minFreq) return "fs-3";
+    const percent = (freq - minFreq) / (maxFreq - minFreq); // 0 to 1
+    if (percent > 0.9) return "fs-1";
+    if (percent > 0.7) return "fs-2";
+    if (percent > 0.5) return "fs-3";
+    if (percent > 0.3) return "fs-4";
+    if (percent > 0.1) return "fs-5";
+    return "fs-6";
+  };
+
+  // Color palette (optional, just alternating for visual interest or keep white/secondary)
+  // Let's keep it simple text-white or text-light
+
+  container.innerHTML = centeredList.map(([word, freq]) => {
+    const fsClass = getFsClass(freq);
+    // Determine opacity based on importance? or just size.
+    // Opacity 1 for big, 0.7 for small?
+    // const opacity = freq === maxFreq ? 1 : 0.6 + (0.4 * (freq - minFreq) / (maxFreq - minFreq));
+    const opacity = 0.8;
+
+    return `
+        <a href="collection.html?keyword=${encodeURIComponent(word)}" 
+           class="badge rounded-pill bg-secondary text-decoration-none text-white fw-normal m-1 py-2 px-3 border border-light border-opacity-25 shadow-sm ${fsClass}" 
+           style="opacity: ${opacity}; transition: all 0.2s;"
+           onmouseover="this.style.opacity=1; this.style.transform='scale(1.1)'" 
+           onmouseout="this.style.opacity=${opacity}; this.style.transform='scale(1)'"
+           title="${freq} occurrences">
+           ${word}
+        </a>
+      `;
+  }).join("");
+}
+
 async function main() {
   try {
     // === Collection Page Logic ===
@@ -717,14 +714,20 @@ async function main() {
     if (resultsEl) {
       await loadData();
       await loadEntities();
-      await loadEntities();
+
+      // Removed duplicate loadEntities call
       rebuildFuse();
 
-      populateGeoFilters();
-      populatePersonFilters();
+      // Removed population of filter UI
 
       render(DATA);
       setupCheckboxLogic();
+      populateKeywordCloud();
+
+      // Re-render cloud on resize (debounced)
+      window.addEventListener('resize', debounce(() => {
+        populateKeywordCloud();
+      }, 250));
 
       if (searchInput) {
         searchInput.addEventListener("input", debounce(doSearch, 150));
@@ -756,42 +759,34 @@ async function main() {
           searchInput.value = qParam;
         }
 
-
-
         // Handle Person Filter (person)
         const personParam = urlParams.get('person');
         if (personParam) {
-          const checkbox = document.querySelector(`.filter-person[value="${personParam}"]`);
-          if (checkbox) {
-            checkbox.checked = true;
-            if (!activeFilters.person.includes(personParam)) activeFilters.person.push(personParam);
-
-            // Expand Accordion
-            if (personFiltersContainer) {
-              const bsCollapse = new bootstrap.Collapse(personFiltersContainer, { toggle: false });
-              bsCollapse.show();
-            }
+          // Directly set active filter without checking DOM
+          if (!activeFilters.person.includes(personParam)) {
+            activeFilters.person.push(personParam);
           }
         }
 
         // Handle Place Filter (place)
         const placeParam = urlParams.get('place');
         if (placeParam) {
-          const checkbox = document.querySelector(`.filter-geo[value="${placeParam}"]`);
-          if (checkbox) {
-            checkbox.checked = true;
-            if (!activeFilters.place.includes(placeParam)) activeFilters.place.push(placeParam);
+          // Directly set active filter without checking DOM
+          if (!activeFilters.place.includes(placeParam)) {
+            activeFilters.place.push(placeParam);
+          }
+        }
 
-            // Expand Accordion
-            if (geoFiltersContainer) {
-              const bsCollapse = new bootstrap.Collapse(geoFiltersContainer, { toggle: false });
-              bsCollapse.show();
-            }
+        // Handle Keyword Filter (keyword)
+        const keywordParam = urlParams.get('keyword');
+        if (keywordParam) {
+          if (!activeFilters.keyword.includes(keywordParam)) {
+            activeFilters.keyword.push(keywordParam);
           }
         }
 
         // Trigger search if either param exists
-        if (qParam || personParam || placeParam) {
+        if (qParam || personParam || placeParam || keywordParam) {
           doSearch();
         }
       }
@@ -835,6 +830,18 @@ async function main() {
           }
         });
       }
+    }
+
+    // === Landing Page / Global Search Logic ===
+    // If we are on the landing page (no resultsEl), we still need to load data for the cloud
+    if (!resultsEl && document.getElementById("keyword-cloud-container")) {
+      await loadData();
+      populateKeywordCloud();
+
+      // Re-render cloud on resize (debounced)
+      window.addEventListener('resize', debounce(() => {
+        populateKeywordCloud();
+      }, 250));
     }
 
     // === Lection Page Logic ===
