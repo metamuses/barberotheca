@@ -41,6 +41,49 @@
                     <!-- Search Section -->
                     <section id="search" class="mb-5">
                         <div class="input-group input-group-lg">
+                            <button class="btn btn-outline-secondary dropdown-toggle text-white border-secondary"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-auto-close="outside">
+                                Affina
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark p-3" style="min-width: 250px;">
+                                <li>
+                                    <h6 class="dropdown-header text-white text-opacity-75 text-uppercase small ls-1">
+                                        Campi di ricerca</h6>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-dark border-secondary" type="checkbox"
+                                            value="all" id="check-all" checked>
+                                        <label class="form-check-label text-white" for="check-all">Tutti i campi</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider border-secondary">
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-dark border-secondary search-field"
+                                            type="checkbox" value="lectio_title" id="check-title" checked>
+                                        <label class="form-check-label text-white" for="check-title">Titolo</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-dark border-secondary search-field"
+                                            type="checkbox" value="keywords" id="check-keywords" checked>
+                                        <label class="form-check-label text-white" for="check-keywords">Parole
+                                            chiave</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="form-check">
+                                        <input class="form-check-input bg-dark border-secondary search-field"
+                                            type="checkbox" value="entities" id="check-entities" checked>
+                                        <label class="form-check-label text-white" for="check-entities">Entità</label>
+                                    </div>
+                                </li>
+                            </ul>
                             <input type="text" id="search-input"
                                 class="form-control bg-dark text-white border-secondary border-end-0"
                                 placeholder="Search lessons">
@@ -51,40 +94,6 @@
                             <button class="btn btn-outline-light" type="button" id="btn-search">
                                 <i class="bi bi-search"></i>
                             </button>
-                        </div>
-                    </section>
-
-                    <!-- Refine Search Section -->
-                    <section id="refine" class="mb-5">
-                        <h2 class="mb-3">Affina ricerca</h2>
-                        <div class="bg-secondary bg-opacity-10 p-3 rounded border border-secondary">
-                            <div class="form-check mb-2">
-                                <input class="form-check-input bg-dark border-secondary" type="checkbox" value="all"
-                                    id="check-all" checked>
-                                <label class="form-check-label" for="check-all">Tutti i campi</label>
-                            </div>
-                            <div class="d-flex flex-wrap gap-3">
-                                <div class="form-check">
-                                    <input class="form-check-input bg-dark border-secondary search-field"
-                                        type="checkbox" value="lectio_title" id="check-title" checked>
-                                    <label class="form-check-label" for="check-title">Titolo</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input bg-dark border-secondary search-field"
-                                        type="checkbox" value="keywords" id="check-keywords" checked>
-                                    <label class="form-check-label" for="check-keywords">Parole chiave</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input bg-dark border-secondary search-field"
-                                        type="checkbox" value="entities" id="check-entities" checked>
-                                    <label class="form-check-label" for="check-entities">Entità</label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input bg-dark border-secondary search-field"
-                                        type="checkbox" value="semantic_filename" id="check-filename" checked>
-                                    <label class="form-check-label" for="check-filename">Nome_file</label>
-                                </div>
-                            </div>
                         </div>
                     </section>
 

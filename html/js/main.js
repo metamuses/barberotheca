@@ -58,7 +58,7 @@ async function loadEntities() {
 
 function getSelectedKeys() {
   if (checkAll && checkAll.checked) {
-    return ['lectio_title', 'keywords', 'entities', 'semantic_filename'];
+    return ['lectio_title', 'keywords', 'entities'];
   }
   return searchFieldChecks.filter(c => c.checked).map(c => c.value);
 }
