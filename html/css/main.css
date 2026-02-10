@@ -315,4 +315,10 @@ aside h3 {
       transform: translateY(0);
     }
   }
+
+  /* Hero Section */
+  .hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 }
