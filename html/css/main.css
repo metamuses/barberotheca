@@ -237,3 +237,82 @@ aside h3 {
   height: 100%;
   object-fit: cover;
 }
+
+/* Base close button (hidden on desktop usually, but structure might need it) */
+.tooltip-close {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .entity-tooltip {
+    position: fixed;
+    top: auto !important;
+    /* Override inline styles from JS */
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+    padding: 20px;
+    z-index: 1050;
+    background: #212529;
+    color: #fff;
+    border: 1px solid #343a40;
+    border-bottom: none;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    animation: slideUp 0.3s ease-out;
+  }
+
+  /* Overlay effect using box-shadow abuse or a separate element? 
+     Let's stick to just the sheet for now as per image. 
+  */
+
+  .entity-tooltip h6 {
+    font-size: 1.1rem;
+    margin-right: 20px;
+    /* Space for close button */
+    border-bottom-color: #495057;
+  }
+
+  .tooltip-close {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .tooltip-close:hover {
+    color: #fff;
+  }
+
+  /* Adjust internal content for mobile */
+  .tooltip-map {
+    height: 200px;
+    border-color: #495057;
+  }
+
+  .tooltip-image-container {
+    background: #343a40;
+    border-color: #495057;
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+}

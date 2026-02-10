@@ -865,34 +865,20 @@ function setupEntityTooltip() {
 
   let currentMap = null; // Store map instance
 
-  // Click Handler for Redirection
-  document.addEventListener('click', (e) => {
-    const target = e.target.closest('.entity-icon');
-    if (!target) return;
+  const isMobile = () => window.innerWidth < 768;
 
-    const type = target.dataset.type;
-    const title = target.dataset.title;
-
-    if (type && title) {
-      // Redirect logic similar to homepage
-      let url = 'collection.html';
-      if (type === 'person') {
-        url += `?person=${encodeURIComponent(title)}`;
-      } else if (type === 'place') {
-        url += `?place=${encodeURIComponent(title)}`;
-      } else if (type === 'keyword') {
-        url += `?keyword=${encodeURIComponent(title)}`;
-      }
-
-      // Use window.location to redirect
-      window.location.href = url;
+  // Helper to hide tooltip
+  const hideTooltip = () => {
+    tooltip.classList.add('d-none');
+    if (currentMap) {
+      currentMap.off();
+      currentMap.remove();
+      currentMap = null;
     }
-  });
+  };
 
-  document.addEventListener('mouseover', (e) => {
-    const target = e.target.closest('.entity-icon');
-    if (!target) return;
-
+  // Helper to show tooltip content
+  const showContent = (target, isMobileMode) => {
     const type = target.dataset.type;
     const title = target.dataset.title;
     const lat = target.dataset.lat;
@@ -900,31 +886,53 @@ function setupEntityTooltip() {
     const image = target.dataset.image;
 
     let content = '';
+    // Close button for mobile
+    if (isMobileMode) {
+      content += `<button class="tooltip-close" aria-label="Close">&times;</button>`;
+    }
 
     if (type === 'keyword') {
-      content = `
-          <div class="text-center">
+      content += `
+          <div class="text-center mobile-redirect-target" style="cursor: pointer;">
             <span class="badge rounded-pill bg-secondary text-white fw-normal py-2 px-3 border border-secondary border-opacity-25 shadow-sm fs-6">
               ${title}
             </span>
           </div>
         `;
     } else {
-      content = `<h6>${title}</h6>`;
+      // Title is clickable on mobile
+      content += `<h6 class="${isMobileMode ? 'mobile-redirect-target user-select-none' : ''}" style="${isMobileMode ? 'cursor:pointer;' : ''}">${title}</h6>`;
+
       if (type === 'place' && lat && lon) {
-        content += `<div id="tooltip-map-container" class="tooltip-map"></div>`;
+        content += `<div id="tooltip-map-container" class="tooltip-map mobile-redirect-target" style="cursor: pointer;"></div>`;
       } else if (type === 'person' && image) {
-        content += `<div class="tooltip-image-container"><img src="${image}" class="tooltip-image" alt="${title}" onerror="this.style.display='none'"></div>`;
+        content += `<div class="tooltip-image-container mobile-redirect-target" style="cursor: pointer;"><img src="${image}" class="tooltip-image" alt="${title}" onerror="this.style.display='none'"></div>`;
       } else {
-        content += `<span class="badge bg-secondary">${type}</span>`;
+        content += `<span class="badge bg-secondary mobile-redirect-target" style="cursor: pointer;">${type}</span>`;
       }
     }
 
     tooltip.innerHTML = content;
     tooltip.classList.remove('d-none');
 
-    // Initial Position
-    positionTooltip(e, tooltip);
+    // Add Close Listener (Mobile)
+    if (isMobileMode) {
+      const closeBtn = tooltip.querySelector('.tooltip-close');
+      if (closeBtn) {
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation(); // Prevent bubbling to document
+          hideTooltip();
+        });
+      }
+
+      // Add Redirect Listeners for internal elements (Map, Image, Title)
+      const redirectTargets = tooltip.querySelectorAll('.mobile-redirect-target');
+      redirectTargets.forEach(el => {
+        el.addEventListener('click', () => {
+          triggerRedirect(type, title);
+        });
+      });
+    }
 
     // Initialize Map if needed
     if (type === 'place' && lat && lon) {
@@ -939,7 +947,9 @@ function setupEntityTooltip() {
           }
           currentMap = L.map('tooltip-map-container', {
             zoomControl: false,
-            attributionControl: false
+            attributionControl: false,
+            dragging: !isMobileMode, // Disable dragging on mobile to prevent scroll issues? Or allow it. Let's allow it but maybe prevent click propagation if dragging.
+            tap: !isMobileMode
           }).setView([lat, lon], 5);
 
           L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -947,13 +957,78 @@ function setupEntityTooltip() {
             maxZoom: 19
           }).addTo(currentMap);
 
-          L.marker([lat, lon]).addTo(currentMap);
+          const marker = L.marker([lat, lon]).addTo(currentMap);
+
+          // On mobile, clicking the map (or marker) should redirect.
+          // The container .mobile-redirect-target handles the click usually, but Leaflet might capture it.
+          // Let's add a specific handler to the map/marker just in case.
+          if (isMobileMode) {
+            currentMap.on('click', () => triggerRedirect(type, title));
+            marker.on('click', () => triggerRedirect(type, title));
+          }
         }
       }, 50);
     }
+  };
+
+  const triggerRedirect = (type, title) => {
+    if (type && title) {
+      let url = 'collection.html';
+      if (type === 'person') url += `?person=${encodeURIComponent(title)}`;
+      else if (type === 'place') url += `?place=${encodeURIComponent(title)}`;
+      else if (type === 'keyword') url += `?keyword=${encodeURIComponent(title)}`;
+      window.location.href = url;
+    }
+  };
+
+  // Click Handler
+  document.addEventListener('click', (e) => {
+    // 1. Check if clicking close button logic handled inside create? No, that's specific to the tooltip instance interaction.
+    // But we need to handle "Click Outside" on mobile.
+
+    // If clicking inside tooltip, do nothing (let events bubble or be handled)
+    if (tooltip.contains(e.target) && !e.target.closest('.mobile-redirect-target')) {
+      return;
+    }
+
+    const target = e.target.closest('.entity-icon');
+
+    if (isMobile()) {
+      if (target) {
+        // Mobile: Open Tooltip (Bottom Sheet)
+        e.preventDefault();
+        e.stopPropagation();
+        showContent(target, true);
+      } else {
+        // Mobile: Click outside closes tooltip
+        if (!tooltip.classList.contains('d-none')) {
+          hideTooltip();
+        }
+      }
+    } else {
+      // Desktop: Click redirects
+      if (target) {
+        const type = target.dataset.type;
+        const title = target.dataset.title;
+        triggerRedirect(type, title);
+      }
+    }
+  });
+
+  document.addEventListener('mouseover', (e) => {
+    if (isMobile()) return; // Disable hover on mobile
+
+    const target = e.target.closest('.entity-icon');
+    if (!target) return;
+
+    showContent(target, false);
+
+    // Initial Position
+    positionTooltip(e, tooltip);
   });
 
   document.addEventListener('mousemove', (e) => {
+    if (isMobile()) return;
     const target = e.target.closest('.entity-icon');
     if (target) {
       positionTooltip(e, tooltip);
@@ -961,15 +1036,10 @@ function setupEntityTooltip() {
   });
 
   document.addEventListener('mouseout', (e) => {
+    if (isMobile()) return;
     const target = e.target.closest('.entity-icon');
     if (target) {
-      tooltip.classList.add('d-none');
-      // Cleanup map
-      if (currentMap) {
-        currentMap.off();
-        currentMap.remove();
-        currentMap = null;
-      }
+      hideTooltip();
     }
   });
 }
