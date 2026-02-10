@@ -22,7 +22,19 @@ body {
 .header-text {
   font-family: 'Kabel', sans-serif;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 3.5rem;
+}
+
+.header-logo {
+  height: 1em;
+  width: auto;
+  filter: invert(1);
+  transform: translateY(10%);
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
 }
 
 .font-kabel {
@@ -121,17 +133,6 @@ aside h3 {
 
 
 /* --- Media Queries (Mobile/Tablet Overrides) --- */
-
-/* Tablet & Smaller (approx < 992px) */
-@media (max-width: 991.98px) {
-
-  /* Geo & Person Filter Layout: 2 Columns on Tablet */
-  #collapseGeo .accordion-body,
-  #collapsePerson .accordion-body {
-    column-count: 2;
-  }
-}
-
 /* Mobile (approx < 768px) */
 @media (max-width: 768px) {
   body {
@@ -175,6 +176,15 @@ aside h3 {
   .lesson-sidebar {
     border-left: none;
     border-top: 1px solid;
+  }
+}
+
+/* Small Mobile (approx < 576px) */
+@media (max-width: 576px) {
+
+  /* Hide header text, show only logo */
+  .header-text a.text-white {
+    display: none;
   }
 }
 
