@@ -202,11 +202,15 @@ async function loadLection() {
 
   // Render Header
   if (headerSection && item) {
+    const numBadge = item.lectio_num ? `<span class="float-end text-secondary fw-light">#${item.lectio_num}</span>` : '';
     headerSection.innerHTML = `
-            <h2 class="display-5 font-kabel mb-3 text-white">${item.lectio_title}</h2>
-            ${item.macrotheme_title ? `<h4 class="text-white opacity-75 mb-2">Fa parte della serie: ${item.macrotheme_title}</h4>` : ''}
-            <p class="lead text-secondary mb-0 fw-light">${item.event} ${item.event_year ? `(${item.event_year})` : ''}</p>
-       `;
+        <h2 class="display-5 font-kabel mb-3 text-white">
+            ${item.lectio_title}
+            ${numBadge}
+        </h2>
+        ${item.macrotheme_title ? `<h4 class="text-white opacity-75 mb-2">Fa parte della serie: ${item.macrotheme_title}</h4>` : ''}
+        <p class="lead text-secondary mb-0 fw-light">${item.event} ${item.event_year ? `(${item.event_year})` : ''}</p>
+   `;
   }
 
   // Render Details (Sidebar)
@@ -229,25 +233,25 @@ async function loadLection() {
     }).join('');
 
     detailsContent.innerHTML = `
-            <div class="card bg-secondary text-white border-0 shadow-sm">
-                <div class="card-body">
-                    <h5 class="card-title font-kabel mb-3">Fonte</h5>
-                    <div class="mb-4">
-                        <a href="${item.source_url}" target="_blank" class="btn btn-outline-light w-100 d-flex align-items-center justify-content-center gap-2">
-                            <i class="bi bi-youtube"></i>
-                            Video Youtube
-                        </a>
-                    </div>
-                    
-                    <div>
-                        <h6 class="text-white opacity-75 mb-2">Wikipedia</h6>
-                        <div class="d-flex flex-wrap">
-                            ${entitiesHtml}
-                        </div>
+        <div class="card bg-secondary text-white border-0 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title font-kabel mb-3">Fonte</h5>
+                <div class="mb-4">
+                    <a href="${item.source_url}" target="_blank" class="btn btn-outline-light w-100 d-flex align-items-center justify-content-center gap-2">
+                        <i class="bi bi-youtube"></i>
+                        Video Youtube
+                    </a>
+                </div>
+                
+                <div>
+                    <h6 class="text-white opacity-75 mb-2">Wikipedia</h6>
+                    <div class="d-flex flex-wrap">
+                        ${entitiesHtml}
                     </div>
                 </div>
             </div>
-        `;
+        </div>
+    `;
 
     // Render Related Lessons
     if (item.macrotheme_title && relatedContainer && relatedContent) {
@@ -258,15 +262,21 @@ async function loadLection() {
 
       if (relatedItems.length > 0) {
         relatedContainer.classList.remove("d-none");
-        relatedContent.innerHTML = relatedItems.map(r => `
-                    <div class="card mb-3 bg-secondary text-white border-0 shadow-sm position-relative">
-                        <div class="card-body p-3">
-                            <h6 class="card-title font-kabel mb-1">${r.lectio_title}</h6>
-                            <small class="d-block text-light opacity-75">${r.event_year} – ${r.event}</small>
-                            <a href="lection.html?id=${r.semantic_filename}" class="stretched-link"></a>
-                        </div>
+        relatedContent.innerHTML = relatedItems.map(r => {
+          const rNum = r.lectio_num ? `<span class="float-end text-white-50">#${r.lectio_num}</span>` : '';
+          return `
+                <div class="card mb-3 bg-secondary text-white border-0 shadow-sm position-relative">
+                    <div class="card-body p-3">
+                        <h6 class="card-title font-kabel mb-1">
+                            ${r.lectio_title}
+                            ${rNum}
+                        </h6>
+                        <small class="d-block text-light opacity-75">${r.event_year} – ${r.event}</small>
+                        <a href="lection.html?id=${r.semantic_filename}" class="stretched-link"></a>
                     </div>
-                `).join('');
+                </div>
+            `;
+        }).join('');
       } else {
         relatedContainer.classList.add("d-none");
       }
