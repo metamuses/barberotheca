@@ -1,0 +1,1457 @@
+@base <https://github.com/metamuses/barberotheca/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+
+<entity/abbone> a schema:Person ;
+    rdfs:label "Abbone"@it ;
+    owl:sameAs <https://viaf.org/viaf/9966678>,
+        <https://www.wikidata.org/entity/Q306658> .
+
+<entity/adriatico> a schema:Place ;
+    rdfs:label "Adriatico"@it ;
+    owl:sameAs <https://sws.geonames.org/3183462/>,
+        <https://viaf.org/viaf/316741867>,
+        <https://www.wikidata.org/entity/Q13924> .
+
+<entity/agostino> a schema:Person ;
+    rdfs:label "Agostino"@it ;
+    owl:sameAs <https://viaf.org/viaf/66806872>,
+        <https://www.wikidata.org/entity/Q8018> .
+
+<entity/akhmatova> a schema:Person ;
+    rdfs:label "Akhmatova"@it ;
+    owl:sameAs <https://viaf.org/viaf/49220707>,
+        <https://www.wikidata.org/entity/Q80440> .
+
+<entity/aldoFinzi> a schema:Person ;
+    rdfs:label "Aldo Finzi"@it ;
+    owl:sameAs <https://viaf.org/viaf/18310180>,
+        <https://www.wikidata.org/entity/Q690725> .
+
+<entity/alessandria> a schema:Place ;
+    rdfs:label "Alessandria"@it ;
+    owl:sameAs <https://sws.geonames.org/6541464/>,
+        <https://viaf.org/viaf/137079443>,
+        <https://www.wikidata.org/entity/Q6088> .
+
+<entity/alessio> a schema:Person ;
+    rdfs:label "Alessio"@it ;
+    owl:sameAs <https://viaf.org/viaf/217145684>,
+        <https://www.wikidata.org/entity/Q37069> .
+
+<entity/america> a schema:Place ;
+    rdfs:label "America"@it ;
+    owl:sameAs <https://sws.geonames.org/6252001/>,
+        <https://viaf.org/viaf/130168302>,
+        <https://www.wikidata.org/entity/Q30> .
+
+<entity/andreotti> a schema:Person ;
+    rdfs:label "Andreotti"@it ;
+    owl:sameAs <https://viaf.org/viaf/109833019>,
+        <https://www.wikidata.org/entity/Q50005> .
+
+<entity/aquileia> a schema:Place ;
+    rdfs:label "Aquileia"@it ;
+    owl:sameAs <https://sws.geonames.org/6539930/>,
+        <https://viaf.org/viaf/148893013>,
+        <https://www.wikidata.org/entity/Q53216> .
+
+<entity/arezzo> a schema:Place ;
+    rdfs:label "Arezzo"@it ;
+    owl:sameAs <https://sws.geonames.org/6542153/>,
+        <https://viaf.org/viaf/226733401>,
+        <https://www.wikidata.org/entity/Q13378> .
+
+<entity/argentina> a schema:Place ;
+    rdfs:label "Argentina"@it ;
+    owl:sameAs <https://sws.geonames.org/3865483/>,
+        <https://viaf.org/viaf/146499420>,
+        <https://www.wikidata.org/entity/Q414> .
+
+<entity/aristotele> a schema:Person ;
+    rdfs:label "Aristotele"@it ;
+    owl:sameAs <https://viaf.org/viaf/7524651>,
+        <https://www.wikidata.org/entity/Q868> .
+
+<entity/austria> a schema:Place ;
+    rdfs:label "Austria"@it ;
+    owl:sameAs <https://sws.geonames.org/2782113/>,
+        <https://viaf.org/viaf/148842731>,
+        <https://www.wikidata.org/entity/Q40> .
+
+<entity/avignone> a schema:Place ;
+    rdfs:label "Avignone"@it ;
+    owl:sameAs <https://sws.geonames.org/3035681/>,
+        <https://viaf.org/viaf/159446858>,
+        <https://www.wikidata.org/entity/Q6397> .
+
+<entity/badoglio> a schema:Person ;
+    rdfs:label "Badoglio"@it ;
+    owl:sameAs <https://viaf.org/viaf/100907172>,
+        <https://www.wikidata.org/entity/Q200085> .
+
+<entity/beatrice> a schema:Person ;
+    rdfs:label "Beatrice"@it ;
+    owl:sameAs <https://viaf.org/viaf/18027301>,
+        <https://www.wikidata.org/entity/Q232913> .
+
+<entity/beauvais> a schema:Place ;
+    rdfs:label "Beauvais"@it ;
+    owl:sameAs <https://sws.geonames.org/6450128/>,
+        <https://viaf.org/viaf/312794953>,
+        <https://www.wikidata.org/entity/Q174257> .
+
+<entity/beda> a schema:Person ;
+    rdfs:label "Beda"@it ;
+    owl:sameAs <https://viaf.org/viaf/61539765>,
+        <https://www.wikidata.org/entity/Q154938> .
+
+<entity/belgio> a schema:Place ;
+    rdfs:label "Belgio"@it ;
+    owl:sameAs <https://sws.geonames.org/2802361/>,
+        <https://viaf.org/viaf/144248059>,
+        <https://www.wikidata.org/entity/Q31> .
+
+<entity/berkley> a schema:Place ;
+    rdfs:label "Berkley"@it ;
+    owl:sameAs <https://sws.geonames.org/5404897/>,
+        <https://viaf.org/viaf/149111950>,
+        <https://www.wikidata.org/entity/Q168756> .
+
+<entity/berlino> a schema:Place ;
+    rdfs:label "Berlino"@it ;
+    owl:sameAs <https://sws.geonames.org/2950159/>,
+        <https://viaf.org/viaf/122530980>,
+        <https://www.wikidata.org/entity/Q64> .
+
+<entity/bettinelli> a schema:Person ;
+    rdfs:label "Bettinelli"@it ;
+    owl:sameAs <https://viaf.org/viaf/29558099>,
+        <https://www.wikidata.org/entity/Q1152092> .
+
+<entity/bismarck> a schema:Person ;
+    rdfs:label "Bismarck"@it ;
+    owl:sameAs <https://viaf.org/viaf/46772111>,
+        <https://www.wikidata.org/entity/Q8442> .
+
+<entity/bloch> a schema:Person ;
+    rdfs:label "Bloch"@it ;
+    owl:sameAs <https://viaf.org/viaf/46757545>,
+        <https://www.wikidata.org/entity/Q156585> .
+
+<entity/boccaccio> a schema:Person ;
+    rdfs:label "Boccaccio"@it ;
+    owl:sameAs <https://viaf.org/viaf/64002165>,
+        <https://www.wikidata.org/entity/Q1402> .
+
+<entity/bonconteDaMontefeltro> a schema:Person ;
+    rdfs:label "Bonconte da Montefeltro"@it ;
+    owl:sameAs <https://viaf.org/viaf/45785783>,
+        <https://www.wikidata.org/entity/Q3642072> .
+
+<entity/borgogna> a schema:Place ;
+    rdfs:label "Borgogna"@it ;
+    owl:sameAs <https://sws.geonames.org/3030967/>,
+        <https://viaf.org/viaf/6603147786777368220009>,
+        <https://www.wikidata.org/entity/Q1173> .
+
+<entity/br> a schema:Organization ;
+    rdfs:label "BR"@it ;
+    owl:sameAs <https://viaf.org/viaf/124870952>,
+        <https://www.wikidata.org/entity/Q194019> .
+
+<entity/brasile> a schema:Place ;
+    rdfs:label "Brasile"@it ;
+    owl:sameAs <https://sws.geonames.org/3469034/>,
+        <https://viaf.org/viaf/129679518>,
+        <https://www.wikidata.org/entity/Q155> .
+
+<entity/brentwood> a schema:Place ;
+    rdfs:label "Brentwood"@it ;
+    owl:sameAs <https://sws.geonames.org/2654782/>,
+        <https://viaf.org/viaf/132540216>,
+        <https://www.wikidata.org/entity/Q909993> .
+
+<entity/brodsky> a schema:Person ;
+    rdfs:label "Brodsky"@it ;
+    owl:sameAs <https://viaf.org/viaf/31993687>,
+        <https://www.wikidata.org/entity/Q862> .
+
+<entity/bruxelles> a schema:Place ;
+    rdfs:label "Bruxelles"@it ;
+    owl:sameAs <https://sws.geonames.org/2800867/>,
+        <https://viaf.org/viaf/332144929079854441105>,
+        <https://www.wikidata.org/entity/Q240> .
+
+<entity/buenosAires> a schema:Place ;
+    rdfs:label "Buenos Aires"@it ;
+    owl:sameAs <https://sws.geonames.org/3435910/>,
+        <https://viaf.org/viaf/1331145424662786830473>,
+        <https://www.wikidata.org/entity/Q1486> .
+
+<entity/bulgakov> a schema:Person ;
+    rdfs:label "Bulgakov"@it ;
+    owl:sameAs <https://viaf.org/viaf/99836700>,
+        <https://www.wikidata.org/entity/Q835> .
+
+<entity/cadorna> a schema:Person ;
+    rdfs:label "Cadorna"@it ;
+    owl:sameAs <https://viaf.org/viaf/62355177>,
+        <https://www.wikidata.org/entity/Q333809> .
+
+<entity/cambridge> a schema:Place ;
+    rdfs:label "Cambridge"@it ;
+    owl:sameAs <https://sws.geonames.org/2653941/>,
+        <https://viaf.org/viaf/139487232>,
+        <https://www.wikidata.org/entity/Q350> .
+
+<entity/campaldino> a schema:Event ;
+    rdfs:label "Campaldino"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q2888241> .
+
+<entity/canarie> a schema:Place ;
+    rdfs:label "Canarie"@it ;
+    owl:sameAs <https://sws.geonames.org/2593110/>,
+        <https://viaf.org/viaf/148386330>,
+        <https://www.wikidata.org/entity/Q5813> .
+
+<entity/caporetto> a schema:Event ;
+    rdfs:label "Caporetto"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q242644> .
+
+<entity/carducci> a schema:Person ;
+    rdfs:label "Carducci"@it ;
+    owl:sameAs <https://viaf.org/viaf/34470601>,
+        <https://www.wikidata.org/entity/Q43440> .
+
+<entity/carlaCapponi> a schema:Person ;
+    rdfs:label "Carla Capponi"@it ;
+    owl:sameAs <https://viaf.org/viaf/24817680>,
+        <https://www.wikidata.org/entity/Q3658835> .
+
+<entity/carlo> a schema:Person ;
+    rdfs:label "Carlo"@it ;
+    owl:sameAs <https://viaf.org/viaf/67750325>,
+        <https://www.wikidata.org/entity/Q81506> .
+
+<entity/carloAlberto> a schema:Person ;
+    rdfs:label "Carlo Alberto"@it ;
+    owl:sameAs <https://viaf.org/viaf/18030661>,
+        <https://www.wikidata.org/entity/Q181261> .
+
+<entity/carloCattaneo> a schema:Person ;
+    rdfs:label "Carlo Cattaneo"@it ;
+    owl:sameAs <https://viaf.org/viaf/32023065>,
+        <https://www.wikidata.org/entity/Q1042024> .
+
+<entity/carloIlMalvagio> a schema:Person ;
+    rdfs:label "Carlo il Malvagio"@it ;
+    owl:sameAs <https://viaf.org/viaf/266723926>,
+        <https://www.wikidata.org/entity/Q43082> .
+
+<entity/carloMagno> a schema:Person ;
+    rdfs:label "Carlo Magno"@it ;
+    owl:sameAs <https://viaf.org/viaf/89643029>,
+        <https://www.wikidata.org/entity/Q3044> .
+
+<entity/carloV> a schema:Person ;
+    rdfs:label "Carlo V"@it ;
+    owl:sameAs <https://viaf.org/viaf/88598818>,
+        <https://www.wikidata.org/entity/Q32500> .
+
+<entity/carso> a schema:Place ;
+    rdfs:label "Carso"@it ;
+    owl:sameAs <https://sws.geonames.org/3197361/>,
+        <https://viaf.org/viaf/243010956>,
+        <https://www.wikidata.org/entity/Q625139> .
+
+<entity/castiglia> a schema:Place ;
+    rdfs:label "Castiglia"@it ;
+    owl:sameAs <https://sws.geonames.org/3336900/>,
+        <https://viaf.org/viaf/316429328>,
+        <https://www.wikidata.org/entity/Q1043594> .
+
+<entity/caterina> a schema:Person ;
+    rdfs:label "Caterina"@it ;
+    owl:sameAs <https://viaf.org/viaf/90633132>,
+        <https://www.wikidata.org/entity/Q229190> .
+
+<entity/caterinaDaSiena> a schema:Person ;
+    rdfs:label "Caterina da Siena"@it ;
+    owl:sameAs <https://viaf.org/viaf/90633132>,
+        <https://www.wikidata.org/entity/Q229190> .
+
+<entity/cauchon> a schema:Person ;
+    rdfs:label "Cauchon"@it ;
+    owl:sameAs <https://viaf.org/viaf/27870650>,
+        <https://www.wikidata.org/entity/Q464287> .
+
+<entity/cavour> a schema:Person ;
+    rdfs:label "Cavour"@it ;
+    owl:sameAs <https://viaf.org/viaf/68923739>,
+        <https://www.wikidata.org/entity/Q166092> .
+
+<entity/cesareRossi> a schema:Person ;
+    rdfs:label "Cesare Rossi"@it ;
+    owl:sameAs <https://viaf.org/viaf/32798751>,
+        <https://www.wikidata.org/entity/Q937137> .
+
+<entity/chamberlain> a schema:Person ;
+    rdfs:label "Chamberlain"@it ;
+    owl:sameAs <https://viaf.org/viaf/22318481>,
+        <https://www.wikidata.org/entity/Q10664> .
+
+<entity/christine> a schema:Person ;
+    rdfs:label "Christine"@it ;
+    owl:sameAs <https://viaf.org/viaf/100188547>,
+        <https://www.wikidata.org/entity/Q234816> .
+
+<entity/cialdini> a schema:Person ;
+    rdfs:label "Cialdini"@it ;
+    owl:sameAs <https://viaf.org/viaf/42591032>,
+        <https://www.wikidata.org/entity/Q697867> .
+
+<entity/ciano> a schema:Person ;
+    rdfs:label "Ciano"@it ;
+    owl:sameAs <https://viaf.org/viaf/56702085>,
+        <https://www.wikidata.org/entity/Q220105> .
+
+<entity/ciompi> a schema:Event ;
+    rdfs:label "Ciompi"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q1092673> .
+
+<entity/cipro> a schema:Place ;
+    rdfs:label "Cipro"@it ;
+    owl:sameAs <https://sws.geonames.org/146669/>,
+        <https://viaf.org/viaf/130118559>,
+        <https://www.wikidata.org/entity/Q229> .
+
+<entity/cluny> a schema:Place ;
+    rdfs:label "Cluny"@it ;
+    owl:sameAs <https://sws.geonames.org/3024534/>,
+        <https://viaf.org/viaf/129020265>,
+        <https://www.wikidata.org/entity/Q220301> .
+
+<entity/colombo> a schema:Person ;
+    rdfs:label "Colombo"@it ;
+    owl:sameAs <https://viaf.org/viaf/17231583>,
+        <https://www.wikidata.org/entity/Q7322> .
+
+<entity/corfù> a schema:Place ;
+    rdfs:label "Corfù"@it ;
+    owl:sameAs <https://sws.geonames.org/2463678/>,
+        <https://viaf.org/viaf/237254241>,
+        <https://www.wikidata.org/entity/Q121378> .
+
+<entity/corrado> a schema:Person ;
+    rdfs:label "Corrado"@it ;
+    owl:sameAs <https://viaf.org/viaf/81205195>,
+        <https://www.wikidata.org/entity/Q169329> .
+
+<entity/corriereDellaSera> a schema:Organization ;
+    rdfs:label "Corriere della Sera"@it ;
+    owl:sameAs <https://viaf.org/viaf/179878632>,
+        <https://www.wikidata.org/entity/Q309135> .
+
+<entity/costantino> a schema:Person ;
+    rdfs:label "Costantino"@it ;
+    owl:sameAs <https://viaf.org/viaf/97746098>,
+        <https://www.wikidata.org/entity/Q8413> .
+
+<entity/costantinopoli> a schema:Place ;
+    rdfs:label "Costantinopoli"@it ;
+    owl:sameAs <https://sws.geonames.org/745044/>,
+        <https://viaf.org/viaf/122641741>,
+        <https://www.wikidata.org/entity/Q16869> .
+
+<entity/creta> a schema:Place ;
+    rdfs:label "Creta"@it ;
+    owl:sameAs <https://sws.geonames.org/258763/>,
+        <https://viaf.org/viaf/237254468>,
+        <https://www.wikidata.org/entity/Q34374> .
+
+<entity/cristina> a schema:Person ;
+    rdfs:label "Cristina"@it ;
+    owl:sameAs <https://viaf.org/viaf/100188547>,
+        <https://www.wikidata.org/entity/Q234816> .
+
+<entity/cristo> a schema:Person ;
+    rdfs:label "Cristo"@it ;
+    owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
+        <https://www.wikidata.org/entity/Q302> .
+
+<entity/cuneo> a schema:Place ;
+    rdfs:label "Cuneo"@it ;
+    owl:sameAs <https://sws.geonames.org/6541864/>,
+        <https://viaf.org/viaf/137221319>,
+        <https://www.wikidata.org/entity/Q5968> .
+
+<entity/custoza> a schema:Event ;
+    rdfs:label "Custoza"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q48163> .
+
+<entity/dante> a schema:Person ;
+    rdfs:label "Dante"@it ;
+    owl:sameAs <https://viaf.org/viaf/97105654>,
+        <https://www.wikidata.org/entity/Q1067> .
+
+<entity/danzica> a schema:Place ;
+    rdfs:label "Danzica"@it ;
+    owl:sameAs <https://sws.geonames.org/3099434/>,
+        <https://viaf.org/viaf/123148700>,
+        <https://www.wikidata.org/entity/Q1792> .
+
+<entity/dazeglio> a schema:Person ;
+    rdfs:label "D'Azeglio"@it ;
+    owl:sameAs <https://viaf.org/viaf/43949>,
+        <https://www.wikidata.org/entity/Q469134> .
+
+<entity/dc> a schema:Organization ;
+    rdfs:label "DC"@it ;
+    owl:sameAs <https://viaf.org/viaf/137215176>,
+        <https://www.wikidata.org/entity/Q815348> .
+
+<entity/deBono> a schema:Person ;
+    rdfs:label "De Bono"@it ;
+    owl:sameAs <https://viaf.org/viaf/46799121>,
+        <https://www.wikidata.org/entity/Q354486> .
+
+<entity/diaz> a schema:Person ;
+    rdfs:label "Diaz"@it ;
+    owl:sameAs <https://viaf.org/viaf/5729160>,
+        <https://www.wikidata.org/entity/Q333778> .
+
+<entity/dinoCompagni> a schema:Person ;
+    rdfs:label "Dino Compagni"@it ;
+    owl:sameAs <https://viaf.org/viaf/64048766>,
+        <https://www.wikidata.org/entity/Q716994> .
+
+<entity/dio> a schema:Thing ;
+    rdfs:label "Dio"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q190> .
+
+<entity/dumini> a schema:Person ;
+    rdfs:label "Dumini"@it ;
+    owl:sameAs <https://viaf.org/viaf/41967991>,
+        <https://www.wikidata.org/entity/Q2843122> .
+
+<entity/egitto> a schema:Place ;
+    rdfs:label "Egitto"@it ;
+    owl:sameAs <https://sws.geonames.org/357994/>,
+        <https://viaf.org/viaf/242059233>,
+        <https://www.wikidata.org/entity/Q79> .
+
+<entity/elba> a schema:Place ;
+    rdfs:label "Elba"@it ;
+    owl:sameAs <https://sws.geonames.org/3177426/>,
+        <https://viaf.org/viaf/315127737>,
+        <https://www.wikidata.org/entity/Q45328> .
+
+<entity/elia> a schema:Person ;
+    rdfs:label "Elia"@it ;
+    owl:sameAs <https://viaf.org/viaf/96184933>,
+        <https://www.wikidata.org/entity/Q1329212> .
+
+<entity/elisabetta> a schema:Person ;
+    rdfs:label "Elisabetta"@it ;
+    owl:sameAs <https://viaf.org/viaf/97107753>,
+        <https://www.wikidata.org/entity/Q7207> .
+
+<entity/enricoV> a schema:Person ;
+    rdfs:label "Enrico V"@it ;
+    owl:sameAs <https://viaf.org/viaf/284333410>,
+        <https://www.wikidata.org/entity/Q131581> .
+
+<entity/europa> a schema:Place ;
+    rdfs:label "Europa"@it ;
+    owl:sameAs <https://sws.geonames.org/6255148/>,
+        <https://viaf.org/viaf/170298814>,
+        <https://www.wikidata.org/entity/Q46> .
+
+<entity/falkland> a schema:Place ;
+    rdfs:label "Falkland"@it ;
+    owl:sameAs <https://sws.geonames.org/3474414/>,
+        <https://viaf.org/viaf/155354899>,
+        <https://www.wikidata.org/entity/Q9648> .
+
+<entity/fanfani> a schema:Person ;
+    rdfs:label "Fanfani"@it ;
+    owl:sameAs <https://viaf.org/viaf/108174450>,
+        <https://www.wikidata.org/entity/Q273228> .
+
+<entity/fano> a schema:Place ;
+    rdfs:label "Fano"@it ;
+    owl:sameAs <https://sws.geonames.org/6541050/>,
+        <https://viaf.org/viaf/138378091>,
+        <https://www.wikidata.org/entity/Q13142> .
+
+<entity/faranda> a schema:Person ;
+    rdfs:label "Faranda"@it ;
+    owl:sameAs <https://viaf.org/viaf/52495972>,
+        <https://www.wikidata.org/entity/Q3605665> .
+
+<entity/farfa> a schema:Place ;
+    rdfs:label "Farfa"@it ;
+    owl:sameAs <https://sws.geonames.org/7506755/>,
+        <https://viaf.org/viaf/137282486>,
+        <https://www.wikidata.org/entity/Q2634480> .
+
+<entity/febvre> a schema:Person ;
+    rdfs:label "Febvre"@it ;
+    owl:sameAs <https://viaf.org/viaf/61545548>,
+        <https://www.wikidata.org/entity/Q156999> .
+
+<entity/federicoIi> a schema:Person ;
+    rdfs:label "Federico II"@it ;
+    owl:sameAs <https://viaf.org/viaf/46006380>,
+        <https://www.wikidata.org/entity/Q130221> .
+
+<entity/firenze> a schema:Place ;
+    rdfs:label "Firenze"@it ;
+    owl:sameAs <https://sws.geonames.org/6542285/>,
+        <https://viaf.org/viaf/152981965>,
+        <https://www.wikidata.org/entity/Q2044> .
+
+<entity/francescoFerdinando> a schema:Person ;
+    rdfs:label "Francesco Ferdinando"@it ;
+    owl:sameAs <https://viaf.org/viaf/50016762>,
+        <https://www.wikidata.org/entity/Q43063> .
+
+<entity/francescoGiuseppe> a schema:Person ;
+    rdfs:label "Francesco Giuseppe"@it ;
+    owl:sameAs <https://viaf.org/viaf/32787948>,
+        <https://www.wikidata.org/entity/Q51056> .
+
+<entity/francia> a schema:Place ;
+    rdfs:label "Francia"@it ;
+    owl:sameAs <https://sws.geonames.org/3017382/>,
+        <https://viaf.org/viaf/264091107>,
+        <https://www.wikidata.org/entity/Q142> .
+
+<entity/freud> a schema:Person ;
+    rdfs:label "Freud"@it ;
+    owl:sameAs <https://viaf.org/viaf/34456780>,
+        <https://www.wikidata.org/entity/Q9215> .
+
+<entity/galtieri> a schema:Person ;
+    rdfs:label "Galtieri"@it ;
+    owl:sameAs <https://viaf.org/viaf/3967008>,
+        <https://www.wikidata.org/entity/Q124993> .
+
+<entity/gap> a schema:Organization ;
+    rdfs:label "GAP"@it ;
+    owl:sameAs <https://viaf.org/viaf/125949707>,
+        <https://www.wikidata.org/entity/Q3777284> .
+
+<entity/garibaldi> a schema:Person ;
+    rdfs:label "Garibaldi"@it ;
+    owl:sameAs <https://viaf.org/viaf/100192194>,
+        <https://www.wikidata.org/entity/Q539> .
+
+<entity/george> a schema:Person ;
+    rdfs:label "George"@it ;
+    owl:sameAs <https://viaf.org/viaf/46761592>,
+        <https://www.wikidata.org/entity/Q57187> .
+
+<entity/germania> a schema:Place ;
+    rdfs:label "Germania"@it ;
+    owl:sameAs <https://sws.geonames.org/2921044/>,
+        <https://viaf.org/viaf/189116956>,
+        <https://www.wikidata.org/entity/Q183> .
+
+<entity/gerusalemme> a schema:Place ;
+    rdfs:label "Gerusalemme"@it ;
+    owl:sameAs <https://sws.geonames.org/281184/>,
+        <https://viaf.org/viaf/131280745>,
+        <https://www.wikidata.org/entity/Q1218> .
+
+<entity/gestapo> a schema:Organization ;
+    rdfs:label "Gestapo"@it ;
+    owl:sameAs <https://viaf.org/viaf/134799226>,
+        <https://www.wikidata.org/entity/Q43250> .
+
+<entity/gesù> a schema:Person ;
+    rdfs:label "Gesù"@it ;
+    owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
+        <https://www.wikidata.org/entity/Q302> .
+
+<entity/giacomo> a schema:Person ;
+    rdfs:label "Giacomo"@it ;
+    owl:sameAs <https://viaf.org/viaf/88905668>,
+        <https://www.wikidata.org/entity/Q79972> .
+
+<entity/giappone> a schema:Place ;
+    rdfs:label "Giappone"@it ;
+    owl:sameAs <https://sws.geonames.org/1861060/>,
+        <https://viaf.org/viaf/159367111>,
+        <https://www.wikidata.org/entity/Q17> .
+
+<entity/giolitti> a schema:Person ;
+    rdfs:label "Giolitti"@it ;
+    owl:sameAs <https://viaf.org/viaf/27079739>,
+        <https://www.wikidata.org/entity/Q297190> .
+
+<entity/giorgioAmendola> a schema:Person ;
+    rdfs:label "Giorgio Amendola"@it ;
+    owl:sameAs <https://viaf.org/viaf/12304040>,
+        <https://www.wikidata.org/entity/Q939831> .
+
+<entity/giovanna> a schema:Person ;
+    rdfs:label "Giovanna"@it ;
+    owl:sameAs <https://viaf.org/viaf/97108273>,
+        <https://www.wikidata.org/entity/Q7226> .
+
+<entity/giovannaDarco> a schema:Person ;
+    rdfs:label "Giovanna d'Arco"@it ;
+    owl:sameAs <https://viaf.org/viaf/97108273>,
+        <https://www.wikidata.org/entity/Q7226> .
+
+<entity/giovanniDaVicenza> a schema:Person ;
+    rdfs:label "Giovanni da Vicenza"@it ;
+    owl:sameAs <https://viaf.org/viaf/304159474047827660445>,
+        <https://www.wikidata.org/entity/Q3768438> .
+
+<entity/giovanniIlBuono> a schema:Person ;
+    rdfs:label "Giovanni il Buono"@it ;
+    owl:sameAs <https://viaf.org/viaf/42632679>,
+        <https://www.wikidata.org/entity/Q169992> .
+
+<entity/girolamo> a schema:Person ;
+    rdfs:label "Girolamo"@it ;
+    owl:sameAs <https://viaf.org/viaf/95147024>,
+        <https://www.wikidata.org/entity/Q44248> .
+
+<entity/gobetti> a schema:Person ;
+    rdfs:label "Gobetti"@it ;
+    owl:sameAs <https://viaf.org/viaf/19697764>,
+        <https://www.wikidata.org/entity/Q532852> .
+
+<entity/goffredoDiBuglione> a schema:Person ;
+    rdfs:label "Goffredo di Buglione"@it ;
+    owl:sameAs <https://viaf.org/viaf/13555210>,
+        <https://www.wikidata.org/entity/Q76721> .
+
+<entity/gorizia> a schema:Place ;
+    rdfs:label "Gorizia"@it ;
+    owl:sameAs <https://sws.geonames.org/6541866/>,
+        <https://viaf.org/viaf/130184480>,
+        <https://www.wikidata.org/entity/Q6596> .
+
+<entity/gradoli> a schema:Place ;
+    rdfs:label "Gradoli"@it ;
+    owl:sameAs <https://sws.geonames.org/6536905/>,
+        <https://viaf.org/viaf/139824585>,
+        <https://www.wikidata.org/entity/Q161694> .
+
+<entity/gyulay> a schema:Person ;
+    rdfs:label "Gyulay"@it ;
+    owl:sameAs <https://viaf.org/viaf/81036447>,
+        <https://www.wikidata.org/entity/Q698020> .
+
+<entity/hitler> a schema:Person ;
+    rdfs:label "Hitler"@it ;
+    owl:sameAs <https://viaf.org/viaf/38190770>,
+        <https://www.wikidata.org/entity/Q352> .
+
+<entity/inghilterra> a schema:Place ;
+    rdfs:label "Inghilterra"@it ;
+    owl:sameAs <https://sws.geonames.org/6269131/>,
+        <https://viaf.org/viaf/142995804>,
+        <https://www.wikidata.org/entity/Q21> .
+
+<entity/irlanda> a schema:Place ;
+    rdfs:label "Irlanda"@it ;
+    owl:sameAs <https://sws.geonames.org/2963597/>,
+        <https://viaf.org/viaf/158208597>,
+        <https://www.wikidata.org/entity/Q27> .
+
+<entity/isonzo> a schema:Place ;
+    rdfs:label "Isonzo"@it ;
+    owl:sameAs <https://sws.geonames.org/3175409/>,
+        <https://viaf.org/viaf/241841162>,
+        <https://www.wikidata.org/entity/Q202760> .
+
+<entity/israele> a schema:Place ;
+    rdfs:label "Israele"@it ;
+    owl:sameAs <https://sws.geonames.org/294640/>,
+        <https://viaf.org/viaf/146498911>,
+        <https://www.wikidata.org/entity/Q801> .
+
+<entity/istanbul> a schema:Place ;
+    rdfs:label "Istanbul"@it ;
+    owl:sameAs <https://sws.geonames.org/745044/>,
+        <https://viaf.org/viaf/135931454>,
+        <https://www.wikidata.org/entity/Q406> .
+
+<entity/italia> a schema:Place ;
+    rdfs:label "Italia"@it ;
+    owl:sameAs <https://sws.geonames.org/3175395/>,
+        <https://viaf.org/viaf/152361066>,
+        <https://www.wikidata.org/entity/Q38> .
+
+<entity/ivrea> a schema:Place ;
+    rdfs:label "Ivrea"@it ;
+    owl:sameAs <https://sws.geonames.org/3175385/>,
+        <https://viaf.org/viaf/133676505>,
+        <https://www.wikidata.org/entity/Q9409> .
+
+<entity/jacquerie> a schema:Event ;
+    rdfs:label "Jacquerie"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q7126013> .
+
+<entity/jacquesBonhomme> a schema:Person ;
+    rdfs:label "Jacques Bonhomme"@it ;
+    owl:sameAs <https://viaf.org/viaf/294269692>,
+        <https://www.wikidata.org/entity/Q596460> .
+
+<entity/jeanDeJoinville> a schema:Person ;
+    rdfs:label "Jean de Joinville"@it ;
+    owl:sameAs <https://viaf.org/viaf/59191609>,
+        <https://www.wikidata.org/entity/Q328747> .
+
+<entity/joanneville> a schema:Place ;
+    rdfs:label "Joanneville"@it ;
+    owl:sameAs <https://sws.geonames.org/6454267/>,
+        <https://viaf.org/viaf/146795004>,
+        <https://www.wikidata.org/entity/Q817418> .
+
+<entity/johnBall> a schema:Person ;
+    rdfs:label "John Ball"@it ;
+    owl:sameAs <https://viaf.org/viaf/18019526>,
+        <https://www.wikidata.org/entity/Q505824> .
+
+<entity/johnBrown> a schema:Person ;
+    rdfs:label "John Brown"@it ;
+    owl:sameAs <https://viaf.org/viaf/59091476>,
+        <https://www.wikidata.org/entity/Q189366> .
+
+<entity/jugoslavia> a schema:Place ;
+    rdfs:label "Jugoslavia"@it ;
+    owl:sameAs <https://sws.geonames.org/7500737/>,
+        <https://viaf.org/viaf/129724016>,
+        <https://www.wikidata.org/entity/Q36704> .
+
+<entity/kansas> a schema:Place ;
+    rdfs:label "Kansas"@it ;
+    owl:sameAs <https://sws.geonames.org/4273857/>,
+        <https://viaf.org/viaf/152389568>,
+        <https://www.wikidata.org/entity/Q1558> .
+
+<entity/kantorowicz> a schema:Person ;
+    rdfs:label "Kantorowicz"@it ;
+    owl:sameAs <https://viaf.org/viaf/34567953>,
+        <https://www.wikidata.org/entity/Q77499> .
+
+<entity/kappler> a schema:Person ;
+    rdfs:label "Kappler"@it ;
+    owl:sameAs <https://viaf.org/viaf/52484397>,
+        <https://www.wikidata.org/entity/Q61861> .
+
+<entity/kiev> a schema:Place ;
+    rdfs:label "Kiev"@it ;
+    owl:sameAs <https://sws.geonames.org/703448/>,
+        <https://viaf.org/viaf/150028026>,
+        <https://www.wikidata.org/entity/Q1899> .
+
+<entity/laMarmora> a schema:Person ;
+    rdfs:label "La Marmora"@it ;
+    owl:sameAs <https://viaf.org/viaf/62351933>,
+        <https://www.wikidata.org/entity/Q471272> .
+
+<entity/lancaster> a schema:Place ;
+    rdfs:label "Lancaster"@it ;
+    owl:sameAs <https://sws.geonames.org/2644972/>,
+        <https://viaf.org/viaf/243037582>,
+        <https://www.wikidata.org/entity/Q205905> .
+
+<entity/lasMalvinas> a schema:Place ;
+    rdfs:label "Las Malvinas"@it ;
+    owl:sameAs <https://sws.geonames.org/3474414/>,
+        <https://viaf.org/viaf/155354899>,
+        <https://www.wikidata.org/entity/Q9648> .
+
+<entity/leningrado> a schema:Place ;
+    rdfs:label "Leningrado"@it ;
+    owl:sameAs <https://sws.geonames.org/498817/>,
+        <https://viaf.org/viaf/561154381054530291788>,
+        <https://www.wikidata.org/entity/Q656> .
+
+<entity/lepanto> a schema:Place ;
+    rdfs:label "Lepanto"@it ;
+    owl:sameAs <https://sws.geonames.org/256639/>,
+        <https://viaf.org/viaf/8425162906496978110003>,
+        <https://www.wikidata.org/entity/Q782278> .
+
+<entity/leutardo> a schema:Person ;
+    rdfs:label "Leutardo"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q21042902> .
+
+<entity/liev> a schema:Person ;
+    rdfs:label "Liev"@it ;
+    owl:sameAs <https://viaf.org/viaf/59131742>,
+        <https://www.wikidata.org/entity/Q135481> .
+
+<entity/lincoln> a schema:Person ;
+    rdfs:label "Lincoln"@it ;
+    owl:sameAs <https://viaf.org/viaf/76349832>,
+        <https://www.wikidata.org/entity/Q91> .
+
+<entity/lione> a schema:Place ;
+    rdfs:label "Lione"@it ;
+    owl:sameAs <https://sws.geonames.org/2996944/>,
+        <https://viaf.org/viaf/158189703>,
+        <https://www.wikidata.org/entity/Q456> .
+
+<entity/londra> a schema:Place ;
+    rdfs:label "Londra"@it ;
+    owl:sameAs <https://sws.geonames.org/2643743/>,
+        <https://viaf.org/viaf/261467287>,
+        <https://www.wikidata.org/entity/Q84> .
+
+<entity/lordStrafford> a schema:Person ;
+    rdfs:label "Lord Strafford"@it ;
+    owl:sameAs <https://viaf.org/viaf/72190523>,
+        <https://www.wikidata.org/entity/Q336091> .
+
+<entity/luigiIx> a schema:Person ;
+    rdfs:label "Luigi IX"@it ;
+    owl:sameAs <https://viaf.org/viaf/89182909>,
+        <https://www.wikidata.org/entity/Q346> .
+
+<entity/luigiXviii> a schema:Person ;
+    rdfs:label "Luigi XVIII"@it ;
+    owl:sameAs <https://viaf.org/viaf/84035484>,
+        <https://www.wikidata.org/entity/Q7750> .
+
+<entity/magonza> a schema:Place ;
+    rdfs:label "Magonza"@it ;
+    owl:sameAs <https://sws.geonames.org/2874225/>,
+        <https://viaf.org/viaf/123738720>,
+        <https://www.wikidata.org/entity/Q1720> .
+
+<entity/mandeville> a schema:Thing ;
+    rdfs:label "Mandeville"@it ;
+    owl:sameAs <https://viaf.org/viaf/182210274>,
+        <https://www.wikidata.org/entity/Q3257249> .
+
+<entity/maometto> a schema:Person ;
+    rdfs:label "Maometto"@it ;
+    owl:sameAs <https://viaf.org/viaf/97245226>,
+        <https://www.wikidata.org/entity/Q9458> .
+
+<entity/marcoPolo> a schema:Person ;
+    rdfs:label "Marco Polo"@it ;
+    owl:sameAs <https://viaf.org/viaf/173430120>,
+        <https://www.wikidata.org/entity/Q6101> .
+
+<entity/maria> a schema:Person ;
+    rdfs:label "Maria"@it ;
+    owl:sameAs <https://viaf.org/viaf/86913753>,
+        <https://www.wikidata.org/entity/Q345> .
+
+<entity/marioFiorentini> a schema:Person ;
+    rdfs:label "Mario Fiorentini"@it ;
+    owl:sameAs <https://viaf.org/viaf/79471199>,
+        <https://www.wikidata.org/entity/Q3848579> .
+
+<entity/matteoDacquasparta> a schema:Person ;
+    rdfs:label "Matteo d'Acquasparta"@it ;
+    owl:sameAs <https://viaf.org/viaf/89499857>,
+        <https://www.wikidata.org/entity/Q1346310> .
+
+<entity/matteotti> a schema:Person ;
+    rdfs:label "Matteotti"@it ;
+    owl:sameAs <https://viaf.org/viaf/9862153>,
+        <https://www.wikidata.org/entity/Q267304> .
+
+<entity/maxClausen> a schema:Person ;
+    rdfs:label "Max Clausen"@it ;
+    owl:sameAs <https://viaf.org/viaf/50140352>,
+        <https://www.wikidata.org/entity/Q124006> .
+
+<entity/mazzini> a schema:Person ;
+    rdfs:label "Mazzini"@it ;
+    owl:sameAs <https://viaf.org/viaf/2498020>,
+        <https://www.wikidata.org/entity/Q187336> .
+
+<entity/mediterraneo> a schema:Place ;
+    rdfs:label "Mediterraneo"@it ;
+    owl:sameAs <https://sws.geonames.org/363196/>,
+        <https://viaf.org/viaf/239897976>,
+        <https://www.wikidata.org/entity/Q4918> .
+
+<entity/messerLapo> a schema:Person ;
+    rdfs:label "Messer Lapo"@it ;
+    owl:sameAs <https://viaf.org/viaf/97724025>,
+        <https://www.wikidata.org/entity/Q1237303> .
+
+<entity/messina> a schema:Place ;
+    rdfs:label "Messina"@it ;
+    owl:sameAs <https://sws.geonames.org/6541859/>,
+        <https://viaf.org/viaf/146699997>,
+        <https://www.wikidata.org/entity/Q13666> .
+
+<entity/micheleDiLando> a schema:Person ;
+    rdfs:label "Michele di Lando"@it ;
+    owl:sameAs <https://viaf.org/viaf/160127802>,
+        <https://www.wikidata.org/entity/Q786761> .
+
+<entity/milano> a schema:Place ;
+    rdfs:label "Milano"@it ;
+    owl:sameAs <https://sws.geonames.org/6542283/>,
+        <https://viaf.org/viaf/157818740>,
+        <https://www.wikidata.org/entity/Q490> .
+
+<entity/mincio> a schema:Place ;
+    rdfs:label "Mincio"@it ;
+    owl:sameAs <https://sws.geonames.org/3173409/>,
+        <https://viaf.org/viaf/240515550>,
+        <https://www.wikidata.org/entity/Q936688> .
+
+<entity/montmartre> a schema:Place ;
+    rdfs:label "Montmartre"@it ;
+    owl:sameAs <https://sws.geonames.org/3029374/>,
+        <https://viaf.org/viaf/146617129>,
+        <https://www.wikidata.org/entity/Q186115> .
+
+<entity/moretti> a schema:Person ;
+    rdfs:label "Moretti"@it ;
+    owl:sameAs <https://viaf.org/viaf/107594009>,
+        <https://www.wikidata.org/entity/Q1758581> .
+
+<entity/moro> a schema:Person ;
+    rdfs:label "Moro"@it ;
+    owl:sameAs <https://viaf.org/viaf/73876435>,
+        <https://www.wikidata.org/entity/Q171834> .
+
+<entity/morucci> a schema:Person ;
+    rdfs:label "Morucci"@it ;
+    owl:sameAs <https://viaf.org/viaf/37220889>,
+        <https://www.wikidata.org/entity/Q4007903> .
+
+<entity/mosca> a schema:Place ;
+    rdfs:label "Mosca"@it ;
+    owl:sameAs <https://sws.geonames.org/524901/>,
+        <https://viaf.org/viaf/142519565>,
+        <https://www.wikidata.org/entity/Q649> .
+
+<entity/mussolini> a schema:Person ;
+    rdfs:label "Mussolini"@it ;
+    owl:sameAs <https://viaf.org/viaf/90162262>,
+        <https://www.wikidata.org/entity/Q23559> .
+
+<entity/napoleone> a schema:Person ;
+    rdfs:label "Napoleone"@it ;
+    owl:sameAs <https://viaf.org/viaf/106964661>,
+        <https://www.wikidata.org/entity/Q517> .
+
+<entity/napoleoneIii> a schema:Person ;
+    rdfs:label "Napoleone III"@it ;
+    owl:sameAs <https://viaf.org/viaf/88934487>,
+        <https://www.wikidata.org/entity/Q7721> .
+
+<entity/napoli> a schema:Place ;
+    rdfs:label "Napoli"@it ;
+    owl:sameAs <https://sws.geonames.org/3172395/>,
+        <https://viaf.org/viaf/137842517>,
+        <https://www.wikidata.org/entity/Q2634> .
+
+<entity/niceta> a schema:Person ;
+    rdfs:label "Niceta"@it ;
+    owl:sameAs <https://viaf.org/viaf/173145785>,
+        <https://www.wikidata.org/entity/Q297340> .
+
+<entity/norfolk> a schema:Place ;
+    rdfs:label "Norfolk"@it ;
+    owl:sameAs <https://sws.geonames.org/2641455/>,
+        <https://viaf.org/viaf/151229994>,
+        <https://www.wikidata.org/entity/Q23109> .
+
+<entity/olanda> a schema:Place ;
+    rdfs:label "Olanda"@it ;
+    owl:sameAs <https://sws.geonames.org/2750405/>,
+        <https://viaf.org/viaf/156652814>,
+        <https://www.wikidata.org/entity/Q55> .
+
+<entity/orlando> a schema:Person ;
+    rdfs:label "Orlando"@it ;
+    owl:sameAs <https://viaf.org/viaf/5722596>,
+        <https://www.wikidata.org/entity/Q207535> .
+
+<entity/orleans> a schema:Place ;
+    rdfs:label "Orleans"@it ;
+    owl:sameAs <https://sws.geonames.org/2989317/>,
+        <https://viaf.org/viaf/139548210>,
+        <https://www.wikidata.org/entity/Q6548> .
+
+<entity/oxford> a schema:Place ;
+    rdfs:label "Oxford"@it ;
+    owl:sameAs <https://sws.geonames.org/2640729/>,
+        <https://viaf.org/viaf/145353627>,
+        <https://www.wikidata.org/entity/Q34217> .
+
+<entity/ozaki> a schema:Person ;
+    rdfs:label "Ozaki"@it ;
+    owl:sameAs <https://viaf.org/viaf/30338507>,
+        <https://www.wikidata.org/entity/Q1206227> .
+
+<entity/palazzoVecchio> a schema:Place ;
+    rdfs:label "Palazzo Vecchio"@it ;
+    owl:sameAs <https://sws.geonames.org/6697948/>,
+        <https://viaf.org/viaf/125014958>,
+        <https://www.wikidata.org/entity/Q271928> .
+
+<entity/parigi> a schema:Place ;
+    rdfs:label "Parigi"@it ;
+    owl:sameAs <https://sws.geonames.org/2968815/>,
+        <https://viaf.org/viaf/158822968>,
+        <https://www.wikidata.org/entity/Q90> .
+
+<entity/parma> a schema:Place ;
+    rdfs:label "Parma"@it ;
+    owl:sameAs <https://sws.geonames.org/6540120/>,
+        <https://viaf.org/viaf/143792095>,
+        <https://www.wikidata.org/entity/Q2683> .
+
+<entity/patrasso> a schema:Place ;
+    rdfs:label "Patrasso"@it ;
+    owl:sameAs <https://sws.geonames.org/255683/>,
+        <https://viaf.org/viaf/129029351>,
+        <https://www.wikidata.org/entity/Q133123> .
+
+<entity/philippeDeNemure> a schema:Person ;
+    rdfs:label "Philippe de Nemure"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q2005044> .
+
+<entity/piave> a schema:Place ;
+    rdfs:label "Piave"@it ;
+    owl:sameAs <https://sws.geonames.org/3183044/>,
+        <https://viaf.org/viaf/240543797>,
+        <https://www.wikidata.org/entity/Q530569> .
+
+<entity/piemonte> a schema:Place ;
+    rdfs:label "Piemonte"@it ;
+    owl:sameAs <https://sws.geonames.org/3170831/>,
+        <https://viaf.org/viaf/132508744>,
+        <https://www.wikidata.org/entity/Q1216> .
+
+<entity/pietroburgo> a schema:Place ;
+    rdfs:label "Pietroburgo"@it ;
+    owl:sameAs <https://sws.geonames.org/498817/>,
+        <https://viaf.org/viaf/139487820>,
+        <https://www.wikidata.org/entity/Q656> .
+
+<entity/pisa> a schema:Place ;
+    rdfs:label "Pisa"@it ;
+    owl:sameAs <https://sws.geonames.org/6542122/>,
+        <https://viaf.org/viaf/204007255>,
+        <https://www.wikidata.org/entity/Q13375> .
+
+<entity/po> a schema:Place ;
+    rdfs:label "Po"@it ;
+    owl:sameAs <https://sws.geonames.org/3170550/>,
+        <https://viaf.org/viaf/6148703924236930913>,
+        <https://www.wikidata.org/entity/Q643> .
+
+<entity/polonia> a schema:Place ;
+    rdfs:label "Polonia"@it ;
+    owl:sameAs <https://sws.geonames.org/798544/>,
+        <https://viaf.org/viaf/141810140>,
+        <https://www.wikidata.org/entity/Q36> .
+
+<entity/princeton> a schema:Place ;
+    rdfs:label "Princeton"@it ;
+    owl:sameAs <https://sws.geonames.org/5102955/>,
+        <https://viaf.org/viaf/141200041>,
+        <https://www.wikidata.org/entity/Q21578> .
+
+<entity/prussia> a schema:Place ;
+    rdfs:label "Prussia"@it ;
+    owl:sameAs <https://sws.geonames.org/3082436/>,
+        <https://viaf.org/viaf/137143200>,
+        <https://www.wikidata.org/entity/Q38872> .
+
+<entity/radetzky> a schema:Person ;
+    rdfs:label "Radetzky"@it ;
+    owl:sameAs <https://viaf.org/viaf/5723425>,
+        <https://www.wikidata.org/entity/Q153500> .
+
+<entity/raimondoDaCapua> a schema:Person ;
+    rdfs:label "Raimondo da Capua"@it ;
+    owl:sameAs <https://viaf.org/viaf/59251025>,
+        <https://www.wikidata.org/entity/Q2460163> .
+
+<entity/rattazzi> a schema:Person ;
+    rdfs:label "Rattazzi"@it ;
+    owl:sameAs <https://viaf.org/viaf/5045510>,
+        <https://www.wikidata.org/entity/Q449387> .
+
+<entity/reagan> a schema:Person ;
+    rdfs:label "Reagan"@it ;
+    owl:sameAs <https://viaf.org/viaf/76321889>,
+        <https://www.wikidata.org/entity/Q9960> .
+
+<entity/reims> a schema:Place ;
+    rdfs:label "Reims"@it ;
+    owl:sameAs <https://sws.geonames.org/2984114/>,
+        <https://viaf.org/viaf/126609525>,
+        <https://www.wikidata.org/entity/Q41876> .
+
+<entity/ribbentrop> a schema:Person ;
+    rdfs:label "Ribbentrop"@it ;
+    owl:sameAs <https://viaf.org/viaf/74645641>,
+        <https://www.wikidata.org/entity/Q101886> .
+
+<entity/riccardoCuorDiLeone> a schema:Person ;
+    rdfs:label "Riccardo Cuor di Leone"@it ;
+    owl:sameAs <https://viaf.org/viaf/64016139>,
+        <https://www.wikidata.org/entity/Q42305> .
+
+<entity/robertDeClary> a schema:Person ;
+    rdfs:label "Robert de Clary"@it ;
+    owl:sameAs <https://viaf.org/viaf/78769905>,
+        <https://www.wikidata.org/entity/Q944668> .
+
+<entity/roma> a schema:Place ;
+    rdfs:label "Roma"@it ;
+    owl:sameAs <https://sws.geonames.org/3169070/>,
+        <https://viaf.org/viaf/251380480>,
+        <https://www.wikidata.org/entity/Q220> .
+
+<entity/rosarioBentivegna> a schema:Person ;
+    rdfs:label "Rosario Bentivegna"@it ;
+    owl:sameAs <https://viaf.org/viaf/49282901>,
+        <https://www.wikidata.org/entity/Q49761> .
+
+<entity/rosina> a schema:Person ;
+    rdfs:label "Rosina"@it ;
+    owl:sameAs <https://viaf.org/viaf/72961141>,
+        <https://www.wikidata.org/entity/Q276000> .
+
+<entity/rouen> a schema:Place ;
+    rdfs:label "Rouen"@it ;
+    owl:sameAs <https://sws.geonames.org/2982652/>,
+        <https://viaf.org/viaf/146509692>,
+        <https://www.wikidata.org/entity/Q30974> .
+
+<entity/russia> a schema:Place ;
+    rdfs:label "Russia"@it ;
+    owl:sameAs <https://sws.geonames.org/2017370/>,
+        <https://viaf.org/viaf/140306806>,
+        <https://www.wikidata.org/entity/Q159> .
+
+<entity/saladino> a schema:Person ;
+    rdfs:label "Saladino"@it ;
+    owl:sameAs <https://viaf.org/viaf/90040943>,
+        <https://www.wikidata.org/entity/Q8581> .
+
+<entity/salamanca> a schema:Place ;
+    rdfs:label "Salamanca"@it ;
+    owl:sameAs <https://sws.geonames.org/6360513/>,
+        <https://viaf.org/viaf/157093141>,
+        <https://www.wikidata.org/entity/Q15695> .
+
+<entity/salandra> a schema:Person ;
+    rdfs:label "Salandra"@it ;
+    owl:sameAs <https://viaf.org/viaf/32017768>,
+        <https://www.wikidata.org/entity/Q354715> .
+
+<entity/salimbene> a schema:Person ;
+    rdfs:label "Salimbene"@it ;
+    owl:sameAs <https://viaf.org/viaf/89136582>,
+        <https://www.wikidata.org/entity/Q799960> .
+
+<entity/salvemini> a schema:Person ;
+    rdfs:label "Salvemini"@it ;
+    owl:sameAs <https://viaf.org/viaf/56624944>,
+        <https://www.wikidata.org/entity/Q730889> .
+
+<entity/salvestroDeMedici> a schema:Person ;
+    rdfs:label "Salvestro De Medici"@it ;
+    owl:sameAs <https://viaf.org/viaf/78711082>,
+        <https://www.wikidata.org/entity/Q1564584> .
+
+<entity/samuele> a schema:Person ;
+    rdfs:label "Samuele"@it ;
+    owl:sameAs <https://viaf.org/viaf/23387518>,
+        <https://www.wikidata.org/entity/Q6577515> .
+
+<entity/sanBernardo> a schema:Person ;
+    rdfs:label "San Bernardo"@it ;
+    owl:sameAs <https://viaf.org/viaf/59875293>,
+        <https://www.wikidata.org/entity/Q188411> .
+
+<entity/sanGiovanni> a schema:Person ;
+    rdfs:label "San Giovanni"@it ;
+    owl:sameAs <https://viaf.org/viaf/27863229>,
+        <https://www.wikidata.org/entity/Q40662> .
+
+<entity/santaChiara> a schema:Person ;
+    rdfs:label "Santa Chiara"@it ;
+    owl:sameAs <https://viaf.org/viaf/8754769>,
+        <https://www.wikidata.org/entity/Q191107> .
+
+<entity/santagostino> a schema:Person ;
+    rdfs:label "Sant'Agostino"@it ;
+    owl:sameAs <https://viaf.org/viaf/66806872>,
+        <https://www.wikidata.org/entity/Q8018> .
+
+<entity/sarajevo> a schema:Place ;
+    rdfs:label "Sarajevo"@it ;
+    owl:sameAs <https://sws.geonames.org/3191281/>,
+        <https://viaf.org/viaf/159404628>,
+        <https://www.wikidata.org/entity/Q11194> .
+
+<entity/satana> a schema:Thing ;
+    rdfs:label "Satana"@it ;
+    owl:sameAs <https://viaf.org/viaf/1087163706538729420822>,
+        <https://www.wikidata.org/entity/Q35230> .
+
+<entity/scozia> a schema:Place ;
+    rdfs:label "Scozia"@it ;
+    owl:sameAs <https://sws.geonames.org/2638360/>,
+        <https://viaf.org/viaf/89146152993705250698>,
+        <https://www.wikidata.org/entity/Q22> .
+
+<entity/serbia> a schema:Place ;
+    rdfs:label "Serbia"@it ;
+    owl:sameAs <https://sws.geonames.org/6290252/>,
+        <https://viaf.org/viaf/151202876>,
+        <https://www.wikidata.org/entity/Q403> .
+
+<entity/sicilia> a schema:Place ;
+    rdfs:label "Sicilia"@it ;
+    owl:sameAs <https://sws.geonames.org/2523119/>,
+        <https://viaf.org/viaf/149921888>,
+        <https://www.wikidata.org/entity/Q1460> .
+
+<entity/siena> a schema:Place ;
+    rdfs:label "Siena"@it ;
+    owl:sameAs <https://sws.geonames.org/6541466/>,
+        <https://viaf.org/viaf/239842096>,
+        <https://www.wikidata.org/entity/Q2751> .
+
+<entity/simoncino> a schema:Person ;
+    rdfs:label "Simoncino"@it ;
+    owl:sameAs <https://viaf.org/viaf/18871225>,
+        <https://www.wikidata.org/entity/Q544321> .
+
+<entity/sonnino> a schema:Person ;
+    rdfs:label "Sonnino"@it ;
+    owl:sameAs <https://viaf.org/viaf/7411466>,
+        <https://www.wikidata.org/entity/Q320922> .
+
+<entity/sorge> a schema:Person ;
+    rdfs:label "Sorge"@it ;
+    owl:sameAs <https://viaf.org/viaf/51715274>,
+        <https://www.wikidata.org/entity/Q44580> .
+
+<entity/southCarolina> a schema:Place ;
+    rdfs:label "South Carolina"@it ;
+    owl:sameAs <https://sws.geonames.org/4597040/>,
+        <https://viaf.org/viaf/126093597>,
+        <https://www.wikidata.org/entity/Q1456> .
+
+<entity/spagna> a schema:Place ;
+    rdfs:label "Spagna"@it ;
+    owl:sameAs <https://sws.geonames.org/2510769/>,
+        <https://viaf.org/viaf/133609710>,
+        <https://www.wikidata.org/entity/Q29> .
+
+<entity/stalin> a schema:Person ;
+    rdfs:label "Stalin"@it ;
+    owl:sameAs <https://viaf.org/viaf/101787139>,
+        <https://www.wikidata.org/entity/Q855> .
+
+<entity/statiUniti> a schema:Place ;
+    rdfs:label "Stati Uniti"@it ;
+    owl:sameAs <https://sws.geonames.org/6252001/>,
+        <https://viaf.org/viaf/130168302>,
+        <https://www.wikidata.org/entity/Q30> .
+
+<entity/strasburgo> a schema:Place ;
+    rdfs:label "Strasburgo"@it ;
+    owl:sameAs <https://sws.geonames.org/2973783/>,
+        <https://viaf.org/viaf/150696197>,
+        <https://www.wikidata.org/entity/Q6602> .
+
+<entity/tagliamento> a schema:Place ;
+    rdfs:label "Tagliamento"@it ;
+    owl:sameAs <https://sws.geonames.org/3165990/>,
+        <https://viaf.org/viaf/242138926>,
+        <https://www.wikidata.org/entity/Q747929> .
+
+<entity/tamigi> a schema:Place ;
+    rdfs:label "Tamigi"@it ;
+    owl:sameAs <https://sws.geonames.org/2636063/>,
+        <https://viaf.org/viaf/237292804>,
+        <https://www.wikidata.org/entity/Q19686> .
+
+<entity/thatcer> a schema:Person ;
+    rdfs:label "Thatcer"@it ;
+    owl:sameAs <https://viaf.org/viaf/102379347>,
+        <https://www.wikidata.org/entity/Q7416> .
+
+<entity/ticino> a schema:Place ;
+    rdfs:label "Ticino"@it ;
+    owl:sameAs <https://sws.geonames.org/2658369/>,
+        <https://viaf.org/viaf/86144647641199173339>,
+        <https://www.wikidata.org/entity/Q14366> .
+
+<entity/tokyo> a schema:Place ;
+    rdfs:label "Tokyo"@it ;
+    owl:sameAs <https://sws.geonames.org/1850144/>,
+        <https://viaf.org/viaf/140713831>,
+        <https://www.wikidata.org/entity/Q1490> .
+
+<entity/tolomeo> a schema:Person ;
+    rdfs:label "Tolomeo"@it ;
+    owl:sameAs <https://viaf.org/viaf/54152998>,
+        <https://www.wikidata.org/entity/Q34943> .
+
+<entity/tolstoj> a schema:Person ;
+    rdfs:label "Tolstoj"@it ;
+    owl:sameAs <https://viaf.org/viaf/96987389>,
+        <https://www.wikidata.org/entity/Q7243> .
+
+<entity/torino> a schema:Place ;
+    rdfs:label "Torino"@it ;
+    owl:sameAs <https://sws.geonames.org/3165525/>,
+        <https://viaf.org/viaf/35144782953960297898>,
+        <https://www.wikidata.org/entity/Q495> .
+
+<entity/toscana> a schema:Place ;
+    rdfs:label "Toscana"@it ;
+    owl:sameAs <https://sws.geonames.org/3165361/>,
+        <https://viaf.org/viaf/128956370>,
+        <https://www.wikidata.org/entity/Q1273> .
+
+<entity/trentino> a schema:Place ;
+    rdfs:label "Trentino"@it ;
+    owl:sameAs <https://sws.geonames.org/3165241/>,
+        <https://viaf.org/viaf/142524838>,
+        <https://www.wikidata.org/entity/Q16289> .
+
+<entity/trento> a schema:Place ;
+    rdfs:label "Trento"@it ;
+    owl:sameAs <https://sws.geonames.org/6541469/>,
+        <https://viaf.org/viaf/9361156133222058430009>,
+        <https://www.wikidata.org/entity/Q3376> .
+
+<entity/trieste> a schema:Place ;
+    rdfs:label "Trieste"@it ;
+    owl:sameAs <https://sws.geonames.org/3165186/>,
+        <https://viaf.org/viaf/143701962>,
+        <https://www.wikidata.org/entity/Q546> .
+
+<entity/turati> a schema:Person ;
+    rdfs:label "Turati"@it ;
+    owl:sameAs <https://viaf.org/viaf/71517185>,
+        <https://www.wikidata.org/entity/Q733392> .
+
+<entity/unioneSovietica> a schema:Place ;
+    rdfs:label "Unione Sovietica"@it ;
+    owl:sameAs <https://sws.geonames.org/8354411/>,
+        <https://viaf.org/viaf/134262032>,
+        <https://www.wikidata.org/entity/Q15180> .
+
+<entity/urbanoIi> a schema:Person ;
+    rdfs:label "Urbano II"@it ;
+    owl:sameAs <https://viaf.org/viaf/152552697>,
+        <https://www.wikidata.org/entity/Q30578> .
+
+<entity/uruguay> a schema:Place ;
+    rdfs:label "Uruguay"@it ;
+    owl:sameAs <https://sws.geonames.org/3439705/>,
+        <https://viaf.org/viaf/129569873>,
+        <https://www.wikidata.org/entity/Q77> .
+
+<entity/usama> a schema:Person ;
+    rdfs:label "Usama"@it ;
+    owl:sameAs <https://viaf.org/viaf/49232442>,
+        <https://www.wikidata.org/entity/Q451427> .
+
+<entity/valdarno> a schema:Place ;
+    rdfs:label "Valdarno"@it ;
+    owl:sameAs <https://sws.geonames.org/3164948/>,
+        <https://viaf.org/viaf/235065009>,
+        <https://www.wikidata.org/entity/Q538820> .
+
+<entity/veneto> a schema:Place ;
+    rdfs:label "Veneto"@it ;
+    owl:sameAs <https://sws.geonames.org/3164604/>,
+        <https://viaf.org/viaf/155404177>,
+        <https://www.wikidata.org/entity/Q1243> .
+
+<entity/venezia> a schema:Place ;
+    rdfs:label "Venezia"@it ;
+    owl:sameAs <https://sws.geonames.org/6542284/>,
+        <https://viaf.org/viaf/8456155769103127880005>,
+        <https://www.wikidata.org/entity/Q641> .
+
+<entity/vercelli> a schema:Place ;
+    rdfs:label "Vercelli"@it ;
+    owl:sameAs <https://sws.geonames.org/6540116/>,
+        <https://viaf.org/viaf/123150932>,
+        <https://www.wikidata.org/entity/Q5990> .
+
+<entity/versailles> a schema:Place ;
+    rdfs:label "Versailles"@it ;
+    owl:sameAs <https://sws.geonames.org/6284980/>,
+        <https://viaf.org/viaf/127977992>,
+        <https://www.wikidata.org/entity/Q2946> .
+
+<entity/viaRasella> a schema:Event ;
+    rdfs:label "Via Rasella"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q733211> .
+
+<entity/virginia> a schema:Place ;
+    rdfs:label "Virginia"@it ;
+    owl:sameAs <https://sws.geonames.org/6254928/>,
+        <https://viaf.org/viaf/128935789>,
+        <https://www.wikidata.org/entity/Q1370> .
+
+<entity/vittorioEmanueleIi> a schema:Person ;
+    rdfs:label "Vittorio Emanuele II"@it ;
+    owl:sameAs <https://viaf.org/viaf/95301792>,
+        <https://www.wikidata.org/entity/Q168691> .
+
+<entity/vittorioVeneto> a schema:Place ;
+    rdfs:label "Vittorio Veneto"@it ;
+    owl:sameAs <https://sws.geonames.org/6538312/>,
+        <https://viaf.org/viaf/151912398>,
+        <https://www.wikidata.org/entity/Q47578> .
+
+<entity/vonMoltke> a schema:Person ;
+    rdfs:label "Von Moltke"@it ;
+    owl:sameAs <https://viaf.org/viaf/98817698>,
+        <https://www.wikidata.org/entity/Q44205> .
+
+<entity/washington> a schema:Place ;
+    rdfs:label "Washington"@it ;
+    owl:sameAs <https://sws.geonames.org/4140963/>,
+        <https://viaf.org/viaf/312739635>,
+        <https://www.wikidata.org/entity/Q61> .
+
+<entity/waterloo> a schema:Place ;
+    rdfs:label "Waterloo"@it ;
+    owl:sameAs <https://sws.geonames.org/2783986/>,
+        <https://viaf.org/viaf/162695587>,
+        <https://www.wikidata.org/entity/Q179034> .
+
+<entity/wattTyler> a schema:Person ;
+    rdfs:label "Watt Tyler"@it ;
+    owl:sameAs <https://viaf.org/viaf/100158866>,
+        <https://www.wikidata.org/entity/Q311820> .
+
+<entity/wellington> a schema:Person ;
+    rdfs:label "Wellington"@it ;
+    owl:sameAs <https://viaf.org/viaf/2465308>,
+        <https://www.wikidata.org/entity/Q131691> .
+
+<entity/wilson> a schema:Person ;
+    rdfs:label "Wilson"@it ;
+    owl:sameAs <https://viaf.org/viaf/89457467>,
+        <https://www.wikidata.org/entity/Q34296> .
+
