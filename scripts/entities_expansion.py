@@ -10,8 +10,8 @@ def is_human(wikidata_url):
     Checks if a Wikidata entity is an instance of human (Q5).
     """
     try:
-        # Extract QID from URL (e.g., https://www.wikidata.org/wiki/Q306658 -> Q306658)
-        if "wikidata.org/wiki/" not in wikidata_url:
+        # Extract QID from URL (e.g., https://www.wikidata.org/entity/Q306658 -> Q306658)
+        if "wikidata.org/entity/" not in wikidata_url:
             return False
 
         qid = wikidata_url.split("/")[-1]

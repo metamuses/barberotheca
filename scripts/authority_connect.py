@@ -50,7 +50,7 @@ def get_wikidata_and_viaf(en_wiki_url):
         qid = page.get("pageprops", {}).get("wikibase_item")
 
         if qid:
-            wd_url = f"https://www.wikidata.org/wiki/{qid}"
+            wd_url = f"https://www.wikidata.org/entity/{qid}"
     except Exception as e:
         print(f"Error fetching Wikidata ID for {title}: {e}")
 

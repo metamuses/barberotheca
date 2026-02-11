@@ -20,7 +20,7 @@ def get_image(wikidata_url):
     Fetches the image URL (P18) for a Wikidata entity.
     """
     try:
-        if "wikidata.org/wiki/" not in wikidata_url:
+        if "wikidata.org/entity/" not in wikidata_url:
             return None
 
         qid = wikidata_url.split("/")[-1]
@@ -58,7 +58,7 @@ def get_coordinates(wikidata_url):
     Returns [lat, lon] array.
     """
     try:
-        if "wikidata.org/wiki/" not in wikidata_url:
+        if "wikidata.org/entity/" not in wikidata_url:
             return None
 
         qid = wikidata_url.split("/")[-1]
@@ -101,7 +101,7 @@ def get_title_it(wikidata_url):
     Fetches the Italian label (rdfs:label @it) for a Wikidata entity.
     """
     try:
-        if "wikidata.org/wiki/" not in wikidata_url:
+        if "wikidata.org/entity/" not in wikidata_url:
             return None
 
         qid = wikidata_url.split("/")[-1]
