@@ -16,7 +16,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Adriatic_Sea",
     "wikidata": "https://www.wikidata.org/entity/Q13924",
     "viaf": "https://viaf.org/viaf/316741867",
-    "geonames": "https://www.geonames.org/3183462/adriatic-sea.html",
+    "geonames": "https://sws.geonames.org/3183462/",
     "type": "place",
     "title": "Mare Adriatico",
     "coordinates": [
@@ -65,7 +65,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Alessandria",
     "wikidata": "https://www.wikidata.org/entity/Q6088",
     "viaf": "https://viaf.org/viaf/137079443",
-    "geonames": "https://www.geonames.org/6541464/alessandria.html",
+    "geonames": "https://sws.geonames.org/6541464/",
     "type": "place",
     "title": "Alessandria",
     "coordinates": [
@@ -93,7 +93,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/United_States",
     "wikidata": "https://www.wikidata.org/entity/Q30",
     "viaf": "https://viaf.org/viaf/130168302",
-    "geonames": "https://www.geonames.org/6252001/united-states.html",
+    "geonames": "https://sws.geonames.org/6252001/",
     "type": "place",
     "title": "Stati Uniti",
     "coordinates": [
@@ -118,7 +118,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Aquileia",
     "wikidata": "https://www.wikidata.org/entity/Q53216",
     "viaf": "https://viaf.org/viaf/148893013",
-    "geonames": "https://www.geonames.org/6539930/aquileia.html",
+    "geonames": "https://sws.geonames.org/6539930/",
     "type": "place",
     "title": "Aquileia",
     "coordinates": [
@@ -132,7 +132,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Arezzo",
     "wikidata": "https://www.wikidata.org/entity/Q13378",
     "viaf": "https://viaf.org/viaf/226733401",
-    "geonames": "https://www.geonames.org/6542153/arezzo.html",
+    "geonames": "https://sws.geonames.org/6542153/",
     "type": "place",
     "title": "Arezzo",
     "coordinates": [
@@ -146,7 +146,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Argentina",
     "wikidata": "https://www.wikidata.org/entity/Q414",
     "viaf": "https://viaf.org/viaf/146499420",
-    "geonames": "https://www.geonames.org/3865483/argentine-republic.html",
+    "geonames": "https://sws.geonames.org/3865483/",
     "type": "place",
     "title": "Argentina",
     "coordinates": [
@@ -171,7 +171,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Austria",
     "wikidata": "https://www.wikidata.org/entity/Q40",
     "viaf": "https://viaf.org/viaf/148842731",
-    "geonames": "https://www.geonames.org/2782113/republic-of-austria.html",
+    "geonames": "https://sws.geonames.org/2782113/",
     "type": "place",
     "title": "Austria",
     "coordinates": [
@@ -185,7 +185,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Avignon",
     "wikidata": "https://www.wikidata.org/entity/Q6397",
     "viaf": "https://viaf.org/viaf/159446858",
-    "geonames": "https://www.geonames.org/3035681/avignon.html",
+    "geonames": "https://sws.geonames.org/3035681/",
     "type": "place",
     "title": "Avignone",
     "coordinates": [
@@ -231,7 +231,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Beauvais",
     "wikidata": "https://www.wikidata.org/entity/Q174257",
     "viaf": "https://viaf.org/viaf/312794953",
-    "geonames": "https://www.geonames.org/6450128/beauvais.html",
+    "geonames": "https://sws.geonames.org/6450128/",
     "type": "place",
     "title": "Beauvais",
     "coordinates": [
@@ -256,7 +256,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Belgium",
     "wikidata": "https://www.wikidata.org/entity/Q31",
     "viaf": "https://viaf.org/viaf/144248059",
-    "geonames": "https://www.geonames.org/2802361/kingdom-of-belgium.html",
+    "geonames": "https://sws.geonames.org/2802361/",
     "type": "place",
     "title": "Belgio",
     "coordinates": [
@@ -270,7 +270,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
     "wikidata": "https://www.wikidata.org/entity/Q168756",
     "viaf": "https://viaf.org/viaf/149111950",
-    "geonames": "https://www.geonames.org/5404897/university-of-california-berkeley.html",
+    "geonames": "https://sws.geonames.org/5404897/",
     "type": "place",
     "title": "Berkeley",
     "coordinates": [
@@ -284,7 +284,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Berlin",
     "wikidata": "https://www.wikidata.org/entity/Q64",
     "viaf": "https://viaf.org/viaf/122530980",
-    "geonames": "https://www.geonames.org/2950159/berlin.html",
+    "geonames": "https://sws.geonames.org/2950159/",
     "type": "place",
     "title": "Berlino",
     "coordinates": [
@@ -353,7 +353,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Burgundy",
     "wikidata": "https://www.wikidata.org/entity/Q1173",
     "viaf": "https://viaf.org/viaf/6603147786777368220009",
-    "geonames": "https://www.geonames.org/3030967/bourgogne.html",
+    "geonames": "https://sws.geonames.org/3030967/",
     "type": "place",
     "title": "Borgogna",
     "coordinates": [
@@ -367,7 +367,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Brazil",
     "wikidata": "https://www.wikidata.org/entity/Q155",
     "viaf": "https://viaf.org/viaf/129679518",
-    "geonames": "https://www.geonames.org/3469034/federative-republic-of-brazil.html",
+    "geonames": "https://sws.geonames.org/3469034/",
     "type": "place",
     "title": "Brasile",
     "coordinates": [
@@ -381,7 +381,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Brentwood,_Essex",
     "wikidata": "https://www.wikidata.org/entity/Q909993",
     "viaf": "https://viaf.org/viaf/132540216",
-    "geonames": "https://www.geonames.org/2654782/brentwood.html",
+    "geonames": "https://sws.geonames.org/2654782/",
     "type": "place",
     "title": "Brentwood",
     "coordinates": [
@@ -406,7 +406,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Brussels",
     "wikidata": "https://www.wikidata.org/entity/Q240",
     "viaf": "https://viaf.org/viaf/332144929079854441105",
-    "geonames": "https://www.geonames.org/2800867/bruxelles-capitale.html",
+    "geonames": "https://sws.geonames.org/2800867/",
     "type": "place",
     "title": "Bruxelles",
     "coordinates": [
@@ -420,7 +420,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Buenos_Aires",
     "wikidata": "https://www.wikidata.org/entity/Q1486",
     "viaf": "https://viaf.org/viaf/1331145424662786830473",
-    "geonames": "https://www.geonames.org/3435910/buenos-aires.html",
+    "geonames": "https://sws.geonames.org/3435910/",
     "type": "place",
     "title": "Buenos Aires",
     "coordinates": [
@@ -456,7 +456,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cambridge",
     "wikidata": "https://www.wikidata.org/entity/Q350",
     "viaf": "https://viaf.org/viaf/139487232",
-    "geonames": "https://www.geonames.org/2653941/cambridge.html",
+    "geonames": "https://sws.geonames.org/2653941/",
     "type": "place",
     "title": "Cambridge",
     "coordinates": [
@@ -480,7 +480,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Canary_Islands",
     "wikidata": "https://www.wikidata.org/entity/Q5813",
     "viaf": "https://viaf.org/viaf/148386330",
-    "geonames": "https://www.geonames.org/2593110/canary-islands.html",
+    "geonames": "https://sws.geonames.org/2593110/",
     "type": "place",
     "title": "Canarie",
     "coordinates": [
@@ -592,7 +592,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Karst_Plateau",
     "wikidata": "https://www.wikidata.org/entity/Q625139",
     "viaf": "https://viaf.org/viaf/243010956",
-    "geonames": "https://www.geonames.org/3197361/kras.html",
+    "geonames": "https://sws.geonames.org/3197361/",
     "type": "place",
     "title": "Carso",
     "coordinates": [
@@ -606,7 +606,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Castile_(historical_region)",
     "wikidata": "https://www.wikidata.org/entity/Q1043594",
     "viaf": "https://viaf.org/viaf/316429328",
-    "geonames": "https://www.geonames.org/3336900/comunidad-autonoma-de-castilla-y-leon.html",
+    "geonames": "https://sws.geonames.org/3336900/",
     "type": "place",
     "title": "Castiglia",
     "coordinates": [
@@ -713,7 +713,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cyprus",
     "wikidata": "https://www.wikidata.org/entity/Q229",
     "viaf": "https://viaf.org/viaf/130118559",
-    "geonames": "https://www.geonames.org/146669/republic-of-cyprus.html",
+    "geonames": "https://sws.geonames.org/146669/",
     "type": "place",
     "title": "Cipro",
     "coordinates": [
@@ -727,7 +727,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cluny_Abbey",
     "wikidata": "https://www.wikidata.org/entity/Q220301",
     "viaf": "https://viaf.org/viaf/129020265",
-    "geonames": "https://www.geonames.org/3024534/cluny.html",
+    "geonames": "https://sws.geonames.org/3024534/",
     "type": "place",
     "title": "Abbazia di Cluny",
     "coordinates": [
@@ -763,7 +763,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Corfu",
     "wikidata": "https://www.wikidata.org/entity/Q121378",
     "viaf": "https://viaf.org/viaf/237254241",
-    "geonames": "https://www.geonames.org/2463678/corfu.html",
+    "geonames": "https://sws.geonames.org/2463678/",
     "type": "place",
     "title": "Corfù",
     "coordinates": [
@@ -809,7 +809,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Constantinople",
     "wikidata": "https://www.wikidata.org/entity/Q16869",
     "viaf": "https://viaf.org/viaf/122641741",
-    "geonames": "https://www.geonames.org/745044/istanbul.html",
+    "geonames": "https://sws.geonames.org/745044/",
     "type": "place",
     "title": "Costantinopoli",
     "coordinates": [
@@ -823,7 +823,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Crete",
     "wikidata": "https://www.wikidata.org/entity/Q34374",
     "viaf": "https://viaf.org/viaf/237254468",
-    "geonames": "https://www.geonames.org/258763/crete.html",
+    "geonames": "https://sws.geonames.org/258763/",
     "type": "place",
     "title": "Creta",
     "coordinates": [
@@ -851,7 +851,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cuneo",
     "wikidata": "https://www.wikidata.org/entity/Q5968",
     "viaf": "https://viaf.org/viaf/137221319",
-    "geonames": "https://www.geonames.org/6541864/cuneo.html",
+    "geonames": "https://sws.geonames.org/6541864/",
     "type": "place",
     "title": "Cuneo",
     "coordinates": [
@@ -906,7 +906,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gda%C5%84sk",
     "wikidata": "https://www.wikidata.org/entity/Q1792",
     "viaf": "https://viaf.org/viaf/123148700",
-    "geonames": "https://www.geonames.org/3099434/gdansk.html",
+    "geonames": "https://sws.geonames.org/3099434/",
     "type": "place",
     "title": "Danzica",
     "coordinates": [
@@ -973,7 +973,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Egypt",
     "wikidata": "https://www.wikidata.org/entity/Q79",
     "viaf": "https://viaf.org/viaf/242059233",
-    "geonames": "https://www.geonames.org/357994/arab-republic-of-egypt.html",
+    "geonames": "https://sws.geonames.org/357994/",
     "type": "place",
     "title": "Egitto",
     "coordinates": [
@@ -987,7 +987,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Elba",
     "wikidata": "https://www.wikidata.org/entity/Q45328",
     "viaf": "https://viaf.org/viaf/315127737",
-    "geonames": "https://www.geonames.org/3177426/isola-d-elba.html",
+    "geonames": "https://sws.geonames.org/3177426/",
     "type": "place",
     "title": "Isola d'Elba",
     "coordinates": [
@@ -1034,7 +1034,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Europe",
     "wikidata": "https://www.wikidata.org/entity/Q46",
     "viaf": "https://viaf.org/viaf/170298814",
-    "geonames": "https://www.geonames.org/6255148/europe.html",
+    "geonames": "https://sws.geonames.org/6255148/",
     "type": "place",
     "title": "Europa",
     "coordinates": [
@@ -1051,7 +1051,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Falkland_Islands",
     "wikidata": "https://www.wikidata.org/entity/Q9648",
     "viaf": "https://viaf.org/viaf/155354899",
-    "geonames": "https://www.geonames.org/3474414/falkland-islands.html",
+    "geonames": "https://sws.geonames.org/3474414/",
     "type": "place",
     "title": "Isole Falkland",
     "coordinates": [
@@ -1076,7 +1076,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Fano",
     "wikidata": "https://www.wikidata.org/entity/Q13142",
     "viaf": "https://viaf.org/viaf/138378091",
-    "geonames": "https://www.geonames.org/6541050/fano.html",
+    "geonames": "https://sws.geonames.org/6541050/",
     "type": "place",
     "title": "Fano",
     "coordinates": [
@@ -1101,7 +1101,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Farfa_Abbey",
     "wikidata": "https://www.wikidata.org/entity/Q2634480",
     "viaf": "https://viaf.org/viaf/137282486",
-    "geonames": "https://www.geonames.org/7506755/abbazia-di-farfa.html",
+    "geonames": "https://sws.geonames.org/7506755/",
     "type": "place",
     "title": "Abbazia di Farfa",
     "coordinates": [
@@ -1137,7 +1137,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Florence",
     "wikidata": "https://www.wikidata.org/entity/Q2044",
     "viaf": "https://viaf.org/viaf/152981965",
-    "geonames": "https://www.geonames.org/6542285/firenze.html",
+    "geonames": "https://sws.geonames.org/6542285/",
     "type": "place",
     "title": "Firenze",
     "coordinates": [
@@ -1173,7 +1173,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/France",
     "wikidata": "https://www.wikidata.org/entity/Q142",
     "viaf": "https://viaf.org/viaf/264091107",
-    "geonames": "https://www.geonames.org/3017382/republic-of-france.html",
+    "geonames": "https://sws.geonames.org/3017382/",
     "type": "place",
     "title": "Francia",
     "coordinates": [
@@ -1230,7 +1230,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Germany",
     "wikidata": "https://www.wikidata.org/entity/Q183",
     "viaf": "https://viaf.org/viaf/189116956",
-    "geonames": "https://www.geonames.org/2921044/federal-republic-of-germany.html",
+    "geonames": "https://sws.geonames.org/2921044/",
     "type": "place",
     "title": "Germania",
     "coordinates": [
@@ -1244,7 +1244,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Jerusalem",
     "wikidata": "https://www.wikidata.org/entity/Q1218",
     "viaf": "https://viaf.org/viaf/131280745",
-    "geonames": "https://www.geonames.org/281184/jerusalem.html",
+    "geonames": "https://sws.geonames.org/281184/",
     "type": "place",
     "title": "Gerusalemme",
     "coordinates": [
@@ -1290,7 +1290,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Japan",
     "wikidata": "https://www.wikidata.org/entity/Q17",
     "viaf": "https://viaf.org/viaf/159367111",
-    "geonames": "https://www.geonames.org/1861060/japan.html",
+    "geonames": "https://sws.geonames.org/1861060/",
     "type": "place",
     "title": "Giappone",
     "coordinates": [
@@ -1406,7 +1406,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gorizia",
     "wikidata": "https://www.wikidata.org/entity/Q6596",
     "viaf": "https://viaf.org/viaf/130184480",
-    "geonames": "https://www.geonames.org/6541866/gorizia.html",
+    "geonames": "https://sws.geonames.org/6541866/",
     "type": "place",
     "title": "Gorizia",
     "coordinates": [
@@ -1420,7 +1420,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gradoli",
     "wikidata": "https://www.wikidata.org/entity/Q161694",
     "viaf": "https://viaf.org/viaf/139824585",
-    "geonames": "https://www.geonames.org/6536905/gradoli.html",
+    "geonames": "https://sws.geonames.org/6536905/",
     "type": "place",
     "title": "Gradoli",
     "coordinates": [
@@ -1445,7 +1445,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/England",
     "wikidata": "https://www.wikidata.org/entity/Q21",
     "viaf": "https://viaf.org/viaf/142995804",
-    "geonames": "https://www.geonames.org/6269131/england.html",
+    "geonames": "https://sws.geonames.org/6269131/",
     "type": "place",
     "title": "Inghilterra",
     "coordinates": [
@@ -1459,7 +1459,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ireland",
     "wikidata": "https://www.wikidata.org/entity/Q27",
     "viaf": "https://viaf.org/viaf/158208597",
-    "geonames": "https://www.geonames.org/2963597/ireland.html",
+    "geonames": "https://sws.geonames.org/2963597/",
     "type": "place",
     "title": "Irlanda",
     "coordinates": [
@@ -1473,7 +1473,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/So%C4%8Da",
     "wikidata": "https://www.wikidata.org/entity/Q202760",
     "viaf": "https://viaf.org/viaf/241841162",
-    "geonames": "https://www.geonames.org/3175409/fiume-isonzo.html",
+    "geonames": "https://sws.geonames.org/3175409/",
     "type": "place",
     "title": "Isonzo",
     "coordinates": [
@@ -1487,7 +1487,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Israel",
     "wikidata": "https://www.wikidata.org/entity/Q801",
     "viaf": "https://viaf.org/viaf/146498911",
-    "geonames": "https://www.geonames.org/294640/state-of-israel.html",
+    "geonames": "https://sws.geonames.org/294640/",
     "type": "place",
     "title": "Israele",
     "coordinates": [
@@ -1501,7 +1501,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Istanbul",
     "wikidata": "https://www.wikidata.org/entity/Q406",
     "viaf": "https://viaf.org/viaf/135931454",
-    "geonames": "https://www.geonames.org/745044/istanbul.html",
+    "geonames": "https://sws.geonames.org/745044/",
     "type": "place",
     "title": "Istanbul",
     "coordinates": [
@@ -1515,7 +1515,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Italy",
     "wikidata": "https://www.wikidata.org/entity/Q38",
     "viaf": "https://viaf.org/viaf/152361066",
-    "geonames": "https://www.geonames.org/3175395/italian-republic.html",
+    "geonames": "https://sws.geonames.org/3175395/",
     "type": "place",
     "title": "Italia",
     "coordinates": [
@@ -1529,7 +1529,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ivrea",
     "wikidata": "https://www.wikidata.org/entity/Q9409",
     "viaf": "https://viaf.org/viaf/133676505",
-    "geonames": "https://www.geonames.org/3175385/ivrea.html",
+    "geonames": "https://sws.geonames.org/3175385/",
     "type": "place",
     "title": "Ivrea",
     "coordinates": [
@@ -1575,7 +1575,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joinville,_Haute-Marne",
     "wikidata": "https://www.wikidata.org/entity/Q817418",
     "viaf": "https://viaf.org/viaf/146795004",
-    "geonames": "https://www.geonames.org/6454267/joinville.html",
+    "geonames": "https://sws.geonames.org/6454267/",
     "type": "place",
     "title": "Joinville",
     "coordinates": [
@@ -1611,7 +1611,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Yugoslavia",
     "wikidata": "https://www.wikidata.org/entity/Q36704",
     "viaf": "https://viaf.org/viaf/129724016",
-    "geonames": "https://www.geonames.org/7500737/federal-republic-of-yugoslavia.html",
+    "geonames": "https://sws.geonames.org/7500737/",
     "type": "place",
     "title": "Jugoslavia",
     "coordinates": [
@@ -1625,7 +1625,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Kansas",
     "wikidata": "https://www.wikidata.org/entity/Q1558",
     "viaf": "https://viaf.org/viaf/152389568",
-    "geonames": "https://www.geonames.org/4273857/kansas.html",
+    "geonames": "https://sws.geonames.org/4273857/",
     "type": "place",
     "title": "Kansas",
     "coordinates": [
@@ -1661,7 +1661,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Kyiv",
     "wikidata": "https://www.wikidata.org/entity/Q1899",
     "viaf": "https://viaf.org/viaf/150028026",
-    "geonames": "https://www.geonames.org/703448/kyiv.html",
+    "geonames": "https://sws.geonames.org/703448/",
     "type": "place",
     "title": "Kiev",
     "coordinates": [
@@ -1686,7 +1686,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lancaster,_Lancashire",
     "wikidata": "https://www.wikidata.org/entity/Q205905",
     "viaf": "https://viaf.org/viaf/243037582",
-    "geonames": "https://www.geonames.org/2644972/lancaster.html",
+    "geonames": "https://sws.geonames.org/2644972/",
     "type": "place",
     "title": "Lancaster",
     "coordinates": [
@@ -1703,7 +1703,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Saint_Petersburg",
     "wikidata": "https://www.wikidata.org/entity/Q656",
     "viaf": "https://viaf.org/viaf/561154381054530291788",
-    "geonames": "https://www.geonames.org/498817/saint-petersburg.html",
+    "geonames": "https://sws.geonames.org/498817/",
     "type": "place",
     "title": "San Pietroburgo",
     "coordinates": [
@@ -1717,7 +1717,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Nafpaktos",
     "wikidata": "https://www.wikidata.org/entity/Q782278",
     "viaf": "https://viaf.org/viaf/8425162906496978110003",
-    "geonames": "https://www.geonames.org/256639/nafpaktos.html",
+    "geonames": "https://sws.geonames.org/256639/",
     "type": "place",
     "title": "Lepanto",
     "coordinates": [
@@ -1763,7 +1763,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lyon",
     "wikidata": "https://www.wikidata.org/entity/Q456",
     "viaf": "https://viaf.org/viaf/158189703",
-    "geonames": "https://www.geonames.org/2996944/lyon.html",
+    "geonames": "https://sws.geonames.org/2996944/",
     "type": "place",
     "title": "Lione",
     "coordinates": [
@@ -1777,7 +1777,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/London",
     "wikidata": "https://www.wikidata.org/entity/Q84",
     "viaf": "https://viaf.org/viaf/261467287",
-    "geonames": "https://www.geonames.org/2643743/london.html",
+    "geonames": "https://sws.geonames.org/2643743/",
     "type": "place",
     "title": "Londra",
     "coordinates": [
@@ -1824,7 +1824,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mainz",
     "wikidata": "https://www.wikidata.org/entity/Q1720",
     "viaf": "https://viaf.org/viaf/123738720",
-    "geonames": "https://www.geonames.org/2874225/mainz.html",
+    "geonames": "https://sws.geonames.org/2874225/",
     "type": "place",
     "title": "Magonza",
     "coordinates": [
@@ -1935,7 +1935,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
     "wikidata": "https://www.wikidata.org/entity/Q4918",
     "viaf": "https://viaf.org/viaf/239897976",
-    "geonames": "https://www.geonames.org/363196/mediterranean-sea.html",
+    "geonames": "https://sws.geonames.org/363196/",
     "type": "place",
     "title": "Mar Mediterraneo",
     "coordinates": [
@@ -1960,7 +1960,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Messina",
     "wikidata": "https://www.wikidata.org/entity/Q13666",
     "viaf": "https://viaf.org/viaf/146699997",
-    "geonames": "https://www.geonames.org/6541859/messina.html",
+    "geonames": "https://sws.geonames.org/6541859/",
     "type": "place",
     "title": "Messina",
     "coordinates": [
@@ -1985,7 +1985,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Milan",
     "wikidata": "https://www.wikidata.org/entity/Q490",
     "viaf": "https://viaf.org/viaf/157818740",
-    "geonames": "https://www.geonames.org/6542283/milano.html",
+    "geonames": "https://sws.geonames.org/6542283/",
     "type": "place",
     "title": "Milano",
     "coordinates": [
@@ -1999,7 +1999,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mincio",
     "wikidata": "https://www.wikidata.org/entity/Q936688",
     "viaf": "https://viaf.org/viaf/240515550",
-    "geonames": "https://www.geonames.org/3173409/fiume-mincio.html",
+    "geonames": "https://sws.geonames.org/3173409/",
     "type": "place",
     "title": "Mincio",
     "coordinates": [
@@ -2013,7 +2013,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Montmartre",
     "wikidata": "https://www.wikidata.org/entity/Q186115",
     "viaf": "https://viaf.org/viaf/146617129",
-    "geonames": "https://www.geonames.org/3029374/paris-18-buttes-montmartre.html",
+    "geonames": "https://sws.geonames.org/3029374/",
     "type": "place",
     "title": "Montmartre",
     "coordinates": [
@@ -2059,7 +2059,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Moscow",
     "wikidata": "https://www.wikidata.org/entity/Q649",
     "viaf": "https://viaf.org/viaf/142519565",
-    "geonames": "https://www.geonames.org/524901/moscow.html",
+    "geonames": "https://sws.geonames.org/524901/",
     "type": "place",
     "title": "Mosca",
     "coordinates": [
@@ -2106,7 +2106,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Naples",
     "wikidata": "https://www.wikidata.org/entity/Q2634",
     "viaf": "https://viaf.org/viaf/137842517",
-    "geonames": "https://www.geonames.org/3172395/napoli.html",
+    "geonames": "https://sws.geonames.org/3172395/",
     "type": "place",
     "title": "Napoli",
     "coordinates": [
@@ -2131,7 +2131,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Norfolk",
     "wikidata": "https://www.wikidata.org/entity/Q23109",
     "viaf": "https://viaf.org/viaf/151229994",
-    "geonames": "https://www.geonames.org/2641455/norfolk.html",
+    "geonames": "https://sws.geonames.org/2641455/",
     "type": "place",
     "title": "Norfolk",
     "coordinates": [
@@ -2145,7 +2145,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Netherlands",
     "wikidata": "https://www.wikidata.org/entity/Q55",
     "viaf": "https://viaf.org/viaf/156652814",
-    "geonames": "https://www.geonames.org/2750405/kingdom-of-the-netherlands.html",
+    "geonames": "https://sws.geonames.org/2750405/",
     "type": "place",
     "title": "Olanda",
     "coordinates": [
@@ -2170,7 +2170,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Orl%C3%A9ans",
     "wikidata": "https://www.wikidata.org/entity/Q6548",
     "viaf": "https://viaf.org/viaf/139548210",
-    "geonames": "https://www.geonames.org/2989317/orleans.html",
+    "geonames": "https://sws.geonames.org/2989317/",
     "type": "place",
     "title": "Orleans",
     "coordinates": [
@@ -2184,7 +2184,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Oxford",
     "wikidata": "https://www.wikidata.org/entity/Q34217",
     "viaf": "https://viaf.org/viaf/145353627",
-    "geonames": "https://www.geonames.org/2640729/oxford.html",
+    "geonames": "https://sws.geonames.org/2640729/",
     "type": "place",
     "title": "Oxford",
     "coordinates": [
@@ -2209,7 +2209,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Palazzo_Vecchio",
     "wikidata": "https://www.wikidata.org/entity/Q271928",
     "viaf": "https://viaf.org/viaf/125014958",
-    "geonames": "https://www.geonames.org/6697948/palazzo-vecchio.html",
+    "geonames": "https://sws.geonames.org/6697948/",
     "type": "place",
     "title": "Palazzo Vecchio",
     "coordinates": [
@@ -2223,7 +2223,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Paris",
     "wikidata": "https://www.wikidata.org/entity/Q90",
     "viaf": "https://viaf.org/viaf/158822968",
-    "geonames": "https://www.geonames.org/2968815/paris.html",
+    "geonames": "https://sws.geonames.org/2968815/",
     "type": "place",
     "title": "Parigi",
     "coordinates": [
@@ -2237,7 +2237,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Parma",
     "wikidata": "https://www.wikidata.org/entity/Q2683",
     "viaf": "https://viaf.org/viaf/143792095",
-    "geonames": "https://www.geonames.org/6540120/parma.html",
+    "geonames": "https://sws.geonames.org/6540120/",
     "type": "place",
     "title": "Parma",
     "coordinates": [
@@ -2251,7 +2251,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Patras",
     "wikidata": "https://www.wikidata.org/entity/Q133123",
     "viaf": "https://viaf.org/viaf/129029351",
-    "geonames": "https://www.geonames.org/255683/patra.html",
+    "geonames": "https://sws.geonames.org/255683/",
     "type": "place",
     "title": "Patrasso",
     "coordinates": [
@@ -2275,7 +2275,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Piave_(river)",
     "wikidata": "https://www.wikidata.org/entity/Q530569",
     "viaf": "https://viaf.org/viaf/240543797",
-    "geonames": "https://www.geonames.org/3183044/fiume-piave.html",
+    "geonames": "https://sws.geonames.org/3183044/",
     "type": "place",
     "title": "Piave"
   },
@@ -2285,7 +2285,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Piedmont",
     "wikidata": "https://www.wikidata.org/entity/Q1216",
     "viaf": "https://viaf.org/viaf/132508744",
-    "geonames": "https://www.geonames.org/3170831/piemonte.html",
+    "geonames": "https://sws.geonames.org/3170831/",
     "type": "place",
     "title": "Piemonte",
     "coordinates": [
@@ -2299,7 +2299,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Pisa",
     "wikidata": "https://www.wikidata.org/entity/Q13375",
     "viaf": "https://viaf.org/viaf/204007255",
-    "geonames": "https://www.geonames.org/6542122/pisa.html",
+    "geonames": "https://sws.geonames.org/6542122/",
     "type": "place",
     "title": "Pisa",
     "coordinates": [
@@ -2313,7 +2313,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Po_(river)",
     "wikidata": "https://www.wikidata.org/entity/Q643",
     "viaf": "https://viaf.org/viaf/6148703924236930913",
-    "geonames": "https://www.geonames.org/3170550/po-river.html",
+    "geonames": "https://sws.geonames.org/3170550/",
     "type": "place",
     "title": "Po",
     "coordinates": [
@@ -2327,7 +2327,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Poland",
     "wikidata": "https://www.wikidata.org/entity/Q36",
     "viaf": "https://viaf.org/viaf/141810140",
-    "geonames": "https://www.geonames.org/798544/republic-of-poland.html",
+    "geonames": "https://sws.geonames.org/798544/",
     "type": "place",
     "title": "Polonia",
     "coordinates": [
@@ -2341,7 +2341,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Princeton",
     "wikidata": "https://www.wikidata.org/entity/Q21578",
     "viaf": "https://viaf.org/viaf/141200041",
-    "geonames": "https://www.geonames.org/5102955/princeton-university.html",
+    "geonames": "https://sws.geonames.org/5102955/",
     "type": "place",
     "title": "Princeton",
     "coordinates": [
@@ -2355,7 +2355,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Prussia",
     "wikidata": "https://www.wikidata.org/entity/Q38872",
     "viaf": "https://viaf.org/viaf/137143200",
-    "geonames": "https://www.geonames.org/3082436/west-prussia.html",
+    "geonames": "https://sws.geonames.org/3082436/",
     "type": "place",
     "title": "Prussia"
   },
@@ -2409,7 +2409,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Reims",
     "wikidata": "https://www.wikidata.org/entity/Q41876",
     "viaf": "https://viaf.org/viaf/126609525",
-    "geonames": "https://www.geonames.org/2984114/reims.html",
+    "geonames": "https://sws.geonames.org/2984114/",
     "type": "place",
     "title": "Reims",
     "coordinates": [
@@ -2455,7 +2455,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Rome",
     "wikidata": "https://www.wikidata.org/entity/Q220",
     "viaf": "https://viaf.org/viaf/251380480",
-    "geonames": "https://www.geonames.org/3169070/rome.html",
+    "geonames": "https://sws.geonames.org/3169070/",
     "type": "place",
     "title": "Roma",
     "coordinates": [
@@ -2491,7 +2491,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Rouen",
     "wikidata": "https://www.wikidata.org/entity/Q30974",
     "viaf": "https://viaf.org/viaf/146509692",
-    "geonames": "https://www.geonames.org/2982652/rouen.html",
+    "geonames": "https://sws.geonames.org/2982652/",
     "type": "place",
     "title": "Rouen",
     "coordinates": [
@@ -2505,7 +2505,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Russia",
     "wikidata": "https://www.wikidata.org/entity/Q159",
     "viaf": "https://viaf.org/viaf/140306806",
-    "geonames": "https://www.geonames.org/2017370/russian-federation.html",
+    "geonames": "https://sws.geonames.org/2017370/",
     "type": "place",
     "title": "Russia",
     "coordinates": [
@@ -2530,7 +2530,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Salamanca",
     "wikidata": "https://www.wikidata.org/entity/Q15695",
     "viaf": "https://viaf.org/viaf/157093141",
-    "geonames": "https://www.geonames.org/6360513/salamanca.html",
+    "geonames": "https://sws.geonames.org/6360513/",
     "type": "place",
     "title": "Salamanca",
     "coordinates": [
@@ -2631,7 +2631,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Sarajevo",
     "wikidata": "https://www.wikidata.org/entity/Q11194",
     "viaf": "https://viaf.org/viaf/159404628",
-    "geonames": "https://www.geonames.org/3191281/sarajevo.html",
+    "geonames": "https://sws.geonames.org/3191281/",
     "type": "place",
     "title": "Sarajevo",
     "coordinates": [
@@ -2655,7 +2655,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Scotland",
     "wikidata": "https://www.wikidata.org/entity/Q22",
     "viaf": "https://viaf.org/viaf/89146152993705250698",
-    "geonames": "https://www.geonames.org/2638360/scotland.html",
+    "geonames": "https://sws.geonames.org/2638360/",
     "type": "place",
     "title": "Scozia",
     "coordinates": [
@@ -2669,7 +2669,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Serbia",
     "wikidata": "https://www.wikidata.org/entity/Q403",
     "viaf": "https://viaf.org/viaf/151202876",
-    "geonames": "https://www.geonames.org/6290252/serbia.html",
+    "geonames": "https://sws.geonames.org/6290252/",
     "type": "place",
     "title": "Serbia",
     "coordinates": [
@@ -2683,7 +2683,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Sicily",
     "wikidata": "https://www.wikidata.org/entity/Q1460",
     "viaf": "https://viaf.org/viaf/149921888",
-    "geonames": "https://www.geonames.org/2523119/sicilia.html",
+    "geonames": "https://sws.geonames.org/2523119/",
     "type": "place",
     "title": "Sicilia",
     "coordinates": [
@@ -2697,7 +2697,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Siena",
     "wikidata": "https://www.wikidata.org/entity/Q2751",
     "viaf": "https://viaf.org/viaf/239842096",
-    "geonames": "https://www.geonames.org/6541466/siena.html",
+    "geonames": "https://sws.geonames.org/6541466/",
     "type": "place",
     "title": "Siena",
     "coordinates": [
@@ -2744,7 +2744,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/South_Carolina",
     "wikidata": "https://www.wikidata.org/entity/Q1456",
     "viaf": "https://viaf.org/viaf/126093597",
-    "geonames": "https://www.geonames.org/4597040/south-carolina.html",
+    "geonames": "https://sws.geonames.org/4597040/",
     "type": "place",
     "title": "Carolina del Sud",
     "coordinates": [
@@ -2758,7 +2758,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Spain",
     "wikidata": "https://www.wikidata.org/entity/Q29",
     "viaf": "https://viaf.org/viaf/133609710",
-    "geonames": "https://www.geonames.org/2510769/kingdom-of-spain.html",
+    "geonames": "https://sws.geonames.org/2510769/",
     "type": "place",
     "title": "Spagna",
     "coordinates": [
@@ -2783,7 +2783,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Strasbourg",
     "wikidata": "https://www.wikidata.org/entity/Q6602",
     "viaf": "https://viaf.org/viaf/150696197",
-    "geonames": "https://www.geonames.org/2973783/strasbourg.html",
+    "geonames": "https://sws.geonames.org/2973783/",
     "type": "place",
     "title": "Strasburgo",
     "coordinates": [
@@ -2797,7 +2797,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Tagliamento",
     "wikidata": "https://www.wikidata.org/entity/Q747929",
     "viaf": "https://viaf.org/viaf/242138926",
-    "geonames": "https://www.geonames.org/3165990/fiume-tagliamento.html",
+    "geonames": "https://sws.geonames.org/3165990/",
     "type": "place",
     "title": "Tagliamento",
     "coordinates": [
@@ -2811,7 +2811,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/River_Thames",
     "wikidata": "https://www.wikidata.org/entity/Q19686",
     "viaf": "https://viaf.org/viaf/237292804",
-    "geonames": "https://www.geonames.org/2636063/river-thames.html",
+    "geonames": "https://sws.geonames.org/2636063/",
     "type": "place",
     "title": "Tamigi",
     "coordinates": [
@@ -2836,7 +2836,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ticino_(river)",
     "wikidata": "https://www.wikidata.org/entity/Q14366",
     "viaf": "https://viaf.org/viaf/86144647641199173339",
-    "geonames": "https://www.geonames.org/2658369/fiume-ticino.html",
+    "geonames": "https://sws.geonames.org/2658369/",
     "type": "place",
     "title": "Ticino",
     "coordinates": [
@@ -2850,7 +2850,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Tokyo",
     "wikidata": "https://www.wikidata.org/entity/Q1490",
     "viaf": "https://viaf.org/viaf/140713831",
-    "geonames": "https://www.geonames.org/1850144/tokyo-prefecture.html",
+    "geonames": "https://sws.geonames.org/1850144/",
     "type": "place",
     "title": "Tokyo",
     "coordinates": [
@@ -2886,7 +2886,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Turin",
     "wikidata": "https://www.wikidata.org/entity/Q495",
     "viaf": "https://viaf.org/viaf/35144782953960297898",
-    "geonames": "https://www.geonames.org/3165525/torino.html",
+    "geonames": "https://sws.geonames.org/3165525/",
     "type": "place",
     "title": "Torino",
     "coordinates": [
@@ -2900,7 +2900,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Tuscany",
     "wikidata": "https://www.wikidata.org/entity/Q1273",
     "viaf": "https://viaf.org/viaf/128956370",
-    "geonames": "https://www.geonames.org/3165361/toscana.html",
+    "geonames": "https://sws.geonames.org/3165361/",
     "type": "place",
     "title": "Toscana",
     "coordinates": [
@@ -2914,7 +2914,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Trentino",
     "wikidata": "https://www.wikidata.org/entity/Q16289",
     "viaf": "https://viaf.org/viaf/142524838",
-    "geonames": "https://www.geonames.org/3165241/provincia-autonoma-di-trento.html",
+    "geonames": "https://sws.geonames.org/3165241/",
     "type": "place",
     "title": "Trentino",
     "coordinates": [
@@ -2928,7 +2928,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Trento",
     "wikidata": "https://www.wikidata.org/entity/Q3376",
     "viaf": "https://viaf.org/viaf/9361156133222058430009",
-    "geonames": "https://www.geonames.org/6541469/trento.html",
+    "geonames": "https://sws.geonames.org/6541469/",
     "type": "place",
     "title": "Trento",
     "coordinates": [
@@ -2942,7 +2942,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Trieste",
     "wikidata": "https://www.wikidata.org/entity/Q546",
     "viaf": "https://viaf.org/viaf/143701962",
-    "geonames": "https://www.geonames.org/3165186/trieste.html",
+    "geonames": "https://sws.geonames.org/3165186/",
     "type": "place",
     "title": "Trieste",
     "coordinates": [
@@ -2967,7 +2967,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Soviet_Union",
     "wikidata": "https://www.wikidata.org/entity/Q15180",
     "viaf": "https://viaf.org/viaf/134262032",
-    "geonames": "https://www.geonames.org/8354411/union-of-soviet-socialist-republics.html",
+    "geonames": "https://sws.geonames.org/8354411/",
     "type": "place",
     "title": "Unione Sovietica",
     "coordinates": [
@@ -2992,7 +2992,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Uruguay",
     "wikidata": "https://www.wikidata.org/entity/Q77",
     "viaf": "https://viaf.org/viaf/129569873",
-    "geonames": "https://www.geonames.org/3439705/oriental-republic-of-uruguay.html",
+    "geonames": "https://sws.geonames.org/3439705/",
     "type": "place",
     "title": "Uruguay",
     "coordinates": [
@@ -3016,7 +3016,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Valdarno",
     "wikidata": "https://www.wikidata.org/entity/Q538820",
     "viaf": "https://viaf.org/viaf/235065009",
-    "geonames": "https://www.geonames.org/3164948/valdarno.html",
+    "geonames": "https://sws.geonames.org/3164948/",
     "type": "place",
     "title": "Valdarno",
     "coordinates": [
@@ -3030,7 +3030,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Veneto",
     "wikidata": "https://www.wikidata.org/entity/Q1243",
     "viaf": "https://viaf.org/viaf/155404177",
-    "geonames": "https://www.geonames.org/3164604/veneto.html",
+    "geonames": "https://sws.geonames.org/3164604/",
     "type": "place",
     "title": "Veneto",
     "coordinates": [
@@ -3044,7 +3044,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Venice",
     "wikidata": "https://www.wikidata.org/entity/Q641",
     "viaf": "https://viaf.org/viaf/8456155769103127880005",
-    "geonames": "https://www.geonames.org/6542284/venezia.html",
+    "geonames": "https://sws.geonames.org/6542284/",
     "type": "place",
     "title": "Venezia",
     "coordinates": [
@@ -3058,7 +3058,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Vercelli",
     "wikidata": "https://www.wikidata.org/entity/Q5990",
     "viaf": "https://viaf.org/viaf/123150932",
-    "geonames": "https://www.geonames.org/6540116/vercelli.html",
+    "geonames": "https://sws.geonames.org/6540116/",
     "type": "place",
     "title": "Vercelli",
     "coordinates": [
@@ -3072,7 +3072,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
     "wikidata": "https://www.wikidata.org/entity/Q2946",
     "viaf": "https://viaf.org/viaf/127977992",
-    "geonames": "https://www.geonames.org/6284980/chateau-de-versailles.html",
+    "geonames": "https://sws.geonames.org/6284980/",
     "type": "place",
     "title": "Versailles",
     "coordinates": [
@@ -3096,7 +3096,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Virginia",
     "wikidata": "https://www.wikidata.org/entity/Q1370",
     "viaf": "https://viaf.org/viaf/128935789",
-    "geonames": "https://www.geonames.org/6254928/virginia.html",
+    "geonames": "https://sws.geonames.org/6254928/",
     "type": "place",
     "title": "Virginia",
     "coordinates": [
@@ -3121,7 +3121,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Vittorio_Veneto",
     "wikidata": "https://www.wikidata.org/entity/Q47578",
     "viaf": "https://viaf.org/viaf/151912398",
-    "geonames": "https://www.geonames.org/6538312/vittorio-veneto.html",
+    "geonames": "https://sws.geonames.org/6538312/",
     "type": "place",
     "title": "Vittorio Veneto",
     "coordinates": [
@@ -3146,7 +3146,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Washington,_D.C.",
     "wikidata": "https://www.wikidata.org/entity/Q61",
     "viaf": "https://viaf.org/viaf/312739635",
-    "geonames": "https://www.geonames.org/4140963/washington.html",
+    "geonames": "https://sws.geonames.org/4140963/",
     "type": "place",
     "title": "Washington",
     "coordinates": [
@@ -3160,7 +3160,7 @@
     "wikipedia_en": "https://en.wikipedia.org/wiki/Waterloo,_Belgium",
     "wikidata": "https://www.wikidata.org/entity/Q179034",
     "viaf": "https://viaf.org/viaf/162695587",
-    "geonames": "https://www.geonames.org/2783986/waterloo.html",
+    "geonames": "https://sws.geonames.org/2783986/",
     "type": "place",
     "title": "Waterloo",
     "coordinates": [
