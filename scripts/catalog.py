@@ -39,15 +39,14 @@ with open(ENTITIES_CSV, mode="r", encoding="utf-8") as f:
             continue
 
         # Remove punctuation and split into words
-        clean_text = re.sub(r"[^\w\s]", "", entity_name)
-        words = clean_text.split()
+        words = re.split(r"[\s']+", entity_name)
 
         # Skip element if no valid words remain after cleaning
         if not words:
             continue
 
         # Create entity slug by lowercasing the first word and capitalizing subsequent words
-        slug = words[0].lower() + "".join(word.capitalize() for word in words[1:])
+        slug = "".join(word.capitalize() for word in words if word)
 
         # Construct the entity URI under the "entity" path
         subject_uri = URIRef(f"entity/{slug}")
