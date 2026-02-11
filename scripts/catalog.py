@@ -12,14 +12,6 @@ CATALOG_TTL = ROOT_DIR / "metadata" / "rdf" / "catalog.ttl"
 
 # Prefixes and namespaces
 BASE_URI = "https://github.com/metamuses/barberotheca/"
-PREFIXES = {
-    "dcterms": DCTERMS,
-    "owl": OWL,
-    "rdf": RDF,
-    "rdfs": RDFS,
-    "schema": SDO,
-    "xsd": XSD,
-}
 ENTITY_TYPES = {
     "person": SDO.Person,
     "place": SDO.Place,
@@ -29,10 +21,6 @@ ENTITY_TYPES = {
 
 # Initialize RDF graph
 g = Graph()
-
-# Bind prefixes to graph
-for prefix, ns in PREFIXES.items():
-    g.bind(prefix, ns)
 
 # TODO: read each lesson and for each entity in the lesson, check if it is in the authoritative list and add triples accordingly instead of reading the authoritative list separately and adding all entities without checking if they are actually used in the lessons
 # Use dcterms:title, dcterms:source, dcterms:identifier, dcterms:issued (YYYY), dcterms:language, dcterms:publisher, dcterms:references. isPartOf se c'è macrotheme?
@@ -66,17 +54,17 @@ with open(ENTITIES_CSV, mode="r", encoding="utf-8") as f:
 
         # Add triple for entity type
         entity_type = row.get("type", "").strip().lower()
-        rdf_type = ENTITY_TYPES.get(entity_type, PREFIXES["schema"].Thing)
+        rdf_type = ENTITY_TYPES.get(entity_type, SDO.Thing)
         g.add((subject_uri, RDF.type, rdf_type))
 
         # Add triple for the entity label
-        g.add((subject_uri, PREFIXES["rdfs"].label, Literal(entity_name, lang="it")))
+        g.add((subject_uri, RDFS.label, Literal(entity_name, lang="it")))
 
         # Add triples for external links if present
         for source in ["wikidata", "viaf", "geonames"]:
             link = row.get(source, "").strip()
             if link:
-                g.add((subject_uri, PREFIXES["owl"].sameAs, URIRef(link)))
+                g.add((subject_uri, OWL.sameAs, URIRef(link)))
 
 # Serialize graph to Turtle file
 g.serialize(destination=CATALOG_TTL, format="turtle", base=BASE_URI)
