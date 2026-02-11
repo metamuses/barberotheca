@@ -116,7 +116,7 @@ function render(items) {
                 </div>
 
                 <a href="${item.source_url}" target="_blank" class="btn btn-outline-light btn-sm position-relative" style="z-index: 2;">Guarda su YouTube</a>
-                <a href="lection.html?id=${item.semantic_filename}" class="stretched-link"></a>
+                <a href="lection.html?id=${item.id}" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -178,12 +178,6 @@ async function loadLection() {
     return;
   }
 
-  // Setup Download Button
-  const downloadBtn = document.getElementById("download-transcript-btn");
-  if (downloadBtn) {
-    downloadBtn.href = `../transcripts/${id}.txt`;
-  }
-
   // Load Data if not loaded
   if (DATA.length === 0) {
     try {
@@ -198,7 +192,25 @@ async function loadLection() {
   }
 
   // Find lesson data
-  const item = DATA.find(d => d.semantic_filename === id);
+  // Try finding by numeric ID first (fast check), then fallback to semantic_filename string match
+  let item = DATA.find(d => d.id == id);
+  if (!item) {
+    item = DATA.find(d => d.semantic_filename === id);
+  }
+
+  if (!item) {
+    audioSection.innerHTML = "<p>Lesson not found.</p>";
+    return;
+  }
+
+  // Use semantic_filename from the found item for resources
+  const resourceId = item.semantic_filename;
+
+  // Setup Download Button
+  const downloadBtn = document.getElementById("download-transcript-btn");
+  if (downloadBtn) {
+    downloadBtn.href = `../transcripts/${resourceId}.txt`;
+  }
 
   // Render Header
   if (headerSection && item) {
@@ -253,6 +265,18 @@ async function loadLection() {
         </div>
     `;
 
+    // Render Keywords (Outside Card)
+    const keywordsContent = document.getElementById("lesson-keywords-content");
+    if (keywordsContent && item.keywords && item.keywords.length > 0) {
+      keywordsContent.innerHTML = `
+            <div class="d-flex flex-wrap">
+                ${item.keywords.map(k => `
+                    <a href="collection.html?keyword=${encodeURIComponent(k)}" class="badge rounded-pill bg-secondary text-decoration-none text-white fw-normal me-1 mb-1 border border-light border-opacity-25 shadow-sm">${k}</a>
+                `).join('')}
+            </div>
+        `;
+    }
+
     // Render Related Lessons
     if (item.macrotheme_title && relatedContainer && relatedContent) {
       const relatedItems = DATA.filter(d =>
@@ -272,7 +296,7 @@ async function loadLection() {
                             ${rNum}
                         </h6>
                         <small class="d-block text-light opacity-75">${r.event_year} – ${r.event}</small>
-                        <a href="lection.html?id=${r.semantic_filename}" class="stretched-link"></a>
+                        <a href="lection.html?id=${r.id}" class="stretched-link"></a>
                     </div>
                 </div>
             `;
@@ -287,7 +311,7 @@ async function loadLection() {
   audioSection.innerHTML = `
         <h2>Audio</h2>
         <audio id="lection-audio" controls class="w-100" style="outline: none;">
-            <source src="../audio/${id}.m4a" type="audio/mp4">
+            <source src="../audio/${resourceId}.m4a" type="audio/mp4">
             Your browser does not support the audio element.
         </audio>
     `;
@@ -296,7 +320,7 @@ async function loadLection() {
 
   // 2. Render Transcription (SRT based)
   try {
-    const response = await fetch(`../transcripts/${id}.srt`);
+    const response = await fetch(`../transcripts/${resourceId}.srt`);
 
     if (!response.ok) {
       throw new Error("Transcription not found");
@@ -374,20 +398,59 @@ async function loadLection() {
       currentMatches = [];
 
       segmentEls.forEach(el => {
-        const original = el.dataset.originalText;
+        // Restore original HTML first
+        el.innerHTML = el.dataset.originalText;
+
         if (!query) {
-          el.innerHTML = original;
-          el.classList.remove('bg-warning', 'text-dark'); // Remove active match style if any
+          el.classList.remove('bg-warning', 'text-dark');
           return;
         }
 
-        if (original.toLowerCase().includes(query)) {
-          // Highlight match
-          const regex = new RegExp(`(${query})`, 'gi');
-          el.innerHTML = original.replace(regex, '<mark class="bg-warning text-dark">$1</mark>');
-        } else {
-          el.innerHTML = original;
-        }
+        // Recursive function to highlight text nodes
+        const highlightTextNodes = (node) => {
+          if (node.nodeType === 3) { // Text node
+            const text = node.nodeValue;
+            const regex = new RegExp(`(${query})`, 'gi');
+
+            if (regex.test(text)) {
+              const fragment = document.createDocumentFragment();
+              let lastIndex = 0;
+              let match;
+
+              // Reset regex lastIndex
+              regex.lastIndex = 0;
+
+              while ((match = regex.exec(text)) !== null) {
+                // Text before match
+                if (match.index > lastIndex) {
+                  fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
+                }
+
+                // Match wrapped in mark
+                const mark = document.createElement('mark');
+                mark.className = 'bg-warning text-dark';
+                mark.textContent = match[0];
+                fragment.appendChild(mark);
+
+                lastIndex = regex.lastIndex;
+              }
+
+              // Remaining text
+              if (lastIndex < text.length) {
+                fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
+              }
+
+              node.parentNode.replaceChild(fragment, node);
+            }
+          } else if (node.nodeType === 1) { // Element node
+            // Skip existing marks or script/style tags if any (though unlikely here)
+            if (node.nodeName !== 'MARK' && node.nodeName !== 'SCRIPT' && node.nodeName !== 'STYLE') {
+              Array.from(node.childNodes).forEach(child => highlightTextNodes(child));
+            }
+          }
+        };
+
+        highlightTextNodes(el);
       });
 
       // Collect all new matches

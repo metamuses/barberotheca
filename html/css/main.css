@@ -56,6 +56,7 @@ header nav .btn {
 /* Section Headings */
 section h2,
 aside h2,
+div h2,
 aside h3 {
   font-family: 'Kabel', sans-serif;
   font-weight: normal;
@@ -321,4 +322,21 @@ aside h3 {
     max-width: 900px;
     margin: 0 auto;
   }
+}
+
+/* Indexes Tabs Styling */
+#indexesTabs .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid transparent;
+}
+
+#indexesTabs .nav-link:hover {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+#indexesTabs .nav-link.active {
+  color: #000 !important;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
