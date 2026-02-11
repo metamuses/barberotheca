@@ -34,6 +34,9 @@ g = Graph()
 for prefix, ns in PREFIXES.items():
     g.bind(prefix, ns)
 
+# TODO: read each lesson and for each entity in the lesson, check if it is in the authoritative list and add triples accordingly instead of reading the authoritative list separately and adding all entities without checking if they are actually used in the lessons
+# Use dcterms:title, dcterms:source, dcterms:identifier, dcterms:issued (YYYY), dcterms:language, dcterms:publisher, dcterms:references. isPartOf se c'è macrotheme?
+
 # ===== ENTITIES =========================
 # Load entities from authoritative CSV
 with open(ENTITIES_CSV, mode="r", encoding="utf-8") as f:
