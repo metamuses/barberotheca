@@ -2277,7 +2277,11 @@
     "viaf": "https://viaf.org/viaf/240543797",
     "geonames": "https://sws.geonames.org/3183044/",
     "type": "place",
-    "title": "Piave"
+    "title": "Piave",
+    "coordinates": [
+      46.48333,
+      12.45
+    ]
   },
   {
     "entity": "Piemonte",
@@ -2357,7 +2361,11 @@
     "viaf": "https://viaf.org/viaf/137143200",
     "geonames": "https://sws.geonames.org/3082436/",
     "type": "place",
-    "title": "Prussia"
+    "title": "Prussia",
+    "coordinates": [
+      53.5,
+      18.0
+    ]
   },
   {
     "entity": "Radetzky",
