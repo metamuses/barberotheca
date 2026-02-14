@@ -1,7 +1,1275 @@
 @base <https://github.com/metamuses/barberotheca/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<lesson/Barbero2008FdM1Epopea> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2008-FdM-1-epopea" ;
+    dcterms:isPartOf <event/FestivalDellaMente2008> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Corrado>,
+        <entity/Cristo>,
+        <entity/Europa>,
+        <entity/Gerusalemme>,
+        <entity/GoffredoDiBuglione>,
+        <entity/LuigiIx>,
+        <entity/RiccardoCuorDiLeone>,
+        <entity/Saladino> ;
+    dcterms:source <https://www.youtube.com/watch?v=CYd2xVDNOF4> ;
+    dcterms:title "L'epopea"@it ;
+    schema:keywords "crociata"@it,
+        "crociato"@it,
+        "imperatore"@it,
+        "musulmano"@it,
+        "occidente"@it,
+        "papa"@it,
+        "pellegrinaggio"@it,
+        "re"@it,
+        "santo"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2008FdM2FraGuerraSantaEJihad> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2008-FdM-2-fra_guerra_santa_e_jihad" ;
+    dcterms:isPartOf <event/FestivalDellaMente2008> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Agostino>,
+        <entity/CarloMagno>,
+        <entity/Costantino>,
+        <entity/Dio>,
+        <entity/Gerusalemme>,
+        <entity/Maometto>,
+        <entity/Orlando>,
+        <entity/Samuele>,
+        <entity/SanBernardo>,
+        <entity/UrbanoIi> ;
+    dcterms:source <https://www.youtube.com/watch?v=5LwhsVIhWmY> ;
+    dcterms:title "Fra guerra santa e jihad"@it ;
+    schema:keywords "chiesa"@it,
+        "corano"@it,
+        "cristiano"@it,
+        "crociata"@it,
+        "ebreo"@it,
+        "guerra"@it,
+        "imperatore"@it,
+        "jihad"@it,
+        "musulmano"@it,
+        "re"@it,
+        "religione"@it,
+        "santo"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2009FdM1Campaldino1289> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2009-FdM-1-Campaldino_1289" ;
+    dcterms:isPartOf <event/FestivalDellaMente2009> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Arezzo>,
+        <entity/BonconteDaMontefeltro>,
+        <entity/Campaldino>,
+        <entity/CarloMagno>,
+        <entity/Dante>,
+        <entity/Firenze>,
+        <entity/Italia>,
+        <entity/Pisa>,
+        <entity/Siena>,
+        <entity/Toscana> ;
+    dcterms:source <https://www.youtube.com/watch?v=sCpScMvBfrI> ;
+    dcterms:title "Campaldino 1289"@it ;
+    schema:keywords "battaglia"@it,
+        "cavaliere"@it,
+        "cavallo"@it,
+        "comune"@it,
+        "esercito"@it,
+        "ghibellini"@it,
+        "guelfi"@it,
+        "nobile"@it,
+        "scudo"@it,
+        "soldi"@it,
+        "vescovo"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2009FdM2Lepanto1571> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2009-FdM-2-Lepanto_1571" ;
+    dcterms:isPartOf <event/FestivalDellaMente2009> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Adriatico>,
+        <entity/Cipro>,
+        <entity/Corfu>,
+        <entity/Costantinopoli>,
+        <entity/Creta>,
+        <entity/Istanbul>,
+        <entity/Lepanto>,
+        <entity/Mediterraneo>,
+        <entity/Messina>,
+        <entity/Patrasso>,
+        <entity/Spagna>,
+        <entity/Venezia> ;
+    dcterms:source <https://www.youtube.com/watch?v=UZKF2OMpX5A> ;
+    dcterms:title "Lepanto 1571"@it ;
+    schema:keywords "arsenale"@it,
+        "battaglia"@it,
+        "cristiani"@it,
+        "flotta"@it,
+        "galera"@it,
+        "impero"@it,
+        "mare"@it,
+        "nave"@it,
+        "re"@it,
+        "rematori"@it,
+        "schiavi"@it,
+        "sultano"@it,
+        "turchi"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2009FdM3Waterloo1815> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2009-FdM-3-Waterloo_1815" ;
+    dcterms:isPartOf <event/FestivalDellaMente2009> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Belgio>,
+        <entity/Bruxelles>,
+        <entity/Elba>,
+        <entity/Europa>,
+        <entity/Francia>,
+        <entity/Inghilterra>,
+        <entity/LuigiXviii>,
+        <entity/Napoleone>,
+        <entity/Olanda>,
+        <entity/Parigi>,
+        <entity/Waterloo>,
+        <entity/Wellington> ;
+    dcterms:source <https://www.youtube.com/watch?v=EEh7M7suOKs> ;
+    dcterms:title "Waterloo 1815"@it ;
+    schema:keywords "battaglia"@it,
+        "cannone"@it,
+        "esercito"@it,
+        "fanteria"@it,
+        "francese"@it,
+        "fuoco"@it,
+        "inglese"@it,
+        "prussiano"@it,
+        "ufficiale"@it,
+        "wellington"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2010FdM1Cavour> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2010-FdM-1-Cavour" ;
+    dcterms:isPartOf <event/FestivalDellaMente2010> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Austria>,
+        <entity/Cavour>,
+        <entity/DAzeglio>,
+        <entity/Francia>,
+        <entity/Garibaldi>,
+        <entity/Italia>,
+        <entity/Mazzini>,
+        <entity/NapoleoneIii>,
+        <entity/Piemonte>,
+        <entity/Torino>,
+        <entity/VittorioEmanueleIi> ;
+    dcterms:source <https://www.youtube.com/watch?v=9BPi1rejLh4> ;
+    dcterms:title "Cavour"@it ;
+    schema:keywords "affare"@it,
+        "famiglia"@it,
+        "ferrovia"@it,
+        "francese"@it,
+        "guerra"@it,
+        "idea"@it,
+        "italiano"@it,
+        "nobile"@it,
+        "parlamento"@it,
+        "politico"@it,
+        "re"@it,
+        "regno"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2010FdM2VittorioEmanueleII> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2010-FdM-2-Vittorio_Emanuele_II" ;
+    dcterms:isPartOf <event/FestivalDellaMente2010> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/CarloAlberto>,
+        <entity/Cavour>,
+        <entity/Garibaldi>,
+        <entity/Italia>,
+        <entity/NapoleoneIii>,
+        <entity/Piemonte>,
+        <entity/Rattazzi>,
+        <entity/Rosina>,
+        <entity/Torino>,
+        <entity/VittorioEmanueleIi> ;
+    dcterms:source <https://www.youtube.com/watch?v=IaZRn1d4zTk> ;
+    dcterms:title "Vittorio Emanuele II"@it ;
+    schema:keywords "camera"@it,
+        "chiesa"@it,
+        "guerra"@it,
+        "italiano"@it,
+        "legge"@it,
+        "lettera"@it,
+        "liberale"@it,
+        "ministro"@it,
+        "morire"@it,
+        "politico"@it,
+        "re"@it,
+        "statuto"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2010FdM3Garibaldi> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2010-FdM-3-Garibaldi" ;
+    dcterms:isPartOf <event/FestivalDellaMente2010> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Argentina>,
+        <entity/Brasile>,
+        <entity/Cavour>,
+        <entity/Costantinopoli>,
+        <entity/Francia>,
+        <entity/Garibaldi>,
+        <entity/Inghilterra>,
+        <entity/Italia>,
+        <entity/Londra>,
+        <entity/Napoli>,
+        <entity/Sicilia>,
+        <entity/Torino>,
+        <entity/Uruguay> ;
+    dcterms:source <https://www.youtube.com/watch?v=CgZx2w5IUow> ;
+    dcterms:title "Garibaldi"@it ;
+    schema:keywords "combattere"@it,
+        "esercito"@it,
+        "francese"@it,
+        "guerra"@it,
+        "indipendenza"@it,
+        "italiano"@it,
+        "parlamento"@it,
+        "re"@it,
+        "regno"@it,
+        "repubblica"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2011FdM1IlFrate> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2011-FdM-1-il_frate" ;
+    dcterms:isPartOf <event/FestivalDellaMente2011> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Aquileia>,
+        <entity/Borgogna>,
+        <entity/Elia>,
+        <entity/Fano>,
+        <entity/FedericoIi>,
+        <entity/Francia>,
+        <entity/GiovanniDaVicenza>,
+        <entity/Italia>,
+        <entity/Parma>,
+        <entity/Pisa>,
+        <entity/Salimbene> ;
+    dcterms:source <https://www.youtube.com/watch?v=7TGN3u44E1Y> ;
+    dcterms:title "Il frate"@it ;
+    schema:keywords "bibbia"@it,
+        "convento"@it,
+        "francescano"@it,
+        "frate"@it,
+        "imperatore"@it,
+        "latino"@it,
+        "libro"@it,
+        "memoria"@it,
+        "pranzo"@it,
+        "re"@it,
+        "santo"@it,
+        "uomo"@it,
+        "vino"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2011FdM2IlMercante> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2011-FdM-2-il_mercante" ;
+    dcterms:isPartOf <event/FestivalDellaMente2011> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Arezzo>,
+        <entity/Dante>,
+        <entity/DinoCompagni>,
+        <entity/Dio>,
+        <entity/Firenze>,
+        <entity/Italia>,
+        <entity/MatteoDAcquasparta>,
+        <entity/Salimbene>,
+        <entity/SanGiovanni>,
+        <entity/Valdarno> ;
+    dcterms:source <https://www.youtube.com/watch?v=i-7jq0X6FDc> ;
+    dcterms:title "Il mercante"@it ;
+    schema:keywords "cavaliere"@it,
+        "cittadino"@it,
+        "guerra"@it,
+        "imprenditore"@it,
+        "legge"@it,
+        "mercante"@it,
+        "nobile"@it,
+        "pace"@it,
+        "politica"@it,
+        "soldo"@it,
+        "vescovo"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2011FdM3IlCavaliere> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2011-FdM-3-il_cavaliere" ;
+    dcterms:isPartOf <event/FestivalDellaMente2011> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Castiglia>,
+        <entity/Cluny>,
+        <entity/Dio>,
+        <entity/Egitto>,
+        <entity/Francia>,
+        <entity/JeanDeJoinville>,
+        <entity/LuigiIx>,
+        <entity/PhilippeDeNemure> ;
+    dcterms:source <https://www.youtube.com/watch?v=0N8zrMchzxk> ;
+    dcterms:title "Il cavaliere"@it ;
+    schema:keywords "cavaliere"@it,
+        "conte"@it,
+        "crociata"@it,
+        "nobile"@it,
+        "re"@it,
+        "regina"@it,
+        "santo"@it,
+        "saraceni"@it,
+        "signore"@it,
+        "soldi"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2012FdM1CaterinaDaSiena> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2012-FdM-1-Caterina_da_Siena" ;
+    dcterms:isPartOf <event/FestivalDellaMente2012> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Avignone>,
+        <entity/Caterina>,
+        <entity/Dio>,
+        <entity/Firenze>,
+        <entity/Gesu>,
+        <entity/Italia>,
+        <entity/RaimondoDaCapua>,
+        <entity/Roma>,
+        <entity/Siena> ;
+    dcterms:source <https://www.youtube.com/watch?v=DYEPm5OFi90> ;
+    dcterms:title "Caterina da Siena"@it ;
+    schema:keywords "capelli"@it,
+        "confessore"@it,
+        "donna"@it,
+        "famiglia"@it,
+        "lettere"@it,
+        "mamma"@it,
+        "medioevo"@it,
+        "padre"@it,
+        "papa"@it,
+        "santo"@it,
+        "scrivere"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2012FdM2ChristineDePizan> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2012-FdM-2-Christine_de_Pizan" ;
+    dcterms:isPartOf <event/FestivalDellaMente2012> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/CarloV>,
+        <entity/CaterinaDaSiena>,
+        <entity/Cristina>,
+        <entity/Dio>,
+        <entity/EnricoV>,
+        <entity/Francia>,
+        <entity/GiovannaDArco>,
+        <entity/Parigi>,
+        <entity/Venezia> ;
+    dcterms:source <https://www.youtube.com/watch?v=W3hHIlx1XXw> ;
+    dcterms:title "Christine de Pizan"@it ;
+    schema:keywords "bambino"@it,
+        "donna"@it,
+        "duca"@it,
+        "famiglia"@it,
+        "francese"@it,
+        "guerra"@it,
+        "libro"@it,
+        "marito"@it,
+        "medioevo"@it,
+        "re"@it,
+        "scrivere"@it,
+        "tassa"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2012FdM3GiovannaDArco> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2012-FdM-3-Giovanna_d_Arco" ;
+    dcterms:isPartOf <event/FestivalDellaMente2012> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Beauvais>,
+        <entity/Cauchon>,
+        <entity/Dio>,
+        <entity/Francia>,
+        <entity/Giovanna>,
+        <entity/Maria>,
+        <entity/Orleans>,
+        <entity/Parigi>,
+        <entity/Reims>,
+        <entity/Rouen> ;
+    dcterms:source <https://www.youtube.com/watch?v=n8VOp5mhxpc> ;
+    dcterms:title "Giovanna d'Arco"@it ;
+    schema:keywords "chiesa"@it,
+        "delfino"@it,
+        "francese"@it,
+        "inglese"@it,
+        "inquisizione"@it,
+        "processo"@it,
+        "re"@it,
+        "rogo"@it,
+        "soldato"@it,
+        "teologo"@it,
+        "villaggio"@it,
+        "voci"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2013FdM1LaPauraAnnoMille> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2013-FdM-1-la_paura_anno_Mille" ;
+    dcterms:isPartOf <event/FestivalDellaMente2013> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Abbone>,
+        <entity/Aristotele>,
+        <entity/Bettinelli>,
+        <entity/Carducci>,
+        <entity/CarloMagno>,
+        <entity/Cristo>,
+        <entity/Farfa>,
+        <entity/Magonza>,
+        <entity/Roma>,
+        <entity/Satana> ;
+    dcterms:source <https://www.youtube.com/watch?v=jE_RZlrqrAI> ;
+    dcterms:title "La paura dell'anno Mille"@it ;
+    schema:keywords "abate"@it,
+        "apocalisse"@it,
+        "chiesa"@it,
+        "credere"@it,
+        "epoca"@it,
+        "libro"@it,
+        "medioevo"@it,
+        "monastero"@it,
+        "papa"@it,
+        "terrore"@it,
+        "ultimo"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2013FdM2LoIusPrimaeNoctis> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2013-FdM-2-lo_ius_primae_noctis" ;
+    dcterms:isPartOf <event/FestivalDellaMente2013> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Boccaccio>,
+        <entity/Cuneo>,
+        <entity/Europa>,
+        <entity/Francia>,
+        <entity/Ivrea>,
+        <entity/Parigi>,
+        <entity/Piemonte>,
+        <entity/Scozia> ;
+    dcterms:source <https://www.youtube.com/watch?v=pVHGbYaLEng> ;
+    dcterms:title "Lo ius primae noctis"@it ;
+    schema:keywords "contadino"@it,
+        "ius primae noctis"@it,
+        "matrimonio"@it,
+        "medioevo"@it,
+        "obbligo"@it,
+        "ragazza"@it,
+        "re"@it,
+        "signore"@it,
+        "tassa"@it,
+        "villaggio"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2013FdM3LaTerraPiatta> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2013-FdM-3-la_terra_piatta" ;
+    dcterms:isPartOf <event/FestivalDellaMente2013> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/America>,
+        <entity/Aristotele>,
+        <entity/Beda>,
+        <entity/Canarie>,
+        <entity/Colombo>,
+        <entity/Dio>,
+        <entity/Mandeville>,
+        <entity/MarcoPolo>,
+        <entity/Salamanca>,
+        <entity/SantAgostino>,
+        <entity/Tolomeo> ;
+    dcterms:source <https://www.youtube.com/watch?v=bx_FUz6Pb88> ;
+    dcterms:title "La terra piatta"@it ;
+    schema:keywords "acqua"@it,
+        "credenza"@it,
+        "cristiano"@it,
+        "ignoranza"@it,
+        "libro"@it,
+        "piatta"@it,
+        "rotonda"@it,
+        "sfera"@it,
+        "terra"@it,
+        "trattato"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2014FdM1PrimaGuerraMondiale> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2014-FdM-1-prima_guerra_mondiale" ;
+    dcterms:isPartOf <event/FestivalDellaMente2014> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Austria>,
+        <entity/Belgio>,
+        <entity/FrancescoFerdinando>,
+        <entity/Francia>,
+        <entity/Germania>,
+        <entity/Inghilterra>,
+        <entity/Russia>,
+        <entity/Sarajevo>,
+        <entity/Serbia>,
+        <entity/VonMoltke> ;
+    dcterms:source <https://www.youtube.com/watch?v=OIAeg_n0l8Q> ;
+    dcterms:title "La prima guerra mondiale"@it ;
+    schema:keywords "ambasciatore"@it,
+        "austriaco"@it,
+        "dichiarazione"@it,
+        "guerra"@it,
+        "inglese"@it,
+        "kaiser"@it,
+        "mobilitare"@it,
+        "tedesco"@it,
+        "ultimatum"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2014FdM2SecondaGuerraMondiale> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2014-FdM-2-seconda_guerra_mondiale" ;
+    dcterms:isPartOf <event/FestivalDellaMente2014> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Chamberlain>,
+        <entity/Ciano>,
+        <entity/Danzica>,
+        <entity/Francia>,
+        <entity/Germania>,
+        <entity/Hitler>,
+        <entity/Inghilterra>,
+        <entity/Italia>,
+        <entity/Mussolini>,
+        <entity/Polonia>,
+        <entity/Ribbentrop> ;
+    dcterms:source <https://www.youtube.com/watch?v=fQOSrP1nHko> ;
+    dcterms:title "La seconda guerra mondiale"@it ;
+    schema:keywords "accordo"@it,
+        "ambasciatore"@it,
+        "guerra"@it,
+        "inglese"@it,
+        "nazista"@it,
+        "polacco"@it,
+        "rispondere"@it,
+        "sovietico"@it,
+        "tedesco"@it,
+        "trattato"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2014FdM3GuerraDelleFalkland> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2014-FdM-3-guerra_delle_Falkland" ;
+    dcterms:isPartOf <event/FestivalDellaMente2014> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Argentina>,
+        <entity/BuenosAires>,
+        <entity/Falkland>,
+        <entity/Galtieri>,
+        <entity/Inghilterra>,
+        <entity/LasMalvinas>,
+        <entity/Reagan>,
+        <entity/StatiUniti>,
+        <entity/Thatcer> ;
+    dcterms:source <https://www.youtube.com/watch?v=pzy5a0M7h1w> ;
+    dcterms:title "La guerra delle Falkland"@it ;
+    schema:keywords "americano"@it,
+        "argentino"@it,
+        "deputato"@it,
+        "dittatura"@it,
+        "flotta"@it,
+        "guerra"@it,
+        "inglese"@it,
+        "isola"@it,
+        "militare"@it,
+        "ministero"@it,
+        "parlamento"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2015FdM1GaetanoSalvemini> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2015-FdM-1-Gaetano_Salvemini" ;
+    dcterms:isPartOf <event/FestivalDellaMente2015> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Firenze>,
+        <entity/Giolitti>,
+        <entity/Gobetti>,
+        <entity/Italia>,
+        <entity/Milano>,
+        <entity/Mussolini>,
+        <entity/Salvemini>,
+        <entity/Turati> ;
+    dcterms:source <https://www.youtube.com/watch?v=t6W238Tn_6s> ;
+    dcterms:title "Gaetano Salvemini: dall'interventismo socialista all'antifascismo"@it ;
+    schema:keywords "cattedra"@it,
+        "italiano"@it,
+        "libro"@it,
+        "partito"@it,
+        "politico"@it,
+        "scrivere"@it,
+        "scuola"@it,
+        "socialista"@it,
+        "storico"@it,
+        "sud"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2015FdM2MarcBloch> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2015-FdM-2-Marc_Bloch" ;
+    dcterms:isPartOf <event/FestivalDellaMente2015> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Bloch>,
+        <entity/Febvre>,
+        <entity/Francia>,
+        <entity/Germania>,
+        <entity/Gestapo>,
+        <entity/Hitler>,
+        <entity/Inghilterra>,
+        <entity/Lione>,
+        <entity/Parigi>,
+        <entity/Strasburgo> ;
+    dcterms:source <https://www.youtube.com/watch?v=lepugwdwBz0> ;
+    dcterms:title "Marc Bloch: dalla Sorbona alle carceri della Gestapo"@it ;
+    schema:keywords "ebreo"@it,
+        "figlio"@it,
+        "francese"@it,
+        "guerra"@it,
+        "lettera"@it,
+        "padre"@it,
+        "professore"@it,
+        "resistenza"@it,
+        "scrivere"@it,
+        "storico"@it,
+        "tedesco"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2015FdM3ErnstKantorowicz> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2015-FdM-3-Ernst_Kantorowicz" ;
+    dcterms:isPartOf <event/FestivalDellaMente2015> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/America>,
+        <entity/Berkley>,
+        <entity/Bloch>,
+        <entity/FedericoIi>,
+        <entity/George>,
+        <entity/Germania>,
+        <entity/Hitler>,
+        <entity/Kantorowicz>,
+        <entity/Oxford>,
+        <entity/Princeton> ;
+    dcterms:source <https://www.youtube.com/watch?v=dp_ljjf98Vg> ;
+    dcterms:title "Ernst Kantorowicz: dai Freikorps al maccartismo"@it ;
+    schema:keywords "amministrazione"@it,
+        "comunista"@it,
+        "ebreo"@it,
+        "guerra"@it,
+        "professore"@it,
+        "sapere"@it,
+        "scrivere"@it,
+        "storico"@it,
+        "tedesco"@it,
+        "università"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2016FdM1PrimaGuerraIndipendenza> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2016-FdM-1-prima_guerra_indipendenza" ;
+    dcterms:isPartOf <event/FestivalDellaMente2016> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/CarloAlberto>,
+        <entity/CarloCattaneo>,
+        <entity/Custoza>,
+        <entity/Garibaldi>,
+        <entity/Italia>,
+        <entity/Milano>,
+        <entity/Mincio>,
+        <entity/Napoleone>,
+        <entity/Po>,
+        <entity/Radetzky> ;
+    dcterms:source <https://www.youtube.com/watch?v=VAz9CIQS1oc> ;
+    dcterms:title "La prima guerra d'indipendenza"@it ;
+    schema:keywords "austriaco"@it,
+        "battaglia"@it,
+        "costituzione"@it,
+        "esercito"@it,
+        "guerra"@it,
+        "piemontese"@it,
+        "popolo"@it,
+        "rivoluzione"@it,
+        "soldato"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2016FdM2SecondaGuerraIndipendenza> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2016-FdM-2-seconda_guerra_indipendenza" ;
+    dcterms:isPartOf <event/FestivalDellaMente2016> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Alessandria>,
+        <entity/Austria>,
+        <entity/Cavour>,
+        <entity/FrancescoGiuseppe>,
+        <entity/Garibaldi>,
+        <entity/Gyulay>,
+        <entity/NapoleoneIii>,
+        <entity/Po>,
+        <entity/Ticino>,
+        <entity/Torino>,
+        <entity/Vercelli> ;
+    dcterms:source <https://www.youtube.com/watch?v=coA6Xin7Kjg> ;
+    dcterms:title "La seconda guerra d'indipendenza"@it ;
+    schema:keywords "austriaco"@it,
+        "battaglia"@it,
+        "esercito"@it,
+        "francese"@it,
+        "guerra"@it,
+        "imperatore"@it,
+        "italiano"@it,
+        "piemontese"@it,
+        "re"@it,
+        "zio"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2016FdM3TerzaGuerraIndipendenza> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2016-FdM-3-terza_guerra_indipendenza" ;
+    dcterms:isPartOf <event/FestivalDellaMente2016> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Austria>,
+        <entity/Cialdini>,
+        <entity/Garibaldi>,
+        <entity/Italia>,
+        <entity/LaMarmora>,
+        <entity/Mincio>,
+        <entity/NapoleoneIii>,
+        <entity/Po>,
+        <entity/Prussia>,
+        <entity/Tolstoj>,
+        <entity/Trento>,
+        <entity/Veneto> ;
+    dcterms:source <https://www.youtube.com/watch?v=1249kzgs62Q> ;
+    dcterms:title "La terza guerra d'indipendenza"@it ;
+    schema:keywords "austriaco"@it,
+        "battaglia"@it,
+        "divisione"@it,
+        "esercito"@it,
+        "flotta"@it,
+        "guerra"@it,
+        "italiano"@it,
+        "perdere"@it,
+        "piemontese"@it,
+        "re"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2017FdM1DottorSorgeATokyo> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2017-FdM-1-dottor_Sorge_a_Tokyo" ;
+    dcterms:isPartOf <event/FestivalDellaMente2017> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Berlino>,
+        <entity/Germania>,
+        <entity/Giappone>,
+        <entity/Hitler>,
+        <entity/MaxClausen>,
+        <entity/Mosca>,
+        <entity/Ozaki>,
+        <entity/Sorge>,
+        <entity/Tokyo>,
+        <entity/UnioneSovietica> ;
+    dcterms:source <https://www.youtube.com/watch?v=Rh3NuKMC4Ww> ;
+    dcterms:title "Una rete di spie: il dottor Sorge a Tokyo"@it ;
+    schema:keywords "ambasciata"@it,
+        "armata"@it,
+        "comunista"@it,
+        "giapponese"@it,
+        "guerra"@it,
+        "informazioni"@it,
+        "partito"@it,
+        "polizia"@it,
+        "segreto"@it,
+        "tedesco"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2017FdM2IGapDiRomaViaRasella> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2017-FdM-2-i_GAP_di_Roma_via_Rasella" ;
+    dcterms:isPartOf <event/FestivalDellaMente2017> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/CarlaCapponi>,
+        <entity/Gap>,
+        <entity/GiorgioAmendola>,
+        <entity/Kappler>,
+        <entity/MarioFiorentini>,
+        <entity/Roma>,
+        <entity/RosarioBentivegna>,
+        <entity/ViaRasella> ;
+    dcterms:source <https://www.youtube.com/watch?v=BM62adfs3gQ> ;
+    dcterms:title "Una rete di partigiani: i GAP di Roma e l'attentato di via Rasella"@it ;
+    schema:keywords "bomba"@it,
+        "colonna"@it,
+        "comando"@it,
+        "comunista"@it,
+        "guerra"@it,
+        "militari"@it,
+        "partigiani"@it,
+        "passaggio"@it,
+        "ragazzo"@it,
+        "tedeschi"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2017FdM3LeBRRapimentoMoro> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2017-FdM-3-le_BR_rapimento_Moro" ;
+    dcterms:isPartOf <event/FestivalDellaMente2017> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Andreotti>,
+        <entity/Br>,
+        <entity/Dc>,
+        <entity/Fanfani>,
+        <entity/Faranda>,
+        <entity/Gradoli>,
+        <entity/Moretti>,
+        <entity/Moro>,
+        <entity/Morucci>,
+        <entity/SantaChiara> ;
+    dcterms:source <https://www.youtube.com/watch?v=Y_eOPYed9DA> ;
+    dcterms:title "Una rete di terroristi: le BR e il rapimento Moro"@it ;
+    schema:keywords "alloggio"@it,
+        "brigatisti"@it,
+        "chiesa"@it,
+        "colonna"@it,
+        "macchina"@it,
+        "mitra"@it,
+        "polizia"@it,
+        "rapimento"@it,
+        "scorta"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2018FdM1Il24MaggioItaliaEntraInGuerra> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2018-FdM-1-il_24_maggio_italia_entra_in_guerra" ;
+    dcterms:isPartOf <event/FestivalDellaMente2018> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Austria>,
+        <entity/FrancescoFerdinando>,
+        <entity/Germania>,
+        <entity/Giolitti>,
+        <entity/Italia>,
+        <entity/Salandra>,
+        <entity/Sarajevo>,
+        <entity/Serbia>,
+        <entity/Sonnino> ;
+    dcterms:source <https://www.youtube.com/watch?v=rkQRzX0sB_Y> ;
+    dcterms:title "Il 24 maggio l'Italia entra in guerra"@it ;
+    schema:keywords "alleati"@it,
+        "ambasciatore"@it,
+        "esercito"@it,
+        "giornali"@it,
+        "guerra"@it,
+        "maggio"@it,
+        "potenza"@it,
+        "presidente"@it,
+        "re"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2018FdM2Caporetto> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2018-FdM-2-Caporetto" ;
+    dcterms:isPartOf <event/FestivalDellaMente2018> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Austria>,
+        <entity/Cadorna>,
+        <entity/Caporetto>,
+        <entity/Carso>,
+        <entity/Germania>,
+        <entity/Gorizia>,
+        <entity/Isonzo>,
+        <entity/Italia>,
+        <entity/Tagliamento>,
+        <entity/Trentino>,
+        <entity/Trieste> ;
+    dcterms:source <https://www.youtube.com/watch?v=m5-TAFkfsWM> ;
+    dcterms:title "Caporetto"@it ;
+    schema:keywords "austriaci"@it,
+        "comando"@it,
+        "esercito"@it,
+        "guerra"@it,
+        "italiani"@it,
+        "mangiare"@it,
+        "prigioniero"@it,
+        "soldati"@it,
+        "tedeschi"@it,
+        "trincea"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2018FdM3DalPiaveAVittorioVeneto> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2018-FdM-3-dal_Piave_a_Vittorio_Veneto" ;
+    dcterms:isPartOf <event/FestivalDellaMente2018> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Badoglio>,
+        <entity/Caporetto>,
+        <entity/CorriereDellaSera>,
+        <entity/Diaz>,
+        <entity/Francia>,
+        <entity/Italia>,
+        <entity/Jugoslavia>,
+        <entity/Piave>,
+        <entity/VittorioVeneto>,
+        <entity/Wilson> ;
+    dcterms:source <https://www.youtube.com/watch?v=k-a75zRgtWc> ;
+    dcterms:title "Dal Piave a Vittorio Veneto"@it ;
+    schema:keywords "artiglieria"@it,
+        "attaccare"@it,
+        "austriaci"@it,
+        "combattere"@it,
+        "esercito"@it,
+        "guerra"@it,
+        "italiani"@it,
+        "offensiva"@it,
+        "ottobre"@it,
+        "tedeschi"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2019FdM1JacquerieContadiniFrancesi> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2019-FdM-1-Jacquerie_contadini_francesi" ;
+    dcterms:isPartOf <event/FestivalDellaMente2019> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/CarloIlMalvagio>,
+        <entity/Francia>,
+        <entity/GiovanniIlBuono>,
+        <entity/Jacquerie>,
+        <entity/JacquesBonhomme>,
+        <entity/Parigi> ;
+    dcterms:source <https://www.youtube.com/watch?v=liKCqaRPJz0> ;
+    dcterms:title "La Jacquerie dei contadini francesi (1358)"@it ;
+    schema:keywords "bandiera"@it,
+        "castello"@it,
+        "contadini"@it,
+        "cronista"@it,
+        "guerra"@it,
+        "nobili"@it,
+        "re"@it,
+        "rivolta"@it,
+        "signore"@it,
+        "villaggio"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2019FdM2RivoltaDeiCiompi> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2019-FdM-2-rivolta_dei_Ciompi" ;
+    dcterms:isPartOf <event/FestivalDellaMente2019> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Ciompi>,
+        <entity/Firenze>,
+        <entity/MesserLapo>,
+        <entity/MicheleDiLando>,
+        <entity/PalazzoVecchio>,
+        <entity/SalvestroDeMedici>,
+        <entity/Simoncino> ;
+    dcterms:source <https://www.youtube.com/watch?v=YzeiGYAay_I> ;
+    dcterms:title "La rivolta dei Ciompi (1378)"@it ;
+    schema:keywords "arte"@it,
+        "corporazioni"@it,
+        "ghibellini"@it,
+        "giustizia"@it,
+        "gonfaloniere"@it,
+        "guelfi"@it,
+        "nobili"@it,
+        "palazzo"@it,
+        "piazza"@it,
+        "popolo"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2019FdM3RivoltaDeiContadiniInglesi> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2019-FdM-3-rivolta_dei_contadini_inglesi" ;
+    dcterms:isPartOf <event/FestivalDellaMente2019> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Brentwood>,
+        <entity/Cambridge>,
+        <entity/Inghilterra>,
+        <entity/JohnBall>,
+        <entity/Lancaster>,
+        <entity/Londra>,
+        <entity/Norfolk>,
+        <entity/Tamigi>,
+        <entity/WattTyler> ;
+    dcterms:source <https://www.youtube.com/watch?v=jjJtrdoSMwk> ;
+    dcterms:title "La rivolta dei contadini inglesi (1381)"@it ;
+    schema:keywords "arcivescovo"@it,
+        "comune"@it,
+        "medioevo"@it,
+        "nobili"@it,
+        "parlamento"@it,
+        "re"@it,
+        "ribelli"@it,
+        "servitù"@it,
+        "tasse"@it,
+        "traditore"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2020FdM1SognoLetteraturaMedievale> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2020-FdM-1-sogno_letteratura_medievale" ;
+    dcterms:isPartOf <event/FestivalDellaMente2020> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Beatrice>,
+        <entity/Christine>,
+        <entity/Dante>,
+        <entity/Dio>,
+        <entity/Francia>,
+        <entity/Freud>,
+        <entity/Joanneville>,
+        <entity/Leutardo> ;
+    dcterms:source <https://www.youtube.com/watch?v=Pql1qYLYmGQ> ;
+    dcterms:title "Il sogno nella letteratura medievale"@it ;
+    schema:keywords "donna"@it,
+        "fortuna"@it,
+        "letteratura"@it,
+        "medioevo"@it,
+        "piacere"@it,
+        "re"@it,
+        "romanzo"@it,
+        "rosa"@it,
+        "santo"@it,
+        "sogno"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2021FdM1GuerraCivileInglese> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2021-FdM-1-guerra_civile_inglese" ;
+    dcterms:isPartOf <event/FestivalDellaMente2021> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Carlo>,
+        <entity/Elisabetta>,
+        <entity/Giacomo>,
+        <entity/Inghilterra>,
+        <entity/Irlanda>,
+        <entity/Londra>,
+        <entity/LordStrafford>,
+        <entity/Scozia> ;
+    dcterms:source <https://www.youtube.com/watch?v=4k4X8nbzyaM> ;
+    dcterms:title "La guerra civile inglese"@it ;
+    schema:keywords "arcivescovo"@it,
+        "chiesa"@it,
+        "corte"@it,
+        "guerra"@it,
+        "parlamento"@it,
+        "popolo"@it,
+        "puritani"@it,
+        "re"@it,
+        "regno"@it,
+        "tasse"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2021FdM2GuerraCivileAmericana> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2021-FdM-2-guerra_civile_americana" ;
+    dcterms:isPartOf <event/FestivalDellaMente2021> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/JohnBrown>,
+        <entity/Kansas>,
+        <entity/Lincoln>,
+        <entity/SouthCarolina>,
+        <entity/StatiUniti>,
+        <entity/Virginia>,
+        <entity/Washington> ;
+    dcterms:source <https://www.youtube.com/watch?v=dXN3q3GkCug> ;
+    dcterms:title "La guerra civile americana"@it ;
+    schema:keywords "abolizione"@it,
+        "cotone"@it,
+        "guerra"@it,
+        "industria"@it,
+        "nero"@it,
+        "nord"@it,
+        "presidente"@it,
+        "schiavitù"@it,
+        "sud"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2021FdM3GuerraCivileFrancese> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2021-FdM-3-guerra_civile_francese" ;
+    dcterms:isPartOf <event/FestivalDellaMente2021> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Bismarck>,
+        <entity/Francia>,
+        <entity/Montmartre>,
+        <entity/NapoleoneIii>,
+        <entity/Parigi>,
+        <entity/Prussia>,
+        <entity/Versailles> ;
+    dcterms:source <https://www.youtube.com/watch?v=UHuKNgTyHV8> ;
+    dcterms:title "La guerra civile francese"@it ;
+    schema:keywords "borghesia"@it,
+        "comune"@it,
+        "guerra"@it,
+        "operaio"@it,
+        "repubblica"@it,
+        "rivoluzione"@it,
+        "soldato"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2022FdM1MikhailBulgakov> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2022-FdM-1-Mikhail_Bulgakov" ;
+    dcterms:isPartOf <event/FestivalDellaMente2022> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Bulgakov>,
+        <entity/Kiev>,
+        <entity/Mosca>,
+        <entity/Russia>,
+        <entity/Stalin> ;
+    dcterms:source <https://www.youtube.com/watch?v=e65OEEQz8ck> ;
+    dcterms:title "Mikhail Bulgakov"@it ;
+    schema:keywords "bolscevichi"@it,
+        "dramma"@it,
+        "guerra"@it,
+        "maestro"@it,
+        "romanzo"@it,
+        "scrivere"@it,
+        "sovietico"@it,
+        "teatro"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2022FdM2AnnaAchmatova> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2022-FdM-2-Anna_Achmatova" ;
+    dcterms:isPartOf <event/FestivalDellaMente2022> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Akhmatova>,
+        <entity/Leningrado>,
+        <entity/Liev>,
+        <entity/Mosca>,
+        <entity/Parigi>,
+        <entity/Pietroburgo>,
+        <entity/Russia>,
+        <entity/Stalin> ;
+    dcterms:source <https://www.youtube.com/watch?v=5NpfKwbjAk0> ;
+    dcterms:title "Anna Achmatova"@it ;
+    schema:keywords "donna"@it,
+        "famiglia"@it,
+        "lager"@it,
+        "marito"@it,
+        "poesia"@it,
+        "pubblicare"@it,
+        "scrivere"@it,
+        "sovietico"@it ;
+    schema:position 2 .
+
+<lesson/Barbero2022FdM3IosifBrodskij> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2022-FdM-3-Iosif_Brodskij" ;
+    dcterms:isPartOf <event/FestivalDellaMente2022> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/America>,
+        <entity/Brodsky>,
+        <entity/Israele>,
+        <entity/Leningrado>,
+        <entity/Pietroburgo>,
+        <entity/Russia>,
+        <entity/Stalin>,
+        <entity/Venezia> ;
+    dcterms:source <https://www.youtube.com/watch?v=086qeje8Zss> ;
+    dcterms:title "Iosif Brodskij"@it ;
+    schema:keywords "ebreo"@it,
+        "giudice"@it,
+        "guerra"@it,
+        "poesia"@it,
+        "regime"@it,
+        "scrivere"@it,
+        "scuola"@it,
+        "sovietico"@it ;
+    schema:position 3 .
+
+<lesson/Barbero2023FdM1CrociatiScopronoCostantinopoli> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2023-FdM-1-crociati_scoprono_Costantinopoli" ;
+    dcterms:isPartOf <event/FestivalDellaMente2023> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Alessio>,
+        <entity/Costantinopoli>,
+        <entity/Gerusalemme>,
+        <entity/Niceta>,
+        <entity/RobertDeClary>,
+        <entity/Venezia> ;
+    dcterms:source <https://www.youtube.com/watch?v=O13C75NVh5E> ;
+    dcterms:title "1204: i crociati scoprono Costantinopoli"@it ;
+    schema:keywords "cristiani"@it,
+        "crociata"@it,
+        "doge"@it,
+        "esercito"@it,
+        "flotta"@it,
+        "greci"@it,
+        "imperatore"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2024FdM1DelittoMatteotti> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2024-FdM-1-delitto_Matteotti" ;
+    dcterms:isPartOf <event/FestivalDellaMente2024> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/AldoFinzi>,
+        <entity/CesareRossi>,
+        <entity/DeBono>,
+        <entity/Dumini>,
+        <entity/Matteotti>,
+        <entity/Mussolini>,
+        <entity/Turati> ;
+    dcterms:source <https://www.youtube.com/watch?v=K_jn9HAzsow> ;
+    dcterms:title "Il delitto Matteotti o dell'ingratitudine"@it ;
+    schema:keywords "camera"@it,
+        "deputato"@it,
+        "fascista"@it,
+        "giornale"@it,
+        "guerra"@it,
+        "opposizione"@it,
+        "partito"@it,
+        "socialista"@it ;
+    schema:position 1 .
+
+<lesson/Barbero2025FdM1DonneNelMedioevo> a schema:AudioObject,
+        schema:LearningResource ;
+    dcterms:identifier "barbero-2025-FdM-1-donne_nel_Medioevo" ;
+    dcterms:isPartOf <event/FestivalDellaMente2025> ;
+    dcterms:language "it" ;
+    dcterms:references <entity/Boccaccio>,
+        <entity/CaterinaDaSiena>,
+        <entity/Dante>,
+        <entity/Girolamo>,
+        <entity/Usama> ;
+    dcterms:source <https://www.youtube.com/watch?v=2SvG0yiNt4Q> ;
+    dcterms:title "Invisibili? Le donne nel Medioevo"@it ;
+    schema:keywords "donna"@it,
+        "famiglia"@it,
+        "mamma"@it,
+        "matrimonio"@it,
+        "medioevo"@it,
+        "moglie"@it,
+        "novella"@it ;
+    schema:position 1 .
 
 <entity/Abbone> a schema:Person ;
     rdfs:label "Abbone"@it ;
@@ -40,12 +1308,6 @@
     owl:sameAs <https://viaf.org/viaf/217145684>,
         <https://www.wikidata.org/entity/Q37069> .
 
-<entity/America> a schema:Place ;
-    rdfs:label "America"@it ;
-    owl:sameAs <https://sws.geonames.org/6252001/>,
-        <https://viaf.org/viaf/130168302>,
-        <https://www.wikidata.org/entity/Q30> .
-
 <entity/Andreotti> a schema:Person ;
     rdfs:label "Andreotti"@it ;
     owl:sameAs <https://viaf.org/viaf/109833019>,
@@ -56,29 +1318,6 @@
     owl:sameAs <https://sws.geonames.org/6539930/>,
         <https://viaf.org/viaf/148893013>,
         <https://www.wikidata.org/entity/Q53216> .
-
-<entity/Arezzo> a schema:Place ;
-    rdfs:label "Arezzo"@it ;
-    owl:sameAs <https://sws.geonames.org/6542153/>,
-        <https://viaf.org/viaf/226733401>,
-        <https://www.wikidata.org/entity/Q13378> .
-
-<entity/Argentina> a schema:Place ;
-    rdfs:label "Argentina"@it ;
-    owl:sameAs <https://sws.geonames.org/3865483/>,
-        <https://viaf.org/viaf/146499420>,
-        <https://www.wikidata.org/entity/Q414> .
-
-<entity/Aristotele> a schema:Person ;
-    rdfs:label "Aristotele"@it ;
-    owl:sameAs <https://viaf.org/viaf/7524651>,
-        <https://www.wikidata.org/entity/Q868> .
-
-<entity/Austria> a schema:Place ;
-    rdfs:label "Austria"@it ;
-    owl:sameAs <https://sws.geonames.org/2782113/>,
-        <https://viaf.org/viaf/148842731>,
-        <https://www.wikidata.org/entity/Q40> .
 
 <entity/Avignone> a schema:Place ;
     rdfs:label "Avignone"@it ;
@@ -107,12 +1346,6 @@
     owl:sameAs <https://viaf.org/viaf/61539765>,
         <https://www.wikidata.org/entity/Q154938> .
 
-<entity/Belgio> a schema:Place ;
-    rdfs:label "Belgio"@it ;
-    owl:sameAs <https://sws.geonames.org/2802361/>,
-        <https://viaf.org/viaf/144248059>,
-        <https://www.wikidata.org/entity/Q31> .
-
 <entity/Berkley> a schema:Place ;
     rdfs:label "Berkley"@it ;
     owl:sameAs <https://sws.geonames.org/5404897/>,
@@ -134,16 +1367,6 @@
     rdfs:label "Bismarck"@it ;
     owl:sameAs <https://viaf.org/viaf/46772111>,
         <https://www.wikidata.org/entity/Q8442> .
-
-<entity/Bloch> a schema:Person ;
-    rdfs:label "Bloch"@it ;
-    owl:sameAs <https://viaf.org/viaf/46757545>,
-        <https://www.wikidata.org/entity/Q156585> .
-
-<entity/Boccaccio> a schema:Person ;
-    rdfs:label "Boccaccio"@it ;
-    owl:sameAs <https://viaf.org/viaf/64002165>,
-        <https://www.wikidata.org/entity/Q1402> .
 
 <entity/BonconteDaMontefeltro> a schema:Person ;
     rdfs:label "Bonconte da Montefeltro"@it ;
@@ -216,10 +1439,6 @@
         <https://viaf.org/viaf/148386330>,
         <https://www.wikidata.org/entity/Q5813> .
 
-<entity/Caporetto> a schema:Event ;
-    rdfs:label "Caporetto"@it ;
-    owl:sameAs <https://www.wikidata.org/entity/Q242644> .
-
 <entity/Carducci> a schema:Person ;
     rdfs:label "Carducci"@it ;
     owl:sameAs <https://viaf.org/viaf/34470601>,
@@ -235,11 +1454,6 @@
     owl:sameAs <https://viaf.org/viaf/67750325>,
         <https://www.wikidata.org/entity/Q81506> .
 
-<entity/CarloAlberto> a schema:Person ;
-    rdfs:label "Carlo Alberto"@it ;
-    owl:sameAs <https://viaf.org/viaf/18030661>,
-        <https://www.wikidata.org/entity/Q181261> .
-
 <entity/CarloCattaneo> a schema:Person ;
     rdfs:label "Carlo Cattaneo"@it ;
     owl:sameAs <https://viaf.org/viaf/32023065>,
@@ -249,11 +1463,6 @@
     rdfs:label "Carlo il Malvagio"@it ;
     owl:sameAs <https://viaf.org/viaf/266723926>,
         <https://www.wikidata.org/entity/Q43082> .
-
-<entity/CarloMagno> a schema:Person ;
-    rdfs:label "Carlo Magno"@it ;
-    owl:sameAs <https://viaf.org/viaf/89643029>,
-        <https://www.wikidata.org/entity/Q3044> .
 
 <entity/CarloV> a schema:Person ;
     rdfs:label "Carlo V"@it ;
@@ -277,20 +1486,10 @@
     owl:sameAs <https://viaf.org/viaf/90633132>,
         <https://www.wikidata.org/entity/Q229190> .
 
-<entity/CaterinaDaSiena> a schema:Person ;
-    rdfs:label "Caterina da Siena"@it ;
-    owl:sameAs <https://viaf.org/viaf/90633132>,
-        <https://www.wikidata.org/entity/Q229190> .
-
 <entity/Cauchon> a schema:Person ;
     rdfs:label "Cauchon"@it ;
     owl:sameAs <https://viaf.org/viaf/27870650>,
         <https://www.wikidata.org/entity/Q464287> .
-
-<entity/Cavour> a schema:Person ;
-    rdfs:label "Cavour"@it ;
-    owl:sameAs <https://viaf.org/viaf/68923739>,
-        <https://www.wikidata.org/entity/Q166092> .
 
 <entity/CesareRossi> a schema:Person ;
     rdfs:label "Cesare Rossi"@it ;
@@ -338,7 +1537,7 @@
     owl:sameAs <https://viaf.org/viaf/17231583>,
         <https://www.wikidata.org/entity/Q7322> .
 
-<entity/Corfù> a schema:Place ;
+<entity/Corfu> a schema:Place ;
     rdfs:label "Corfù"@it ;
     owl:sameAs <https://sws.geonames.org/2463678/>,
         <https://viaf.org/viaf/237254241>,
@@ -359,12 +1558,6 @@
     owl:sameAs <https://viaf.org/viaf/97746098>,
         <https://www.wikidata.org/entity/Q8413> .
 
-<entity/Costantinopoli> a schema:Place ;
-    rdfs:label "Costantinopoli"@it ;
-    owl:sameAs <https://sws.geonames.org/745044/>,
-        <https://viaf.org/viaf/122641741>,
-        <https://www.wikidata.org/entity/Q16869> .
-
 <entity/Creta> a schema:Place ;
     rdfs:label "Creta"@it ;
     owl:sameAs <https://sws.geonames.org/258763/>,
@@ -375,11 +1568,6 @@
     rdfs:label "Cristina"@it ;
     owl:sameAs <https://viaf.org/viaf/100188547>,
         <https://www.wikidata.org/entity/Q234816> .
-
-<entity/Cristo> a schema:Person ;
-    rdfs:label "Cristo"@it ;
-    owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
-        <https://www.wikidata.org/entity/Q302> .
 
 <entity/Cuneo> a schema:Place ;
     rdfs:label "Cuneo"@it ;
@@ -395,11 +1583,6 @@
     rdfs:label "D'Azeglio"@it ;
     owl:sameAs <https://viaf.org/viaf/43949>,
         <https://www.wikidata.org/entity/Q469134> .
-
-<entity/Dante> a schema:Person ;
-    rdfs:label "Dante"@it ;
-    owl:sameAs <https://viaf.org/viaf/97105654>,
-        <https://www.wikidata.org/entity/Q1067> .
 
 <entity/Danzica> a schema:Place ;
     rdfs:label "Danzica"@it ;
@@ -426,10 +1609,6 @@
     rdfs:label "Dino Compagni"@it ;
     owl:sameAs <https://viaf.org/viaf/64048766>,
         <https://www.wikidata.org/entity/Q716994> .
-
-<entity/Dio> a schema:Thing ;
-    rdfs:label "Dio"@it ;
-    owl:sameAs <https://www.wikidata.org/entity/Q190> .
 
 <entity/Dumini> a schema:Person ;
     rdfs:label "Dumini"@it ;
@@ -462,12 +1641,6 @@
     rdfs:label "Enrico V"@it ;
     owl:sameAs <https://viaf.org/viaf/284333410>,
         <https://www.wikidata.org/entity/Q131581> .
-
-<entity/Europa> a schema:Place ;
-    rdfs:label "Europa"@it ;
-    owl:sameAs <https://sws.geonames.org/6255148/>,
-        <https://viaf.org/viaf/170298814>,
-        <https://www.wikidata.org/entity/Q46> .
 
 <entity/Falkland> a schema:Place ;
     rdfs:label "Falkland"@it ;
@@ -502,32 +1675,10 @@
     owl:sameAs <https://viaf.org/viaf/61545548>,
         <https://www.wikidata.org/entity/Q156999> .
 
-<entity/FedericoIi> a schema:Person ;
-    rdfs:label "Federico II"@it ;
-    owl:sameAs <https://viaf.org/viaf/46006380>,
-        <https://www.wikidata.org/entity/Q130221> .
-
-<entity/Firenze> a schema:Place ;
-    rdfs:label "Firenze"@it ;
-    owl:sameAs <https://sws.geonames.org/6542285/>,
-        <https://viaf.org/viaf/152981965>,
-        <https://www.wikidata.org/entity/Q2044> .
-
-<entity/FrancescoFerdinando> a schema:Person ;
-    rdfs:label "Francesco Ferdinando"@it ;
-    owl:sameAs <https://viaf.org/viaf/50016762>,
-        <https://www.wikidata.org/entity/Q43063> .
-
 <entity/FrancescoGiuseppe> a schema:Person ;
     rdfs:label "Francesco Giuseppe"@it ;
     owl:sameAs <https://viaf.org/viaf/32787948>,
         <https://www.wikidata.org/entity/Q51056> .
-
-<entity/Francia> a schema:Place ;
-    rdfs:label "Francia"@it ;
-    owl:sameAs <https://sws.geonames.org/3017382/>,
-        <https://viaf.org/viaf/264091107>,
-        <https://www.wikidata.org/entity/Q142> .
 
 <entity/Freud> a schema:Person ;
     rdfs:label "Freud"@it ;
@@ -544,34 +1695,17 @@
     owl:sameAs <https://viaf.org/viaf/125949707>,
         <https://www.wikidata.org/entity/Q3777284> .
 
-<entity/Garibaldi> a schema:Person ;
-    rdfs:label "Garibaldi"@it ;
-    owl:sameAs <https://viaf.org/viaf/100192194>,
-        <https://www.wikidata.org/entity/Q539> .
-
 <entity/George> a schema:Person ;
     rdfs:label "George"@it ;
     owl:sameAs <https://viaf.org/viaf/46761592>,
         <https://www.wikidata.org/entity/Q57187> .
-
-<entity/Germania> a schema:Place ;
-    rdfs:label "Germania"@it ;
-    owl:sameAs <https://sws.geonames.org/2921044/>,
-        <https://viaf.org/viaf/189116956>,
-        <https://www.wikidata.org/entity/Q183> .
-
-<entity/Gerusalemme> a schema:Place ;
-    rdfs:label "Gerusalemme"@it ;
-    owl:sameAs <https://sws.geonames.org/281184/>,
-        <https://viaf.org/viaf/131280745>,
-        <https://www.wikidata.org/entity/Q1218> .
 
 <entity/Gestapo> a schema:Organization ;
     rdfs:label "Gestapo"@it ;
     owl:sameAs <https://viaf.org/viaf/134799226>,
         <https://www.wikidata.org/entity/Q43250> .
 
-<entity/Gesù> a schema:Person ;
+<entity/Gesu> a schema:Person ;
     rdfs:label "Gesù"@it ;
     owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
         <https://www.wikidata.org/entity/Q302> .
@@ -586,11 +1720,6 @@
     owl:sameAs <https://sws.geonames.org/1861060/>,
         <https://viaf.org/viaf/159367111>,
         <https://www.wikidata.org/entity/Q17> .
-
-<entity/Giolitti> a schema:Person ;
-    rdfs:label "Giolitti"@it ;
-    owl:sameAs <https://viaf.org/viaf/27079739>,
-        <https://www.wikidata.org/entity/Q297190> .
 
 <entity/GiorgioAmendola> a schema:Person ;
     rdfs:label "Giorgio Amendola"@it ;
@@ -649,17 +1778,6 @@
     owl:sameAs <https://viaf.org/viaf/81036447>,
         <https://www.wikidata.org/entity/Q698020> .
 
-<entity/Hitler> a schema:Person ;
-    rdfs:label "Hitler"@it ;
-    owl:sameAs <https://viaf.org/viaf/38190770>,
-        <https://www.wikidata.org/entity/Q352> .
-
-<entity/Inghilterra> a schema:Place ;
-    rdfs:label "Inghilterra"@it ;
-    owl:sameAs <https://sws.geonames.org/6269131/>,
-        <https://viaf.org/viaf/142995804>,
-        <https://www.wikidata.org/entity/Q21> .
-
 <entity/Irlanda> a schema:Place ;
     rdfs:label "Irlanda"@it ;
     owl:sameAs <https://sws.geonames.org/2963597/>,
@@ -683,12 +1801,6 @@
     owl:sameAs <https://sws.geonames.org/745044/>,
         <https://viaf.org/viaf/135931454>,
         <https://www.wikidata.org/entity/Q406> .
-
-<entity/Italia> a schema:Place ;
-    rdfs:label "Italia"@it ;
-    owl:sameAs <https://sws.geonames.org/3175395/>,
-        <https://viaf.org/viaf/152361066>,
-        <https://www.wikidata.org/entity/Q38> .
 
 <entity/Ivrea> a schema:Place ;
     rdfs:label "Ivrea"@it ;
@@ -771,12 +1883,6 @@
         <https://viaf.org/viaf/155354899>,
         <https://www.wikidata.org/entity/Q9648> .
 
-<entity/Leningrado> a schema:Place ;
-    rdfs:label "Leningrado"@it ;
-    owl:sameAs <https://sws.geonames.org/498817/>,
-        <https://viaf.org/viaf/561154381054530291788>,
-        <https://www.wikidata.org/entity/Q656> .
-
 <entity/Lepanto> a schema:Place ;
     rdfs:label "Lepanto"@it ;
     owl:sameAs <https://sws.geonames.org/256639/>,
@@ -803,21 +1909,10 @@
         <https://viaf.org/viaf/158189703>,
         <https://www.wikidata.org/entity/Q456> .
 
-<entity/Londra> a schema:Place ;
-    rdfs:label "Londra"@it ;
-    owl:sameAs <https://sws.geonames.org/2643743/>,
-        <https://viaf.org/viaf/261467287>,
-        <https://www.wikidata.org/entity/Q84> .
-
 <entity/LordStrafford> a schema:Person ;
     rdfs:label "Lord Strafford"@it ;
     owl:sameAs <https://viaf.org/viaf/72190523>,
         <https://www.wikidata.org/entity/Q336091> .
-
-<entity/LuigiIx> a schema:Person ;
-    rdfs:label "Luigi IX"@it ;
-    owl:sameAs <https://viaf.org/viaf/89182909>,
-        <https://www.wikidata.org/entity/Q346> .
 
 <entity/LuigiXviii> a schema:Person ;
     rdfs:label "Luigi XVIII"@it ;
@@ -897,18 +1992,6 @@
     owl:sameAs <https://viaf.org/viaf/160127802>,
         <https://www.wikidata.org/entity/Q786761> .
 
-<entity/Milano> a schema:Place ;
-    rdfs:label "Milano"@it ;
-    owl:sameAs <https://sws.geonames.org/6542283/>,
-        <https://viaf.org/viaf/157818740>,
-        <https://www.wikidata.org/entity/Q490> .
-
-<entity/Mincio> a schema:Place ;
-    rdfs:label "Mincio"@it ;
-    owl:sameAs <https://sws.geonames.org/3173409/>,
-        <https://viaf.org/viaf/240515550>,
-        <https://www.wikidata.org/entity/Q936688> .
-
 <entity/Montmartre> a schema:Place ;
     rdfs:label "Montmartre"@it ;
     owl:sameAs <https://sws.geonames.org/3029374/>,
@@ -929,27 +2012,6 @@
     rdfs:label "Morucci"@it ;
     owl:sameAs <https://viaf.org/viaf/37220889>,
         <https://www.wikidata.org/entity/Q4007903> .
-
-<entity/Mosca> a schema:Place ;
-    rdfs:label "Mosca"@it ;
-    owl:sameAs <https://sws.geonames.org/524901/>,
-        <https://viaf.org/viaf/142519565>,
-        <https://www.wikidata.org/entity/Q649> .
-
-<entity/Mussolini> a schema:Person ;
-    rdfs:label "Mussolini"@it ;
-    owl:sameAs <https://viaf.org/viaf/90162262>,
-        <https://www.wikidata.org/entity/Q23559> .
-
-<entity/Napoleone> a schema:Person ;
-    rdfs:label "Napoleone"@it ;
-    owl:sameAs <https://viaf.org/viaf/106964661>,
-        <https://www.wikidata.org/entity/Q517> .
-
-<entity/NapoleoneIii> a schema:Person ;
-    rdfs:label "Napoleone III"@it ;
-    owl:sameAs <https://viaf.org/viaf/88934487>,
-        <https://www.wikidata.org/entity/Q7721> .
 
 <entity/Napoli> a schema:Place ;
     rdfs:label "Napoli"@it ;
@@ -1002,12 +2064,6 @@
         <https://viaf.org/viaf/125014958>,
         <https://www.wikidata.org/entity/Q271928> .
 
-<entity/Parigi> a schema:Place ;
-    rdfs:label "Parigi"@it ;
-    owl:sameAs <https://sws.geonames.org/2968815/>,
-        <https://viaf.org/viaf/158822968>,
-        <https://www.wikidata.org/entity/Q90> .
-
 <entity/Parma> a schema:Place ;
     rdfs:label "Parma"@it ;
     owl:sameAs <https://sws.geonames.org/6540120/>,
@@ -1030,30 +2086,6 @@
         <https://viaf.org/viaf/240543797>,
         <https://www.wikidata.org/entity/Q530569> .
 
-<entity/Piemonte> a schema:Place ;
-    rdfs:label "Piemonte"@it ;
-    owl:sameAs <https://sws.geonames.org/3170831/>,
-        <https://viaf.org/viaf/132508744>,
-        <https://www.wikidata.org/entity/Q1216> .
-
-<entity/Pietroburgo> a schema:Place ;
-    rdfs:label "Pietroburgo"@it ;
-    owl:sameAs <https://sws.geonames.org/498817/>,
-        <https://viaf.org/viaf/139487820>,
-        <https://www.wikidata.org/entity/Q656> .
-
-<entity/Pisa> a schema:Place ;
-    rdfs:label "Pisa"@it ;
-    owl:sameAs <https://sws.geonames.org/6542122/>,
-        <https://viaf.org/viaf/204007255>,
-        <https://www.wikidata.org/entity/Q13375> .
-
-<entity/Po> a schema:Place ;
-    rdfs:label "Po"@it ;
-    owl:sameAs <https://sws.geonames.org/3170550/>,
-        <https://viaf.org/viaf/6148703924236930913>,
-        <https://www.wikidata.org/entity/Q643> .
-
 <entity/Polonia> a schema:Place ;
     rdfs:label "Polonia"@it ;
     owl:sameAs <https://sws.geonames.org/798544/>,
@@ -1065,12 +2097,6 @@
     owl:sameAs <https://sws.geonames.org/5102955/>,
         <https://viaf.org/viaf/141200041>,
         <https://www.wikidata.org/entity/Q21578> .
-
-<entity/Prussia> a schema:Place ;
-    rdfs:label "Prussia"@it ;
-    owl:sameAs <https://sws.geonames.org/3082436/>,
-        <https://viaf.org/viaf/137143200>,
-        <https://www.wikidata.org/entity/Q38872> .
 
 <entity/Radetzky> a schema:Person ;
     rdfs:label "Radetzky"@it ;
@@ -1113,12 +2139,6 @@
     owl:sameAs <https://viaf.org/viaf/78769905>,
         <https://www.wikidata.org/entity/Q944668> .
 
-<entity/Roma> a schema:Place ;
-    rdfs:label "Roma"@it ;
-    owl:sameAs <https://sws.geonames.org/3169070/>,
-        <https://viaf.org/viaf/251380480>,
-        <https://www.wikidata.org/entity/Q220> .
-
 <entity/RosarioBentivegna> a schema:Person ;
     rdfs:label "Rosario Bentivegna"@it ;
     owl:sameAs <https://viaf.org/viaf/49282901>,
@@ -1135,12 +2155,6 @@
         <https://viaf.org/viaf/146509692>,
         <https://www.wikidata.org/entity/Q30974> .
 
-<entity/Russia> a schema:Place ;
-    rdfs:label "Russia"@it ;
-    owl:sameAs <https://sws.geonames.org/2017370/>,
-        <https://viaf.org/viaf/140306806>,
-        <https://www.wikidata.org/entity/Q159> .
-
 <entity/Saladino> a schema:Person ;
     rdfs:label "Saladino"@it ;
     owl:sameAs <https://viaf.org/viaf/90040943>,
@@ -1156,11 +2170,6 @@
     rdfs:label "Salandra"@it ;
     owl:sameAs <https://viaf.org/viaf/32017768>,
         <https://www.wikidata.org/entity/Q354715> .
-
-<entity/Salimbene> a schema:Person ;
-    rdfs:label "Salimbene"@it ;
-    owl:sameAs <https://viaf.org/viaf/89136582>,
-        <https://www.wikidata.org/entity/Q799960> .
 
 <entity/Salvemini> a schema:Person ;
     rdfs:label "Salvemini"@it ;
@@ -1197,40 +2206,16 @@
     owl:sameAs <https://viaf.org/viaf/8754769>,
         <https://www.wikidata.org/entity/Q191107> .
 
-<entity/Sarajevo> a schema:Place ;
-    rdfs:label "Sarajevo"@it ;
-    owl:sameAs <https://sws.geonames.org/3191281/>,
-        <https://viaf.org/viaf/159404628>,
-        <https://www.wikidata.org/entity/Q11194> .
-
 <entity/Satana> a schema:Thing ;
     rdfs:label "Satana"@it ;
     owl:sameAs <https://viaf.org/viaf/1087163706538729420822>,
         <https://www.wikidata.org/entity/Q35230> .
-
-<entity/Scozia> a schema:Place ;
-    rdfs:label "Scozia"@it ;
-    owl:sameAs <https://sws.geonames.org/2638360/>,
-        <https://viaf.org/viaf/89146152993705250698>,
-        <https://www.wikidata.org/entity/Q22> .
-
-<entity/Serbia> a schema:Place ;
-    rdfs:label "Serbia"@it ;
-    owl:sameAs <https://sws.geonames.org/6290252/>,
-        <https://viaf.org/viaf/151202876>,
-        <https://www.wikidata.org/entity/Q403> .
 
 <entity/Sicilia> a schema:Place ;
     rdfs:label "Sicilia"@it ;
     owl:sameAs <https://sws.geonames.org/2523119/>,
         <https://viaf.org/viaf/149921888>,
         <https://www.wikidata.org/entity/Q1460> .
-
-<entity/Siena> a schema:Place ;
-    rdfs:label "Siena"@it ;
-    owl:sameAs <https://sws.geonames.org/6541466/>,
-        <https://viaf.org/viaf/239842096>,
-        <https://www.wikidata.org/entity/Q2751> .
 
 <entity/Simoncino> a schema:Person ;
     rdfs:label "Simoncino"@it ;
@@ -1258,17 +2243,6 @@
     owl:sameAs <https://sws.geonames.org/2510769/>,
         <https://viaf.org/viaf/133609710>,
         <https://www.wikidata.org/entity/Q29> .
-
-<entity/Stalin> a schema:Person ;
-    rdfs:label "Stalin"@it ;
-    owl:sameAs <https://viaf.org/viaf/101787139>,
-        <https://www.wikidata.org/entity/Q855> .
-
-<entity/StatiUniti> a schema:Place ;
-    rdfs:label "Stati Uniti"@it ;
-    owl:sameAs <https://sws.geonames.org/6252001/>,
-        <https://viaf.org/viaf/130168302>,
-        <https://www.wikidata.org/entity/Q30> .
 
 <entity/Strasburgo> a schema:Place ;
     rdfs:label "Strasburgo"@it ;
@@ -1315,12 +2289,6 @@
     owl:sameAs <https://viaf.org/viaf/96987389>,
         <https://www.wikidata.org/entity/Q7243> .
 
-<entity/Torino> a schema:Place ;
-    rdfs:label "Torino"@it ;
-    owl:sameAs <https://sws.geonames.org/3165525/>,
-        <https://viaf.org/viaf/35144782953960297898>,
-        <https://www.wikidata.org/entity/Q495> .
-
 <entity/Toscana> a schema:Place ;
     rdfs:label "Toscana"@it ;
     owl:sameAs <https://sws.geonames.org/3165361/>,
@@ -1344,11 +2312,6 @@
     owl:sameAs <https://sws.geonames.org/3165186/>,
         <https://viaf.org/viaf/143701962>,
         <https://www.wikidata.org/entity/Q546> .
-
-<entity/Turati> a schema:Person ;
-    rdfs:label "Turati"@it ;
-    owl:sameAs <https://viaf.org/viaf/71517185>,
-        <https://www.wikidata.org/entity/Q733392> .
 
 <entity/UnioneSovietica> a schema:Place ;
     rdfs:label "Unione Sovietica"@it ;
@@ -1384,12 +2347,6 @@
         <https://viaf.org/viaf/155404177>,
         <https://www.wikidata.org/entity/Q1243> .
 
-<entity/Venezia> a schema:Place ;
-    rdfs:label "Venezia"@it ;
-    owl:sameAs <https://sws.geonames.org/6542284/>,
-        <https://viaf.org/viaf/8456155769103127880005>,
-        <https://www.wikidata.org/entity/Q641> .
-
 <entity/Vercelli> a schema:Place ;
     rdfs:label "Vercelli"@it ;
     owl:sameAs <https://sws.geonames.org/6540116/>,
@@ -1411,11 +2368,6 @@
     owl:sameAs <https://sws.geonames.org/6254928/>,
         <https://viaf.org/viaf/128935789>,
         <https://www.wikidata.org/entity/Q1370> .
-
-<entity/VittorioEmanueleIi> a schema:Person ;
-    rdfs:label "Vittorio Emanuele II"@it ;
-    owl:sameAs <https://viaf.org/viaf/95301792>,
-        <https://www.wikidata.org/entity/Q168691> .
 
 <entity/VittorioVeneto> a schema:Place ;
     rdfs:label "Vittorio Veneto"@it ;
@@ -1454,3 +2406,406 @@
     rdfs:label "Wilson"@it ;
     owl:sameAs <https://viaf.org/viaf/89457467>,
         <https://www.wikidata.org/entity/Q34296> .
+
+<event/FestivalDellaMente2020> a schema:EventSeries ;
+    dcterms:date "2020"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2023> a schema:EventSeries ;
+    dcterms:date "2023"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2024> a schema:EventSeries ;
+    dcterms:date "2024"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2025> a schema:EventSeries ;
+    dcterms:date "2025"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<entity/Arezzo> a schema:Place ;
+    rdfs:label "Arezzo"@it ;
+    owl:sameAs <https://sws.geonames.org/6542153/>,
+        <https://viaf.org/viaf/226733401>,
+        <https://www.wikidata.org/entity/Q13378> .
+
+<entity/Argentina> a schema:Place ;
+    rdfs:label "Argentina"@it ;
+    owl:sameAs <https://sws.geonames.org/3865483/>,
+        <https://viaf.org/viaf/146499420>,
+        <https://www.wikidata.org/entity/Q414> .
+
+<entity/Aristotele> a schema:Person ;
+    rdfs:label "Aristotele"@it ;
+    owl:sameAs <https://viaf.org/viaf/7524651>,
+        <https://www.wikidata.org/entity/Q868> .
+
+<entity/Belgio> a schema:Place ;
+    rdfs:label "Belgio"@it ;
+    owl:sameAs <https://sws.geonames.org/2802361/>,
+        <https://viaf.org/viaf/144248059>,
+        <https://www.wikidata.org/entity/Q31> .
+
+<entity/Bloch> a schema:Person ;
+    rdfs:label "Bloch"@it ;
+    owl:sameAs <https://viaf.org/viaf/46757545>,
+        <https://www.wikidata.org/entity/Q156585> .
+
+<entity/Boccaccio> a schema:Person ;
+    rdfs:label "Boccaccio"@it ;
+    owl:sameAs <https://viaf.org/viaf/64002165>,
+        <https://www.wikidata.org/entity/Q1402> .
+
+<entity/Caporetto> a schema:Event ;
+    rdfs:label "Caporetto"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q242644> .
+
+<entity/CarloAlberto> a schema:Person ;
+    rdfs:label "Carlo Alberto"@it ;
+    owl:sameAs <https://viaf.org/viaf/18030661>,
+        <https://www.wikidata.org/entity/Q181261> .
+
+<entity/CaterinaDaSiena> a schema:Person ;
+    rdfs:label "Caterina da Siena"@it ;
+    owl:sameAs <https://viaf.org/viaf/90633132>,
+        <https://www.wikidata.org/entity/Q229190> .
+
+<entity/Cristo> a schema:Person ;
+    rdfs:label "Cristo"@it ;
+    owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
+        <https://www.wikidata.org/entity/Q302> .
+
+<entity/FedericoIi> a schema:Person ;
+    rdfs:label "Federico II"@it ;
+    owl:sameAs <https://viaf.org/viaf/46006380>,
+        <https://www.wikidata.org/entity/Q130221> .
+
+<entity/FrancescoFerdinando> a schema:Person ;
+    rdfs:label "Francesco Ferdinando"@it ;
+    owl:sameAs <https://viaf.org/viaf/50016762>,
+        <https://www.wikidata.org/entity/Q43063> .
+
+<entity/Giolitti> a schema:Person ;
+    rdfs:label "Giolitti"@it ;
+    owl:sameAs <https://viaf.org/viaf/27079739>,
+        <https://www.wikidata.org/entity/Q297190> .
+
+<entity/Leningrado> a schema:Place ;
+    rdfs:label "Leningrado"@it ;
+    owl:sameAs <https://sws.geonames.org/498817/>,
+        <https://viaf.org/viaf/561154381054530291788>,
+        <https://www.wikidata.org/entity/Q656> .
+
+<entity/LuigiIx> a schema:Person ;
+    rdfs:label "Luigi IX"@it ;
+    owl:sameAs <https://viaf.org/viaf/89182909>,
+        <https://www.wikidata.org/entity/Q346> .
+
+<entity/Milano> a schema:Place ;
+    rdfs:label "Milano"@it ;
+    owl:sameAs <https://sws.geonames.org/6542283/>,
+        <https://viaf.org/viaf/157818740>,
+        <https://www.wikidata.org/entity/Q490> .
+
+<entity/Mincio> a schema:Place ;
+    rdfs:label "Mincio"@it ;
+    owl:sameAs <https://sws.geonames.org/3173409/>,
+        <https://viaf.org/viaf/240515550>,
+        <https://www.wikidata.org/entity/Q936688> .
+
+<entity/Napoleone> a schema:Person ;
+    rdfs:label "Napoleone"@it ;
+    owl:sameAs <https://viaf.org/viaf/106964661>,
+        <https://www.wikidata.org/entity/Q517> .
+
+<entity/Pietroburgo> a schema:Place ;
+    rdfs:label "Pietroburgo"@it ;
+    owl:sameAs <https://sws.geonames.org/498817/>,
+        <https://viaf.org/viaf/139487820>,
+        <https://www.wikidata.org/entity/Q656> .
+
+<entity/Pisa> a schema:Place ;
+    rdfs:label "Pisa"@it ;
+    owl:sameAs <https://sws.geonames.org/6542122/>,
+        <https://viaf.org/viaf/204007255>,
+        <https://www.wikidata.org/entity/Q13375> .
+
+<entity/Prussia> a schema:Place ;
+    rdfs:label "Prussia"@it ;
+    owl:sameAs <https://sws.geonames.org/3082436/>,
+        <https://viaf.org/viaf/137143200>,
+        <https://www.wikidata.org/entity/Q38872> .
+
+<entity/Salimbene> a schema:Person ;
+    rdfs:label "Salimbene"@it ;
+    owl:sameAs <https://viaf.org/viaf/89136582>,
+        <https://www.wikidata.org/entity/Q799960> .
+
+<entity/Sarajevo> a schema:Place ;
+    rdfs:label "Sarajevo"@it ;
+    owl:sameAs <https://sws.geonames.org/3191281/>,
+        <https://viaf.org/viaf/159404628>,
+        <https://www.wikidata.org/entity/Q11194> .
+
+<entity/Scozia> a schema:Place ;
+    rdfs:label "Scozia"@it ;
+    owl:sameAs <https://sws.geonames.org/2638360/>,
+        <https://viaf.org/viaf/89146152993705250698>,
+        <https://www.wikidata.org/entity/Q22> .
+
+<entity/Serbia> a schema:Place ;
+    rdfs:label "Serbia"@it ;
+    owl:sameAs <https://sws.geonames.org/6290252/>,
+        <https://viaf.org/viaf/151202876>,
+        <https://www.wikidata.org/entity/Q403> .
+
+<entity/Siena> a schema:Place ;
+    rdfs:label "Siena"@it ;
+    owl:sameAs <https://sws.geonames.org/6541466/>,
+        <https://viaf.org/viaf/239842096>,
+        <https://www.wikidata.org/entity/Q2751> .
+
+<entity/StatiUniti> a schema:Place ;
+    rdfs:label "Stati Uniti"@it ;
+    owl:sameAs <https://sws.geonames.org/6252001/>,
+        <https://viaf.org/viaf/130168302>,
+        <https://www.wikidata.org/entity/Q30> .
+
+<entity/Turati> a schema:Person ;
+    rdfs:label "Turati"@it ;
+    owl:sameAs <https://viaf.org/viaf/71517185>,
+        <https://www.wikidata.org/entity/Q733392> .
+
+<entity/VittorioEmanueleIi> a schema:Person ;
+    rdfs:label "Vittorio Emanuele II"@it ;
+    owl:sameAs <https://viaf.org/viaf/95301792>,
+        <https://www.wikidata.org/entity/Q168691> .
+
+<event/FestivalDellaMente2008> a schema:EventSeries ;
+    dcterms:date "2008"^^xsd:gYear ;
+    dcterms:title "Le crociate"@it ;
+    schema:name "Festival della Mente"@it .
+
+<entity/America> a schema:Place ;
+    rdfs:label "America"@it ;
+    owl:sameAs <https://sws.geonames.org/6252001/>,
+        <https://viaf.org/viaf/130168302>,
+        <https://www.wikidata.org/entity/Q30> .
+
+<entity/CarloMagno> a schema:Person ;
+    rdfs:label "Carlo Magno"@it ;
+    owl:sameAs <https://viaf.org/viaf/89643029>,
+        <https://www.wikidata.org/entity/Q3044> .
+
+<entity/Costantinopoli> a schema:Place ;
+    rdfs:label "Costantinopoli"@it ;
+    owl:sameAs <https://sws.geonames.org/745044/>,
+        <https://viaf.org/viaf/122641741>,
+        <https://www.wikidata.org/entity/Q16869> .
+
+<entity/Europa> a schema:Place ;
+    rdfs:label "Europa"@it ;
+    owl:sameAs <https://sws.geonames.org/6255148/>,
+        <https://viaf.org/viaf/170298814>,
+        <https://www.wikidata.org/entity/Q46> .
+
+<entity/Gerusalemme> a schema:Place ;
+    rdfs:label "Gerusalemme"@it ;
+    owl:sameAs <https://sws.geonames.org/281184/>,
+        <https://viaf.org/viaf/131280745>,
+        <https://www.wikidata.org/entity/Q1218> .
+
+<entity/Londra> a schema:Place ;
+    rdfs:label "Londra"@it ;
+    owl:sameAs <https://sws.geonames.org/2643743/>,
+        <https://viaf.org/viaf/261467287>,
+        <https://www.wikidata.org/entity/Q84> .
+
+<entity/Mosca> a schema:Place ;
+    rdfs:label "Mosca"@it ;
+    owl:sameAs <https://sws.geonames.org/524901/>,
+        <https://viaf.org/viaf/142519565>,
+        <https://www.wikidata.org/entity/Q649> .
+
+<entity/Mussolini> a schema:Person ;
+    rdfs:label "Mussolini"@it ;
+    owl:sameAs <https://viaf.org/viaf/90162262>,
+        <https://www.wikidata.org/entity/Q23559> .
+
+<entity/Piemonte> a schema:Place ;
+    rdfs:label "Piemonte"@it ;
+    owl:sameAs <https://sws.geonames.org/3170831/>,
+        <https://viaf.org/viaf/132508744>,
+        <https://www.wikidata.org/entity/Q1216> .
+
+<entity/Po> a schema:Place ;
+    rdfs:label "Po"@it ;
+    owl:sameAs <https://sws.geonames.org/3170550/>,
+        <https://viaf.org/viaf/6148703924236930913>,
+        <https://www.wikidata.org/entity/Q643> .
+
+<entity/Roma> a schema:Place ;
+    rdfs:label "Roma"@it ;
+    owl:sameAs <https://sws.geonames.org/3169070/>,
+        <https://viaf.org/viaf/251380480>,
+        <https://www.wikidata.org/entity/Q220> .
+
+<entity/Stalin> a schema:Person ;
+    rdfs:label "Stalin"@it ;
+    owl:sameAs <https://viaf.org/viaf/101787139>,
+        <https://www.wikidata.org/entity/Q855> .
+
+<event/FestivalDellaMente2009> a schema:EventSeries ;
+    dcterms:date "2009"^^xsd:gYear ;
+    dcterms:title "Creatività distruttrice"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2010> a schema:EventSeries ;
+    dcterms:date "2010"^^xsd:gYear ;
+    dcterms:title "Pensare l'Italia"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2011> a schema:EventSeries ;
+    dcterms:date "2011"^^xsd:gYear ;
+    dcterms:title "Come pensava un uomo del Medioevo?"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2012> a schema:EventSeries ;
+    dcterms:date "2012"^^xsd:gYear ;
+    dcterms:title "Come pensava una donna nel Medioevo?"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2013> a schema:EventSeries ;
+    dcterms:date "2013"^^xsd:gYear ;
+    dcterms:title "Medioevo da non credere"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2014> a schema:EventSeries ;
+    dcterms:date "2014"^^xsd:gYear ;
+    dcterms:title "Come scoppiano le guerre?"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2015> a schema:EventSeries ;
+    dcterms:date "2015"^^xsd:gYear ;
+    dcterms:title "La responsabilità dello storico"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2016> a schema:EventSeries ;
+    dcterms:date "2016"^^xsd:gYear ;
+    dcterms:title "Lo spazio della guerra"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2017> a schema:EventSeries ;
+    dcterms:date "2017"^^xsd:gYear ;
+    dcterms:title "Le reti clandestine"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2018> a schema:EventSeries ;
+    dcterms:date "2018"^^xsd:gYear ;
+    dcterms:title "La Prima guerra mondiale"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2019> a schema:EventSeries ;
+    dcterms:date "2019"^^xsd:gYear ;
+    dcterms:title "Le rivolte popolari nel Medioevo"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2021> a schema:EventSeries ;
+    dcterms:date "2021"^^xsd:gYear ;
+    dcterms:title "Le origini delle guerre civili"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2022> a schema:EventSeries ;
+    dcterms:date "2022"^^xsd:gYear ;
+    dcterms:title "Vite e destini"@it ;
+    schema:name "Festival della Mente"@it .
+
+<entity/Cavour> a schema:Person ;
+    rdfs:label "Cavour"@it ;
+    owl:sameAs <https://viaf.org/viaf/68923739>,
+        <https://www.wikidata.org/entity/Q166092> .
+
+<entity/Dante> a schema:Person ;
+    rdfs:label "Dante"@it ;
+    owl:sameAs <https://viaf.org/viaf/97105654>,
+        <https://www.wikidata.org/entity/Q1067> .
+
+<entity/Hitler> a schema:Person ;
+    rdfs:label "Hitler"@it ;
+    owl:sameAs <https://viaf.org/viaf/38190770>,
+        <https://www.wikidata.org/entity/Q352> .
+
+<entity/Russia> a schema:Place ;
+    rdfs:label "Russia"@it ;
+    owl:sameAs <https://sws.geonames.org/2017370/>,
+        <https://viaf.org/viaf/140306806>,
+        <https://www.wikidata.org/entity/Q159> .
+
+<entity/Torino> a schema:Place ;
+    rdfs:label "Torino"@it ;
+    owl:sameAs <https://sws.geonames.org/3165525/>,
+        <https://viaf.org/viaf/35144782953960297898>,
+        <https://www.wikidata.org/entity/Q495> .
+
+<entity/Venezia> a schema:Place ;
+    rdfs:label "Venezia"@it ;
+    owl:sameAs <https://sws.geonames.org/6542284/>,
+        <https://viaf.org/viaf/8456155769103127880005>,
+        <https://www.wikidata.org/entity/Q641> .
+
+<entity/Firenze> a schema:Place ;
+    rdfs:label "Firenze"@it ;
+    owl:sameAs <https://sws.geonames.org/6542285/>,
+        <https://viaf.org/viaf/152981965>,
+        <https://www.wikidata.org/entity/Q2044> .
+
+<entity/NapoleoneIii> a schema:Person ;
+    rdfs:label "Napoleone III"@it ;
+    owl:sameAs <https://viaf.org/viaf/88934487>,
+        <https://www.wikidata.org/entity/Q7721> .
+
+<entity/Austria> a schema:Place ;
+    rdfs:label "Austria"@it ;
+    owl:sameAs <https://sws.geonames.org/2782113/>,
+        <https://viaf.org/viaf/148842731>,
+        <https://www.wikidata.org/entity/Q40> .
+
+<entity/Garibaldi> a schema:Person ;
+    rdfs:label "Garibaldi"@it ;
+    owl:sameAs <https://viaf.org/viaf/100192194>,
+        <https://www.wikidata.org/entity/Q539> .
+
+<entity/Germania> a schema:Place ;
+    rdfs:label "Germania"@it ;
+    owl:sameAs <https://sws.geonames.org/2921044/>,
+        <https://viaf.org/viaf/189116956>,
+        <https://www.wikidata.org/entity/Q183> .
+
+<entity/Dio> a schema:Thing ;
+    rdfs:label "Dio"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q190> .
+
+<entity/Inghilterra> a schema:Place ;
+    rdfs:label "Inghilterra"@it ;
+    owl:sameAs <https://sws.geonames.org/6269131/>,
+        <https://viaf.org/viaf/142995804>,
+        <https://www.wikidata.org/entity/Q21> .
+
+<entity/Parigi> a schema:Place ;
+    rdfs:label "Parigi"@it ;
+    owl:sameAs <https://sws.geonames.org/2968815/>,
+        <https://viaf.org/viaf/158822968>,
+        <https://www.wikidata.org/entity/Q90> .
+
+<entity/Italia> a schema:Place ;
+    rdfs:label "Italia"@it ;
+    owl:sameAs <https://sws.geonames.org/3175395/>,
+        <https://viaf.org/viaf/152361066>,
+        <https://www.wikidata.org/entity/Q38> .
+
+<entity/Francia> a schema:Place ;
+    rdfs:label "Francia"@it ;
+    owl:sameAs <https://sws.geonames.org/3017382/>,
+        <https://viaf.org/viaf/264091107>,
+        <https://www.wikidata.org/entity/Q142> .
+
