@@ -7,7 +7,7 @@ import re
 import unicodedata
 from pathlib import Path
 from rdflib import Graph, URIRef, Literal
-from rdflib.namespace import DCTERMS, OWL, RDF, RDFS, SDO, XSD
+from rdflib.namespace import DCTERMS, OWL, RDF, SDO, XSD
 
 # Folders and files
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -95,7 +95,7 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
             g.add((entity_uri, RDF.type, rdf_type))
 
             # Add the original name as label with language tag
-            g.add((entity_uri, RDFS.label, Literal(entity_name, lang="it")))
+            g.add((entity_uri, SDO.name, Literal(entity_name, lang="it")))
 
             # Add sameAs links for external identifiers if available
             for source in ["wikidata", "viaf", "geonames"]:
