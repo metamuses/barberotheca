@@ -43,7 +43,7 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
     for row in reader:
         # ===== EVENT SERIES =====================
         # Create EventSeries element for each unique event-year combination
-        event_slug = f"{row["event"]} {row["event_year"]}".title().replace(" ", "")
+        event_slug = f"{row['event']} {row['event_year']}".title().replace(" ", "")
         event_uri = URIRef(f"{EVENT_PREFIX}/{event_slug}")
         g.add((event_uri, RDF.type, SDO.EventSeries))
 
