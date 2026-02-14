@@ -5,6 +5,94 @@
 @prefix schema: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+# ===== EVENT SERIES =====================
+<event/FestivalDellaMente2008> a schema:EventSeries ;
+    dcterms:date "2008"^^xsd:gYear ;
+    dcterms:title "Le crociate"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2009> a schema:EventSeries ;
+    dcterms:date "2009"^^xsd:gYear ;
+    dcterms:title "Creatività distruttrice"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2010> a schema:EventSeries ;
+    dcterms:date "2010"^^xsd:gYear ;
+    dcterms:title "Pensare l'Italia"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2011> a schema:EventSeries ;
+    dcterms:date "2011"^^xsd:gYear ;
+    dcterms:title "Come pensava un uomo del Medioevo?"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2012> a schema:EventSeries ;
+    dcterms:date "2012"^^xsd:gYear ;
+    dcterms:title "Come pensava una donna nel Medioevo?"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2013> a schema:EventSeries ;
+    dcterms:date "2013"^^xsd:gYear ;
+    dcterms:title "Medioevo da non credere"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2014> a schema:EventSeries ;
+    dcterms:date "2014"^^xsd:gYear ;
+    dcterms:title "Come scoppiano le guerre?"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2015> a schema:EventSeries ;
+    dcterms:date "2015"^^xsd:gYear ;
+    dcterms:title "La responsabilità dello storico"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2016> a schema:EventSeries ;
+    dcterms:date "2016"^^xsd:gYear ;
+    dcterms:title "Lo spazio della guerra"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2017> a schema:EventSeries ;
+    dcterms:date "2017"^^xsd:gYear ;
+    dcterms:title "Le reti clandestine"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2018> a schema:EventSeries ;
+    dcterms:date "2018"^^xsd:gYear ;
+    dcterms:title "La Prima guerra mondiale"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2019> a schema:EventSeries ;
+    dcterms:date "2019"^^xsd:gYear ;
+    dcterms:title "Le rivolte popolari nel Medioevo"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2020> a schema:EventSeries ;
+    dcterms:date "2020"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2021> a schema:EventSeries ;
+    dcterms:date "2021"^^xsd:gYear ;
+    dcterms:title "Le origini delle guerre civili"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2022> a schema:EventSeries ;
+    dcterms:date "2022"^^xsd:gYear ;
+    dcterms:title "Vite e destini"@it ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2023> a schema:EventSeries ;
+    dcterms:date "2023"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2024> a schema:EventSeries ;
+    dcterms:date "2024"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+<event/FestivalDellaMente2025> a schema:EventSeries ;
+    dcterms:date "2025"^^xsd:gYear ;
+    schema:name "Festival della Mente"@it .
+
+# ===== LESSONS ==========================
 <lesson/Barbero2008FdM1Epopea> a schema:AudioObject,
         schema:LearningResource ;
     dcterms:identifier "barbero-2008-FdM-1-epopea" ;
@@ -1271,6 +1359,7 @@
         "novella"@it ;
     schema:position 1 .
 
+# ===== ENTITIES =========================
 <entity/Abbone> a schema:Person ;
     rdfs:label "Abbone"@it ;
     owl:sameAs <https://viaf.org/viaf/9966678>,
@@ -1308,6 +1397,12 @@
     owl:sameAs <https://viaf.org/viaf/217145684>,
         <https://www.wikidata.org/entity/Q37069> .
 
+<entity/America> a schema:Place ;
+    rdfs:label "America"@it ;
+    owl:sameAs <https://sws.geonames.org/6252001/>,
+        <https://viaf.org/viaf/130168302>,
+        <https://www.wikidata.org/entity/Q30> .
+
 <entity/Andreotti> a schema:Person ;
     rdfs:label "Andreotti"@it ;
     owl:sameAs <https://viaf.org/viaf/109833019>,
@@ -1318,6 +1413,29 @@
     owl:sameAs <https://sws.geonames.org/6539930/>,
         <https://viaf.org/viaf/148893013>,
         <https://www.wikidata.org/entity/Q53216> .
+
+<entity/Arezzo> a schema:Place ;
+    rdfs:label "Arezzo"@it ;
+    owl:sameAs <https://sws.geonames.org/6542153/>,
+        <https://viaf.org/viaf/226733401>,
+        <https://www.wikidata.org/entity/Q13378> .
+
+<entity/Argentina> a schema:Place ;
+    rdfs:label "Argentina"@it ;
+    owl:sameAs <https://sws.geonames.org/3865483/>,
+        <https://viaf.org/viaf/146499420>,
+        <https://www.wikidata.org/entity/Q414> .
+
+<entity/Aristotele> a schema:Person ;
+    rdfs:label "Aristotele"@it ;
+    owl:sameAs <https://viaf.org/viaf/7524651>,
+        <https://www.wikidata.org/entity/Q868> .
+
+<entity/Austria> a schema:Place ;
+    rdfs:label "Austria"@it ;
+    owl:sameAs <https://sws.geonames.org/2782113/>,
+        <https://viaf.org/viaf/148842731>,
+        <https://www.wikidata.org/entity/Q40> .
 
 <entity/Avignone> a schema:Place ;
     rdfs:label "Avignone"@it ;
@@ -1346,6 +1464,12 @@
     owl:sameAs <https://viaf.org/viaf/61539765>,
         <https://www.wikidata.org/entity/Q154938> .
 
+<entity/Belgio> a schema:Place ;
+    rdfs:label "Belgio"@it ;
+    owl:sameAs <https://sws.geonames.org/2802361/>,
+        <https://viaf.org/viaf/144248059>,
+        <https://www.wikidata.org/entity/Q31> .
+
 <entity/Berkley> a schema:Place ;
     rdfs:label "Berkley"@it ;
     owl:sameAs <https://sws.geonames.org/5404897/>,
@@ -1367,6 +1491,16 @@
     rdfs:label "Bismarck"@it ;
     owl:sameAs <https://viaf.org/viaf/46772111>,
         <https://www.wikidata.org/entity/Q8442> .
+
+<entity/Bloch> a schema:Person ;
+    rdfs:label "Bloch"@it ;
+    owl:sameAs <https://viaf.org/viaf/46757545>,
+        <https://www.wikidata.org/entity/Q156585> .
+
+<entity/Boccaccio> a schema:Person ;
+    rdfs:label "Boccaccio"@it ;
+    owl:sameAs <https://viaf.org/viaf/64002165>,
+        <https://www.wikidata.org/entity/Q1402> .
 
 <entity/BonconteDaMontefeltro> a schema:Person ;
     rdfs:label "Bonconte da Montefeltro"@it ;
@@ -1439,6 +1573,10 @@
         <https://viaf.org/viaf/148386330>,
         <https://www.wikidata.org/entity/Q5813> .
 
+<entity/Caporetto> a schema:Event ;
+    rdfs:label "Caporetto"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q242644> .
+
 <entity/Carducci> a schema:Person ;
     rdfs:label "Carducci"@it ;
     owl:sameAs <https://viaf.org/viaf/34470601>,
@@ -1454,6 +1592,11 @@
     owl:sameAs <https://viaf.org/viaf/67750325>,
         <https://www.wikidata.org/entity/Q81506> .
 
+<entity/CarloAlberto> a schema:Person ;
+    rdfs:label "Carlo Alberto"@it ;
+    owl:sameAs <https://viaf.org/viaf/18030661>,
+        <https://www.wikidata.org/entity/Q181261> .
+
 <entity/CarloCattaneo> a schema:Person ;
     rdfs:label "Carlo Cattaneo"@it ;
     owl:sameAs <https://viaf.org/viaf/32023065>,
@@ -1463,6 +1606,11 @@
     rdfs:label "Carlo il Malvagio"@it ;
     owl:sameAs <https://viaf.org/viaf/266723926>,
         <https://www.wikidata.org/entity/Q43082> .
+
+<entity/CarloMagno> a schema:Person ;
+    rdfs:label "Carlo Magno"@it ;
+    owl:sameAs <https://viaf.org/viaf/89643029>,
+        <https://www.wikidata.org/entity/Q3044> .
 
 <entity/CarloV> a schema:Person ;
     rdfs:label "Carlo V"@it ;
@@ -1486,10 +1634,20 @@
     owl:sameAs <https://viaf.org/viaf/90633132>,
         <https://www.wikidata.org/entity/Q229190> .
 
+<entity/CaterinaDaSiena> a schema:Person ;
+    rdfs:label "Caterina da Siena"@it ;
+    owl:sameAs <https://viaf.org/viaf/90633132>,
+        <https://www.wikidata.org/entity/Q229190> .
+
 <entity/Cauchon> a schema:Person ;
     rdfs:label "Cauchon"@it ;
     owl:sameAs <https://viaf.org/viaf/27870650>,
         <https://www.wikidata.org/entity/Q464287> .
+
+<entity/Cavour> a schema:Person ;
+    rdfs:label "Cavour"@it ;
+    owl:sameAs <https://viaf.org/viaf/68923739>,
+        <https://www.wikidata.org/entity/Q166092> .
 
 <entity/CesareRossi> a schema:Person ;
     rdfs:label "Cesare Rossi"@it ;
@@ -1558,6 +1716,12 @@
     owl:sameAs <https://viaf.org/viaf/97746098>,
         <https://www.wikidata.org/entity/Q8413> .
 
+<entity/Costantinopoli> a schema:Place ;
+    rdfs:label "Costantinopoli"@it ;
+    owl:sameAs <https://sws.geonames.org/745044/>,
+        <https://viaf.org/viaf/122641741>,
+        <https://www.wikidata.org/entity/Q16869> .
+
 <entity/Creta> a schema:Place ;
     rdfs:label "Creta"@it ;
     owl:sameAs <https://sws.geonames.org/258763/>,
@@ -1568,6 +1732,11 @@
     rdfs:label "Cristina"@it ;
     owl:sameAs <https://viaf.org/viaf/100188547>,
         <https://www.wikidata.org/entity/Q234816> .
+
+<entity/Cristo> a schema:Person ;
+    rdfs:label "Cristo"@it ;
+    owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
+        <https://www.wikidata.org/entity/Q302> .
 
 <entity/Cuneo> a schema:Place ;
     rdfs:label "Cuneo"@it ;
@@ -1583,6 +1752,11 @@
     rdfs:label "D'Azeglio"@it ;
     owl:sameAs <https://viaf.org/viaf/43949>,
         <https://www.wikidata.org/entity/Q469134> .
+
+<entity/Dante> a schema:Person ;
+    rdfs:label "Dante"@it ;
+    owl:sameAs <https://viaf.org/viaf/97105654>,
+        <https://www.wikidata.org/entity/Q1067> .
 
 <entity/Danzica> a schema:Place ;
     rdfs:label "Danzica"@it ;
@@ -1609,6 +1783,10 @@
     rdfs:label "Dino Compagni"@it ;
     owl:sameAs <https://viaf.org/viaf/64048766>,
         <https://www.wikidata.org/entity/Q716994> .
+
+<entity/Dio> a schema:Thing ;
+    rdfs:label "Dio"@it ;
+    owl:sameAs <https://www.wikidata.org/entity/Q190> .
 
 <entity/Dumini> a schema:Person ;
     rdfs:label "Dumini"@it ;
@@ -1641,6 +1819,12 @@
     rdfs:label "Enrico V"@it ;
     owl:sameAs <https://viaf.org/viaf/284333410>,
         <https://www.wikidata.org/entity/Q131581> .
+
+<entity/Europa> a schema:Place ;
+    rdfs:label "Europa"@it ;
+    owl:sameAs <https://sws.geonames.org/6255148/>,
+        <https://viaf.org/viaf/170298814>,
+        <https://www.wikidata.org/entity/Q46> .
 
 <entity/Falkland> a schema:Place ;
     rdfs:label "Falkland"@it ;
@@ -1675,10 +1859,32 @@
     owl:sameAs <https://viaf.org/viaf/61545548>,
         <https://www.wikidata.org/entity/Q156999> .
 
+<entity/FedericoIi> a schema:Person ;
+    rdfs:label "Federico II"@it ;
+    owl:sameAs <https://viaf.org/viaf/46006380>,
+        <https://www.wikidata.org/entity/Q130221> .
+
+<entity/Firenze> a schema:Place ;
+    rdfs:label "Firenze"@it ;
+    owl:sameAs <https://sws.geonames.org/6542285/>,
+        <https://viaf.org/viaf/152981965>,
+        <https://www.wikidata.org/entity/Q2044> .
+
+<entity/FrancescoFerdinando> a schema:Person ;
+    rdfs:label "Francesco Ferdinando"@it ;
+    owl:sameAs <https://viaf.org/viaf/50016762>,
+        <https://www.wikidata.org/entity/Q43063> .
+
 <entity/FrancescoGiuseppe> a schema:Person ;
     rdfs:label "Francesco Giuseppe"@it ;
     owl:sameAs <https://viaf.org/viaf/32787948>,
         <https://www.wikidata.org/entity/Q51056> .
+
+<entity/Francia> a schema:Place ;
+    rdfs:label "Francia"@it ;
+    owl:sameAs <https://sws.geonames.org/3017382/>,
+        <https://viaf.org/viaf/264091107>,
+        <https://www.wikidata.org/entity/Q142> .
 
 <entity/Freud> a schema:Person ;
     rdfs:label "Freud"@it ;
@@ -1695,10 +1901,27 @@
     owl:sameAs <https://viaf.org/viaf/125949707>,
         <https://www.wikidata.org/entity/Q3777284> .
 
+<entity/Garibaldi> a schema:Person ;
+    rdfs:label "Garibaldi"@it ;
+    owl:sameAs <https://viaf.org/viaf/100192194>,
+        <https://www.wikidata.org/entity/Q539> .
+
 <entity/George> a schema:Person ;
     rdfs:label "George"@it ;
     owl:sameAs <https://viaf.org/viaf/46761592>,
         <https://www.wikidata.org/entity/Q57187> .
+
+<entity/Germania> a schema:Place ;
+    rdfs:label "Germania"@it ;
+    owl:sameAs <https://sws.geonames.org/2921044/>,
+        <https://viaf.org/viaf/189116956>,
+        <https://www.wikidata.org/entity/Q183> .
+
+<entity/Gerusalemme> a schema:Place ;
+    rdfs:label "Gerusalemme"@it ;
+    owl:sameAs <https://sws.geonames.org/281184/>,
+        <https://viaf.org/viaf/131280745>,
+        <https://www.wikidata.org/entity/Q1218> .
 
 <entity/Gestapo> a schema:Organization ;
     rdfs:label "Gestapo"@it ;
@@ -1720,6 +1943,11 @@
     owl:sameAs <https://sws.geonames.org/1861060/>,
         <https://viaf.org/viaf/159367111>,
         <https://www.wikidata.org/entity/Q17> .
+
+<entity/Giolitti> a schema:Person ;
+    rdfs:label "Giolitti"@it ;
+    owl:sameAs <https://viaf.org/viaf/27079739>,
+        <https://www.wikidata.org/entity/Q297190> .
 
 <entity/GiorgioAmendola> a schema:Person ;
     rdfs:label "Giorgio Amendola"@it ;
@@ -1778,6 +2006,17 @@
     owl:sameAs <https://viaf.org/viaf/81036447>,
         <https://www.wikidata.org/entity/Q698020> .
 
+<entity/Hitler> a schema:Person ;
+    rdfs:label "Hitler"@it ;
+    owl:sameAs <https://viaf.org/viaf/38190770>,
+        <https://www.wikidata.org/entity/Q352> .
+
+<entity/Inghilterra> a schema:Place ;
+    rdfs:label "Inghilterra"@it ;
+    owl:sameAs <https://sws.geonames.org/6269131/>,
+        <https://viaf.org/viaf/142995804>,
+        <https://www.wikidata.org/entity/Q21> .
+
 <entity/Irlanda> a schema:Place ;
     rdfs:label "Irlanda"@it ;
     owl:sameAs <https://sws.geonames.org/2963597/>,
@@ -1801,6 +2040,12 @@
     owl:sameAs <https://sws.geonames.org/745044/>,
         <https://viaf.org/viaf/135931454>,
         <https://www.wikidata.org/entity/Q406> .
+
+<entity/Italia> a schema:Place ;
+    rdfs:label "Italia"@it ;
+    owl:sameAs <https://sws.geonames.org/3175395/>,
+        <https://viaf.org/viaf/152361066>,
+        <https://www.wikidata.org/entity/Q38> .
 
 <entity/Ivrea> a schema:Place ;
     rdfs:label "Ivrea"@it ;
@@ -1883,6 +2128,12 @@
         <https://viaf.org/viaf/155354899>,
         <https://www.wikidata.org/entity/Q9648> .
 
+<entity/Leningrado> a schema:Place ;
+    rdfs:label "Leningrado"@it ;
+    owl:sameAs <https://sws.geonames.org/498817/>,
+        <https://viaf.org/viaf/561154381054530291788>,
+        <https://www.wikidata.org/entity/Q656> .
+
 <entity/Lepanto> a schema:Place ;
     rdfs:label "Lepanto"@it ;
     owl:sameAs <https://sws.geonames.org/256639/>,
@@ -1909,10 +2160,21 @@
         <https://viaf.org/viaf/158189703>,
         <https://www.wikidata.org/entity/Q456> .
 
+<entity/Londra> a schema:Place ;
+    rdfs:label "Londra"@it ;
+    owl:sameAs <https://sws.geonames.org/2643743/>,
+        <https://viaf.org/viaf/261467287>,
+        <https://www.wikidata.org/entity/Q84> .
+
 <entity/LordStrafford> a schema:Person ;
     rdfs:label "Lord Strafford"@it ;
     owl:sameAs <https://viaf.org/viaf/72190523>,
         <https://www.wikidata.org/entity/Q336091> .
+
+<entity/LuigiIx> a schema:Person ;
+    rdfs:label "Luigi IX"@it ;
+    owl:sameAs <https://viaf.org/viaf/89182909>,
+        <https://www.wikidata.org/entity/Q346> .
 
 <entity/LuigiXviii> a schema:Person ;
     rdfs:label "Luigi XVIII"@it ;
@@ -1992,6 +2254,18 @@
     owl:sameAs <https://viaf.org/viaf/160127802>,
         <https://www.wikidata.org/entity/Q786761> .
 
+<entity/Milano> a schema:Place ;
+    rdfs:label "Milano"@it ;
+    owl:sameAs <https://sws.geonames.org/6542283/>,
+        <https://viaf.org/viaf/157818740>,
+        <https://www.wikidata.org/entity/Q490> .
+
+<entity/Mincio> a schema:Place ;
+    rdfs:label "Mincio"@it ;
+    owl:sameAs <https://sws.geonames.org/3173409/>,
+        <https://viaf.org/viaf/240515550>,
+        <https://www.wikidata.org/entity/Q936688> .
+
 <entity/Montmartre> a schema:Place ;
     rdfs:label "Montmartre"@it ;
     owl:sameAs <https://sws.geonames.org/3029374/>,
@@ -2012,6 +2286,27 @@
     rdfs:label "Morucci"@it ;
     owl:sameAs <https://viaf.org/viaf/37220889>,
         <https://www.wikidata.org/entity/Q4007903> .
+
+<entity/Mosca> a schema:Place ;
+    rdfs:label "Mosca"@it ;
+    owl:sameAs <https://sws.geonames.org/524901/>,
+        <https://viaf.org/viaf/142519565>,
+        <https://www.wikidata.org/entity/Q649> .
+
+<entity/Mussolini> a schema:Person ;
+    rdfs:label "Mussolini"@it ;
+    owl:sameAs <https://viaf.org/viaf/90162262>,
+        <https://www.wikidata.org/entity/Q23559> .
+
+<entity/Napoleone> a schema:Person ;
+    rdfs:label "Napoleone"@it ;
+    owl:sameAs <https://viaf.org/viaf/106964661>,
+        <https://www.wikidata.org/entity/Q517> .
+
+<entity/NapoleoneIii> a schema:Person ;
+    rdfs:label "Napoleone III"@it ;
+    owl:sameAs <https://viaf.org/viaf/88934487>,
+        <https://www.wikidata.org/entity/Q7721> .
 
 <entity/Napoli> a schema:Place ;
     rdfs:label "Napoli"@it ;
@@ -2064,6 +2359,12 @@
         <https://viaf.org/viaf/125014958>,
         <https://www.wikidata.org/entity/Q271928> .
 
+<entity/Parigi> a schema:Place ;
+    rdfs:label "Parigi"@it ;
+    owl:sameAs <https://sws.geonames.org/2968815/>,
+        <https://viaf.org/viaf/158822968>,
+        <https://www.wikidata.org/entity/Q90> .
+
 <entity/Parma> a schema:Place ;
     rdfs:label "Parma"@it ;
     owl:sameAs <https://sws.geonames.org/6540120/>,
@@ -2086,6 +2387,30 @@
         <https://viaf.org/viaf/240543797>,
         <https://www.wikidata.org/entity/Q530569> .
 
+<entity/Piemonte> a schema:Place ;
+    rdfs:label "Piemonte"@it ;
+    owl:sameAs <https://sws.geonames.org/3170831/>,
+        <https://viaf.org/viaf/132508744>,
+        <https://www.wikidata.org/entity/Q1216> .
+
+<entity/Pietroburgo> a schema:Place ;
+    rdfs:label "Pietroburgo"@it ;
+    owl:sameAs <https://sws.geonames.org/498817/>,
+        <https://viaf.org/viaf/139487820>,
+        <https://www.wikidata.org/entity/Q656> .
+
+<entity/Pisa> a schema:Place ;
+    rdfs:label "Pisa"@it ;
+    owl:sameAs <https://sws.geonames.org/6542122/>,
+        <https://viaf.org/viaf/204007255>,
+        <https://www.wikidata.org/entity/Q13375> .
+
+<entity/Po> a schema:Place ;
+    rdfs:label "Po"@it ;
+    owl:sameAs <https://sws.geonames.org/3170550/>,
+        <https://viaf.org/viaf/6148703924236930913>,
+        <https://www.wikidata.org/entity/Q643> .
+
 <entity/Polonia> a schema:Place ;
     rdfs:label "Polonia"@it ;
     owl:sameAs <https://sws.geonames.org/798544/>,
@@ -2097,6 +2422,12 @@
     owl:sameAs <https://sws.geonames.org/5102955/>,
         <https://viaf.org/viaf/141200041>,
         <https://www.wikidata.org/entity/Q21578> .
+
+<entity/Prussia> a schema:Place ;
+    rdfs:label "Prussia"@it ;
+    owl:sameAs <https://sws.geonames.org/3082436/>,
+        <https://viaf.org/viaf/137143200>,
+        <https://www.wikidata.org/entity/Q38872> .
 
 <entity/Radetzky> a schema:Person ;
     rdfs:label "Radetzky"@it ;
@@ -2139,6 +2470,12 @@
     owl:sameAs <https://viaf.org/viaf/78769905>,
         <https://www.wikidata.org/entity/Q944668> .
 
+<entity/Roma> a schema:Place ;
+    rdfs:label "Roma"@it ;
+    owl:sameAs <https://sws.geonames.org/3169070/>,
+        <https://viaf.org/viaf/251380480>,
+        <https://www.wikidata.org/entity/Q220> .
+
 <entity/RosarioBentivegna> a schema:Person ;
     rdfs:label "Rosario Bentivegna"@it ;
     owl:sameAs <https://viaf.org/viaf/49282901>,
@@ -2155,6 +2492,12 @@
         <https://viaf.org/viaf/146509692>,
         <https://www.wikidata.org/entity/Q30974> .
 
+<entity/Russia> a schema:Place ;
+    rdfs:label "Russia"@it ;
+    owl:sameAs <https://sws.geonames.org/2017370/>,
+        <https://viaf.org/viaf/140306806>,
+        <https://www.wikidata.org/entity/Q159> .
+
 <entity/Saladino> a schema:Person ;
     rdfs:label "Saladino"@it ;
     owl:sameAs <https://viaf.org/viaf/90040943>,
@@ -2170,6 +2513,11 @@
     rdfs:label "Salandra"@it ;
     owl:sameAs <https://viaf.org/viaf/32017768>,
         <https://www.wikidata.org/entity/Q354715> .
+
+<entity/Salimbene> a schema:Person ;
+    rdfs:label "Salimbene"@it ;
+    owl:sameAs <https://viaf.org/viaf/89136582>,
+        <https://www.wikidata.org/entity/Q799960> .
 
 <entity/Salvemini> a schema:Person ;
     rdfs:label "Salvemini"@it ;
@@ -2206,16 +2554,40 @@
     owl:sameAs <https://viaf.org/viaf/8754769>,
         <https://www.wikidata.org/entity/Q191107> .
 
+<entity/Sarajevo> a schema:Place ;
+    rdfs:label "Sarajevo"@it ;
+    owl:sameAs <https://sws.geonames.org/3191281/>,
+        <https://viaf.org/viaf/159404628>,
+        <https://www.wikidata.org/entity/Q11194> .
+
 <entity/Satana> a schema:Thing ;
     rdfs:label "Satana"@it ;
     owl:sameAs <https://viaf.org/viaf/1087163706538729420822>,
         <https://www.wikidata.org/entity/Q35230> .
+
+<entity/Scozia> a schema:Place ;
+    rdfs:label "Scozia"@it ;
+    owl:sameAs <https://sws.geonames.org/2638360/>,
+        <https://viaf.org/viaf/89146152993705250698>,
+        <https://www.wikidata.org/entity/Q22> .
+
+<entity/Serbia> a schema:Place ;
+    rdfs:label "Serbia"@it ;
+    owl:sameAs <https://sws.geonames.org/6290252/>,
+        <https://viaf.org/viaf/151202876>,
+        <https://www.wikidata.org/entity/Q403> .
 
 <entity/Sicilia> a schema:Place ;
     rdfs:label "Sicilia"@it ;
     owl:sameAs <https://sws.geonames.org/2523119/>,
         <https://viaf.org/viaf/149921888>,
         <https://www.wikidata.org/entity/Q1460> .
+
+<entity/Siena> a schema:Place ;
+    rdfs:label "Siena"@it ;
+    owl:sameAs <https://sws.geonames.org/6541466/>,
+        <https://viaf.org/viaf/239842096>,
+        <https://www.wikidata.org/entity/Q2751> .
 
 <entity/Simoncino> a schema:Person ;
     rdfs:label "Simoncino"@it ;
@@ -2243,6 +2615,17 @@
     owl:sameAs <https://sws.geonames.org/2510769/>,
         <https://viaf.org/viaf/133609710>,
         <https://www.wikidata.org/entity/Q29> .
+
+<entity/Stalin> a schema:Person ;
+    rdfs:label "Stalin"@it ;
+    owl:sameAs <https://viaf.org/viaf/101787139>,
+        <https://www.wikidata.org/entity/Q855> .
+
+<entity/StatiUniti> a schema:Place ;
+    rdfs:label "Stati Uniti"@it ;
+    owl:sameAs <https://sws.geonames.org/6252001/>,
+        <https://viaf.org/viaf/130168302>,
+        <https://www.wikidata.org/entity/Q30> .
 
 <entity/Strasburgo> a schema:Place ;
     rdfs:label "Strasburgo"@it ;
@@ -2289,6 +2672,12 @@
     owl:sameAs <https://viaf.org/viaf/96987389>,
         <https://www.wikidata.org/entity/Q7243> .
 
+<entity/Torino> a schema:Place ;
+    rdfs:label "Torino"@it ;
+    owl:sameAs <https://sws.geonames.org/3165525/>,
+        <https://viaf.org/viaf/35144782953960297898>,
+        <https://www.wikidata.org/entity/Q495> .
+
 <entity/Toscana> a schema:Place ;
     rdfs:label "Toscana"@it ;
     owl:sameAs <https://sws.geonames.org/3165361/>,
@@ -2312,6 +2701,11 @@
     owl:sameAs <https://sws.geonames.org/3165186/>,
         <https://viaf.org/viaf/143701962>,
         <https://www.wikidata.org/entity/Q546> .
+
+<entity/Turati> a schema:Person ;
+    rdfs:label "Turati"@it ;
+    owl:sameAs <https://viaf.org/viaf/71517185>,
+        <https://www.wikidata.org/entity/Q733392> .
 
 <entity/UnioneSovietica> a schema:Place ;
     rdfs:label "Unione Sovietica"@it ;
@@ -2347,6 +2741,12 @@
         <https://viaf.org/viaf/155404177>,
         <https://www.wikidata.org/entity/Q1243> .
 
+<entity/Venezia> a schema:Place ;
+    rdfs:label "Venezia"@it ;
+    owl:sameAs <https://sws.geonames.org/6542284/>,
+        <https://viaf.org/viaf/8456155769103127880005>,
+        <https://www.wikidata.org/entity/Q641> .
+
 <entity/Vercelli> a schema:Place ;
     rdfs:label "Vercelli"@it ;
     owl:sameAs <https://sws.geonames.org/6540116/>,
@@ -2368,6 +2768,11 @@
     owl:sameAs <https://sws.geonames.org/6254928/>,
         <https://viaf.org/viaf/128935789>,
         <https://www.wikidata.org/entity/Q1370> .
+
+<entity/VittorioEmanueleIi> a schema:Person ;
+    rdfs:label "Vittorio Emanuele II"@it ;
+    owl:sameAs <https://viaf.org/viaf/95301792>,
+        <https://www.wikidata.org/entity/Q168691> .
 
 <entity/VittorioVeneto> a schema:Place ;
     rdfs:label "Vittorio Veneto"@it ;
@@ -2406,405 +2811,3 @@
     rdfs:label "Wilson"@it ;
     owl:sameAs <https://viaf.org/viaf/89457467>,
         <https://www.wikidata.org/entity/Q34296> .
-
-<event/FestivalDellaMente2020> a schema:EventSeries ;
-    dcterms:date "2020"^^xsd:gYear ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2023> a schema:EventSeries ;
-    dcterms:date "2023"^^xsd:gYear ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2024> a schema:EventSeries ;
-    dcterms:date "2024"^^xsd:gYear ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2025> a schema:EventSeries ;
-    dcterms:date "2025"^^xsd:gYear ;
-    schema:name "Festival della Mente"@it .
-
-<entity/Arezzo> a schema:Place ;
-    rdfs:label "Arezzo"@it ;
-    owl:sameAs <https://sws.geonames.org/6542153/>,
-        <https://viaf.org/viaf/226733401>,
-        <https://www.wikidata.org/entity/Q13378> .
-
-<entity/Argentina> a schema:Place ;
-    rdfs:label "Argentina"@it ;
-    owl:sameAs <https://sws.geonames.org/3865483/>,
-        <https://viaf.org/viaf/146499420>,
-        <https://www.wikidata.org/entity/Q414> .
-
-<entity/Aristotele> a schema:Person ;
-    rdfs:label "Aristotele"@it ;
-    owl:sameAs <https://viaf.org/viaf/7524651>,
-        <https://www.wikidata.org/entity/Q868> .
-
-<entity/Belgio> a schema:Place ;
-    rdfs:label "Belgio"@it ;
-    owl:sameAs <https://sws.geonames.org/2802361/>,
-        <https://viaf.org/viaf/144248059>,
-        <https://www.wikidata.org/entity/Q31> .
-
-<entity/Bloch> a schema:Person ;
-    rdfs:label "Bloch"@it ;
-    owl:sameAs <https://viaf.org/viaf/46757545>,
-        <https://www.wikidata.org/entity/Q156585> .
-
-<entity/Boccaccio> a schema:Person ;
-    rdfs:label "Boccaccio"@it ;
-    owl:sameAs <https://viaf.org/viaf/64002165>,
-        <https://www.wikidata.org/entity/Q1402> .
-
-<entity/Caporetto> a schema:Event ;
-    rdfs:label "Caporetto"@it ;
-    owl:sameAs <https://www.wikidata.org/entity/Q242644> .
-
-<entity/CarloAlberto> a schema:Person ;
-    rdfs:label "Carlo Alberto"@it ;
-    owl:sameAs <https://viaf.org/viaf/18030661>,
-        <https://www.wikidata.org/entity/Q181261> .
-
-<entity/CaterinaDaSiena> a schema:Person ;
-    rdfs:label "Caterina da Siena"@it ;
-    owl:sameAs <https://viaf.org/viaf/90633132>,
-        <https://www.wikidata.org/entity/Q229190> .
-
-<entity/Cristo> a schema:Person ;
-    rdfs:label "Cristo"@it ;
-    owl:sameAs <https://viaf.org/viaf/141145970137232251241>,
-        <https://www.wikidata.org/entity/Q302> .
-
-<entity/FedericoIi> a schema:Person ;
-    rdfs:label "Federico II"@it ;
-    owl:sameAs <https://viaf.org/viaf/46006380>,
-        <https://www.wikidata.org/entity/Q130221> .
-
-<entity/FrancescoFerdinando> a schema:Person ;
-    rdfs:label "Francesco Ferdinando"@it ;
-    owl:sameAs <https://viaf.org/viaf/50016762>,
-        <https://www.wikidata.org/entity/Q43063> .
-
-<entity/Giolitti> a schema:Person ;
-    rdfs:label "Giolitti"@it ;
-    owl:sameAs <https://viaf.org/viaf/27079739>,
-        <https://www.wikidata.org/entity/Q297190> .
-
-<entity/Leningrado> a schema:Place ;
-    rdfs:label "Leningrado"@it ;
-    owl:sameAs <https://sws.geonames.org/498817/>,
-        <https://viaf.org/viaf/561154381054530291788>,
-        <https://www.wikidata.org/entity/Q656> .
-
-<entity/LuigiIx> a schema:Person ;
-    rdfs:label "Luigi IX"@it ;
-    owl:sameAs <https://viaf.org/viaf/89182909>,
-        <https://www.wikidata.org/entity/Q346> .
-
-<entity/Milano> a schema:Place ;
-    rdfs:label "Milano"@it ;
-    owl:sameAs <https://sws.geonames.org/6542283/>,
-        <https://viaf.org/viaf/157818740>,
-        <https://www.wikidata.org/entity/Q490> .
-
-<entity/Mincio> a schema:Place ;
-    rdfs:label "Mincio"@it ;
-    owl:sameAs <https://sws.geonames.org/3173409/>,
-        <https://viaf.org/viaf/240515550>,
-        <https://www.wikidata.org/entity/Q936688> .
-
-<entity/Napoleone> a schema:Person ;
-    rdfs:label "Napoleone"@it ;
-    owl:sameAs <https://viaf.org/viaf/106964661>,
-        <https://www.wikidata.org/entity/Q517> .
-
-<entity/Pietroburgo> a schema:Place ;
-    rdfs:label "Pietroburgo"@it ;
-    owl:sameAs <https://sws.geonames.org/498817/>,
-        <https://viaf.org/viaf/139487820>,
-        <https://www.wikidata.org/entity/Q656> .
-
-<entity/Pisa> a schema:Place ;
-    rdfs:label "Pisa"@it ;
-    owl:sameAs <https://sws.geonames.org/6542122/>,
-        <https://viaf.org/viaf/204007255>,
-        <https://www.wikidata.org/entity/Q13375> .
-
-<entity/Prussia> a schema:Place ;
-    rdfs:label "Prussia"@it ;
-    owl:sameAs <https://sws.geonames.org/3082436/>,
-        <https://viaf.org/viaf/137143200>,
-        <https://www.wikidata.org/entity/Q38872> .
-
-<entity/Salimbene> a schema:Person ;
-    rdfs:label "Salimbene"@it ;
-    owl:sameAs <https://viaf.org/viaf/89136582>,
-        <https://www.wikidata.org/entity/Q799960> .
-
-<entity/Sarajevo> a schema:Place ;
-    rdfs:label "Sarajevo"@it ;
-    owl:sameAs <https://sws.geonames.org/3191281/>,
-        <https://viaf.org/viaf/159404628>,
-        <https://www.wikidata.org/entity/Q11194> .
-
-<entity/Scozia> a schema:Place ;
-    rdfs:label "Scozia"@it ;
-    owl:sameAs <https://sws.geonames.org/2638360/>,
-        <https://viaf.org/viaf/89146152993705250698>,
-        <https://www.wikidata.org/entity/Q22> .
-
-<entity/Serbia> a schema:Place ;
-    rdfs:label "Serbia"@it ;
-    owl:sameAs <https://sws.geonames.org/6290252/>,
-        <https://viaf.org/viaf/151202876>,
-        <https://www.wikidata.org/entity/Q403> .
-
-<entity/Siena> a schema:Place ;
-    rdfs:label "Siena"@it ;
-    owl:sameAs <https://sws.geonames.org/6541466/>,
-        <https://viaf.org/viaf/239842096>,
-        <https://www.wikidata.org/entity/Q2751> .
-
-<entity/StatiUniti> a schema:Place ;
-    rdfs:label "Stati Uniti"@it ;
-    owl:sameAs <https://sws.geonames.org/6252001/>,
-        <https://viaf.org/viaf/130168302>,
-        <https://www.wikidata.org/entity/Q30> .
-
-<entity/Turati> a schema:Person ;
-    rdfs:label "Turati"@it ;
-    owl:sameAs <https://viaf.org/viaf/71517185>,
-        <https://www.wikidata.org/entity/Q733392> .
-
-<entity/VittorioEmanueleIi> a schema:Person ;
-    rdfs:label "Vittorio Emanuele II"@it ;
-    owl:sameAs <https://viaf.org/viaf/95301792>,
-        <https://www.wikidata.org/entity/Q168691> .
-
-<event/FestivalDellaMente2008> a schema:EventSeries ;
-    dcterms:date "2008"^^xsd:gYear ;
-    dcterms:title "Le crociate"@it ;
-    schema:name "Festival della Mente"@it .
-
-<entity/America> a schema:Place ;
-    rdfs:label "America"@it ;
-    owl:sameAs <https://sws.geonames.org/6252001/>,
-        <https://viaf.org/viaf/130168302>,
-        <https://www.wikidata.org/entity/Q30> .
-
-<entity/CarloMagno> a schema:Person ;
-    rdfs:label "Carlo Magno"@it ;
-    owl:sameAs <https://viaf.org/viaf/89643029>,
-        <https://www.wikidata.org/entity/Q3044> .
-
-<entity/Costantinopoli> a schema:Place ;
-    rdfs:label "Costantinopoli"@it ;
-    owl:sameAs <https://sws.geonames.org/745044/>,
-        <https://viaf.org/viaf/122641741>,
-        <https://www.wikidata.org/entity/Q16869> .
-
-<entity/Europa> a schema:Place ;
-    rdfs:label "Europa"@it ;
-    owl:sameAs <https://sws.geonames.org/6255148/>,
-        <https://viaf.org/viaf/170298814>,
-        <https://www.wikidata.org/entity/Q46> .
-
-<entity/Gerusalemme> a schema:Place ;
-    rdfs:label "Gerusalemme"@it ;
-    owl:sameAs <https://sws.geonames.org/281184/>,
-        <https://viaf.org/viaf/131280745>,
-        <https://www.wikidata.org/entity/Q1218> .
-
-<entity/Londra> a schema:Place ;
-    rdfs:label "Londra"@it ;
-    owl:sameAs <https://sws.geonames.org/2643743/>,
-        <https://viaf.org/viaf/261467287>,
-        <https://www.wikidata.org/entity/Q84> .
-
-<entity/Mosca> a schema:Place ;
-    rdfs:label "Mosca"@it ;
-    owl:sameAs <https://sws.geonames.org/524901/>,
-        <https://viaf.org/viaf/142519565>,
-        <https://www.wikidata.org/entity/Q649> .
-
-<entity/Mussolini> a schema:Person ;
-    rdfs:label "Mussolini"@it ;
-    owl:sameAs <https://viaf.org/viaf/90162262>,
-        <https://www.wikidata.org/entity/Q23559> .
-
-<entity/Piemonte> a schema:Place ;
-    rdfs:label "Piemonte"@it ;
-    owl:sameAs <https://sws.geonames.org/3170831/>,
-        <https://viaf.org/viaf/132508744>,
-        <https://www.wikidata.org/entity/Q1216> .
-
-<entity/Po> a schema:Place ;
-    rdfs:label "Po"@it ;
-    owl:sameAs <https://sws.geonames.org/3170550/>,
-        <https://viaf.org/viaf/6148703924236930913>,
-        <https://www.wikidata.org/entity/Q643> .
-
-<entity/Roma> a schema:Place ;
-    rdfs:label "Roma"@it ;
-    owl:sameAs <https://sws.geonames.org/3169070/>,
-        <https://viaf.org/viaf/251380480>,
-        <https://www.wikidata.org/entity/Q220> .
-
-<entity/Stalin> a schema:Person ;
-    rdfs:label "Stalin"@it ;
-    owl:sameAs <https://viaf.org/viaf/101787139>,
-        <https://www.wikidata.org/entity/Q855> .
-
-<event/FestivalDellaMente2009> a schema:EventSeries ;
-    dcterms:date "2009"^^xsd:gYear ;
-    dcterms:title "Creatività distruttrice"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2010> a schema:EventSeries ;
-    dcterms:date "2010"^^xsd:gYear ;
-    dcterms:title "Pensare l'Italia"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2011> a schema:EventSeries ;
-    dcterms:date "2011"^^xsd:gYear ;
-    dcterms:title "Come pensava un uomo del Medioevo?"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2012> a schema:EventSeries ;
-    dcterms:date "2012"^^xsd:gYear ;
-    dcterms:title "Come pensava una donna nel Medioevo?"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2013> a schema:EventSeries ;
-    dcterms:date "2013"^^xsd:gYear ;
-    dcterms:title "Medioevo da non credere"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2014> a schema:EventSeries ;
-    dcterms:date "2014"^^xsd:gYear ;
-    dcterms:title "Come scoppiano le guerre?"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2015> a schema:EventSeries ;
-    dcterms:date "2015"^^xsd:gYear ;
-    dcterms:title "La responsabilità dello storico"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2016> a schema:EventSeries ;
-    dcterms:date "2016"^^xsd:gYear ;
-    dcterms:title "Lo spazio della guerra"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2017> a schema:EventSeries ;
-    dcterms:date "2017"^^xsd:gYear ;
-    dcterms:title "Le reti clandestine"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2018> a schema:EventSeries ;
-    dcterms:date "2018"^^xsd:gYear ;
-    dcterms:title "La Prima guerra mondiale"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2019> a schema:EventSeries ;
-    dcterms:date "2019"^^xsd:gYear ;
-    dcterms:title "Le rivolte popolari nel Medioevo"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2021> a schema:EventSeries ;
-    dcterms:date "2021"^^xsd:gYear ;
-    dcterms:title "Le origini delle guerre civili"@it ;
-    schema:name "Festival della Mente"@it .
-
-<event/FestivalDellaMente2022> a schema:EventSeries ;
-    dcterms:date "2022"^^xsd:gYear ;
-    dcterms:title "Vite e destini"@it ;
-    schema:name "Festival della Mente"@it .
-
-<entity/Cavour> a schema:Person ;
-    rdfs:label "Cavour"@it ;
-    owl:sameAs <https://viaf.org/viaf/68923739>,
-        <https://www.wikidata.org/entity/Q166092> .
-
-<entity/Dante> a schema:Person ;
-    rdfs:label "Dante"@it ;
-    owl:sameAs <https://viaf.org/viaf/97105654>,
-        <https://www.wikidata.org/entity/Q1067> .
-
-<entity/Hitler> a schema:Person ;
-    rdfs:label "Hitler"@it ;
-    owl:sameAs <https://viaf.org/viaf/38190770>,
-        <https://www.wikidata.org/entity/Q352> .
-
-<entity/Russia> a schema:Place ;
-    rdfs:label "Russia"@it ;
-    owl:sameAs <https://sws.geonames.org/2017370/>,
-        <https://viaf.org/viaf/140306806>,
-        <https://www.wikidata.org/entity/Q159> .
-
-<entity/Torino> a schema:Place ;
-    rdfs:label "Torino"@it ;
-    owl:sameAs <https://sws.geonames.org/3165525/>,
-        <https://viaf.org/viaf/35144782953960297898>,
-        <https://www.wikidata.org/entity/Q495> .
-
-<entity/Venezia> a schema:Place ;
-    rdfs:label "Venezia"@it ;
-    owl:sameAs <https://sws.geonames.org/6542284/>,
-        <https://viaf.org/viaf/8456155769103127880005>,
-        <https://www.wikidata.org/entity/Q641> .
-
-<entity/Firenze> a schema:Place ;
-    rdfs:label "Firenze"@it ;
-    owl:sameAs <https://sws.geonames.org/6542285/>,
-        <https://viaf.org/viaf/152981965>,
-        <https://www.wikidata.org/entity/Q2044> .
-
-<entity/NapoleoneIii> a schema:Person ;
-    rdfs:label "Napoleone III"@it ;
-    owl:sameAs <https://viaf.org/viaf/88934487>,
-        <https://www.wikidata.org/entity/Q7721> .
-
-<entity/Austria> a schema:Place ;
-    rdfs:label "Austria"@it ;
-    owl:sameAs <https://sws.geonames.org/2782113/>,
-        <https://viaf.org/viaf/148842731>,
-        <https://www.wikidata.org/entity/Q40> .
-
-<entity/Garibaldi> a schema:Person ;
-    rdfs:label "Garibaldi"@it ;
-    owl:sameAs <https://viaf.org/viaf/100192194>,
-        <https://www.wikidata.org/entity/Q539> .
-
-<entity/Germania> a schema:Place ;
-    rdfs:label "Germania"@it ;
-    owl:sameAs <https://sws.geonames.org/2921044/>,
-        <https://viaf.org/viaf/189116956>,
-        <https://www.wikidata.org/entity/Q183> .
-
-<entity/Dio> a schema:Thing ;
-    rdfs:label "Dio"@it ;
-    owl:sameAs <https://www.wikidata.org/entity/Q190> .
-
-<entity/Inghilterra> a schema:Place ;
-    rdfs:label "Inghilterra"@it ;
-    owl:sameAs <https://sws.geonames.org/6269131/>,
-        <https://viaf.org/viaf/142995804>,
-        <https://www.wikidata.org/entity/Q21> .
-
-<entity/Parigi> a schema:Place ;
-    rdfs:label "Parigi"@it ;
-    owl:sameAs <https://sws.geonames.org/2968815/>,
-        <https://viaf.org/viaf/158822968>,
-        <https://www.wikidata.org/entity/Q90> .
-
-<entity/Italia> a schema:Place ;
-    rdfs:label "Italia"@it ;
-    owl:sameAs <https://sws.geonames.org/3175395/>,
-        <https://viaf.org/viaf/152361066>,
-        <https://www.wikidata.org/entity/Q38> .
-
-<entity/Francia> a schema:Place ;
-    rdfs:label "Francia"@it ;
-    owl:sameAs <https://sws.geonames.org/3017382/>,
-        <https://viaf.org/viaf/264091107>,
-        <https://www.wikidata.org/entity/Q142> .
