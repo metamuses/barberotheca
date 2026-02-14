@@ -1,5 +1,5 @@
 """
-Generate RDF dataset catalog of events, lessons and entities from CSV metadata files.
+Generate full RDF knowledge graph of events, lessons and entities from CSV metadata files.
 """
 
 import csv
@@ -13,7 +13,7 @@ from rdflib.namespace import DCTERMS, OWL, RDF, RDFS, SDO, XSD
 ROOT_DIR = Path(__file__).resolve().parent.parent
 LESSONS_CSV = ROOT_DIR / "metadata" / "barbero.csv"
 ENTITIES_CSV = ROOT_DIR / "metadata" / "entities-authoritative.csv"
-CATALOG_TTL = ROOT_DIR / "metadata" / "rdf" / "catalog.ttl"
+KNOWLEDGE_GRAPH_TTL = ROOT_DIR / "metadata" / "rdf" / "knowledge-graph.ttl"
 
 # Prefixes and namespaces
 BASE_URI = "https://github.com/metamuses/barberotheca/"
@@ -107,4 +107,4 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
             g.add((lesson_uri, DCTERMS.references, entity_uri))
 
 # Serialize graph to Turtle file
-g.serialize(destination=CATALOG_TTL, format="turtle", base=BASE_URI)
+g.serialize(destination=KNOWLEDGE_GRAPH_TTL, format="turtle", base=BASE_URI)
