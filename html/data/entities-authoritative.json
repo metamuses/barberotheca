@@ -1,6 +1,7 @@
 [
   {
     "entity": "Abbone",
+    "rdf_name": "Abbone",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Abbone_di_Fleury",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Abbo_of_Fleury",
     "wikidata": "https://www.wikidata.org/entity/Q306658",
@@ -12,6 +13,7 @@
   },
   {
     "entity": "Adriatico",
+    "rdf_name": "Adriatico",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Mare_Adriatico",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Adriatic_Sea",
     "wikidata": "https://www.wikidata.org/entity/Q13924",
@@ -29,6 +31,7 @@
       "Agostino",
       "Sant'Agostino"
     ],
+    "rdf_name": "Agostino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Agostino_d%27Ippona",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Augustine_of_Hippo",
     "wikidata": "https://www.wikidata.org/entity/Q8018",
@@ -40,6 +43,7 @@
   },
   {
     "entity": "Akhmatova",
+    "rdf_name": "Akhmatova",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Anna_Andreevna_Achmatova",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Anna_Akhmatova",
     "wikidata": "https://www.wikidata.org/entity/Q80440",
@@ -51,6 +55,7 @@
   },
   {
     "entity": "Aldo Finzi",
+    "rdf_name": "AldoFinzi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Aldo_Finzi_(politico)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Aldo_Finzi_(politician)",
     "wikidata": "https://www.wikidata.org/entity/Q690725",
@@ -61,6 +66,7 @@
   },
   {
     "entity": "Alessandria",
+    "rdf_name": "Alessandria",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Alessandria",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Alessandria",
     "wikidata": "https://www.wikidata.org/entity/Q6088",
@@ -75,6 +81,7 @@
   },
   {
     "entity": "Alessio",
+    "rdf_name": "Alessio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Alessio_IV_Angelo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Alexios_IV_Angelos",
     "wikidata": "https://www.wikidata.org/entity/Q37069",
@@ -89,6 +96,7 @@
       "America",
       "Stati Uniti"
     ],
+    "rdf_name": "America",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Stati_Uniti_d%27America",
     "wikipedia_en": "https://en.wikipedia.org/wiki/United_States",
     "wikidata": "https://www.wikidata.org/entity/Q30",
@@ -103,6 +111,7 @@
   },
   {
     "entity": "Andreotti",
+    "rdf_name": "Andreotti",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giulio_Andreotti",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giulio_Andreotti",
     "wikidata": "https://www.wikidata.org/entity/Q50005",
@@ -114,6 +123,7 @@
   },
   {
     "entity": "Aquileia",
+    "rdf_name": "Aquileia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Aquileia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Aquileia",
     "wikidata": "https://www.wikidata.org/entity/Q53216",
@@ -128,6 +138,7 @@
   },
   {
     "entity": "Arezzo",
+    "rdf_name": "Arezzo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Arezzo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Arezzo",
     "wikidata": "https://www.wikidata.org/entity/Q13378",
@@ -142,6 +153,7 @@
   },
   {
     "entity": "Argentina",
+    "rdf_name": "Argentina",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Argentina",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Argentina",
     "wikidata": "https://www.wikidata.org/entity/Q414",
@@ -156,6 +168,7 @@
   },
   {
     "entity": "Aristotele",
+    "rdf_name": "Aristotele",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Aristotele",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Aristotle",
     "wikidata": "https://www.wikidata.org/entity/Q868",
@@ -167,6 +180,7 @@
   },
   {
     "entity": "Austria",
+    "rdf_name": "Austria",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Austria",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Austria",
     "wikidata": "https://www.wikidata.org/entity/Q40",
@@ -181,6 +195,7 @@
   },
   {
     "entity": "Avignone",
+    "rdf_name": "Avignone",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Avignone",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Avignon",
     "wikidata": "https://www.wikidata.org/entity/Q6397",
@@ -195,6 +210,7 @@
   },
   {
     "entity": "BR",
+    "rdf_name": "BR",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Brigate_Rosse",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Red_Brigades",
     "wikidata": "https://www.wikidata.org/entity/Q194019",
@@ -205,6 +221,7 @@
   },
   {
     "entity": "Badoglio",
+    "rdf_name": "Badoglio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Pietro_Badoglio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Pietro_Badoglio",
     "wikidata": "https://www.wikidata.org/entity/Q200085",
@@ -216,6 +233,7 @@
   },
   {
     "entity": "Beatrice",
+    "rdf_name": "Beatrice",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Beatrice_Portinari",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Beatrice_Portinari",
     "wikidata": "https://www.wikidata.org/entity/Q232913",
@@ -227,6 +245,7 @@
   },
   {
     "entity": "Beauvais",
+    "rdf_name": "Beauvais",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Beauvais",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Beauvais",
     "wikidata": "https://www.wikidata.org/entity/Q174257",
@@ -241,6 +260,7 @@
   },
   {
     "entity": "Beda",
+    "rdf_name": "Beda",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Beda_il_Venerabile",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Bede",
     "wikidata": "https://www.wikidata.org/entity/Q154938",
@@ -252,6 +272,7 @@
   },
   {
     "entity": "Belgio",
+    "rdf_name": "Belgio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Belgio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Belgium",
     "wikidata": "https://www.wikidata.org/entity/Q31",
@@ -266,6 +287,7 @@
   },
   {
     "entity": "Berkley",
+    "rdf_name": "Berkley",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Universit%C3%A0_della_California_-_Berkeley",
     "wikipedia_en": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley",
     "wikidata": "https://www.wikidata.org/entity/Q168756",
@@ -280,6 +302,7 @@
   },
   {
     "entity": "Berlino",
+    "rdf_name": "Berlino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Berlino",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Berlin",
     "wikidata": "https://www.wikidata.org/entity/Q64",
@@ -294,6 +317,7 @@
   },
   {
     "entity": "Bettinelli",
+    "rdf_name": "Bettinelli",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Saverio_Bettinelli",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Saverio_Bettinelli",
     "wikidata": "https://www.wikidata.org/entity/Q1152092",
@@ -305,6 +329,7 @@
   },
   {
     "entity": "Bismarck",
+    "rdf_name": "Bismarck",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Otto_von_Bismarck",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
     "wikidata": "https://www.wikidata.org/entity/Q8442",
@@ -316,6 +341,7 @@
   },
   {
     "entity": "Bloch",
+    "rdf_name": "Bloch",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Marc_Bloch",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Marc_Bloch",
     "wikidata": "https://www.wikidata.org/entity/Q156585",
@@ -327,6 +353,7 @@
   },
   {
     "entity": "Boccaccio",
+    "rdf_name": "Boccaccio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_Boccaccio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giovanni_Boccaccio",
     "wikidata": "https://www.wikidata.org/entity/Q1402",
@@ -338,6 +365,7 @@
   },
   {
     "entity": "Bonconte da Montefeltro",
+    "rdf_name": "BonconteDaMontefeltro",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Buonconte_da_Montefeltro",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Bonconte_I_da_Montefeltro",
     "wikidata": "https://www.wikidata.org/entity/Q3642072",
@@ -349,6 +377,7 @@
   },
   {
     "entity": "Borgogna",
+    "rdf_name": "Borgogna",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Borgogna",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Burgundy",
     "wikidata": "https://www.wikidata.org/entity/Q1173",
@@ -363,6 +392,7 @@
   },
   {
     "entity": "Brasile",
+    "rdf_name": "Brasile",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Brasile",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Brazil",
     "wikidata": "https://www.wikidata.org/entity/Q155",
@@ -377,6 +407,7 @@
   },
   {
     "entity": "Brentwood",
+    "rdf_name": "Brentwood",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Brentwood_(Regno_Unito)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Brentwood,_Essex",
     "wikidata": "https://www.wikidata.org/entity/Q909993",
@@ -391,6 +422,7 @@
   },
   {
     "entity": "Brodsky",
+    "rdf_name": "Brodsky",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Iosif_Aleksandrovi%C4%8D_Brodskij",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joseph_Brodsky",
     "wikidata": "https://www.wikidata.org/entity/Q862",
@@ -402,6 +434,7 @@
   },
   {
     "entity": "Bruxelles",
+    "rdf_name": "Bruxelles",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Bruxelles",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Brussels",
     "wikidata": "https://www.wikidata.org/entity/Q240",
@@ -416,6 +449,7 @@
   },
   {
     "entity": "Buenos Aires",
+    "rdf_name": "BuenosAires",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Buenos_Aires",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Buenos_Aires",
     "wikidata": "https://www.wikidata.org/entity/Q1486",
@@ -430,6 +464,7 @@
   },
   {
     "entity": "Bulgakov",
+    "rdf_name": "Bulgakov",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Michail_Afanas%27evi%C4%8D_Bulgakov",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mikhail_Bulgakov",
     "wikidata": "https://www.wikidata.org/entity/Q835",
@@ -441,6 +476,7 @@
   },
   {
     "entity": "Cadorna",
+    "rdf_name": "Cadorna",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Luigi_Cadorna",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Luigi_Cadorna",
     "wikidata": "https://www.wikidata.org/entity/Q333809",
@@ -452,6 +488,7 @@
   },
   {
     "entity": "Cambridge",
+    "rdf_name": "Cambridge",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Cambridge",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cambridge",
     "wikidata": "https://www.wikidata.org/entity/Q350",
@@ -466,6 +503,7 @@
   },
   {
     "entity": "Campaldino",
+    "rdf_name": "Campaldino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Battaglia_di_Campaldino",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Battle_of_Campaldino",
     "wikidata": "https://www.wikidata.org/entity/Q2888241",
@@ -476,6 +514,7 @@
   },
   {
     "entity": "Canarie",
+    "rdf_name": "Canarie",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Isole_Canarie",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Canary_Islands",
     "wikidata": "https://www.wikidata.org/entity/Q5813",
@@ -490,6 +529,7 @@
   },
   {
     "entity": "Caporetto",
+    "rdf_name": "Caporetto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Battaglia_di_Caporetto",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Battle_of_Caporetto",
     "wikidata": "https://www.wikidata.org/entity/Q242644",
@@ -500,6 +540,7 @@
   },
   {
     "entity": "Carducci",
+    "rdf_name": "Carducci",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giosu%C3%A8_Carducci",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giosu%C3%A8_Carducci",
     "wikidata": "https://www.wikidata.org/entity/Q43440",
@@ -511,6 +552,7 @@
   },
   {
     "entity": "Carla Capponi",
+    "rdf_name": "CarlaCapponi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carla_Capponi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Carla_Capponi",
     "wikidata": "https://www.wikidata.org/entity/Q3658835",
@@ -522,6 +564,7 @@
   },
   {
     "entity": "Carlo",
+    "rdf_name": "Carlo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_I_d%27Inghilterra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_I_of_England",
     "wikidata": "https://www.wikidata.org/entity/Q81506",
@@ -533,6 +576,7 @@
   },
   {
     "entity": "Carlo Alberto",
+    "rdf_name": "CarloAlberto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_Alberto_di_Savoia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_Albert_of_Sardinia",
     "wikidata": "https://www.wikidata.org/entity/Q181261",
@@ -544,6 +588,7 @@
   },
   {
     "entity": "Carlo Cattaneo",
+    "rdf_name": "CarloCattaneo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_Cattaneo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Carlo_Cattaneo",
     "wikidata": "https://www.wikidata.org/entity/Q1042024",
@@ -555,6 +600,7 @@
   },
   {
     "entity": "Carlo Magno",
+    "rdf_name": "CarloMagno",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_Magno",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Charlemagne",
     "wikidata": "https://www.wikidata.org/entity/Q3044",
@@ -566,6 +612,7 @@
   },
   {
     "entity": "Carlo V",
+    "rdf_name": "CarloV",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_V_d%27Asburgo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
     "wikidata": "https://www.wikidata.org/entity/Q32500",
@@ -577,6 +624,7 @@
   },
   {
     "entity": "Carlo il Malvagio",
+    "rdf_name": "CarloIlMalvagio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carlo_II_di_Navarra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Charles_II_of_Navarre",
     "wikidata": "https://www.wikidata.org/entity/Q43082",
@@ -588,6 +636,7 @@
   },
   {
     "entity": "Carso",
+    "rdf_name": "Carso",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carso",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Karst_Plateau",
     "wikidata": "https://www.wikidata.org/entity/Q625139",
@@ -602,6 +651,7 @@
   },
   {
     "entity": "Castiglia",
+    "rdf_name": "Castiglia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Castiglia_(regione_storica)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Castile_(historical_region)",
     "wikidata": "https://www.wikidata.org/entity/Q1043594",
@@ -619,6 +669,7 @@
       "Caterina",
       "Caterina da Siena"
     ],
+    "rdf_name": "Caterina",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Caterina_da_Siena",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Catherine_of_Siena",
     "wikidata": "https://www.wikidata.org/entity/Q229190",
@@ -630,6 +681,7 @@
   },
   {
     "entity": "Cavour",
+    "rdf_name": "Cavour",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Camillo_Benso,_conte_di_Cavour",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Camillo_Benso,_Count_of_Cavour",
     "wikidata": "https://www.wikidata.org/entity/Q166092",
@@ -641,6 +693,7 @@
   },
   {
     "entity": "Cesare Rossi",
+    "rdf_name": "CesareRossi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Cesare_Rossi_(politico)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cesare_Rossi_(politician)",
     "wikidata": "https://www.wikidata.org/entity/Q937137",
@@ -652,6 +705,7 @@
   },
   {
     "entity": "Chamberlain",
+    "rdf_name": "Chamberlain",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Neville_Chamberlain",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Neville_Chamberlain",
     "wikidata": "https://www.wikidata.org/entity/Q10664",
@@ -666,6 +720,7 @@
       "Christine",
       "Cristina"
     ],
+    "rdf_name": "Christine",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Cristina_da_Pizzano",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Christine_de_Pizan",
     "wikidata": "https://www.wikidata.org/entity/Q234816",
@@ -677,6 +732,7 @@
   },
   {
     "entity": "Cialdini",
+    "rdf_name": "Cialdini",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Enrico_Cialdini",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Enrico_Cialdini",
     "wikidata": "https://www.wikidata.org/entity/Q697867",
@@ -688,6 +744,7 @@
   },
   {
     "entity": "Ciano",
+    "rdf_name": "Ciano",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Galeazzo_Ciano",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Galeazzo_Ciano",
     "wikidata": "https://www.wikidata.org/entity/Q220105",
@@ -699,6 +756,7 @@
   },
   {
     "entity": "Ciompi",
+    "rdf_name": "Ciompi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Tumulto_dei_Ciompi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ciompi_Revolt",
     "wikidata": "https://www.wikidata.org/entity/Q1092673",
@@ -709,6 +767,7 @@
   },
   {
     "entity": "Cipro",
+    "rdf_name": "Cipro",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Cipro",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cyprus",
     "wikidata": "https://www.wikidata.org/entity/Q229",
@@ -723,6 +782,7 @@
   },
   {
     "entity": "Cluny",
+    "rdf_name": "Cluny",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Abbazia_di_Cluny",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cluny_Abbey",
     "wikidata": "https://www.wikidata.org/entity/Q220301",
@@ -737,6 +797,7 @@
   },
   {
     "entity": "Cauchon",
+    "rdf_name": "Cauchon",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Pierre_Cauchon",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Pierre_Cauchon",
     "wikidata": "https://www.wikidata.org/entity/Q464287",
@@ -748,6 +809,7 @@
   },
   {
     "entity": "Colombo",
+    "rdf_name": "Colombo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Cristoforo_Colombo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Christopher_Columbus",
     "wikidata": "https://www.wikidata.org/entity/Q7322",
@@ -759,6 +821,7 @@
   },
   {
     "entity": "Corfù",
+    "rdf_name": "Corfu",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Corf%C3%B9",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Corfu",
     "wikidata": "https://www.wikidata.org/entity/Q121378",
@@ -773,6 +836,7 @@
   },
   {
     "entity": "Corrado",
+    "rdf_name": "Corrado",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Corrado_del_Monferrato",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Conrad_of_Montferrat",
     "wikidata": "https://www.wikidata.org/entity/Q169329",
@@ -784,6 +848,7 @@
   },
   {
     "entity": "Corriere della Sera",
+    "rdf_name": "CorriereDellaSera",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Corriere_della_Sera",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Corriere_della_Sera",
     "wikidata": "https://www.wikidata.org/entity/Q309135",
@@ -794,6 +859,7 @@
   },
   {
     "entity": "Costantino",
+    "rdf_name": "Costantino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Costantino_I",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Constantine_the_Great",
     "wikidata": "https://www.wikidata.org/entity/Q8413",
@@ -805,6 +871,7 @@
   },
   {
     "entity": "Costantinopoli",
+    "rdf_name": "Costantinopoli",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Costantinopoli",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Constantinople",
     "wikidata": "https://www.wikidata.org/entity/Q16869",
@@ -819,6 +886,7 @@
   },
   {
     "entity": "Creta",
+    "rdf_name": "Creta",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Creta",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Crete",
     "wikidata": "https://www.wikidata.org/entity/Q34374",
@@ -836,6 +904,7 @@
       "Cristo",
       "Gesù"
     ],
+    "rdf_name": "Cristo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Ges%C3%B9",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Jesus",
     "wikidata": "https://www.wikidata.org/entity/Q302",
@@ -847,6 +916,7 @@
   },
   {
     "entity": "Cuneo",
+    "rdf_name": "Cuneo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Cuneo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Cuneo",
     "wikidata": "https://www.wikidata.org/entity/Q5968",
@@ -861,6 +931,7 @@
   },
   {
     "entity": "Custoza",
+    "rdf_name": "Custoza",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Battaglia_di_Custoza_(1866)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Battle_of_Custoza_(1866)",
     "wikidata": "https://www.wikidata.org/entity/Q48163",
@@ -871,6 +942,7 @@
   },
   {
     "entity": "D'Azeglio",
+    "rdf_name": "DAzeglio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Massimo_d%27Azeglio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Massimo_d%27Azeglio",
     "wikidata": "https://www.wikidata.org/entity/Q469134",
@@ -882,6 +954,7 @@
   },
   {
     "entity": "DC",
+    "rdf_name": "DC",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Democrazia_Cristiana",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Christian_Democracy_(Italy)",
     "wikidata": "https://www.wikidata.org/entity/Q815348",
@@ -892,6 +965,7 @@
   },
   {
     "entity": "Dante",
+    "rdf_name": "Dante",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Dante_Alighieri",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Dante_Alighieri",
     "wikidata": "https://www.wikidata.org/entity/Q1067",
@@ -902,6 +976,7 @@
   },
   {
     "entity": "Danzica",
+    "rdf_name": "Danzica",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Danzica",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gda%C5%84sk",
     "wikidata": "https://www.wikidata.org/entity/Q1792",
@@ -916,6 +991,7 @@
   },
   {
     "entity": "De Bono",
+    "rdf_name": "DeBono",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Emilio_De_Bono",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Emilio_De_Bono",
     "wikidata": "https://www.wikidata.org/entity/Q354486",
@@ -927,6 +1003,7 @@
   },
   {
     "entity": "Diaz",
+    "rdf_name": "Diaz",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Armando_Diaz",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Armando_Diaz",
     "wikidata": "https://www.wikidata.org/entity/Q333778",
@@ -938,6 +1015,7 @@
   },
   {
     "entity": "Dino Compagni",
+    "rdf_name": "DinoCompagni",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Dino_Compagni",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Dino_Compagni",
     "wikidata": "https://www.wikidata.org/entity/Q716994",
@@ -948,6 +1026,7 @@
   },
   {
     "entity": "Dio",
+    "rdf_name": "Dio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Dio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/God",
     "wikidata": "https://www.wikidata.org/entity/Q190",
@@ -958,6 +1037,7 @@
   },
   {
     "entity": "Dumini",
+    "rdf_name": "Dumini",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Amerigo_Dumini",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Amerigo_Dumini",
     "wikidata": "https://www.wikidata.org/entity/Q2843122",
@@ -969,6 +1049,7 @@
   },
   {
     "entity": "Egitto",
+    "rdf_name": "Egitto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Egitto",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Egypt",
     "wikidata": "https://www.wikidata.org/entity/Q79",
@@ -983,6 +1064,7 @@
   },
   {
     "entity": "Elba",
+    "rdf_name": "Elba",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Isola_d%27Elba",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Elba",
     "wikidata": "https://www.wikidata.org/entity/Q45328",
@@ -997,6 +1079,7 @@
   },
   {
     "entity": "Elia",
+    "rdf_name": "Elia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Elia_da_Cortona",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Elias_of_Cortona",
     "wikidata": "https://www.wikidata.org/entity/Q1329212",
@@ -1008,6 +1091,7 @@
   },
   {
     "entity": "Elisabetta",
+    "rdf_name": "Elisabetta",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Elisabetta_I_d%27Inghilterra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Elizabeth_I",
     "wikidata": "https://www.wikidata.org/entity/Q7207",
@@ -1019,6 +1103,7 @@
   },
   {
     "entity": "Enrico V",
+    "rdf_name": "EnricoV",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Enrico_V_d%27Inghilterra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Henry_V_of_England",
     "wikidata": "https://www.wikidata.org/entity/Q131581",
@@ -1030,6 +1115,7 @@
   },
   {
     "entity": "Europa",
+    "rdf_name": "Europa",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Europa",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Europe",
     "wikidata": "https://www.wikidata.org/entity/Q46",
@@ -1047,6 +1133,7 @@
       "Falkland",
       "Las Malvinas"
     ],
+    "rdf_name": "Falkland",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Isole_Falkland",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Falkland_Islands",
     "wikidata": "https://www.wikidata.org/entity/Q9648",
@@ -1061,6 +1148,7 @@
   },
   {
     "entity": "Fanfani",
+    "rdf_name": "Fanfani",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Amintore_Fanfani",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Amintore_Fanfani",
     "wikidata": "https://www.wikidata.org/entity/Q273228",
@@ -1072,6 +1160,7 @@
   },
   {
     "entity": "Fano",
+    "rdf_name": "Fano",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Fano",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Fano",
     "wikidata": "https://www.wikidata.org/entity/Q13142",
@@ -1086,6 +1175,7 @@
   },
   {
     "entity": "Faranda",
+    "rdf_name": "Faranda",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Adriana_Faranda",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Adriana_Faranda",
     "wikidata": "https://www.wikidata.org/entity/Q3605665",
@@ -1097,6 +1187,7 @@
   },
   {
     "entity": "Farfa",
+    "rdf_name": "Farfa",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Abbazia_di_Farfa",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Farfa_Abbey",
     "wikidata": "https://www.wikidata.org/entity/Q2634480",
@@ -1111,6 +1202,7 @@
   },
   {
     "entity": "Federico II",
+    "rdf_name": "FedericoIi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Federico_II_di_Svevia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Frederick_II,_Holy_Roman_Emperor",
     "wikidata": "https://www.wikidata.org/entity/Q130221",
@@ -1122,6 +1214,7 @@
   },
   {
     "entity": "Febvre",
+    "rdf_name": "Febvre",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lucien_Febvre",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lucien_Febvre",
     "wikidata": "https://www.wikidata.org/entity/Q156999",
@@ -1133,6 +1226,7 @@
   },
   {
     "entity": "Firenze",
+    "rdf_name": "Firenze",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Firenze",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Florence",
     "wikidata": "https://www.wikidata.org/entity/Q2044",
@@ -1147,6 +1241,7 @@
   },
   {
     "entity": "Francesco Ferdinando",
+    "rdf_name": "FrancescoFerdinando",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Francesco_Ferdinando_d%27Austria-Este",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
     "wikidata": "https://www.wikidata.org/entity/Q43063",
@@ -1158,6 +1253,7 @@
   },
   {
     "entity": "Francesco Giuseppe",
+    "rdf_name": "FrancescoGiuseppe",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Francesco_Giuseppe_I_d%27Austria",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Franz_Joseph_I_of_Austria",
     "wikidata": "https://www.wikidata.org/entity/Q51056",
@@ -1169,6 +1265,7 @@
   },
   {
     "entity": "Francia",
+    "rdf_name": "Francia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Francia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/France",
     "wikidata": "https://www.wikidata.org/entity/Q142",
@@ -1183,6 +1280,7 @@
   },
   {
     "entity": "Freud",
+    "rdf_name": "Freud",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Sigmund_Freud",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Sigmund_Freud",
     "wikidata": "https://www.wikidata.org/entity/Q9215",
@@ -1194,6 +1292,7 @@
   },
   {
     "entity": "GAP",
+    "rdf_name": "GAP",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Gruppi_di_Azione_Patriottica",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gruppi_di_Azione_Patriottica",
     "wikidata": "https://www.wikidata.org/entity/Q3777284",
@@ -1204,6 +1303,7 @@
   },
   {
     "entity": "Galtieri",
+    "rdf_name": "Galtieri",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Leopoldo_Galtieri",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Leopoldo_Galtieri",
     "wikidata": "https://www.wikidata.org/entity/Q124993",
@@ -1215,6 +1315,7 @@
   },
   {
     "entity": "Garibaldi",
+    "rdf_name": "Garibaldi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giuseppe_Garibaldi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giuseppe_Garibaldi",
     "wikidata": "https://www.wikidata.org/entity/Q539",
@@ -1226,6 +1327,7 @@
   },
   {
     "entity": "Germania",
+    "rdf_name": "Germania",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Germania",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Germany",
     "wikidata": "https://www.wikidata.org/entity/Q183",
@@ -1240,6 +1342,7 @@
   },
   {
     "entity": "Gerusalemme",
+    "rdf_name": "Gerusalemme",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Gerusalemme",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Jerusalem",
     "wikidata": "https://www.wikidata.org/entity/Q1218",
@@ -1254,6 +1357,7 @@
   },
   {
     "entity": "Gestapo",
+    "rdf_name": "Gestapo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Gestapo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gestapo",
     "wikidata": "https://www.wikidata.org/entity/Q43250",
@@ -1264,6 +1368,7 @@
   },
   {
     "entity": "George",
+    "rdf_name": "George",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Stefan_George",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Stefan_George",
     "wikidata": "https://www.wikidata.org/entity/Q57187",
@@ -1275,6 +1380,7 @@
   },
   {
     "entity": "Giacomo",
+    "rdf_name": "Giacomo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giacomo_I_d%27Inghilterra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/James_VI_and_I",
     "wikidata": "https://www.wikidata.org/entity/Q79972",
@@ -1286,6 +1392,7 @@
   },
   {
     "entity": "Giappone",
+    "rdf_name": "Giappone",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giappone",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Japan",
     "wikidata": "https://www.wikidata.org/entity/Q17",
@@ -1300,6 +1407,7 @@
   },
   {
     "entity": "Giolitti",
+    "rdf_name": "Giolitti",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_Giolitti",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giovanni_Giolitti",
     "wikidata": "https://www.wikidata.org/entity/Q297190",
@@ -1311,6 +1419,7 @@
   },
   {
     "entity": "Giorgio Amendola",
+    "rdf_name": "GiorgioAmendola",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giorgio_Amendola",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giorgio_Amendola",
     "wikidata": "https://www.wikidata.org/entity/Q939831",
@@ -1325,6 +1434,7 @@
       "Giovanna",
       "Giovanna d'Arco"
     ],
+    "rdf_name": "Giovanna",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanna_d%27Arco",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joan_of_Arc",
     "wikidata": "https://www.wikidata.org/entity/Q7226",
@@ -1336,6 +1446,7 @@
   },
   {
     "entity": "Giovanni da Vicenza",
+    "rdf_name": "GiovanniDaVicenza",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_da_Vicenza",
     "wikipedia_en": "https://en.wikipedia.org/wiki/John_of_Vicenza",
     "wikidata": "https://www.wikidata.org/entity/Q3768438",
@@ -1347,6 +1458,7 @@
   },
   {
     "entity": "Giovanni il Buono",
+    "rdf_name": "GiovanniIlBuono",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_II_di_Francia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/John_II_of_France",
     "wikidata": "https://www.wikidata.org/entity/Q169992",
@@ -1358,6 +1470,7 @@
   },
   {
     "entity": "Girolamo",
+    "rdf_name": "Girolamo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/San_Girolamo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Jerome",
     "wikidata": "https://www.wikidata.org/entity/Q44248",
@@ -1369,6 +1482,7 @@
   },
   {
     "entity": "Gyulay",
+    "rdf_name": "Gyulay",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Ferenc_Gyulay",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ferenc_Gyulay",
     "wikidata": "https://www.wikidata.org/entity/Q698020",
@@ -1380,6 +1494,7 @@
   },
   {
     "entity": "Gobetti",
+    "rdf_name": "Gobetti",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Piero_Gobetti",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Piero_Gobetti",
     "wikidata": "https://www.wikidata.org/entity/Q532852",
@@ -1391,6 +1506,7 @@
   },
   {
     "entity": "Goffredo di Buglione",
+    "rdf_name": "GoffredoDiBuglione",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Goffredo_di_Buglione",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Godfrey_of_Bouillon",
     "wikidata": "https://www.wikidata.org/entity/Q76721",
@@ -1402,6 +1518,7 @@
   },
   {
     "entity": "Gorizia",
+    "rdf_name": "Gorizia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Gorizia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gorizia",
     "wikidata": "https://www.wikidata.org/entity/Q6596",
@@ -1416,6 +1533,7 @@
   },
   {
     "entity": "Gradoli",
+    "rdf_name": "Gradoli",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Gradoli",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gradoli",
     "wikidata": "https://www.wikidata.org/entity/Q161694",
@@ -1430,6 +1548,7 @@
   },
   {
     "entity": "Hitler",
+    "rdf_name": "Hitler",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Adolf_Hitler",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Adolf_Hitler",
     "wikidata": "https://www.wikidata.org/entity/Q352",
@@ -1441,6 +1560,7 @@
   },
   {
     "entity": "Inghilterra",
+    "rdf_name": "Inghilterra",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Inghilterra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/England",
     "wikidata": "https://www.wikidata.org/entity/Q21",
@@ -1455,6 +1575,7 @@
   },
   {
     "entity": "Irlanda",
+    "rdf_name": "Irlanda",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Irlanda",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ireland",
     "wikidata": "https://www.wikidata.org/entity/Q27",
@@ -1469,6 +1590,7 @@
   },
   {
     "entity": "Isonzo",
+    "rdf_name": "Isonzo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Isonzo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/So%C4%8Da",
     "wikidata": "https://www.wikidata.org/entity/Q202760",
@@ -1483,6 +1605,7 @@
   },
   {
     "entity": "Israele",
+    "rdf_name": "Israele",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Israele",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Israel",
     "wikidata": "https://www.wikidata.org/entity/Q801",
@@ -1497,6 +1620,7 @@
   },
   {
     "entity": "Istanbul",
+    "rdf_name": "Istanbul",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Istanbul",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Istanbul",
     "wikidata": "https://www.wikidata.org/entity/Q406",
@@ -1511,6 +1635,7 @@
   },
   {
     "entity": "Italia",
+    "rdf_name": "Italia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Italia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Italy",
     "wikidata": "https://www.wikidata.org/entity/Q38",
@@ -1525,6 +1650,7 @@
   },
   {
     "entity": "Ivrea",
+    "rdf_name": "Ivrea",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Ivrea",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ivrea",
     "wikidata": "https://www.wikidata.org/entity/Q9409",
@@ -1539,6 +1665,7 @@
   },
   {
     "entity": "Jacquerie",
+    "rdf_name": "Jacquerie",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Jacquerie",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Jacquerie",
     "wikidata": "https://www.wikidata.org/entity/Q7126013",
@@ -1549,6 +1676,7 @@
   },
   {
     "entity": "Jacques Bonhomme",
+    "rdf_name": "JacquesBonhomme",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Jacques_Bonhomme",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Guillaume_Cale",
     "wikidata": "https://www.wikidata.org/entity/Q596460",
@@ -1560,6 +1688,7 @@
   },
   {
     "entity": "Jean de Joinville",
+    "rdf_name": "JeanDeJoinville",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Jean_de_Joinville",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Jean_de_Joinville",
     "wikidata": "https://www.wikidata.org/entity/Q328747",
@@ -1571,6 +1700,7 @@
   },
   {
     "entity": "Joanneville",
+    "rdf_name": "Joanneville",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Joinville_(Francia)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joinville,_Haute-Marne",
     "wikidata": "https://www.wikidata.org/entity/Q817418",
@@ -1585,6 +1715,7 @@
   },
   {
     "entity": "John Ball",
+    "rdf_name": "JohnBall",
     "wikipedia_it": "https://it.wikipedia.org/wiki/John_Ball_(prete)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/John_Ball_(priest)",
     "wikidata": "https://www.wikidata.org/entity/Q505824",
@@ -1596,6 +1727,7 @@
   },
   {
     "entity": "John Brown",
+    "rdf_name": "JohnBrown",
     "wikipedia_it": "https://it.wikipedia.org/wiki/John_Brown_(attivista)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/John_Brown_(abolitionist)",
     "wikidata": "https://www.wikidata.org/entity/Q189366",
@@ -1607,6 +1739,7 @@
   },
   {
     "entity": "Jugoslavia",
+    "rdf_name": "Jugoslavia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Jugoslavia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Yugoslavia",
     "wikidata": "https://www.wikidata.org/entity/Q36704",
@@ -1621,6 +1754,7 @@
   },
   {
     "entity": "Kansas",
+    "rdf_name": "Kansas",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Kansas",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Kansas",
     "wikidata": "https://www.wikidata.org/entity/Q1558",
@@ -1635,6 +1769,7 @@
   },
   {
     "entity": "Kantorowicz",
+    "rdf_name": "Kantorowicz",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Ernst_Kantorowicz",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ernst_Kantorowicz",
     "wikidata": "https://www.wikidata.org/entity/Q77499",
@@ -1646,6 +1781,7 @@
   },
   {
     "entity": "Kappler",
+    "rdf_name": "Kappler",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Herbert_Kappler",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Herbert_Kappler",
     "wikidata": "https://www.wikidata.org/entity/Q61861",
@@ -1657,6 +1793,7 @@
   },
   {
     "entity": "Kiev",
+    "rdf_name": "Kiev",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Kiev",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Kyiv",
     "wikidata": "https://www.wikidata.org/entity/Q1899",
@@ -1671,6 +1808,7 @@
   },
   {
     "entity": "La Marmora",
+    "rdf_name": "LaMarmora",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Alfonso_La_Marmora",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Alfonso_La_Marmora",
     "wikidata": "https://www.wikidata.org/entity/Q471272",
@@ -1682,6 +1820,7 @@
   },
   {
     "entity": "Lancaster",
+    "rdf_name": "Lancaster",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lancaster_(Regno_Unito)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lancaster,_Lancashire",
     "wikidata": "https://www.wikidata.org/entity/Q205905",
@@ -1699,6 +1838,7 @@
       "Leningrado",
       "Pietroburgo"
     ],
+    "rdf_name": "Leningrado",
     "wikipedia_it": "https://it.wikipedia.org/wiki/San_Pietroburgo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Saint_Petersburg",
     "wikidata": "https://www.wikidata.org/entity/Q656",
@@ -1713,6 +1853,7 @@
   },
   {
     "entity": "Lepanto",
+    "rdf_name": "Lepanto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lepanto",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Nafpaktos",
     "wikidata": "https://www.wikidata.org/entity/Q782278",
@@ -1727,6 +1868,7 @@
   },
   {
     "entity": "Leutardo",
+    "rdf_name": "Leutardo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Leutardo_di_Vertus",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Leutard_of_Vertus",
     "wikidata": "https://www.wikidata.org/entity/Q21042902",
@@ -1737,6 +1879,7 @@
   },
   {
     "entity": "Liev",
+    "rdf_name": "Liev",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lev_Nikolaevi%C4%8D_Gumil%C3%ABv",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lev_Gumilev",
     "wikidata": "https://www.wikidata.org/entity/Q135481",
@@ -1748,6 +1891,7 @@
   },
   {
     "entity": "Lincoln",
+    "rdf_name": "Lincoln",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Abraham_Lincoln",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
     "wikidata": "https://www.wikidata.org/entity/Q91",
@@ -1759,6 +1903,7 @@
   },
   {
     "entity": "Lione",
+    "rdf_name": "Lione",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lione",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lyon",
     "wikidata": "https://www.wikidata.org/entity/Q456",
@@ -1773,6 +1918,7 @@
   },
   {
     "entity": "Londra",
+    "rdf_name": "Londra",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Londra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/London",
     "wikidata": "https://www.wikidata.org/entity/Q84",
@@ -1787,6 +1933,7 @@
   },
   {
     "entity": "Lord Strafford",
+    "rdf_name": "LordStrafford",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Thomas_Wentworth,_I_conte_di_Strafford",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Thomas_Wentworth,_1st_Earl_of_Strafford",
     "wikidata": "https://www.wikidata.org/entity/Q336091",
@@ -1798,6 +1945,7 @@
   },
   {
     "entity": "Luigi IX",
+    "rdf_name": "LuigiIX",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Luigi_IX_di_Francia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Louis_IX_of_France",
     "wikidata": "https://www.wikidata.org/entity/Q346",
@@ -1809,6 +1957,7 @@
   },
   {
     "entity": "Luigi XVIII",
+    "rdf_name": "LuigiXVIII",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Luigi_XVIII_di_Francia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Louis_XVIII",
     "wikidata": "https://www.wikidata.org/entity/Q7750",
@@ -1820,6 +1969,7 @@
   },
   {
     "entity": "Magonza",
+    "rdf_name": "Magonza",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Magonza",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mainz",
     "wikidata": "https://www.wikidata.org/entity/Q1720",
@@ -1834,6 +1984,7 @@
   },
   {
     "entity": "Mandeville",
+    "rdf_name": "Mandeville",
     "wikipedia_it": "https://it.wikipedia.org/wiki/John_Mandeville",
     "wikipedia_en": "https://en.wikipedia.org/wiki/John_Mandeville",
     "wikidata": "https://www.wikidata.org/entity/Q3257249",
@@ -1844,6 +1995,7 @@
   },
   {
     "entity": "Maometto",
+    "rdf_name": "Maometto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Maometto",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Muhammad",
     "wikidata": "https://www.wikidata.org/entity/Q9458",
@@ -1855,6 +2007,7 @@
   },
   {
     "entity": "Marco Polo",
+    "rdf_name": "MarcoPolo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Marco_Polo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Marco_Polo",
     "wikidata": "https://www.wikidata.org/entity/Q6101",
@@ -1866,6 +2019,7 @@
   },
   {
     "entity": "Maria",
+    "rdf_name": "Maria",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Maria_(madre_di_Ges%C3%B9)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mary,_mother_of_Jesus",
     "wikidata": "https://www.wikidata.org/entity/Q345",
@@ -1877,6 +2031,7 @@
   },
   {
     "entity": "Mario Fiorentini",
+    "rdf_name": "MarioFiorentini",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Mario_Fiorentini",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mario_Fiorentini",
     "wikidata": "https://www.wikidata.org/entity/Q3848579",
@@ -1887,6 +2042,7 @@
   },
   {
     "entity": "Matteo d'Acquasparta",
+    "rdf_name": "MatteoDAcquasparta",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Matteo_d%27Acquasparta",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Matthew_of_Acquasparta",
     "wikidata": "https://www.wikidata.org/entity/Q1346310",
@@ -1898,6 +2054,7 @@
   },
   {
     "entity": "Matteotti",
+    "rdf_name": "Matteotti",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giacomo_Matteotti",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giacomo_Matteotti",
     "wikidata": "https://www.wikidata.org/entity/Q267304",
@@ -1909,6 +2066,7 @@
   },
   {
     "entity": "Max Clausen",
+    "rdf_name": "MaxClausen",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Max_Klausen",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Max_Christiansen-Clausen",
     "wikidata": "https://www.wikidata.org/entity/Q124006",
@@ -1920,6 +2078,7 @@
   },
   {
     "entity": "Mazzini",
+    "rdf_name": "Mazzini",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giuseppe_Mazzini",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Giuseppe_Mazzini",
     "wikidata": "https://www.wikidata.org/entity/Q187336",
@@ -1931,6 +2090,7 @@
   },
   {
     "entity": "Mediterraneo",
+    "rdf_name": "Mediterraneo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Mar_Mediterraneo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
     "wikidata": "https://www.wikidata.org/entity/Q4918",
@@ -1945,6 +2105,7 @@
   },
   {
     "entity": "Messer Lapo",
+    "rdf_name": "MesserLapo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lapo_da_Castiglionchio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Lapo_da_Castiglionchio_the_Elder",
     "wikidata": "https://www.wikidata.org/entity/Q1237303",
@@ -1956,6 +2117,7 @@
   },
   {
     "entity": "Messina",
+    "rdf_name": "Messina",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Messina",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Messina",
     "wikidata": "https://www.wikidata.org/entity/Q13666",
@@ -1970,6 +2132,7 @@
   },
   {
     "entity": "Michele di Lando",
+    "rdf_name": "MicheleDiLando",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Michele_di_Lando",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Michele_di_Lando",
     "wikidata": "https://www.wikidata.org/entity/Q786761",
@@ -1981,6 +2144,7 @@
   },
   {
     "entity": "Milano",
+    "rdf_name": "Milano",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Milano",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Milan",
     "wikidata": "https://www.wikidata.org/entity/Q490",
@@ -1995,6 +2159,7 @@
   },
   {
     "entity": "Mincio",
+    "rdf_name": "Mincio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Mincio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mincio",
     "wikidata": "https://www.wikidata.org/entity/Q936688",
@@ -2009,6 +2174,7 @@
   },
   {
     "entity": "Montmartre",
+    "rdf_name": "Montmartre",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Montmartre",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Montmartre",
     "wikidata": "https://www.wikidata.org/entity/Q186115",
@@ -2023,6 +2189,7 @@
   },
   {
     "entity": "Moretti",
+    "rdf_name": "Moretti",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Mario_Moretti",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Mario_Moretti",
     "wikidata": "https://www.wikidata.org/entity/Q1758581",
@@ -2034,6 +2201,7 @@
   },
   {
     "entity": "Moro",
+    "rdf_name": "Moro",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Aldo_Moro",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Aldo_Moro",
     "wikidata": "https://www.wikidata.org/entity/Q171834",
@@ -2045,6 +2213,7 @@
   },
   {
     "entity": "Morucci",
+    "rdf_name": "Morucci",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Valerio_Morucci",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Valerio_Morucci",
     "wikidata": "https://www.wikidata.org/entity/Q4007903",
@@ -2055,6 +2224,7 @@
   },
   {
     "entity": "Mosca",
+    "rdf_name": "Mosca",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Mosca_(Russia)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Moscow",
     "wikidata": "https://www.wikidata.org/entity/Q649",
@@ -2069,6 +2239,7 @@
   },
   {
     "entity": "Mussolini",
+    "rdf_name": "Mussolini",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Benito_Mussolini",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Benito_Mussolini",
     "wikidata": "https://www.wikidata.org/entity/Q23559",
@@ -2080,6 +2251,7 @@
   },
   {
     "entity": "Napoleone",
+    "rdf_name": "Napoleone",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Napoleone_Bonaparte",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Napoleon",
     "wikidata": "https://www.wikidata.org/entity/Q517",
@@ -2091,6 +2263,7 @@
   },
   {
     "entity": "Napoleone III",
+    "rdf_name": "NapoleoneIII",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Napoleone_III_di_Francia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Napoleon_III",
     "wikidata": "https://www.wikidata.org/entity/Q7721",
@@ -2102,6 +2275,7 @@
   },
   {
     "entity": "Napoli",
+    "rdf_name": "Napoli",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Napoli",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Naples",
     "wikidata": "https://www.wikidata.org/entity/Q2634",
@@ -2116,6 +2290,7 @@
   },
   {
     "entity": "Niceta",
+    "rdf_name": "Niceta",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Niceta_Coniata",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Niketas_Choniates",
     "wikidata": "https://www.wikidata.org/entity/Q297340",
@@ -2127,6 +2302,7 @@
   },
   {
     "entity": "Norfolk",
+    "rdf_name": "Norfolk",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Norfolk",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Norfolk",
     "wikidata": "https://www.wikidata.org/entity/Q23109",
@@ -2141,6 +2317,7 @@
   },
   {
     "entity": "Olanda",
+    "rdf_name": "Olanda",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Paesi_Bassi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Netherlands",
     "wikidata": "https://www.wikidata.org/entity/Q55",
@@ -2155,6 +2332,7 @@
   },
   {
     "entity": "Orlando",
+    "rdf_name": "Orlando",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Orlando_(paladino)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Roland",
     "wikidata": "https://www.wikidata.org/entity/Q207535",
@@ -2166,6 +2344,7 @@
   },
   {
     "entity": "Orleans",
+    "rdf_name": "Orleans",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Orl%C3%A9ans",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Orl%C3%A9ans",
     "wikidata": "https://www.wikidata.org/entity/Q6548",
@@ -2180,6 +2359,7 @@
   },
   {
     "entity": "Oxford",
+    "rdf_name": "Oxford",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Oxford",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Oxford",
     "wikidata": "https://www.wikidata.org/entity/Q34217",
@@ -2194,6 +2374,7 @@
   },
   {
     "entity": "Ozaki",
+    "rdf_name": "Ozaki",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Hotsumi_Ozaki",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Hotsumi_Ozaki",
     "wikidata": "https://www.wikidata.org/entity/Q1206227",
@@ -2205,6 +2386,7 @@
   },
   {
     "entity": "Palazzo Vecchio",
+    "rdf_name": "PalazzoVecchio",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Palazzo_Vecchio",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Palazzo_Vecchio",
     "wikidata": "https://www.wikidata.org/entity/Q271928",
@@ -2219,6 +2401,7 @@
   },
   {
     "entity": "Parigi",
+    "rdf_name": "Parigi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Parigi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Paris",
     "wikidata": "https://www.wikidata.org/entity/Q90",
@@ -2233,6 +2416,7 @@
   },
   {
     "entity": "Parma",
+    "rdf_name": "Parma",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Parma",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Parma",
     "wikidata": "https://www.wikidata.org/entity/Q2683",
@@ -2247,6 +2431,7 @@
   },
   {
     "entity": "Patrasso",
+    "rdf_name": "Patrasso",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Patrasso",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Patras",
     "wikidata": "https://www.wikidata.org/entity/Q133123",
@@ -2261,6 +2446,7 @@
   },
   {
     "entity": "Philippe de Nemure",
+    "rdf_name": "PhilippeDeNemure",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Filippo_di_Savoia-Nemours",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Philip,_Duke_of_Nemours",
     "wikidata": "https://www.wikidata.org/entity/Q2005044",
@@ -2271,6 +2457,7 @@
   },
   {
     "entity": "Piave",
+    "rdf_name": "Piave",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Piave",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Piave_(river)",
     "wikidata": "https://www.wikidata.org/entity/Q530569",
@@ -2285,6 +2472,7 @@
   },
   {
     "entity": "Piemonte",
+    "rdf_name": "Piemonte",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Piemonte",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Piedmont",
     "wikidata": "https://www.wikidata.org/entity/Q1216",
@@ -2299,6 +2487,7 @@
   },
   {
     "entity": "Pisa",
+    "rdf_name": "Pisa",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Pisa",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Pisa",
     "wikidata": "https://www.wikidata.org/entity/Q13375",
@@ -2313,6 +2502,7 @@
   },
   {
     "entity": "Po",
+    "rdf_name": "Po",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Po",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Po_(river)",
     "wikidata": "https://www.wikidata.org/entity/Q643",
@@ -2327,6 +2517,7 @@
   },
   {
     "entity": "Polonia",
+    "rdf_name": "Polonia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Polonia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Poland",
     "wikidata": "https://www.wikidata.org/entity/Q36",
@@ -2341,6 +2532,7 @@
   },
   {
     "entity": "Princeton",
+    "rdf_name": "Princeton",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Princeton",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Princeton",
     "wikidata": "https://www.wikidata.org/entity/Q21578",
@@ -2355,6 +2547,7 @@
   },
   {
     "entity": "Prussia",
+    "rdf_name": "Prussia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Prussia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Prussia",
     "wikidata": "https://www.wikidata.org/entity/Q38872",
@@ -2369,6 +2562,7 @@
   },
   {
     "entity": "Radetzky",
+    "rdf_name": "Radetzky",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Josef_Radetzky",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joseph_Radetzky_von_Radetz",
     "wikidata": "https://www.wikidata.org/entity/Q153500",
@@ -2380,6 +2574,7 @@
   },
   {
     "entity": "Raimondo da Capua",
+    "rdf_name": "RaimondoDaCapua",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Raimondo_da_Capua",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Raymond_of_Capua",
     "wikidata": "https://www.wikidata.org/entity/Q2460163",
@@ -2391,6 +2586,7 @@
   },
   {
     "entity": "Rattazzi",
+    "rdf_name": "Rattazzi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Urbano_Rattazzi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Urbano_Rattazzi",
     "wikidata": "https://www.wikidata.org/entity/Q449387",
@@ -2402,6 +2598,7 @@
   },
   {
     "entity": "Reagan",
+    "rdf_name": "Reagan",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Ronald_Reagan",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ronald_Reagan",
     "wikidata": "https://www.wikidata.org/entity/Q9960",
@@ -2413,6 +2610,7 @@
   },
   {
     "entity": "Reims",
+    "rdf_name": "Reims",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Reims",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Reims",
     "wikidata": "https://www.wikidata.org/entity/Q41876",
@@ -2427,6 +2625,7 @@
   },
   {
     "entity": "Ribbentrop",
+    "rdf_name": "Ribbentrop",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Joachim_von_Ribbentrop",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joachim_von_Ribbentrop",
     "wikidata": "https://www.wikidata.org/entity/Q101886",
@@ -2438,6 +2637,7 @@
   },
   {
     "entity": "Riccardo Cuor di Leone",
+    "rdf_name": "RiccardoCuorDiLeone",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Riccardo_I_d%27Inghilterra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Richard_I_of_England",
     "wikidata": "https://www.wikidata.org/entity/Q42305",
@@ -2449,6 +2649,7 @@
   },
   {
     "entity": "Robert de Clary",
+    "rdf_name": "RobertDeClary",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Roberto_de_Clari",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Robert_de_Clari",
     "wikidata": "https://www.wikidata.org/entity/Q944668",
@@ -2459,6 +2660,7 @@
   },
   {
     "entity": "Roma",
+    "rdf_name": "Roma",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Roma",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Rome",
     "wikidata": "https://www.wikidata.org/entity/Q220",
@@ -2473,6 +2675,7 @@
   },
   {
     "entity": "Rosario Bentivegna",
+    "rdf_name": "RosarioBentivegna",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Rosario_Bentivegna",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Rosario_Bentivegna",
     "wikidata": "https://www.wikidata.org/entity/Q49761",
@@ -2484,6 +2687,7 @@
   },
   {
     "entity": "Rosina",
+    "rdf_name": "Rosina",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Rosa_Vercellana",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Rosa_Vercellana",
     "wikidata": "https://www.wikidata.org/entity/Q276000",
@@ -2495,6 +2699,7 @@
   },
   {
     "entity": "Rouen",
+    "rdf_name": "Rouen",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Rouen",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Rouen",
     "wikidata": "https://www.wikidata.org/entity/Q30974",
@@ -2509,6 +2714,7 @@
   },
   {
     "entity": "Russia",
+    "rdf_name": "Russia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Russia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Russia",
     "wikidata": "https://www.wikidata.org/entity/Q159",
@@ -2523,6 +2729,7 @@
   },
   {
     "entity": "Saladino",
+    "rdf_name": "Saladino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Saladino",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Saladin",
     "wikidata": "https://www.wikidata.org/entity/Q8581",
@@ -2534,6 +2741,7 @@
   },
   {
     "entity": "Salamanca",
+    "rdf_name": "Salamanca",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Salamanca",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Salamanca",
     "wikidata": "https://www.wikidata.org/entity/Q15695",
@@ -2548,6 +2756,7 @@
   },
   {
     "entity": "Salandra",
+    "rdf_name": "Salandra",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Antonio_Salandra",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Antonio_Salandra",
     "wikidata": "https://www.wikidata.org/entity/Q354715",
@@ -2559,6 +2768,7 @@
   },
   {
     "entity": "Salimbene",
+    "rdf_name": "Salimbene",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Salimbene_de_Adam",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Salimbene_di_Adam",
     "wikidata": "https://www.wikidata.org/entity/Q799960",
@@ -2569,6 +2779,7 @@
   },
   {
     "entity": "Salvemini",
+    "rdf_name": "Salvemini",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Gaetano_Salvemini",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Gaetano_Salvemini",
     "wikidata": "https://www.wikidata.org/entity/Q730889",
@@ -2580,6 +2791,7 @@
   },
   {
     "entity": "Salvestro De Medici",
+    "rdf_name": "SalvestroDeMedici",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Salvestro_de%27_Medici",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Salvestro_de%27_Medici",
     "wikidata": "https://www.wikidata.org/entity/Q1564584",
@@ -2591,6 +2803,7 @@
   },
   {
     "entity": "Samuele",
+    "rdf_name": "Samuele",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Samuele_(profeta)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Samuel",
     "wikidata": "https://www.wikidata.org/entity/Q6577515",
@@ -2602,6 +2815,7 @@
   },
   {
     "entity": "San Bernardo",
+    "rdf_name": "SanBernardo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Bernardo_di_Chiaravalle",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Bernard_of_Clairvaux",
     "wikidata": "https://www.wikidata.org/entity/Q188411",
@@ -2613,6 +2827,7 @@
   },
   {
     "entity": "San Giovanni",
+    "rdf_name": "SanGiovanni",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Giovanni_Battista",
     "wikipedia_en": "https://en.wikipedia.org/wiki/John_the_Baptist",
     "wikidata": "https://www.wikidata.org/entity/Q40662",
@@ -2624,6 +2839,7 @@
   },
   {
     "entity": "Santa Chiara",
+    "rdf_name": "SantaChiara",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Chiara_d%27Assisi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Clare_of_Assisi",
     "wikidata": "https://www.wikidata.org/entity/Q191107",
@@ -2635,6 +2851,7 @@
   },
   {
     "entity": "Sarajevo",
+    "rdf_name": "Sarajevo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Sarajevo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Sarajevo",
     "wikidata": "https://www.wikidata.org/entity/Q11194",
@@ -2649,6 +2866,7 @@
   },
   {
     "entity": "Satana",
+    "rdf_name": "Satana",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Satana",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Satan",
     "wikidata": "https://www.wikidata.org/entity/Q35230",
@@ -2659,6 +2877,7 @@
   },
   {
     "entity": "Scozia",
+    "rdf_name": "Scozia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Scozia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Scotland",
     "wikidata": "https://www.wikidata.org/entity/Q22",
@@ -2673,6 +2892,7 @@
   },
   {
     "entity": "Serbia",
+    "rdf_name": "Serbia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Serbia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Serbia",
     "wikidata": "https://www.wikidata.org/entity/Q403",
@@ -2687,6 +2907,7 @@
   },
   {
     "entity": "Sicilia",
+    "rdf_name": "Sicilia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Sicilia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Sicily",
     "wikidata": "https://www.wikidata.org/entity/Q1460",
@@ -2701,6 +2922,7 @@
   },
   {
     "entity": "Siena",
+    "rdf_name": "Siena",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Siena",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Siena",
     "wikidata": "https://www.wikidata.org/entity/Q2751",
@@ -2715,6 +2937,7 @@
   },
   {
     "entity": "Simoncino",
+    "rdf_name": "Simoncino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Simonino_di_Trento",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Simon_of_Trent",
     "wikidata": "https://www.wikidata.org/entity/Q544321",
@@ -2726,6 +2949,7 @@
   },
   {
     "entity": "Sonnino",
+    "rdf_name": "Sonnino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Sidney_Sonnino",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Sidney_Sonnino",
     "wikidata": "https://www.wikidata.org/entity/Q320922",
@@ -2737,6 +2961,7 @@
   },
   {
     "entity": "Sorge",
+    "rdf_name": "Sorge",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Richard_Sorge",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Richard_Sorge",
     "wikidata": "https://www.wikidata.org/entity/Q44580",
@@ -2748,6 +2973,7 @@
   },
   {
     "entity": "South Carolina",
+    "rdf_name": "SouthCarolina",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Carolina_del_Sud",
     "wikipedia_en": "https://en.wikipedia.org/wiki/South_Carolina",
     "wikidata": "https://www.wikidata.org/entity/Q1456",
@@ -2762,6 +2988,7 @@
   },
   {
     "entity": "Spagna",
+    "rdf_name": "Spagna",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Spagna",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Spain",
     "wikidata": "https://www.wikidata.org/entity/Q29",
@@ -2776,6 +3003,7 @@
   },
   {
     "entity": "Stalin",
+    "rdf_name": "Stalin",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Iosif_Stalin",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Joseph_Stalin",
     "wikidata": "https://www.wikidata.org/entity/Q855",
@@ -2787,6 +3015,7 @@
   },
   {
     "entity": "Strasburgo",
+    "rdf_name": "Strasburgo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Strasburgo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Strasbourg",
     "wikidata": "https://www.wikidata.org/entity/Q6602",
@@ -2801,6 +3030,7 @@
   },
   {
     "entity": "Tagliamento",
+    "rdf_name": "Tagliamento",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Tagliamento",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Tagliamento",
     "wikidata": "https://www.wikidata.org/entity/Q747929",
@@ -2815,6 +3045,7 @@
   },
   {
     "entity": "Tamigi",
+    "rdf_name": "Tamigi",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Tamigi",
     "wikipedia_en": "https://en.wikipedia.org/wiki/River_Thames",
     "wikidata": "https://www.wikidata.org/entity/Q19686",
@@ -2829,6 +3060,7 @@
   },
   {
     "entity": "Thatcer",
+    "rdf_name": "Thatcer",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Margaret_Thatcher",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
     "wikidata": "https://www.wikidata.org/entity/Q7416",
@@ -2840,6 +3072,7 @@
   },
   {
     "entity": "Ticino",
+    "rdf_name": "Ticino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Ticino_(fiume)",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ticino_(river)",
     "wikidata": "https://www.wikidata.org/entity/Q14366",
@@ -2854,6 +3087,7 @@
   },
   {
     "entity": "Tokyo",
+    "rdf_name": "Tokyo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Tokyo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Tokyo",
     "wikidata": "https://www.wikidata.org/entity/Q1490",
@@ -2868,6 +3102,7 @@
   },
   {
     "entity": "Tolomeo",
+    "rdf_name": "Tolomeo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Claudio_Tolomeo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Ptolemy",
     "wikidata": "https://www.wikidata.org/entity/Q34943",
@@ -2879,6 +3114,7 @@
   },
   {
     "entity": "Tolstoj",
+    "rdf_name": "Tolstoj",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Lev_Tolstoj",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
     "wikidata": "https://www.wikidata.org/entity/Q7243",
@@ -2890,6 +3126,7 @@
   },
   {
     "entity": "Torino",
+    "rdf_name": "Torino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Torino",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Turin",
     "wikidata": "https://www.wikidata.org/entity/Q495",
@@ -2904,6 +3141,7 @@
   },
   {
     "entity": "Toscana",
+    "rdf_name": "Toscana",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Toscana",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Tuscany",
     "wikidata": "https://www.wikidata.org/entity/Q1273",
@@ -2918,6 +3156,7 @@
   },
   {
     "entity": "Trentino",
+    "rdf_name": "Trentino",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Trentino",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Trentino",
     "wikidata": "https://www.wikidata.org/entity/Q16289",
@@ -2932,6 +3171,7 @@
   },
   {
     "entity": "Trento",
+    "rdf_name": "Trento",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Trento",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Trento",
     "wikidata": "https://www.wikidata.org/entity/Q3376",
@@ -2946,6 +3186,7 @@
   },
   {
     "entity": "Trieste",
+    "rdf_name": "Trieste",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Trieste",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Trieste",
     "wikidata": "https://www.wikidata.org/entity/Q546",
@@ -2960,6 +3201,7 @@
   },
   {
     "entity": "Turati",
+    "rdf_name": "Turati",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Filippo_Turati",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Filippo_Turati",
     "wikidata": "https://www.wikidata.org/entity/Q733392",
@@ -2971,6 +3213,7 @@
   },
   {
     "entity": "Unione Sovietica",
+    "rdf_name": "UnioneSovietica",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Unione_Sovietica",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Soviet_Union",
     "wikidata": "https://www.wikidata.org/entity/Q15180",
@@ -2985,6 +3228,7 @@
   },
   {
     "entity": "Urbano II",
+    "rdf_name": "UrbanoII",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Papa_Urbano_II",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Pope_Urban_II",
     "wikidata": "https://www.wikidata.org/entity/Q30578",
@@ -2996,6 +3240,7 @@
   },
   {
     "entity": "Uruguay",
+    "rdf_name": "Uruguay",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Uruguay",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Uruguay",
     "wikidata": "https://www.wikidata.org/entity/Q77",
@@ -3010,6 +3255,7 @@
   },
   {
     "entity": "Usama",
+    "rdf_name": "Usama",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Usama_ibn_Munqidh",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Usama_ibn_Munqidh",
     "wikidata": "https://www.wikidata.org/entity/Q451427",
@@ -3020,6 +3266,7 @@
   },
   {
     "entity": "Valdarno",
+    "rdf_name": "Valdarno",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Valdarno",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Valdarno",
     "wikidata": "https://www.wikidata.org/entity/Q538820",
@@ -3034,6 +3281,7 @@
   },
   {
     "entity": "Veneto",
+    "rdf_name": "Veneto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Veneto",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Veneto",
     "wikidata": "https://www.wikidata.org/entity/Q1243",
@@ -3048,6 +3296,7 @@
   },
   {
     "entity": "Venezia",
+    "rdf_name": "Venezia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Venezia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Venice",
     "wikidata": "https://www.wikidata.org/entity/Q641",
@@ -3062,6 +3311,7 @@
   },
   {
     "entity": "Vercelli",
+    "rdf_name": "Vercelli",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Vercelli",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Vercelli",
     "wikidata": "https://www.wikidata.org/entity/Q5990",
@@ -3076,6 +3326,7 @@
   },
   {
     "entity": "Versailles",
+    "rdf_name": "Versailles",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Reggia_di_Versailles",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Palace_of_Versailles",
     "wikidata": "https://www.wikidata.org/entity/Q2946",
@@ -3090,6 +3341,7 @@
   },
   {
     "entity": "Via Rasella",
+    "rdf_name": "ViaRasella",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Attentato_di_via_Rasella",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Via_Rasella_attack",
     "wikidata": "https://www.wikidata.org/entity/Q733211",
@@ -3100,6 +3352,7 @@
   },
   {
     "entity": "Virginia",
+    "rdf_name": "Virginia",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Virginia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Virginia",
     "wikidata": "https://www.wikidata.org/entity/Q1370",
@@ -3114,6 +3367,7 @@
   },
   {
     "entity": "Vittorio Emanuele II",
+    "rdf_name": "VittorioEmanueleII",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Vittorio_Emanuele_II_di_Savoia",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Victor_Emmanuel_II_of_Italy",
     "wikidata": "https://www.wikidata.org/entity/Q168691",
@@ -3125,6 +3379,7 @@
   },
   {
     "entity": "Vittorio Veneto",
+    "rdf_name": "VittorioVeneto",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Vittorio_Veneto",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Vittorio_Veneto",
     "wikidata": "https://www.wikidata.org/entity/Q47578",
@@ -3139,6 +3394,7 @@
   },
   {
     "entity": "Von Moltke",
+    "rdf_name": "VonMoltke",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Helmuth_Karl_Bernhard_von_Moltke",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Helmuth_von_Moltke_the_Elder",
     "wikidata": "https://www.wikidata.org/entity/Q44205",
@@ -3150,6 +3406,7 @@
   },
   {
     "entity": "Washington",
+    "rdf_name": "Washington",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Washington_D.C.",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Washington,_D.C.",
     "wikidata": "https://www.wikidata.org/entity/Q61",
@@ -3164,6 +3421,7 @@
   },
   {
     "entity": "Waterloo",
+    "rdf_name": "Waterloo",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Waterloo",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Waterloo,_Belgium",
     "wikidata": "https://www.wikidata.org/entity/Q179034",
@@ -3178,6 +3436,7 @@
   },
   {
     "entity": "Watt Tyler",
+    "rdf_name": "WattTyler",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Wat_Tyler",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Wat_Tyler",
     "wikidata": "https://www.wikidata.org/entity/Q311820",
@@ -3189,6 +3448,7 @@
   },
   {
     "entity": "Wellington",
+    "rdf_name": "Wellington",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Arthur_Wellesley,_I_duca_di_Wellington",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington",
     "wikidata": "https://www.wikidata.org/entity/Q131691",
@@ -3200,6 +3460,7 @@
   },
   {
     "entity": "Wilson",
+    "rdf_name": "Wilson",
     "wikipedia_it": "https://it.wikipedia.org/wiki/Woodrow_Wilson",
     "wikipedia_en": "https://en.wikipedia.org/wiki/Woodrow_Wilson",
     "wikidata": "https://www.wikidata.org/entity/Q34296",
