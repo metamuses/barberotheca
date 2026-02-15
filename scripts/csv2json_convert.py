@@ -17,6 +17,7 @@ SELECTED_COLUMNS = [
     "lectio_num",
     "lectio_title",
     "semantic_filename",
+    "rdf_name",
     "source_url",
     "keywords",
     "entities",

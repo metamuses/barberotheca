@@ -7,6 +7,7 @@
     "lectio_num": 1,
     "lectio_title": "L'epopea",
     "semantic_filename": "barbero-2008-FdM-1-epopea",
+    "rdf_name": "Barbero2008FdM1Epopea",
     "source_url": "https://www.youtube.com/watch?v=CYd2xVDNOF4",
     "keywords": [
       "crociata",
@@ -38,6 +39,7 @@
     "lectio_num": 2,
     "lectio_title": "Fra guerra santa e jihad",
     "semantic_filename": "barbero-2008-FdM-2-fra_guerra_santa_e_jihad",
+    "rdf_name": "Barbero2008FdM2FraGuerraSantaEJihad",
     "source_url": "https://www.youtube.com/watch?v=5LwhsVIhWmY",
     "keywords": [
       "jihad",
@@ -74,6 +76,7 @@
     "lectio_num": 1,
     "lectio_title": "Campaldino 1289",
     "semantic_filename": "barbero-2009-FdM-1-Campaldino_1289",
+    "rdf_name": "Barbero2009FdM1Campaldino1289",
     "source_url": "https://www.youtube.com/watch?v=sCpScMvBfrI",
     "keywords": [
       "guelfi",
@@ -109,6 +112,7 @@
     "lectio_num": 2,
     "lectio_title": "Lepanto 1571",
     "semantic_filename": "barbero-2009-FdM-2-Lepanto_1571",
+    "rdf_name": "Barbero2009FdM2Lepanto1571",
     "source_url": "https://www.youtube.com/watch?v=UZKF2OMpX5A",
     "keywords": [
       "galera",
@@ -148,6 +152,7 @@
     "lectio_num": 3,
     "lectio_title": "Waterloo 1815",
     "semantic_filename": "barbero-2009-FdM-3-Waterloo_1815",
+    "rdf_name": "Barbero2009FdM3Waterloo1815",
     "source_url": "https://www.youtube.com/watch?v=EEh7M7suOKs",
     "keywords": [
       "esercito",
@@ -184,6 +189,7 @@
     "lectio_num": 1,
     "lectio_title": "Cavour",
     "semantic_filename": "barbero-2010-FdM-1-Cavour",
+    "rdf_name": "Barbero2010FdM1Cavour",
     "source_url": "https://www.youtube.com/watch?v=9BPi1rejLh4",
     "keywords": [
       "guerra",
@@ -221,6 +227,7 @@
     "lectio_num": 2,
     "lectio_title": "Vittorio Emanuele II",
     "semantic_filename": "barbero-2010-FdM-2-Vittorio_Emanuele_II",
+    "rdf_name": "Barbero2010FdM2VittorioEmanueleII",
     "source_url": "https://www.youtube.com/watch?v=IaZRn1d4zTk",
     "keywords": [
       "re",
@@ -257,6 +264,7 @@
     "lectio_num": 3,
     "lectio_title": "Garibaldi",
     "semantic_filename": "barbero-2010-FdM-3-Garibaldi",
+    "rdf_name": "Barbero2010FdM3Garibaldi",
     "source_url": "https://www.youtube.com/watch?v=CgZx2w5IUow",
     "keywords": [
       "guerra",
@@ -294,6 +302,7 @@
     "lectio_num": 1,
     "lectio_title": "Il frate",
     "semantic_filename": "barbero-2011-FdM-1-il_frate",
+    "rdf_name": "Barbero2011FdM1IlFrate",
     "source_url": "https://www.youtube.com/watch?v=7TGN3u44E1Y",
     "keywords": [
       "libro",
@@ -332,6 +341,7 @@
     "lectio_num": 2,
     "lectio_title": "Il mercante",
     "semantic_filename": "barbero-2011-FdM-2-il_mercante",
+    "rdf_name": "Barbero2011FdM2IlMercante",
     "source_url": "https://www.youtube.com/watch?v=i-7jq0X6FDc",
     "keywords": [
       "nobile",
@@ -367,6 +377,7 @@
     "lectio_num": 3,
     "lectio_title": "Il cavaliere",
     "semantic_filename": "barbero-2011-FdM-3-il_cavaliere",
+    "rdf_name": "Barbero2011FdM3IlCavaliere",
     "source_url": "https://www.youtube.com/watch?v=0N8zrMchzxk",
     "keywords": [
       "re",
@@ -399,6 +410,7 @@
     "lectio_num": 1,
     "lectio_title": "Caterina da Siena",
     "semantic_filename": "barbero-2012-FdM-1-Caterina_da_Siena",
+    "rdf_name": "Barbero2012FdM1CaterinaDaSiena",
     "source_url": "https://www.youtube.com/watch?v=DYEPm5OFi90",
     "keywords": [
       "donna",
@@ -433,6 +445,7 @@
     "lectio_num": 2,
     "lectio_title": "Christine de Pizan",
     "semantic_filename": "barbero-2012-FdM-2-Christine_de_Pizan",
+    "rdf_name": "Barbero2012FdM2ChristineDePizan",
     "source_url": "https://www.youtube.com/watch?v=W3hHIlx1XXw",
     "keywords": [
       "donna",
@@ -468,6 +481,7 @@
     "lectio_num": 3,
     "lectio_title": "Giovanna d'Arco",
     "semantic_filename": "barbero-2012-FdM-3-Giovanna_d_Arco",
+    "rdf_name": "Barbero2012FdM3GiovannaDArco",
     "source_url": "https://www.youtube.com/watch?v=n8VOp5mhxpc",
     "keywords": [
       "processo",
@@ -504,6 +518,7 @@
     "lectio_num": 1,
     "lectio_title": "La paura dell'anno Mille",
     "semantic_filename": "barbero-2013-FdM-1-la_paura_anno_Mille",
+    "rdf_name": "Barbero2013FdM1LaPauraAnnoMille",
     "source_url": "https://www.youtube.com/watch?v=jE_RZlrqrAI",
     "keywords": [
       "abate",
@@ -539,6 +554,7 @@
     "lectio_num": 2,
     "lectio_title": "Lo ius primae noctis",
     "semantic_filename": "barbero-2013-FdM-2-lo_ius_primae_noctis",
+    "rdf_name": "Barbero2013FdM2LoIusPrimaeNoctis",
     "source_url": "https://www.youtube.com/watch?v=pVHGbYaLEng",
     "keywords": [
       "medioevo",
@@ -571,6 +587,7 @@
     "lectio_num": 3,
     "lectio_title": "La terra piatta",
     "semantic_filename": "barbero-2013-FdM-3-la_terra_piatta",
+    "rdf_name": "Barbero2013FdM3LaTerraPiatta",
     "source_url": "https://www.youtube.com/watch?v=bx_FUz6Pb88",
     "keywords": [
       "terra",
@@ -606,6 +623,7 @@
     "lectio_num": 1,
     "lectio_title": "La prima guerra mondiale",
     "semantic_filename": "barbero-2014-FdM-1-prima_guerra_mondiale",
+    "rdf_name": "Barbero2014FdM1PrimaGuerraMondiale",
     "source_url": "https://www.youtube.com/watch?v=OIAeg_n0l8Q",
     "keywords": [
       "guerra",
@@ -639,6 +657,7 @@
     "lectio_num": 2,
     "lectio_title": "La seconda guerra mondiale",
     "semantic_filename": "barbero-2014-FdM-2-seconda_guerra_mondiale",
+    "rdf_name": "Barbero2014FdM2SecondaGuerraMondiale",
     "source_url": "https://www.youtube.com/watch?v=fQOSrP1nHko",
     "keywords": [
       "tedesco",
@@ -674,6 +693,7 @@
     "lectio_num": 3,
     "lectio_title": "La guerra delle Falkland",
     "semantic_filename": "barbero-2014-FdM-3-guerra_delle_Falkland",
+    "rdf_name": "Barbero2014FdM3GuerraDelleFalkland",
     "source_url": "https://www.youtube.com/watch?v=pzy5a0M7h1w",
     "keywords": [
       "argentino",
@@ -708,6 +728,7 @@
     "lectio_num": 1,
     "lectio_title": "Gaetano Salvemini: dall'interventismo socialista all'antifascismo",
     "semantic_filename": "barbero-2015-FdM-1-Gaetano_Salvemini",
+    "rdf_name": "Barbero2015FdM1GaetanoSalvemini",
     "source_url": "https://www.youtube.com/watch?v=t6W238Tn_6s",
     "keywords": [
       "partito",
@@ -740,6 +761,7 @@
     "lectio_num": 2,
     "lectio_title": "Marc Bloch: dalla Sorbona alle carceri della Gestapo",
     "semantic_filename": "barbero-2015-FdM-2-Marc_Bloch",
+    "rdf_name": "Barbero2015FdM2MarcBloch",
     "source_url": "https://www.youtube.com/watch?v=lepugwdwBz0",
     "keywords": [
       "guerra",
@@ -775,6 +797,7 @@
     "lectio_num": 3,
     "lectio_title": "Ernst Kantorowicz: dai Freikorps al maccartismo",
     "semantic_filename": "barbero-2015-FdM-3-Ernst_Kantorowicz",
+    "rdf_name": "Barbero2015FdM3ErnstKantorowicz",
     "source_url": "https://www.youtube.com/watch?v=dp_ljjf98Vg",
     "keywords": [
       "università",
@@ -809,6 +832,7 @@
     "lectio_num": 1,
     "lectio_title": "La prima guerra d'indipendenza",
     "semantic_filename": "barbero-2016-FdM-1-prima_guerra_indipendenza",
+    "rdf_name": "Barbero2016FdM1PrimaGuerraIndipendenza",
     "source_url": "https://www.youtube.com/watch?v=VAz9CIQS1oc",
     "keywords": [
       "esercito",
@@ -842,6 +866,7 @@
     "lectio_num": 2,
     "lectio_title": "La seconda guerra d'indipendenza",
     "semantic_filename": "barbero-2016-FdM-2-seconda_guerra_indipendenza",
+    "rdf_name": "Barbero2016FdM2SecondaGuerraIndipendenza",
     "source_url": "https://www.youtube.com/watch?v=coA6Xin7Kjg",
     "keywords": [
       "guerra",
@@ -877,6 +902,7 @@
     "lectio_num": 3,
     "lectio_title": "La terza guerra d'indipendenza",
     "semantic_filename": "barbero-2016-FdM-3-terza_guerra_indipendenza",
+    "rdf_name": "Barbero2016FdM3TerzaGuerraIndipendenza",
     "source_url": "https://www.youtube.com/watch?v=1249kzgs62Q",
     "keywords": [
       "guerra",
@@ -913,6 +939,7 @@
     "lectio_num": 1,
     "lectio_title": "Una rete di spie: il dottor Sorge a Tokyo",
     "semantic_filename": "barbero-2017-FdM-1-dottor_Sorge_a_Tokyo",
+    "rdf_name": "Barbero2017FdM1DottorSorgeATokyo",
     "source_url": "https://www.youtube.com/watch?v=Rh3NuKMC4Ww",
     "keywords": [
       "giapponese",
@@ -947,6 +974,7 @@
     "lectio_num": 2,
     "lectio_title": "Una rete di partigiani: i GAP di Roma e l'attentato di via Rasella",
     "semantic_filename": "barbero-2017-FdM-2-i_GAP_di_Roma_via_Rasella",
+    "rdf_name": "Barbero2017FdM2IGapDiRomaViaRasella",
     "source_url": "https://www.youtube.com/watch?v=BM62adfs3gQ",
     "keywords": [
       "tedeschi",
@@ -979,6 +1007,7 @@
     "lectio_num": 3,
     "lectio_title": "Una rete di terroristi: le BR e il rapimento Moro",
     "semantic_filename": "barbero-2017-FdM-3-le_BR_rapimento_Moro",
+    "rdf_name": "Barbero2017FdM3LeBRRapimentoMoro",
     "source_url": "https://www.youtube.com/watch?v=Y_eOPYed9DA",
     "keywords": [
       "macchina",
@@ -1012,6 +1041,7 @@
     "lectio_num": 1,
     "lectio_title": "Il 24 maggio l'Italia entra in guerra",
     "semantic_filename": "barbero-2018-FdM-1-il_24_maggio_italia_entra_in_guerra",
+    "rdf_name": "Barbero2018FdM1Il24MaggioItaliaEntraInGuerra",
     "source_url": "https://www.youtube.com/watch?v=rkQRzX0sB_Y",
     "keywords": [
       "guerra",
@@ -1044,6 +1074,7 @@
     "lectio_num": 2,
     "lectio_title": "Caporetto",
     "semantic_filename": "barbero-2018-FdM-2-Caporetto",
+    "rdf_name": "Barbero2018FdM2Caporetto",
     "source_url": "https://www.youtube.com/watch?v=m5-TAFkfsWM",
     "keywords": [
       "guerra",
@@ -1079,6 +1110,7 @@
     "lectio_num": 3,
     "lectio_title": "Dal Piave a Vittorio Veneto",
     "semantic_filename": "barbero-2018-FdM-3-dal_Piave_a_Vittorio_Veneto",
+    "rdf_name": "Barbero2018FdM3DalPiaveAVittorioVeneto",
     "source_url": "https://www.youtube.com/watch?v=k-a75zRgtWc",
     "keywords": [
       "guerra",
@@ -1113,6 +1145,7 @@
     "lectio_num": 1,
     "lectio_title": "La Jacquerie dei contadini francesi (1358)",
     "semantic_filename": "barbero-2019-FdM-1-Jacquerie_contadini_francesi",
+    "rdf_name": "Barbero2019FdM1JacquerieContadiniFrancesi",
     "source_url": "https://www.youtube.com/watch?v=liKCqaRPJz0",
     "keywords": [
       "nobili",
@@ -1143,6 +1176,7 @@
     "lectio_num": 2,
     "lectio_title": "La rivolta dei Ciompi (1378)",
     "semantic_filename": "barbero-2019-FdM-2-rivolta_dei_Ciompi",
+    "rdf_name": "Barbero2019FdM2RivoltaDeiCiompi",
     "source_url": "https://www.youtube.com/watch?v=YzeiGYAay_I",
     "keywords": [
       "guelfi",
@@ -1174,6 +1208,7 @@
     "lectio_num": 3,
     "lectio_title": "La rivolta dei contadini inglesi (1381)",
     "semantic_filename": "barbero-2019-FdM-3-rivolta_dei_contadini_inglesi",
+    "rdf_name": "Barbero2019FdM3RivoltaDeiContadiniInglesi",
     "source_url": "https://www.youtube.com/watch?v=jjJtrdoSMwk",
     "keywords": [
       "parlamento",
@@ -1207,6 +1242,7 @@
     "lectio_num": 1,
     "lectio_title": "Il sogno nella letteratura medievale",
     "semantic_filename": "barbero-2020-FdM-1-sogno_letteratura_medievale",
+    "rdf_name": "Barbero2020FdM1SognoLetteraturaMedievale",
     "source_url": "https://www.youtube.com/watch?v=Pql1qYLYmGQ",
     "keywords": [
       "sogno",
@@ -1239,6 +1275,7 @@
     "lectio_num": 1,
     "lectio_title": "La guerra civile inglese",
     "semantic_filename": "barbero-2021-FdM-1-guerra_civile_inglese",
+    "rdf_name": "Barbero2021FdM1GuerraCivileInglese",
     "source_url": "https://www.youtube.com/watch?v=4k4X8nbzyaM",
     "keywords": [
       "re",
@@ -1271,6 +1308,7 @@
     "lectio_num": 2,
     "lectio_title": "La guerra civile americana",
     "semantic_filename": "barbero-2021-FdM-2-guerra_civile_americana",
+    "rdf_name": "Barbero2021FdM2GuerraCivileAmericana",
     "source_url": "https://www.youtube.com/watch?v=dXN3q3GkCug",
     "keywords": [
       "sud",
@@ -1301,6 +1339,7 @@
     "lectio_num": 3,
     "lectio_title": "La guerra civile francese",
     "semantic_filename": "barbero-2021-FdM-3-guerra_civile_francese",
+    "rdf_name": "Barbero2021FdM3GuerraCivileFrancese",
     "source_url": "https://www.youtube.com/watch?v=UHuKNgTyHV8",
     "keywords": [
       "comune",
@@ -1329,6 +1368,7 @@
     "lectio_num": 1,
     "lectio_title": "Mikhail Bulgakov",
     "semantic_filename": "barbero-2022-FdM-1-Mikhail_Bulgakov",
+    "rdf_name": "Barbero2022FdM1MikhailBulgakov",
     "source_url": "https://www.youtube.com/watch?v=e65OEEQz8ck",
     "keywords": [
       "romanzo",
@@ -1356,6 +1396,7 @@
     "lectio_num": 2,
     "lectio_title": "Anna Achmatova",
     "semantic_filename": "barbero-2022-FdM-2-Anna_Achmatova",
+    "rdf_name": "Barbero2022FdM2AnnaAchmatova",
     "source_url": "https://www.youtube.com/watch?v=5NpfKwbjAk0",
     "keywords": [
       "poesia",
@@ -1386,6 +1427,7 @@
     "lectio_num": 3,
     "lectio_title": "Iosif Brodskij",
     "semantic_filename": "barbero-2022-FdM-3-Iosif_Brodskij",
+    "rdf_name": "Barbero2022FdM3IosifBrodskij",
     "source_url": "https://www.youtube.com/watch?v=086qeje8Zss",
     "keywords": [
       "poesia",
@@ -1416,6 +1458,7 @@
     "lectio_num": 1,
     "lectio_title": "1204: i crociati scoprono Costantinopoli",
     "semantic_filename": "barbero-2023-FdM-1-crociati_scoprono_Costantinopoli",
+    "rdf_name": "Barbero2023FdM1CrociatiScopronoCostantinopoli",
     "source_url": "https://www.youtube.com/watch?v=O13C75NVh5E",
     "keywords": [
       "crociata",
@@ -1443,6 +1486,7 @@
     "lectio_num": 1,
     "lectio_title": "Il delitto Matteotti o dell'ingratitudine",
     "semantic_filename": "barbero-2024-FdM-1-delitto_Matteotti",
+    "rdf_name": "Barbero2024FdM1DelittoMatteotti",
     "source_url": "https://www.youtube.com/watch?v=K_jn9HAzsow",
     "keywords": [
       "fascista",
@@ -1472,6 +1516,7 @@
     "lectio_num": 1,
     "lectio_title": "Invisibili? Le donne nel Medioevo",
     "semantic_filename": "barbero-2025-FdM-1-donne_nel_Medioevo",
+    "rdf_name": "Barbero2025FdM1DonneNelMedioevo",
     "source_url": "https://www.youtube.com/watch?v=2SvG0yiNt4Q",
     "keywords": [
       "donna",
