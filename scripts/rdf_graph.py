@@ -13,7 +13,7 @@ from rdflib.namespace import DCTERMS, OWL, RDF, SDO, XSD
 ROOT_DIR = Path(__file__).resolve().parent.parent
 LESSONS_CSV = ROOT_DIR / "metadata" / "barbero.csv"
 ENTITIES_CSV = ROOT_DIR / "metadata" / "entities-authoritative.csv"
-KNOWLEDGE_GRAPH_TTL = ROOT_DIR / "metadata" / "rdf" / "knowledge-graph.ttl"
+KNOWLEDGE_GRAPH_TTL = ROOT_DIR / "metadata" / "knowledge-graph.ttl"
 
 # Prefixes and namespaces
 BASE_URI = "https://github.com/metamuses/barberotheca/"
@@ -28,6 +28,12 @@ ENTITY_TYPES = {
     "organization": SDO.Organization,
     "event": SDO.Event,
 }
+
+AUTHORITY_SOURCES = [
+    "wikidata",
+    "viaf",
+    "geonames"
+]
 
 # Initialize RDF graph
 g = Graph()
@@ -98,7 +104,7 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
             g.add((entity_uri, SDO.name, Literal(entity_name, lang="it")))
 
             # Add sameAs links for external identifiers if available
-            for source in ["wikidata", "viaf", "geonames"]:
+            for source in AUTHORITY_SOURCES:
                 link = entity_ref.get(source, "")
                 if link:
                     g.add((entity_uri, OWL.sameAs, URIRef(link)))
