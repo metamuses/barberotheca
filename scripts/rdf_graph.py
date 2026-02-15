@@ -3,8 +3,6 @@ Generate full RDF knowledge graph of events, lessons and entities from CSV metad
 """
 
 import csv
-import re
-import unicodedata
 from pathlib import Path
 from rdflib import Graph, URIRef, Literal
 from rdflib.namespace import DCTERMS, OWL, RDF, SDO, XSD
@@ -15,7 +13,7 @@ LESSONS_CSV = ROOT_DIR / "metadata" / "barbero.csv"
 ENTITIES_CSV = ROOT_DIR / "metadata" / "entities-authoritative.csv"
 KNOWLEDGE_GRAPH_TTL = ROOT_DIR / "metadata" / "knowledge-graph.ttl"
 
-# Prefixes and namespaces
+# Prefixes, namespaces and mappings
 BASE_URI = "https://github.com/metamuses/barberotheca/"
 
 EVENT_PREFIX = "event"
@@ -87,12 +85,7 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
         for entity in row["entities"].split(","):
             # Get entity details from the authoritative list
             entity_ref = entities[entity]
-            entity_name = entity_ref["entity"]
-
-            # Build the entity URI as normalized PascalCase from the entity name
-            entity_normalized = unicodedata.normalize("NFKD", entity_name).encode("ascii", "ignore").decode()
-            entity_words = re.split(r"[\s']+", entity_normalized)
-            entity_slug = "".join(word.capitalize() for word in entity_words if word)
+            entity_slug = entity_ref["rdf_name"]
             entity_uri = URIRef(f"{ENTITY_PREFIX}/{entity_slug}")
 
             # Add RDF type based on the entity type in the authoritative list
@@ -101,7 +94,7 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
             g.add((entity_uri, RDF.type, rdf_type))
 
             # Add the original name as label with language tag
-            g.add((entity_uri, SDO.name, Literal(entity_name, lang="it")))
+            g.add((entity_uri, SDO.name, Literal(entity_ref["entity"], lang="it")))
 
             # Add sameAs links for external identifiers if available
             for source in AUTHORITY_SOURCES:
