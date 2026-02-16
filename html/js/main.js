@@ -1335,6 +1335,30 @@ function initShowcase() {
 }
 
 
+// Function to inject Knowledge Graph link in header nav
+function injectKnowledgeGraphLink() {
+  const nav = document.querySelector('header nav');
+  if (!nav) return;
+
+  // Check if already exists to avoid duplicates
+  if (nav.querySelector('a[href*="knowledge-graph.ttl"]')) return;
+
+  const link = document.createElement('a');
+  link.href = "../metadata/knowledge-graph.ttl";
+  link.className = "text-white text-decoration-none me-4";
+  link.setAttribute("download", "");
+  link.textContent = "Knowledge Graph";
+
+  const searchBtn = nav.querySelector('.btn-outline-light');
+  if (searchBtn) {
+    nav.insertBefore(link, searchBtn);
+  } else {
+    nav.appendChild(link);
+  }
+}
+
+injectKnowledgeGraphLink();
+
 async function main() {
   try {
     // 1. Load Data (Metadata & Entities)
