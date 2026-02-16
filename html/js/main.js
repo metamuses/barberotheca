@@ -1284,6 +1284,59 @@ function setupControls(container, itemCount) {
   }
 }
 
+// === Showcase Logic ===
+function initShowcase() {
+  const container = document.getElementById("showcase-container");
+  if (!container) return;
+
+  if (!DATA || DATA.length === 0) {
+    container.innerHTML = '<div class="col-12 text-center text-secondary">Nessuna lezione disponibile.</div>';
+    return;
+  }
+
+  // Pick 3 random lessons
+  const indices = new Set();
+  const max = DATA.length;
+  // Safety check if we have less than 3 items
+  const count = Math.min(3, max);
+
+  while (indices.size < count) {
+    indices.add(Math.floor(Math.random() * max));
+  }
+
+  const selectedLessons = Array.from(indices).map(i => DATA[i]);
+
+  container.innerHTML = selectedLessons.map(item => `
+    <div class="col-md-4">
+      <div class="card h-100 bg-secondary text-white border-0 shadow-sm entry">
+        <div class="card-body">
+          <h5 class="card-title text-white font-kabel">${item.lectio_title}</h5>
+          <h6 class="card-subtitle mb-3 text-light opacity-75">
+            ${item.event_year ? item.event_year + ' – ' : ''}${item.event}
+          </h6>
+          ${item.macrotheme_title
+      ? `<p class="card-text small mb-2"><strong>${item.macrotheme_title}</strong></p>`
+      : ""
+    }
+          
+          <div class="mb-2">
+            <small class="d-block text-white opacity-75">Keywords:</small>
+            <span class="small">${item.keywords.join(", ")}</span>
+          </div>
+
+          <div class="mb-3">
+             <small class="d-block text-white opacity-75">Entities:</small>
+             <span class="small">${item.entities.join(", ")}</span>
+          </div>
+
+          <a href="${item.source_url}" target="_blank" class="btn btn-outline-light btn-sm position-relative" style="z-index: 2;">Guarda su YouTube</a>
+          <a href="lection.html?id=${item.id}" class="stretched-link"></a>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
 
 async function main() {
   try {
@@ -1416,9 +1469,10 @@ async function main() {
     // === Lection Page Logic ===
     await loadLection();
 
-    // === Index Page Specifics (Map & People) ===
+    // === Index Page Specifics (Map & People & Showcase) ===
     initMap();
     initPeople();
+    initShowcase();
 
   } catch (err) {
     if (resultsEl) {
