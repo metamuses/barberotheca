@@ -1344,7 +1344,7 @@ function injectKnowledgeGraphLink() {
   if (nav.querySelector('a[href*="knowledge-graph.ttl"]')) return;
 
   const link = document.createElement('a');
-  link.href = "../metadata/knowledge-graph.ttl";
+  link.href = "https://github.com/metamuses/barberotheca/blob/main/metadata/knowledge-graph.ttl";
   link.className = "text-white text-decoration-none me-4";
   link.setAttribute("download", "");
   link.textContent = "Knowledge Graph";
