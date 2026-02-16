@@ -27,50 +27,10 @@
         return urlParams.get('id');
     }
 
-    /**
-     * Extracts a property value from the TTL block.
-     * @param {string} block The TTL text block.
-     * @param {string} predicate The predicate to search for (e.g., "dcterms:title").
-     * @returns {string|null} The raw value (including quotes/brackets) or null.
-     */
-    function extractPropertyRaw(block, predicate) {
-        const regex = new RegExp(`${predicate}\\s+([^;,]+)`, 'i');
-        const match = block.match(regex);
-        return match ? match[1].trim() : null;
-    }
+    // Assuming N3 is loaded via <script> tag creates a global `N3` object.
+    const { DataFactory } = N3;
+    const { namedNode, literal, defaultGraph, quad } = DataFactory;
 
-    function cleanValue(val) {
-        if (!val) return "";
-        // Remove language tag @it
-        val = val.replace(/@[a-z]{2}$/, '');
-        // Remove type ^^xsd:gYear
-        val = val.replace(/\^\^xsd:[a-zA-Z0-9]+$/, '');
-        // Remove quotes
-        if (val.startsWith('"') && val.endsWith('"')) {
-            val = val.substring(1, val.length - 1);
-        }
-        // Remove angle brackets < >
-        if (val.startsWith('<') && val.endsWith('>')) {
-            val = val.substring(1, val.length - 1);
-        }
-        return val;
-    }
-
-    function getBlockForSubject(ttlContent, subject) {
-        const start = ttlContent.indexOf(subject);
-        if (start === -1) return null;
-
-        // Iterate lines to find the end of the block (prop ; prop ; prop .)
-        let block = "";
-        const lines = ttlContent.substring(start).split('\n');
-        for (let line of lines) {
-            block += line + "\n";
-            if (line.trim().endsWith(" .")) {
-                break;
-            }
-        }
-        return block;
-    }
 
     async function injectMetadata() {
         try {
@@ -93,59 +53,40 @@
             const rdfName = lesson.rdf_name;
             const ttlContent = await fetchText(TTL_PATH);
 
-            // 1. Get Lesson Block
-            const lessonSubject = `<lesson/${rdfName}>`;
-            const lessonBlock = getBlockForSubject(ttlContent, lessonSubject);
+            // Initialize N3 Parser and Store
+            const store = new N3.Store();
+            const parser = new N3.Parser({ baseIRI: 'https://github.com/metamuses/barberotheca/' });
 
-            if (!lessonBlock) {
-                console.warn(`TTL block for ${rdfName} not found.`);
-                return;
-            }
+            await new Promise((resolve, reject) => {
+                parser.parse(ttlContent, (error, quad, prefixes) => {
+                    if (error) reject(error);
+                    if (quad) store.addQuad(quad);
+                    else resolve(prefixes); // Done
+                });
+            });
 
-            // 2. Extract Data from Lesson
-            const identifierRaw = extractPropertyRaw(lessonBlock, "dcterms:identifier");
-            const sourceRaw = extractPropertyRaw(lessonBlock, "dcterms:source");
-            const titleRaw = extractPropertyRaw(lessonBlock, "dcterms:title");
-            const languageRaw = extractPropertyRaw(lessonBlock, "dcterms:language");
-            const isPartOfRaw = extractPropertyRaw(lessonBlock, "dcterms:isPartOf"); // e.g. <event/FestivalDellaMente2008>
-
-
-
-
-
-            // 4. Clean Values
-            const identifier = cleanValue(identifierRaw);
-            const title = cleanValue(titleRaw);
-
-            const language = cleanValue(languageRaw);
-
-            // For links, we might keep relative paths or resolve them.
-            // TTL base is <https://github.com/metamuses/barberotheca/>
             const BASE = "https://github.com/metamuses/barberotheca/";
+            const lessonSubject = namedNode(BASE + "lesson/" + rdfName);
 
-            const resolveLink = (raw) => {
-                if (!raw) return "";
-                let val = raw;
-                // Remove < >
-                if (val.startsWith('<') && val.endsWith('>')) {
-                    val = val.substring(1, val.length - 1);
-                }
-                if (val.startsWith("http")) return val;
-                return BASE + val;
+            // Helper to get one object value
+            const getOne = (subject, predicate) => {
+                const quads = store.getQuads(subject, namedNode(predicate), null, defaultGraph());
+                if (quads.length > 0) return quads[0].object.value;
+                return null;
             };
 
-            const sourceUrl = resolveLink(sourceRaw);
-            const isPartOfUrl = resolveLink(isPartOfRaw);
-
+            const identifier = getOne(lessonSubject, "http://purl.org/dc/terms/identifier");
+            const title = getOne(lessonSubject, "http://purl.org/dc/terms/title");
+            const language = getOne(lessonSubject, "http://purl.org/dc/terms/language");
+            const sourceUrl = getOne(lessonSubject, "http://purl.org/dc/terms/source");
 
             const head = document.head;
             head.setAttribute("prefix", "dcterms: http://purl.org/dc/terms/ owl: http://www.w3.org/2002/07/owl# schema: https://schema.org/ xsd: http://www.w3.org/2001/XMLSchema#");
-            head.setAttribute("about", BASE + "lesson/" + rdfName);
+            head.setAttribute("about", lessonSubject.value);
 
             const metas = [
                 { property: "dcterms:identifier", content: identifier },
-                { property: "dcterms:title", content: title, "xml:lang": "it" }, // Assuming Italian based on TTL
-
+                { property: "dcterms:title", content: title, "xml:lang": "it" },
                 { property: "dcterms:language", content: language },
             ];
 
@@ -159,7 +100,6 @@
                 meta.setAttribute("property", m.property);
                 meta.setAttribute("content", m.content);
                 if (m["xml:lang"]) meta.setAttribute("xml:lang", m["xml:lang"]);
-                if (m.datatype) meta.setAttribute("datatype", m.datatype);
                 head.appendChild(meta);
             });
 
@@ -186,22 +126,11 @@
 
                         if (entityRecord && entityRecord.rdf_name) {
                             const entityRdfName = entityRecord.rdf_name;
-                            const entitySubject = `<entity/${entityRdfName}>`;
-                            const entityBlock = getBlockForSubject(ttlContent, entitySubject);
-
-                            // URI for about property
                             const entityUri = BASE + "entity/" + entityRdfName;
 
                             // Extract Data
-                            // We need schema:name (or title in JSON?), type (schema:Person/Place)
-                            // The user said: 
-                            // 1. property="schema:name" content="Name"
-                            // 2. property="typeof" content="schema:Type" (or typeof attribute)
-                            // 3. link property="owl:sameAs" resource="..."
+                            const name = entityRecord.title || entityName;
 
-                            const name = entityRecord.title || entityName; // Use title from JSON or name
-
-                            // Type: The JSON has "type": "person" or "place".
                             // Map to schema.org
                             let schemaType = "schema:Thing";
                             if (entityRecord.type === "person") schemaType = "schema:Person";
@@ -239,7 +168,7 @@
                 }
 
                 // --- Transcription Enrichment (RDFa spans) ---
-                enrichTranscriptionWithRDFa(lesson.entities, entitiesData, BASE, BASE + "lesson/" + rdfName);
+                enrichTranscriptionWithRDFa(lesson.entities, entitiesData, BASE, lessonSubject.value);
 
             } catch (err) {
                 console.error("Error injecting entity metadata:", err);
