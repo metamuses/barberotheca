@@ -206,21 +206,8 @@
         const observer = new MutationObserver((mutations, obs) => {
             const container = document.getElementById("transcript-container");
             if (container && container.children.length > 0) {
-                // Transcription loaded!
-                // We disconnect to avoid loops if we modify DOM, though we should only modify once.
-                // But main.js might re-render. Ideally we want to run this every time main.js renders.
-                // For now, let's assume one-time render or we handle re-entrancy.
-                // Checking if already enriched could be done, but simple text node traversal is safer.
-
-                // Disconnect temporarily or use a flag? 
-                // main.js renders InnerHTML. We should wait for it to finish.
-                // One way is to wait a bit or check if "transcript-segment" elements exist.
-
                 if (container.querySelector('.transcript-segment')) {
                     applyRdfaToSegments(container, entityMap, lessonUri);
-                    // If we want to support re-rendering (e.g. search clearing might re-render?), 
-                    // we might keep observing but filter mutations.
-                    // For this task, assuming single load is sufficient.
                     obs.disconnect();
                 }
             }
@@ -230,16 +217,8 @@
     }
 
     function applyRdfaToSegments(container, entityMap, lessonUri) {
-        // We need to wrap text occurrences.
-        // BEWARE: main.js adds <sup> icons. We must NOT break them.
-        // We should walk text nodes of .transcript-segment
-
         const segments = container.querySelectorAll('.transcript-segment');
         segments.forEach(segment => {
-            // We only want to process text nodes that are direct children or within safe tags.
-            // But main.js logic is: Text... <sup>icon</sup> ... Text
-            // We can iterate childNodes.
-
             const walker = document.createTreeWalker(segment, NodeFilter.SHOW_TEXT, null, false);
             const textNodes = [];
             let node;
@@ -252,17 +231,8 @@
                 const text = textNode.nodeValue;
                 if (!text.trim()) continue;
 
-                // We need to find matches for any entity key.
-                // We should match longest keys first to avoid partial replacements?
-                // Sorting keys by length desc.
+                // Match longest keys first to avoid partial replacements
                 const keys = Object.keys(entityMap).sort((a, b) => b.length - a.length);
-
-                // We can't easily replace inside a text node without splitting it.
-                // Simplest is to check if it contains any entity.
-
-                // Optimization: build a regex for all entities?
-                // Special characters in names need escaping? Usually names are safe-ish.
-                // let pattern = keys.map(k => escapeRegExp(k)).join('|');
 
                 let hasMatch = false;
                 for (const key of keys) {
@@ -276,25 +246,17 @@
                     const fragment = document.createDocumentFragment();
                     let lastIndex = 0;
 
-                    // Simple replacement approach: 
-                    // Split by regex of all keys, keeping delimiters.
-                    // But overlapping keys? e.g. "San Francesco" vs "Francesco"
-                    // keys are sorted longest first, so regex matching first occurrence usually works.
-
                     const escapedKeys = keys.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
                     const regex = new RegExp(`(${escapedKeys.join('|')})`, 'g');
 
                     let match;
                     while ((match = regex.exec(text)) !== null) {
-                        // Text before
                         if (match.index > lastIndex) {
                             fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
                         }
 
-                        // The Entity
                         const entityName = match[0];
-                        const entityUri = entityMap[entityName]; // Might need lookup if case insensitive?
-                        // Assuming exact match from keys.
+                        const entityUri = entityMap[entityName];
 
                         const span = document.createElement("span");
                         span.setAttribute("property", "dcterms:references");
@@ -306,7 +268,6 @@
                         lastIndex = regex.lastIndex;
                     }
 
-                    // Text after
                     if (lastIndex < text.length) {
                         fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
                     }

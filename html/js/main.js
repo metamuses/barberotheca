@@ -558,9 +558,6 @@ async function loadLection() {
 }
 
 
-
-
-
 function renderActiveFilters() {
   const container = document.getElementById("active-filters");
   if (!container) return;
