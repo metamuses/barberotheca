@@ -236,7 +236,7 @@
 
                 let hasMatch = false;
                 for (const key of keys) {
-                    if (text.includes(key)) {
+                    if (text.toLowerCase().includes(key.toLowerCase())) {
                         hasMatch = true;
                         break;
                     }
@@ -247,7 +247,8 @@
                     let lastIndex = 0;
 
                     const escapedKeys = keys.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-                    const regex = new RegExp(`(${escapedKeys.join('|')})`, 'g');
+                    // Use case-sensitive flag 'gi'
+                    const regex = new RegExp(`(${escapedKeys.join('|')})`, 'gi');
 
                     let match;
                     while ((match = regex.exec(text)) !== null) {
@@ -255,14 +256,17 @@
                             fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
                         }
 
-                        const entityName = match[0];
-                        const entityUri = entityMap[entityName];
+                        const matchText = match[0];
+                        // Find the original key (canonical name) case-insensitively to look up the URI
+                        const originalKey = keys.find(k => k.toLowerCase() === matchText.toLowerCase());
+                        const entityUri = entityMap[originalKey];
+                        const displayText = matchText;
 
                         const span = document.createElement("span");
                         span.setAttribute("property", "dcterms:references");
                         span.setAttribute("resource", entityUri);
                         span.setAttribute("about", lessonUri);
-                        span.textContent = entityName;
+                        span.textContent = displayText;
                         fragment.appendChild(span);
 
                         lastIndex = regex.lastIndex;
