@@ -87,7 +87,7 @@ function render(items) {
   }
 
   if (!items || items.length === 0) {
-    resultsEl.innerHTML = '<div class="col-12"><p class="text-white">No result.</p></div>';
+    resultsEl.innerHTML = '<div class="col-12"><p class="text-white">Nessun risultato</p></div>';
     return;
   }
 
@@ -106,12 +106,12 @@ function render(items) {
         }
                 
                 <div class="mb-2">
-                  <small class="d-block text-white opacity-75">Keywords:</small>
+                  <small class="d-block text-white opacity-75">Parole chiave:</small>
                   <span class="small">${item.keywords.join(", ")}</span>
                 </div>
 
                 <div class="mb-3">
-                   <small class="d-block text-white opacity-75">Entities:</small>
+                   <small class="d-block text-white opacity-75">Entità:</small>
                    <span class="small">${item.entities.join(", ")}</span>
                 </div>
 
@@ -625,7 +625,7 @@ function doSearch() {
 
   // If search key selection changed, fuse might be null.
   if (!fuse && q !== "") {
-    resultsEl.innerHTML = '<div class="col-12"><p class="text-white">Select at least a field to refine the search by.</p></div>';
+    resultsEl.innerHTML = '<div class="col-12"><p class="text-white">Seleziona almeno un filtro per affinare la ricerca.</p></div>';
     if (resultCountEl) resultCountEl.textContent = "0 results";
     return;
   }
@@ -1317,12 +1317,12 @@ function initShowcase() {
     }
           
           <div class="mb-2">
-            <small class="d-block text-white opacity-75">Keywords:</small>
+            <small class="d-block text-white opacity-75">Parole chiave:</small>
             <span class="small">${item.keywords.join(", ")}</span>
           </div>
 
           <div class="mb-3">
-             <small class="d-block text-white opacity-75">Entities:</small>
+             <small class="d-block text-white opacity-75">Entità:</small>
              <span class="small">${item.entities.join(", ")}</span>
           </div>
 
