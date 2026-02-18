@@ -10,8 +10,8 @@
 \setlength\titlebox{4.5cm}
 \title{
   \LARGE Barberotheca \\[0.2em]
-  \large A digital library of Prof. Alessandro Barbero's \\
-  	lectures in audio and text form
+  \large Transforming Alessandro Barbero's lectures into a semantic \\
+  	digital library through transcriptions and Linked Open Data
 }
 
 \author{
@@ -24,64 +24,114 @@
 \begin{document}
 \maketitle
 
-%%%%%%%%%% ABSTRACT %%%%%%%%%%
-\begin{strip}
-\centering
-\begin{minipage}{0.95\textwidth}
-\begin{abstract}
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus ornare
-  imperdiet. Integer sed maximus nibh. Sed auctor ut elit eu dapibus. Maecenas semper
-  leo ac blandit viverra. Curabitur at eleifend justo, at fermentum leo. Aliquam
-  accumsan ligula id varius mattis. Phasellus rutrum tortor sed orci accumsan, non
-  dignissim ante euismod. Ut ac dui sollicitudin, maximus elit ut, semper nulla.
-  Praesent ultricies consectetur mauris sit amet porttitor. Aenean vel sapien sodales,
-  viverra justo et, tincidunt risus. Suspendisse sollicitudin, ante sit amet molestie
-  gravida, risus lectus rutrum elit, vitae dapibus elit odio eu enim. Curabitur mattis
-  uam at ligula mollis, lacinia efficitur neque gravida. Quisque nec velit eget nisi
-  porttitor vulputate ultrices in lorem.
-\end{abstract}
-\end{minipage}
-\vspace{0.75em}
-\end{strip}
-
 %%%%%%%%%% BODY %%%%%%%%%%
 \section{Introduction}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus ornare imperdiet. Integer sed maximus nibh. Sed auctor ut elit eu dapibus. Maecenas semper leo ac blandit viverra. Curabitur at eleifend justo, at fermentum leo. Aliquam accumsan ligula id varius mattis. Phasellus rutrum tortor sed orci accumsan, non dignissim ante euismod. Ut ac dui sollicitudin, maximus elit ut, semper nulla. Praesent ultricies consectetur mauris sit amet porttitor. Aenean vel sapien sodales, viverra justo et, tincidunt risus. Suspendisse sollicitudin, ante sit amet molestie gravida, risus lectus rutrum elit, vitae dapibus elit odio eu enim. Curabitur mattis quam at ligula mollis, lacinia efficitur neque gravida. Quisque nec velit eget nisi porttitor vulputate ultrices in lorem. Duis sit amet efficitur risus, et euismod ex. In non sapien quis mauris pretium consectetur a non ipsum.
+Barberotheca is a semantic digital library that collects and organizes the audio versions and their transcriptions of the \textit{lectiones magistrales} delivered by historian Alessandro Barbero at the annual cultural event \textbf{Festival della Mente} in Sarzana.
+
+The project aims to build a structured and accessible corpus of these lessons, transforming them into interconnected semantic resources through a Semantic Web and Linked Open Data approach in which lessons, people, places, and concepts are modeled as entities within a knowledge graph that supports advanced forms of discovery and interpretation beyond linear listening.
+
 
 \section{State of the art}
-Aliquam justo diam, molestie faucibus mollis ac, molestie quis arcu. Curabitur viverra ante risus, eget suscipit ligula semper euismod. Ut commodo tempor purus in semper. In ac habitasse platea dictumst. Nunc mattis\footnote{https://www.example.org} accumsan elit, vitae lobortis ante vestibulum quis. Morbi eget dictum nunc, eget porta sem. Morbi tristique vel est eu commodo. Curabitur luctus neque a elementum fermentum. Etiam malesuada velit et metus elementum ultricies ac et ante. Nunc dapibus convallis elit, eu euismod ex accumsan ac. Suspendisse dictum tempus dolor et commodo. Maecenas et nulla ut elit feugiat fermentum. Praesent malesuada congue ipsum, vel pretium.
+In recent years, historian \textbf{Alessandro Barbero} has gained a wide public audience beyond academic contexts, largely due to the circulation of recordings of his lessons on online platforms, where they have attracted large viewership and contributed to his transformation into a recognizable cultural figure. This phenomenon has developed alongside the rise of podcast culture, which has led to several informal initiatives that collect and redistribute his lessons as audio resources, typically through playlists, podcast feeds, or simple repositories aimed primarily at improving accessibility.
+
+Such projects, however, generally treat the lessons as linear audio objects, preserving their diachronic nature and offering little more than sequential listening or basic time-based navigation, without exposing their internal conceptual structure as a navigational layer.
+
+Barberotheca proposes a different approach, based on synchronized textual transcriptions aligned with the audio stream, which transform the lessons into hybrid audio-textual resources that can be processed computationally. This textual layer becomes the basis for \textbf{semantic exploration}, enabling the extraction and reconciliation of entities and keywords and their integration into a knowledge graph that allows users to move across lessons through conceptual, geographical, and biographical connections.
+
+
+\section{Workflow}
+The project is built around two main components: a \textbf{data pipeline} that handles the collection, processing, and semantic enrichment of the lesson corpus, and a \textbf{web application} that serves as the user-facing interface for browsing and exploring the resulting digital library. 
+
+The data pipeline covers all steps from source identification to the production of structured metadata, including audio acquisition, transcription, natural language processing, and entity reconciliation with external authority files. The web application consumes the outputs of this pipeline (audio files, synchronized transcripts, and enriched metadata) and presents them through an integrated interface designed for semantic navigation and exploration.
+
+
+
+\subsection{Source identification and basic metadata}
+The first phase consisted of identifying the relevant lessons from the Festival della Mente available online. The selected videos were manually collected and organized into a structured dataset.
+
+For each lesson, basic descriptive metadata were recorded, including: lesson title, source URL, event name, event year, macrotheme title (the overarching topic under which the multiple lessons are grouped, lesson number (the position within the macrotheme series). 
+These data were stored in a CSV file, which served as the initial metadata repository and the starting point of the automated workflow.
+
+
+\subsection{Audio acquisition and processing}
+After the sources were identified, the audio tracks of the selected lessons were automatically downloaded from the source videos using the \texttt{yt-dlp} tool and extracting only the audio track.
+
+Once the transcription process was completed, and therefore maximum acoustic fidelity was no longer necessary, the files were recompressed at a lower bitrate, producing smaller files better suited for storage and distribution in the web application.
+
+
+\subsection{Automated transcription}
+Each audio file was transcribed automatically using \textbf{OpenAI’s Whisper} speech-to-text system, configured with the Italian language input and the turbo model variant, which offers a good balance between transcription quality and processing speed. The transcription process generated multiple output formats, including time-aligned text files, which preserve the temporal structure of the lesson and allows syncronized display of the text with the audio.
+
+A brief quality check was then performed on the resulting transcripts which was manually repeated using an alternative model or a noise-cancelling filter to remove possible distractors in caso of issues.
+
+
+\subsection{Keyword and entity extraction}
+The transcribed texts were then processed through a natural language processing pipeline based on the SpaCy Italian language model, which performs tokenization, part-of-speech analysis and named entity recognition in order to identify both frequent \textbf{keywords} and relevant \textbf{entities} (people, places and organizations) mentioned in each lesson. These automatically extracted elements were then manually reviewed to eliminate noise, correct ambiguities, and ensure their semantic relevance within the historical and narrative context of the lesson.
+
+This extraction step provides a first semantic layer, transforming the raw textual transcript into a set of conceptual and referential entry points that can later be integrated into the knowledge graph.
+
+
+\subsection{Entity reconciliation and enrichment}
+The extracted entities were reconciled with external authority control systems. This process ensured that each entity was linked to a stable and internationally recognized identifier. The sources used were:
 
 \begin{itemize}
-\item Curabitur in elit lorem. Aliquam vehicula pellentesque ornare.
-\item Cras lorem nibh, vulputate eget volutpat et, egestas et tellus. In porta lacus eu lectus volutpat, ut luctus mauris pulvinar. Maecenas finibus dignissim orci, eu egestas sapien posuere ut.
-\item Mauris imperdiet ex eu erat ultricies, at tempus leo rutrum. Proin eu rutrum ipsum. Etiam vel maximus enim. Aenean fermentum elit convallis libero vehicula, sed pulvinar velit efficitur.
+\item \textbf{Wikidata}, as the primary reference system, because of its richness and flexibility, especially in the historical domain, where entities are extensively described and interconnected.
+\item \textbf{VIAF}, to provide reliable authority control for personal name.
+\item \textbf{GeoNames}, to handle geographical entities and their coordinates.
 \end{itemize}
 
-Nunc erat justo, gravida quis risus a, molestie placerat libero.
+The reconciliation pipeline also retrieves supplementary metadata from external sources, such as official labels, images for persons, and geographic coordinates for places. This enriched information is incorporated into the project’s entity dataset, producing a more complete and semantically grounded representation of the referenced concepts, while also enabling key functionalities of the web application, such as browsing lessons through the persons or places mentioned within them.
 
-\section{Methods and data}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus ornare imperdiet. Integer sed maximus nibh. Sed auctor ut elit eu dapibus. Maecenas semper leo ac blandit viverra. Curabitur at eleifend justo, at fermentum leo. Aliquam accumsan ligula id varius mattis. Phasellus rutrum tortor sed orci accumsan, non dignissim ante euismod. Ut ac dui sollicitudin, maximus elit ut, semper nulla. Praesent ultricies consectetur mauris sit amet porttitor. Aenean vel sapien sodales, viverra justo et, tincidunt risus. Suspendisse sollicitudin, ante sit amet molestie gravida, risus lectus rutrum elit, vitae dapibus elit odio eu enim. Curabitur mattis quam at ligula mollis, lacinia efficitur neque gravida. Quisque nec velit eget nisi porttitor vulputate ultrices in lorem. Duis sit amet efficitur risus, et euismod ex. In non sapien quis mauris pretium consectetur a non ipsum.
 
-\subsection{A subsection}
-Fusce hendrerit arcu ac molestie aliquet. Phasellus ultrices facilisis dignissim. Sed tristique, nulla in mattis dapibus, nisi est facilisis quam, vitae consectetur lorem lectus vel ligula. Sed elementum mattis diam, ac volutpat orci suscipit non. Nunc semper justo quis dui imperdiet, at aliquam neque cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin aliquam, ante congue fermentum scelerisque, nulla orci cursus dui, a maximus velit nunc et erat.
-Etiam molestie posuere consequat. Donec mollis lorem ipsum. Nunc blandit mollis posuere. Donec quis tortor gravida, volutpat metus vel, luctus urna. Nulla porttitor purus eget erat finibus elementum. Ut ligula lectus, consectetur eu eleifend sed, fringilla mattis quam. Maecenas porta, est condimentum posuere viverra, neque libero mattis sem, sit amet rutrum lorem felis in purus. Nullam eu sagittis odio, quis congue lacus. Quisque sit amet convallis ante, id consequat justo. Proin hendrerit iaculis sapien, in aliquet nibh dignissim eu. Cras id luctus enim. Duis risus odio, ultrices tempor massa eu, vestibulum malesuada lectus. Praesent interdum tellus a est feugiat ornare. Pellentesque mollis arcu sit amet nulla elementum, id tempor dui consectetur.
+\subsection{Knowledge Graph construction}
+All the structured data were finally transformed into a knowledge graph represented in RDF, which constitutes the core semantic layer of the project. The graph models the main entities involved in the corpus, including lessons, persons, places, events, and keywords, and connects them through explicit semantic relationships. 
 
-\section{Conclusions}
-Ut leo felis, vehicula vitae velit eu, tincidunt venenatis odio. Cras ligula orci, lacinia eu pretium eu, ullamcorper vel diam. Etiam pulvinar neque in risus ornare dapibus. Nulla interdum urna sit amet odio ornare sodales. Aliquam lacus justo, sodales vel dignissim id, aliquet a tellus. Donec eget dictum velit. Suspendisse eget neque elementum, eleifend ligula vitae, varius libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sit amet eros sed turpis fermentum pretium. Cras ac placerat dolor. Vivamus interdum justo sem. Vestibulum aliquam ullamcorper felis, non tristique purus accumsan eget. Vestibulum pulvinar, dolor ac ultrices lacinia, lectus libero lobortis velit, vel sagittis nulla leo quis odio. Donec porta diam magna, nec sagittis sem finibus venenatis. Phasellus mollis neque viverra, aliquam ligula in, interdum ex. Aliquam vulputate enim in convallis pellentesque.
+Specifically, each lesson is linked upward to the lesson cycle in which it was delivered via \texttt{dcterms:isPartOf}, and downward to all the entities mentioned within its content via \texttt{dcterms:references}.
 
-Aenean nec vestibulum eros. Nunc at rutrum enim. Suspendisse varius ut magna in pulvinar. Morbi vitae tristique nulla, ut iaculis felis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut tortor purus, facilisis vel volutpat in, varius non quam. Integer non scelerisque justo. Donec fermentum risus et convallis ultricies. Nullam a mollis felis. Suspendisse sit amet malesuada enim. Donec vel tortor pellentesque, convallis nunc sed, blandit magna.
+Standard vocabularies such as Schema.org and Dublin Core were adopted to ensure interoperability and semantic consistency with LOD environments. The resulting knowledge graph provides the structural foundation for the \textbf{RDFa annotations} embedded in each lesson page, enabling the semantic data to be exposed directly within the web interface.
 
-%%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%
-\begin{thebibliography}{}
 
-\bibitem{ref1} Surname N., {\em A book title}, The Editor, Place 2007
-\bibitem{ref2} Website,\\ {\small \url{https://www.example.org}}
+\section{Web application}
+A web application was developed to serve as the user-facing responsive interface and designed to offer a multi-layered access point to the collection that bridges the gap between linear audio consumption and structured research.
 
-\bibitem[\protect\citename{Gusfield}1997]{Gusfield:97}
-Dan Gusfield.
-\newblock 1997.
-\newblock {\em Algorithms on Strings, Trees and Sequences}.
-\newblock Cambridge University Press, Cambridge, UK.
+\subsection{Search and retrieval}
+Users can initiate a query via a search bar available on both the homepage and the dedicated collection page. The search logic utilizes \textbf{fuzzy matching} to handle potential inaccuracies in user input, ensuring resilience against minor spelling errors. On the collection page, the search results can be further \textbf{refined}, allowing users to restrict the scope of their inquiry by Title, Keyword, or Entity.
 
-\end{thebibliography}
+
+\subsection{Semantic browsing and visualization}
+For users engaging in open-ended exploration, the application converts the underlying knowledge graph into \textbf{interactive visual entry points}. The homepage offers three distinct visualization modes, each corresponding to a core semantic data:
+
+\begin{itemize}
+\item \textbf{Keywords}: displayed via a wordcloud, highlighting the most frequent themes across the corpus.
+\item \textbf{Places}: visualized on an interactive geographic map, where pins represent locations mentioned in the lessons.
+\item \textbf{Persons}: presented through an image card carousel, providing a visual roster of historical figures.
+\end{itemize}
+
+These visualizations rely on the data enrichment aforementioned process: interacting with any of these visual elements performs a filter search, redirecting the user to the collection page showing only the lessons containing that specific entity. Additionally, for researchers requiring a more traditional overview, the application offers \textbf{Index Lists}, allowing for a text-based, alphabetical browsing of the entire catalog of entities.
+
+
+\subsection{Lesson interface}
+The core of the user experience is the lesson page. The interface renders the audio player and the textual transcription in a \textbf{synchronized} environment; users can navigate the content temporally via the audio or textually by clicking on any paragraph to jump the audio to that specific timestamp.
+
+The transcription itself acts as a \textbf{navigational tool}. Detected entities (people, places) and keywords are visually highlighted within the text by means of icons. Users can hover these icons to trigger a tooltip that mirrors the visual logic of the homepage and a direct link to re-filter the collection by that entity.
+
+Complementing the primary content, the sidebar provides links to the original YouTube source, external Wikipedia articles, and a "Related Lessons" section.
+
+
+\subsection{LOD integration and RDFa}
+Finally, the application ensures that the semantic richness of the backend is exposed via RDFa and the knowledge graph is \textbf{injected} directly into the HTML structure:
+
+\begin{itemize}
+\item \textbf{Header injection}: \texttt{<meta>} tags are populated in the document \texttt{<head>} to provide machine-readable descriptions of the lesson and entities.
+\item \textbf{Transcript injection}: within the transcription text, entities are wrapped in \texttt{<span>} tags enriched with about and \texttt{dc:references} attributes, explicitly linking the text representation to its unique URI in the knowledge graph.
+\end{itemize}
+
+This implementation effectively transforms every lesson page into a semantic node that is both human-readable and machine-processable.
+
+
+\section{Potential improvements}
+At present, entities function mainly as direct access points between lessons and referenced concepts. However, a knowledgeable curator could further enrich the dataset by \textbf{modeling conceptual relationships} among the extracted entities using the \textbf{SKOS} ontology. By defining \texttt{broader}, \texttt{narrower}, and \texttt{related} concepts for the main entities associated with each lesson, it would be possible to build thematic subgraphs that offer additional axes of navigation, allowing users to explore the corpus not only through direct references but also through conceptual hierarchies and associative links.
+
+Another limitation concerns the transcription layer, which remains brittle: although entities were corrected and reconciled, these \textbf{fixes were not backported} into the transcripts, which may still contain incorrect forms. Integrating this feedback step would improve consistency, but it was too time-consuming for the project scope.
+
 \end{document}
