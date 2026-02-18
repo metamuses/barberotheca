@@ -35,7 +35,6 @@ async function loadEntities() {
     ENTITIES_DATA = await res.json();
 
     // Build Variants Map
-    // Build Variants Map
     ENTITIES_VARIANTS = {};
     ENTITIES_DATA.forEach(e => {
       const variants = Array.isArray(e.entity) ? e.entity : [e.entity];
@@ -66,7 +65,7 @@ function getSelectedKeys() {
 function rebuildFuse() {
   const keys = getSelectedKeys();
   if (keys.length === 0) {
-    fuse = null; // No keys selected matches nothing? or everything? Logic decision.
+    fuse = null;
     return;
   }
 
@@ -104,7 +103,7 @@ function render(items) {
           ? `<p class="card-text small mb-2"><strong>${item.macrotheme_title}</strong></p>`
           : ""
         }
-                
+
                 <div class="mb-2">
                   <small class="d-block text-white opacity-75">Parole chiave:</small>
                   <span class="small">${item.keywords.join(", ")}</span>
@@ -254,7 +253,7 @@ async function loadLection() {
                         Video Youtube
                     </a>
                 </div>
-                
+
                 <div>
                     <h6 class="text-white opacity-75 mb-2">Wikipedia</h6>
                     <div class="d-flex flex-wrap">
@@ -603,9 +602,6 @@ function doSearch() {
   let filteredData = DATA;
 
   // 1. Apply Filters (Exact Match or Variant Match)
-  // Logic: activeFilter value (e.g. "mare Adriatico") -> lookup variants -> check if lesson has ANY of those variants
-  // AND LOGIC: The lesson must contain a matching entity for EVERY selected filter.
-
   if (activeFilters.place.length > 0) {
     activeFilters.place.forEach(pFilter => {
       const variants = ENTITIES_VARIANTS[pFilter] || [pFilter];
@@ -703,8 +699,6 @@ function setupCheckboxLogic() {
     const isChecked = checkAll.checked;
     searchFieldChecks.forEach(cb => {
       cb.checked = isChecked;
-      // Optional: disable them if All is checked? Standard UI usually just syncs them.
-      // Let's just sync state.
     });
     rebuildFuse();
     doSearch();
@@ -755,8 +749,6 @@ function populateKeywordCloud() {
   }
 
   // 3. Middle-out Sort (Center the most frequent)
-  // Logic: [3, 1, 0, 2, 4] -> indices reordered for visual centering
-  // Simple approach: Toggle placing elements left/right of center array
   const middleOut = [];
   let left = Math.floor(sortedKeywords.length / 2);
   let right = left + 1;
@@ -771,13 +763,7 @@ function populateKeywordCloud() {
     }
   });
 
-  // Now we have [..., big, BIGGEST, big, ...]
-  // This works well for a single line or if we want the "heaviest" in the middle of the DOM order.
-
   // 4. Render
-  // Normalize size: Range from 0.75rem (fs-6ish) to 3rem (display-something)
-  // Let's use bootstrap classes: fs-6, fs-5, fs-4, fs-3, fs-2, fs-1
-  // Map freq range to 1-6
   const maxFreq = sortedKeywords[0][1];
   const minFreq = sortedKeywords[sortedKeywords.length - 1][1];
 
@@ -794,16 +780,13 @@ function populateKeywordCloud() {
 
   container.innerHTML = centeredList.map(([word, freq]) => {
     const fsClass = getFsClass(freq);
-    // Determine opacity based on importance? or just size.
-    // Opacity 1 for big, 0.7 for small?
-    // const opacity = freq === maxFreq ? 1 : 0.6 + (0.4 * (freq - minFreq) / (maxFreq - minFreq));
     const opacity = 0.8;
 
     return `
-        <a href="collection.html?keyword=${encodeURIComponent(word)}" 
-           class="badge rounded-pill bg-secondary text-decoration-none text-white fw-normal m-1 py-2 px-3 border border-light border-opacity-25 shadow-sm ${fsClass}" 
+        <a href="collection.html?keyword=${encodeURIComponent(word)}"
+           class="badge rounded-pill bg-secondary text-decoration-none text-white fw-normal m-1 py-2 px-3 border border-light border-opacity-25 shadow-sm ${fsClass}"
            style="opacity: ${opacity}; transition: all 0.2s;"
-           onmouseover="this.style.opacity=1; this.style.transform='scale(1.1)'" 
+           onmouseover="this.style.opacity=1; this.style.transform='scale(1.1)'"
            onmouseout="this.style.opacity=${opacity}; this.style.transform='scale(1)'"
            title="${freq} occurrences">
            ${word}
@@ -1029,9 +1012,6 @@ function setupEntityTooltip() {
 
           const marker = L.marker([lat, lon]).addTo(currentMap);
 
-          // On mobile, clicking the map (or marker) should redirect.
-          // The container .mobile-redirect-target handles the click usually, but Leaflet might capture it.
-          // Let's add a specific handler to the map/marker just in case.
           if (isMobileMode) {
             currentMap.on('click', () => triggerRedirect(type, title));
             marker.on('click', () => triggerRedirect(type, title));
@@ -1053,10 +1033,6 @@ function setupEntityTooltip() {
 
   // Click Handler
   document.addEventListener('click', (e) => {
-    // 1. Check if clicking close button logic handled inside create? No, that's specific to the tooltip instance interaction.
-    // But we need to handle "Click Outside" on mobile.
-
-    // If clicking inside tooltip, do nothing (let events bubble or be handled)
     if (tooltip.contains(e.target) && !e.target.closest('.mobile-redirect-target')) {
       return;
     }
@@ -1205,7 +1181,7 @@ function renderCarousel(people, container) {
              <a href="collection.html?person=${encodeURIComponent(p.id)}" class="text-decoration-none">
                  <div class="card h-100 bg-secondary text-white border-0 shadow-sm person-card">
                     <div class="overflow-hidden rounded-top bg-dark" style="aspect-ratio: 1 / 1;">
-                        <img src="${p.image}" class="card-img-top w-100 h-100 object-fit-cover" 
+                        <img src="${p.image}" class="card-img-top w-100 h-100 object-fit-cover"
                              alt="${p.name}" loading="lazy" style="object-fit: cover;"
                              onerror="this.src='https://placehold.co/400x400/grey/white?text=No+Image'">
                     </div>
@@ -1315,7 +1291,7 @@ function initShowcase() {
       ? `<p class="card-text small mb-2"><strong>${item.macrotheme_title}</strong></p>`
       : ""
     }
-          
+
           <div class="mb-2">
             <small class="d-block text-white opacity-75">Parole chiave:</small>
             <span class="small">${item.keywords.join(", ")}</span>
@@ -1362,7 +1338,6 @@ injectKnowledgeGraphLink();
 async function main() {
   try {
     // 1. Load Data (Metadata & Entities)
-    // We load these globally for all pages to ensure components like Navbar search (future) or Map/People/Cloud work.
     await loadData();
     await loadEntities();
 
