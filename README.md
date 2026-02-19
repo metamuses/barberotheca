@@ -2,7 +2,18 @@
 
 Group project for the Semantic Digital Libraries 2025/26 course.
 
-A digital library of Alessandro Barbero's lectures in audio and text form.
+Barberotheca is a semantic digital library that collects and organizes the audio
+versions and their transcriptions of the _lectiones magistrales_ delivered by
+historian Alessandro Barbero at the annual cultural event Festival della Mente
+in Sarzana.
+
+The project aims to build a structured and accessible corpus of these lessons,
+transforming them into interconnected semantic resources through a Semantic Web
+and Linked Open Data approach in which lessons, people, places, and concepts are
+modeled as entities within a knowledge graph that supports advanced forms of
+discovery and interpretation beyond linear listening.
+
+The site of the project is live at [metamuses.github.io/barberotheca](https://metamuses.github.io/barberotheca).
 
 ## Process
 
@@ -100,8 +111,6 @@ done
 We converted the final [`barbero.csv`](metadata/barbero.csv) file to JSON format
 using the script [`csv2json_convert.py`](scripts/csv2json_convert.py) which
 handles specific columns as integers or arrays.
-
-### Website development
 
 ### Entities processing
 **Entities Expansion (CSV)**  
