@@ -15,6 +15,7 @@ KNOWLEDGE_GRAPH_TTL = ROOT_DIR / "metadata" / "knowledge-graph.ttl"
 
 # Prefixes, namespaces and mappings
 BASE_URI = "https://github.com/metamuses/barberotheca/"
+LESSON_WEB_BASE = "https://metamuses.github.io/barberotheca/lection.html"
 
 EVENT_PREFIX = "event"
 LESSON_PREFIX = "lesson"
@@ -44,7 +45,7 @@ with open(ENTITIES_CSV, mode="r", encoding="utf-8") as file:
 # Iterate lessons CSV and build RDF graph
 with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
-    for row in reader:
+    for row_num, row in enumerate(reader, start=1):
         # ===== EVENT SERIES =====================
         # Create EventSeries element for each unique event-year combination
         event_slug = f"{row['event']} {row['event_year']}".title().replace(" ", "")
@@ -72,6 +73,10 @@ with open(LESSONS_CSV, mode="r", encoding="utf-8") as file:
         g.add((lesson_uri, DCTERMS.language, Literal("it")))
         g.add((lesson_uri, DCTERMS.source, URIRef(row["source_url"])))
         g.add((lesson_uri, DCTERMS.identifier, Literal(row["semantic_filename"])))
+
+        # Link lesson to its page URL as mainEntityOfPage
+        lesson_web_uri = URIRef(f"{LESSON_WEB_BASE}?id={row_num}")
+        g.add((lesson_uri, SDO.mainEntityOfPage, URIRef(lesson_web_uri)))
 
         # Add part-of relationship to the EventSeries and relative position
         g.add((lesson_uri, DCTERMS.isPartOf, event_uri))
