@@ -115,7 +115,7 @@ function render(items) {
                 </div>
 
                 <a href="${item.source_url}" target="_blank" class="btn btn-outline-light btn-sm position-relative" style="z-index: 2;">Guarda su YouTube</a>
-                <a href="lection.html?id=${item.id}" class="stretched-link"></a>
+                <a href="lesson.html?id=${item.id}" class="stretched-link"></a>
               </div>
             </div>
           </div>
@@ -154,8 +154,8 @@ function parseSRT(srtData) {
   }).filter(x => x !== null);
 }
 
-async function loadLection() {
-  const headerSection = document.getElementById("lection-header");
+async function loadLesson() {
+  const headerSection = document.getElementById("lesson-header");
   const audioSection = document.getElementById("audio");
   const transcriptionSection = document.getElementById("transcription-content");
   const searchInput = document.getElementById("transcription-search");
@@ -295,7 +295,7 @@ async function loadLection() {
                             ${rNum}
                         </h6>
                         <small class="d-block text-light opacity-75">${r.event_year} – ${r.event}</small>
-                        <a href="lection.html?id=${r.id}" class="stretched-link"></a>
+                        <a href="lesson.html?id=${r.id}" class="stretched-link"></a>
                     </div>
                 </div>
             `;
@@ -309,13 +309,13 @@ async function loadLection() {
   // 1. Render Audio
   audioSection.innerHTML = `
         <h2>Audio</h2>
-        <audio id="lection-audio" controls class="w-100" style="outline: none;">
+        <audio id="lesson-audio" controls class="w-100" style="outline: none;">
             <source src="../audio/${resourceId}.m4a" type="audio/mp4">
             Your browser does not support the audio element.
         </audio>
     `;
 
-  const audioEl = document.getElementById("lection-audio");
+  const audioEl = document.getElementById("lesson-audio");
 
   // 2. Render Transcription (SRT based)
   try {
@@ -1303,7 +1303,7 @@ function initShowcase() {
           </div>
 
           <a href="${item.source_url}" target="_blank" class="btn btn-outline-light btn-sm position-relative" style="z-index: 2;">Guarda su YouTube</a>
-          <a href="lection.html?id=${item.id}" class="stretched-link"></a>
+          <a href="lesson.html?id=${item.id}" class="stretched-link"></a>
         </div>
       </div>
     </div>
@@ -1462,8 +1462,8 @@ async function main() {
       }, 250));
     }
 
-    // === Lection Page Logic ===
-    await loadLection();
+    // === Lesson Page Logic ===
+    await loadLesson();
 
     // === Index Page Specifics (Map & People & Showcase) ===
     initMap();

@@ -87,7 +87,7 @@ function populateAccordion(accordionId, items, type, lessons) {
         let lessonsHtml = '';
         if (associatedLessons.length > 0) {
             const lessonsList = associatedLessons.map(l =>
-                `<li><a href="lection.html?id=${l.id}" class="text-info text-decoration-underline">${l.lectio_title}</a> <span class="text-muted small">(${l.event_year})</span></li>`
+                `<li><a href="lesson.html?id=${l.id}" class="text-info text-decoration-underline">${l.lectio_title}</a> <span class="text-muted small">(${l.event_year})</span></li>`
             ).join('');
 
             lessonsHtml = `

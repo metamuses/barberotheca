@@ -15,7 +15,7 @@ KNOWLEDGE_GRAPH_TTL = ROOT_DIR / "metadata" / "knowledge-graph.ttl"
 
 # Prefixes, namespaces and mappings
 BASE_URI = "https://github.com/metamuses/barberotheca/"
-LESSON_WEB_BASE = "https://metamuses.github.io/barberotheca/lection.html"
+LESSON_WEB_BASE = "https://metamuses.github.io/barberotheca/lesson.html"
 
 EVENT_PREFIX = "event"
 LESSON_PREFIX = "lesson"
