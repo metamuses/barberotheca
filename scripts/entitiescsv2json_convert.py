@@ -8,7 +8,7 @@ import json
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 CSV_FILE = ROOT_DIR / "metadata" / "entities-authoritative.csv"
-JSON_FILE = ROOT_DIR / "html" / "data" / "entities-authoritative.json"
+JSON_FILE = ROOT_DIR / "website" / "data" / "entities-authoritative.json"
 
 
 def main():

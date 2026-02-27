@@ -10,7 +10,7 @@ import time
 import re
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
-JSON_FILE = ROOT_DIR / "html" / "data" / "entities-authoritative.json"
+JSON_FILE = ROOT_DIR / "website" / "data" / "entities-authoritative.json"
 
 USER_AGENT = "BarberotecaEntityExpansionScript/1.0"
 

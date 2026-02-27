@@ -121,7 +121,7 @@ We processed the initial [`entities-authoritative.csv`](metadata/entities-author
 We converted the [`entities-authoritative.csv`](metadata/entities-authoritative.csv) file to JSON format using [`entitiescsv2json_convert.py`](scripts/entitiescsv2json_convert.py), which maps the CSV headers directly to JSON keys, translating the tabular data into a structured format.
 
 ###### JSON Entities Expansion
-We enriched the final [`entities-authoritative.json`](html/data/entities-authoritative.json) file using [`json_entities_expansion.py`](scripts/json_entities_expansion.py), which queries Wikidata to fetch additional metadata such as the official title using the URI, images for people, and geographical coordinates for places.
+We enriched the final [`entities-authoritative.json`](website/data/entities-authoritative.json) file using [`json_entities_expansion.py`](scripts/json_entities_expansion.py), which queries Wikidata to fetch additional metadata such as the official title using the URI, images for people, and geographical coordinates for places.
 
 ## Disclaimer
 This repository and all files contained within are used solely for educational

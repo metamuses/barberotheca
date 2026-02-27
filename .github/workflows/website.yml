@@ -25,15 +25,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
       - name: Copy audio, metadata and transcript files
-        run: cp -r audio metadata transcripts html/
+        run: cp -r audio metadata transcripts website/
       - name: Rewrite paths for deployment
-        run: find html -type f -name "*.js" -exec sed -i 's|\.\./||g' {} +
+        run: find website -type f -name "*.js" -exec sed -i 's|\.\./||g' {} +
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: 'html'
+          path: 'website'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

@@ -8,7 +8,7 @@ import json
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 CSV_FILE = ROOT_DIR / "metadata" / "barbero.csv"
-JSON_FILE = ROOT_DIR / "html" / "data" / "barbero.json"
+JSON_FILE = ROOT_DIR / "website" / "data" / "barbero.json"
 
 SELECTED_COLUMNS = [
     "event",
