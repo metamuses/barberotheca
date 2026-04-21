@@ -103,7 +103,7 @@ for file in audio/*.m4a; do
   ffmpeg -i "$file" \
     -c:a aac -b:a 48k \
     -ac 1 -ar 22050 \
-    "compressed/$(basename "$f")"
+    "compressed/$(basename "$file")"
 done
 ```
 
