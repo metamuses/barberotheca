@@ -29,11 +29,11 @@ jobs:
       - name: Rewrite paths for deployment
         run: find website -type f -name "*.js" -exec sed -i 's|\.\./||g' {} +
       - name: Setup GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: 'website'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
